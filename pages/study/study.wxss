@@ -1,0 +1,335 @@
+/* pages/study/study.wxss */
+page {
+  background-color: #ffffff; /* 纯白背景 */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 30rpx;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  background-color: #ffffff; /* 确保容器也是白色 */
+}
+
+/* --- 移除动态背景系统（纯白背景不需要） --- */
+.bg-layer {
+  display: none; /* 隐藏背景层 */
+}
+
+/* --- 主内容容器 (去卡片化，全屏布局) --- */
+.content-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1); /* 更平滑的动画 */
+  will-change: transform;
+  transform-style: preserve-3d; /* 启用3D变换 */
+  perspective: 1000px; /* 3D透视效果 */
+  backface-visibility: hidden; /* 防止翻转时闪烁 */
+}
+
+/* 移除原有的 .card 样式 */
+/* .card { ... } */
+
+/* 顶部 Header */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80rpx;
+  margin-bottom: 20rpx;
+  flex-shrink: 0;
+}
+
+.mode-label {
+  font-size: 28rpx;
+  color: #4a5568;
+  font-weight: 700;
+  padding: 8rpx 20rpx;
+  background-color: #f7fafc;
+  border-radius: 20rpx;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 16rpx;
+}
+
+.level-tag {
+  font-size: 26rpx;
+  color: white;
+  padding: 10rpx 24rpx;
+  border-radius: 30rpx;
+  font-weight: 800;
+  box-shadow: 0 4rpx 12rpx rgba(0,0,0,0.15);
+  min-width: 60rpx;
+  text-align: center;
+  letter-spacing: 1rpx;
+}
+
+/* 不同级别的颜色 */
+.level-A1 {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.level-A2 {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.level-B1 {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+.level-B2 {
+  background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+}
+
+.level-C1 {
+  background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+}
+
+.level-C2 {
+  background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);
+}
+
+.progress-pill {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  border-radius: 30rpx;
+  padding: 8rpx 24rpx;
+  box-shadow: 0 2rpx 8rpx rgba(0,0,0,0.05);
+}
+
+.progress-text {
+  font-size: 24rpx;
+  color: #4a5568;
+  font-weight: 700;
+}
+
+.fav-btn {
+  width: 80rpx;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  box-shadow: 0 4rpx 12rpx rgba(0,0,0,0.05);
+}
+
+.fav-icon {
+  font-size: 40rpx;
+  transition: color 0.3s;
+  margin-top: -4rpx; /* 微调居中 */
+}
+
+/* 1. 单词核心区 (30% 左右权重) */
+.word-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  min-height: 200rpx;
+  /* 增加一点文字阴影提升可读性，防止背景干扰 */
+}
+
+.word {
+  font-size: 100rpx; /* 再次加大，全屏模式下可以更奔放 */
+  font-weight: 800;
+  color: #2d3748;
+  line-height: 1.1;
+  text-align: center;
+  margin-bottom: 16rpx;
+  text-shadow: 0 4rpx 12rpx rgba(0,0,0,0.05);
+}
+
+.pronunciation {
+  font-size: 34rpx;
+  color: #718096;
+  font-family: "Times New Roman", serif;
+  font-style: italic;
+  margin-bottom: 20rpx;
+}
+
+.pos-capsule {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 16rpx;
+  border: 1rpx solid #e2e8f0;
+  height: 48rpx;
+  padding: 2rpx;
+}
+
+.pos-abbr {
+  background-color: #4a5568;
+  color: white;
+  font-size: 22rpx;
+  font-weight: 800;
+  padding: 0 16rpx;
+  height: 100%;
+  line-height: 44rpx;
+  border-radius: 12rpx;
+}
+
+.pos-cn {
+  color: #4a5568;
+  font-size: 24rpx;
+  font-weight: 600;
+  padding: 0 16rpx;
+  height: 100%;
+  line-height: 44rpx;
+}
+
+/* 2. 例句卡片区 (保留轻量级背景) */
+.context-card {
+  background: rgba(255, 255, 255, 0.75); /* 提高透明度 */
+  backdrop-filter: blur(10px);
+  border: 1rpx solid rgba(255, 255, 255, 0.8);
+  border-left: 8rpx solid #38a169;
+  border-radius: 24rpx;
+  padding: 40rpx;
+  margin: 20rpx 0;
+  box-shadow: 0 8rpx 24rpx rgba(0,0,0,0.03);
+  flex-grow: 1; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.example-text {
+  font-size: 38rpx;
+  color: #1a202c;
+  line-height: 1.6;
+  font-weight: 500;
+  font-family: "Georgia", serif;
+}
+
+.highlight {
+  color: #2f855a;
+  font-weight: 800;
+  border-bottom: 4rpx solid rgba(56, 161, 105, 0.3);
+}
+
+.example-translation {
+  font-size: 28rpx;
+  color: #718096;
+  margin-top: 10rpx;
+  opacity: 0; 
+}
+.example-translation.fade-in { animation: fadeIn 0.4s ease-out forwards; }
+
+.spacer { flex: 0.2; } /* 小占位 */
+
+/* 3. 选项区 (全屏模式下按钮风格调整) */
+.options-section {
+  display: flex;
+  flex-direction: column;
+  gap: 24rpx;
+  margin-top: auto; 
+  padding-bottom: 30rpx; /* 增加底部安全距离 */
+  flex-shrink: 0;
+}
+
+.option-btn {
+  background: #f7fafc; /* 默认浅灰背景 */
+  border: none; /* 移除边框 */
+  color: #4a5568;
+  border-radius: 30rpx;
+  padding: 32rpx;
+  text-align: center;
+  font-size: 34rpx;
+  font-weight: 600;
+  box-shadow: 0 2rpx 8rpx rgba(0,0,0,0.04);
+  transform: translateY(0);
+  transition: background-color 0.2s ease;
+}
+
+.btn-hover {
+  transform: translateY(2rpx);
+  background-color: #edf2f7;
+}
+
+/* 状态样式 - 使用背景填充 */
+.option-btn.correct {
+  background: #c6f6d5 !important; /* 绿色填充 */
+  color: #22543d;
+  box-shadow: 0 4rpx 12rpx rgba(104, 211, 145, 0.3);
+}
+
+.option-btn.wrong {
+  background: #fed7d7 !important; /* 红色填充 */
+  color: #742a2a;
+  box-shadow: 0 4rpx 12rpx rgba(252, 129, 129, 0.3);
+}
+
+.option-btn.correct-hint {
+  background: #c6f6d5 !important; /* 绿色填充 */
+  color: #22543d;
+  box-shadow: 0 4rpx 12rpx rgba(104, 211, 145, 0.3);
+  animation: pulse 1.5s infinite;
+}
+
+/* 底部按钮 */
+.footer-area { 
+  margin-top: 20rpx;
+  padding-bottom: 20rpx;
+}
+
+.footer-buttons {
+  display: flex;
+  gap: 20rpx;
+  align-items: center;
+}
+
+.add-mistake-btn {
+  background: #fed7d7;
+  color: #742a2a;
+  border-radius: 40rpx;
+  font-weight: bold;
+  font-size: 28rpx;
+  padding: 20rpx 30rpx;
+  flex: 1;
+}
+
+.next-btn {
+  background: #38a169; 
+  color: white; 
+  border-radius: 40rpx; 
+  font-weight: bold; 
+  font-size: 30rpx;
+  padding: 20rpx 40rpx;
+  flex: 1;
+}
+
+.remove-mistake-btn {
+  background: #c6f6d5;
+  color: #22543d;
+  border-radius: 40rpx;
+  font-weight: bold;
+  font-size: 30rpx;
+  padding: 20rpx 40rpx;
+  width: 100%;
+}
+
+/* 动画... (保持不变) */
+.zhan-effect { position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; pointer-events: none; z-index: 999; }
+.slash-line { position: absolute; width: 140%; height: 6rpx; background: linear-gradient(90deg, transparent, #fff, #e53e3e, #fff, transparent); box-shadow: 0 0 30rpx rgba(229, 62, 62, 0.8); transform: rotate(-25deg) translateX(-100%); opacity: 0; }
+.zhan-text { font-size: 200rpx; color: #c53030; font-weight: 900; text-shadow: 8rpx 8rpx 0 #fff; border: 12rpx solid #c53030; border-radius: 50%; width: 300rpx; height: 300rpx; line-height: 280rpx; text-align: center; opacity: 0; transform: scale(2) rotate(-15deg); background-color: rgba(255, 255, 255, 0.9); }
+.zhan-effect.animate .slash-line { animation: slashMove 0.4s ease-out forwards; }
+.zhan-effect.animate .zhan-text { animation: zhanAppear 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.2s forwards; }
+@keyframes slashMove { 0% { transform: rotate(-25deg) translateX(-100%) scaleX(0.5); opacity: 0; } 30% { opacity: 1; } 100% { transform: rotate(-25deg) translateX(100%) scaleX(1.2); opacity: 0; } }
+@keyframes zhanAppear { 0% { opacity: 0; transform: scale(3) rotate(-45deg); } 60% { opacity: 1; transform: scale(0.9) rotate(-15deg); } 80% { transform: scale(1.1) rotate(-15deg); } 100% { opacity: 1; transform: scale(1) rotate(-15deg); } }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(-10rpx); } to { opacity: 1; transform: translateY(0); } }
+@keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.02); } 100% { transform: scale(1); } }
+

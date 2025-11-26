@@ -1,0 +1,31 @@
+<!--pages/mistake/mistake.wxml-->
+<view class="container">
+  <view class="header">
+    <text class="title">错题本</text>
+    <text class="subtitle">Mistake Book</text>
+  </view>
+
+  <view class="list-area" wx:if="{{!isLoading}}">
+    <block wx:if="{{mistakes.length > 0}}">
+      <view class="mistake-item" wx:for="{{mistakes}}" wx:key="_id" catchtap="startStudy" data-word-id="{{item.word_id}}">
+        <view class="word-info">
+          <text class="word">{{item.word_snapshot.word}}</text>
+          <text class="meaning">{{item.word_snapshot.meaning}}</text>
+        </view>
+        <view class="stat-info">
+          <text class="count-badge">{{item.mistake_count}}次错误</text>
+        </view>
+      </view>
+    </block>
+    
+    <view class="empty-state" wx:else>
+      <image class="empty-icon" src="/images/placeholder.png" mode="aspectFit"></image> <!-- 最好换个icon -->
+      <text class="empty-text">太棒了，目前没有错题！</text>
+    </view>
+  </view>
+  
+  <view class="loading" wx:else>
+    <text>加载中...</text>
+  </view>
+</view>
+

@@ -1,0 +1,75 @@
+<!--pages/study/study.wxml-->
+<view class="container" bindtouchstart="touchStart" bindtouchend="touchEnd">
+  <!-- 去掉外层 .card，直接平铺 -->
+  <view class="content-wrapper {{slideDirection}}" style="transform: translateX({{slideOffset}}%) rotateY({{rotateY}}deg);">
+    <!-- 顶部功能区：模式标签 + Level + 进度 + 收藏 -->
+    <view class="card-header">
+      <view class="mode-label" wx:if="{{studyMode !== 'normal'}}">{{modeLabel}}</view>
+      <view class="header-right">
+        <view class="level-tag level-{{currentWord.level}}" wx:if="{{currentWord.level}}">{{currentWord.level}}</view>
+        <view class="progress-pill">
+          <text class="progress-text">{{currentIndex + 1}}/{{totalWords}}</text>
+        </view>
+        <view class="fav-btn" catchtap="toggleFavorite">
+          <text class="fav-icon" style="color: {{isFavorited ? '#f6ad55' : '#cbd5e0'}};">★</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- 单词核心区 -->
+    <view class="word-section">
+      <text class="word">{{currentWord.word}}</text>
+      <text class="pronunciation">{{currentWord.pronunciation}}</text>
+      
+      <!-- 胶囊式词性标签 -->
+      <view class="pos-capsule" wx:if="{{currentWord.posObj.abbr}}">
+        <text class="pos-abbr">{{currentWord.posObj.abbr}}</text>
+        <text class="pos-cn" wx:if="{{currentWord.posObj.cn}}">{{currentWord.posObj.cn}}</text>
+      </view>
+    </view>
+
+    <!-- 中间部分：例句卡片 (保留独立视觉，但悬浮在页面上) -->
+    <view class="context-card" wx:if="{{currentWord.formattedExample}}">
+      <view class="example-content">
+        <rich-text class="example-text" nodes="{{currentWord.formattedExample}}"></rich-text>
+        <text class="example-translation {{hasAnswered ? 'fade-in' : ''}}" wx:if="{{hasAnswered && currentWord.example_meaning}}">{{currentWord.example_meaning}}</text>
+      </view>
+    </view>
+
+    <!-- 占位符：确保选项区沉底 -->
+    <view class="spacer"></view>
+
+    <!-- 下半部分：选项区 -->
+    <view class="options-section">
+      <block wx:for="{{currentWord.options}}" wx:key="text">
+        <button 
+          class="option-btn {{item.selected ? (item.isCorrect ? 'correct' : 'wrong') : ''}} {{showAnswer && item.isCorrect ? 'correct-hint' : ''}}" 
+          bindtap="selectOption" 
+          data-index="{{index}}"
+          disabled="{{hasAnswered}}"
+          hover-class="btn-hover"
+        >
+          {{item.text}}
+        </button>
+      </block>
+    </view>
+  </view>
+
+  <!-- 底部控制区 -->
+  <view class="footer-area">
+    <!-- 错误时：显示"下一题"和"加入错题本" -->
+    <view wx:if="{{showFeedback && !isCorrect}}" class="footer-buttons">
+      <button class="add-mistake-btn" wx:if="{{showAddMistakeBtn}}" bindtap="addToMistakeBook">加入错题本</button>
+      <button class="next-btn" bindtap="nextWord">下一题 ➜</button>
+    </view>
+    
+    <!-- 正确时（错题模式）：显示"从错题本删除" -->
+    <button wx:if="{{showRemoveFromMistake && studyMode === 'mistake'}}" class="remove-mistake-btn" bindtap="removeFromMistakeBook">从错题本删除</button>
+  </view>
+
+  <!-- “斩”动画层 -->
+  <view class="zhan-effect {{showZhan ? 'animate' : ''}}" wx:if="{{showZhan}}">
+    <view class="slash-line"></view>
+    <text class="zhan-text">斩</text>
+  </view>
+</view>

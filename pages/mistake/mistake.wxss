@@ -1,0 +1,88 @@
+/* pages/mistake/mistake.wxss */
+page {
+  background-color: #f5f7fa;
+}
+
+.container {
+  padding: 30rpx;
+}
+
+.header {
+  margin-bottom: 40rpx;
+}
+
+.title {
+  font-size: 48rpx;
+  font-weight: 800;
+  color: #2d3748;
+  display: block;
+}
+
+.subtitle {
+  font-size: 28rpx;
+  color: #718096;
+  font-weight: 500;
+}
+
+.mistake-item {
+  background-color: white;
+  border-radius: 20rpx;
+  padding: 30rpx;
+  margin-bottom: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4rpx 12rpx rgba(0,0,0,0.03);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.mistake-item:active {
+  transform: scale(0.98);
+  box-shadow: 0 2rpx 6rpx rgba(0,0,0,0.05);
+}
+
+.word-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.word {
+  font-size: 36rpx;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 8rpx;
+}
+
+.meaning {
+  font-size: 28rpx;
+  color: #718096;
+}
+
+.count-badge {
+  background-color: #fed7d7;
+  color: #9b2c2c;
+  font-size: 24rpx;
+  padding: 6rpx 16rpx;
+  border-radius: 20rpx;
+  font-weight: 600;
+}
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200rpx;
+}
+
+.empty-text {
+  color: #a0aec0;
+  font-size: 30rpx;
+  margin-top: 20rpx;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 100rpx;
+  color: #718096;
+}
+

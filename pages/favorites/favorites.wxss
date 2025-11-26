@@ -1,0 +1,89 @@
+/* pages/favorites/favorites.wxss */
+page {
+  background-color: #fff9f0; /* 暖色调背景 */
+}
+
+.container {
+  padding: 30rpx;
+}
+
+.header {
+  margin-bottom: 40rpx;
+}
+
+.title {
+  font-size: 48rpx;
+  font-weight: 800;
+  color: #744210;
+  display: block;
+}
+
+.subtitle {
+  font-size: 28rpx;
+  color: #975a16;
+  font-weight: 500;
+}
+
+.fav-item {
+  background-color: white;
+  border-radius: 20rpx;
+  padding: 30rpx;
+  margin-bottom: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4rpx 12rpx rgba(236, 201, 75, 0.1);
+  border: 1px solid #fff5f5;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.fav-item:active {
+  transform: scale(0.98);
+  box-shadow: 0 2rpx 6rpx rgba(0,0,0,0.05);
+}
+
+.word-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.word {
+  font-size: 36rpx;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 8rpx;
+}
+
+.meaning {
+  font-size: 28rpx;
+  color: #718096;
+}
+
+.action-btn {
+  padding: 20rpx;
+}
+
+.remove-icon {
+  color: #cbd5e0;
+  font-size: 32rpx;
+}
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200rpx;
+}
+
+.empty-text {
+  color: #a0aec0;
+  font-size: 30rpx;
+  margin-top: 20rpx;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 100rpx;
+  color: #718096;
+}
+

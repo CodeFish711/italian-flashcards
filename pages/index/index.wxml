@@ -1,0 +1,13 @@
+<view class="container">
+  <view class="title-area">
+    <text class="title">意语百词斩</text>
+    <text class="subtitle">每天5分钟，轻松学意语</text>
+  </view>
+
+  <view class="action-area">
+    <button class="start-btn" bindtap="startStudy">开始学习</button>
+    <button class="review-btn" bindtap="goToMistakes">错题本</button>
+    <button class="fav-btn" bindtap="goToFavorites" style="margin-top: 20rpx; background: #fff; color: #f6ad55; border: 1px solid #f6ad55; border-radius: 50rpx;">我的收藏</button>
+    <button class="debug-btn" bindtap="initDatabase" style="margin-top: 30rpx; font-size: 24rpx; background: #eee;">初始化云数据(点击一次)</button>
+  </view>
+</view>
