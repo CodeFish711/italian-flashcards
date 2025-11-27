@@ -1,13 +1,39 @@
 <view class="container">
-  <view class="title-area">
-    <text class="title">意语百词斩</text>
-    <text class="subtitle">每天5分钟，轻松学意语</text>
+  <!-- 顶部标题 -->
+  <view class="header">
+    <view class="title-row">
+      <image class="logo" src="/images/logo.png" mode="aspectFit"></image>
+      <view class="title">Italiano单词宝</view>
+    </view>
+    <text class="subtitle">每天5分钟，轻松学意大利语</text>
   </view>
 
-  <view class="action-area">
-    <button class="start-btn" bindtap="startStudy">开始学习</button>
-    <button class="review-btn" bindtap="goToMistakes">错题本</button>
-    <button class="fav-btn" bindtap="goToFavorites" style="margin-top: 20rpx; background: #fff; color: #f6ad55; border: 1px solid #f6ad55; border-radius: 50rpx;">我的收藏</button>
-    <button class="debug-btn" bindtap="initDatabase" style="margin-top: 30rpx; font-size: 24rpx; background: #eee;">初始化云数据(点击一次)</button>
+  <!-- 级别选择区域 -->
+  <view class="levels-area">
+    <view class="level-card" wx:for="{{levels}}" wx:key="level" bindtap="startLevelStudy" data-level="{{item.level}}">
+      <view class="level-badge level-{{item.level}}">{{item.level}}</view>
+      <view class="level-content">
+        <view class="progress-bar-container">
+          <view class="progress-bar progress-{{item.level}}" style="width: {{item.progress}}%"></view>
+        </view>
+        <view class="level-stats">{{item.learned}}/{{item.total}}</view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 底部功能区 -->
+  <view class="footer">
+    <view class="footer-actions">
+      <view class="footer-action-btn" bindtap="goToMistakes">
+        <text class="footer-icon">📚</text>
+        <text class="footer-label">错题本</text>
+      </view>
+      <view class="footer-action-btn" bindtap="goToFavorites">
+        <text class="footer-icon">⭐</text>
+        <text class="footer-label">收藏</text>
+      </view>
+    </view>
+        <button class="debug-btn" bindtap="initDatabase">初始化云数据</button>
+        <button class="debug-btn" bindtap="importWiktionaryData" style="margin-top: 10rpx;">导入 Wiktionary 数据</button>
   </view>
 </view>

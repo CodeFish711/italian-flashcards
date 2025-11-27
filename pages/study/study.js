@@ -29,7 +29,10 @@ Page({
     showFeedback: false, // Controls "Next" button visibility
     isCorrect: false,    // Track if the answer was correct
     showAnswer: false,   // Show correct answer when wrong
-    showZhan: false,     // Trigger for "Zhan" animation
+    showConfetti: false,  // Trigger for confetti animation
+    confettiList: [],     // 彩带列表
+    showCelebrationText: false, // 显示庆祝文字
+    celebrationText: '',  // 庆祝文字内容
     isLoading: true,
     isFavorited: false,   // 当前单词是否已收藏
     slideOffset: 0,      // 滑动偏移量 (百分比)
@@ -400,7 +403,8 @@ Page({
       showFeedback: false,
       isCorrect: false,
       showAnswer: false,
-      showZhan: false,
+      showConfetti: false,
+      confettiList: [],
       isFavorited: false, // Reset favorite state
       slideOffset: 0,     // 重置滑动位置
       slideDirection: '',  // 重置方向
@@ -438,7 +442,8 @@ Page({
     });
 
     if (isCorrect) {
-      this.setData({ showZhan: true });
+      // 触发彩带雨效果
+      this.showConfettiRain();
       this.recordProgress(currentWord._id, true);
       
       // 如果是错题模式且做对了，显示删除按钮
@@ -448,7 +453,7 @@ Page({
       
       setTimeout(() => {
         this.nextWord();
-      }, 800); 
+      }, 1200); // 延长一点时间让彩带雨播放 
 
     } else {
        this.setData({ 
@@ -698,6 +703,51 @@ Page({
         });
       }, 50);
     }, 300);
+  },
+
+  // 彩带雨效果 + 文字特效
+  showConfettiRain() {
+    // 生成30个彩带
+    const colors = ['#60a5fa', '#34d399', '#22d3ee', '#fbbf24', '#fb7185', '#a78bfa', '#f472b6', '#14b8a6'];
+    const confettiList = [];
+    
+    // 庆祝文字列表
+    const celebrationTexts = ['Bravo!', 'Perfetto!', 'Ottimo!', 'Fantastico!', 'Eccellente!'];
+    const randomText = celebrationTexts[Math.floor(Math.random() * celebrationTexts.length)];
+    
+    for (let i = 0; i < 30; i++) {
+      confettiList.push({
+        left: Math.random() * 100 + '%',
+        top: -30 + 'rpx',
+        delay: Math.random() * 0.5 + 's',
+        duration: Math.random() * 0.5 + 1 + 's',
+        color: colors[Math.floor(Math.random() * colors.length)],
+        rotation: Math.random() * 360 + 'deg',
+        size: (12 + Math.random() * 8) + 'rpx'
+      });
+    }
+    
+    this.setData({
+      showConfetti: true,
+      confettiList: confettiList,
+      celebrationText: randomText,
+      showCelebrationText: true
+    });
+    
+    // 2秒后隐藏彩带
+    setTimeout(() => {
+      this.setData({
+        showConfetti: false,
+        confettiList: []
+      });
+    }, 2000);
+    
+    // 1.5秒后隐藏文字
+    setTimeout(() => {
+      this.setData({
+        showCelebrationText: false
+      });
+    }, 1500);
   },
 
   // --- 手势处理 ---

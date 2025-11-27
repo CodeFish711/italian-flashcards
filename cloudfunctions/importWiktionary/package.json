@@ -1,0 +1,10 @@
+{
+  "name": "importWiktionary",
+  "version": "1.0.0",
+  "description": "导入 Wiktionary 单词数据",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "~2.6.3"
+  }
+}
+

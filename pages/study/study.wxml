@@ -67,9 +67,13 @@
     <button wx:if="{{showRemoveFromMistake && studyMode === 'mistake'}}" class="remove-mistake-btn" bindtap="removeFromMistakeBook">从错题本删除</button>
   </view>
 
-  <!-- “斩”动画层 -->
-  <view class="zhan-effect {{showZhan ? 'animate' : ''}}" wx:if="{{showZhan}}">
-    <view class="slash-line"></view>
-    <text class="zhan-text">斩</text>
+  <!-- 彩带雨动画层 -->
+  <view class="confetti-container" wx:if="{{showConfetti}}">
+    <view class="confetti" wx:for="{{confettiList}}" wx:key="index" wx:for-item="item" wx:for-index="index" style="left: {{item.left}}; top: {{item.top}}; background-color: {{item.color}}; width: {{item.size}}; height: {{item.size}}; animation-delay: {{item.delay}}; animation-duration: {{item.duration}}; transform: rotate({{item.rotation}});"></view>
+  </view>
+
+  <!-- 庆祝文字特效 -->
+  <view class="celebration-text {{showCelebrationText ? 'show' : ''}}" wx:if="{{showCelebrationText}}">
+    <text class="celebration-text-content">{{celebrationText}}</text>
   </view>
 </view>

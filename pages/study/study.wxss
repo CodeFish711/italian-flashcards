@@ -75,29 +75,29 @@ page {
   letter-spacing: 1rpx;
 }
 
-/* 不同级别的颜色 */
+/* 优雅色谱：从清新到深邃的自然渐变 */
 .level-A1 {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 100%); /* 天空蓝 - 清新入门 */
 }
 
 .level-A2 {
-  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  background: linear-gradient(135deg, #34d399 0%, #10b981 100%); /* 薄荷绿 - 活力基础 */
 }
 
 .level-B1 {
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  background: linear-gradient(135deg, #22d3ee 0%, #06b6d4 100%); /* 青蓝色 - 清新进阶 */
 }
 
 .level-B2 {
-  background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+  background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%); /* 温暖金 - 明亮高级 */
 }
 
 .level-C1 {
-  background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+  background: linear-gradient(135deg, #fb7185 0%, #f43f5e 100%); /* 珊瑚粉 - 热情流利 */
 }
 
 .level-C2 {
-  background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);
+  background: linear-gradient(135deg, #a78bfa 0%, #8b5cf6 100%); /* 优雅紫 - 深邃精通 */
 }
 
 .progress-pill {
@@ -322,14 +322,103 @@ page {
   width: 100%;
 }
 
-/* 动画... (保持不变) */
-.zhan-effect { position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; pointer-events: none; z-index: 999; }
-.slash-line { position: absolute; width: 140%; height: 6rpx; background: linear-gradient(90deg, transparent, #fff, #e53e3e, #fff, transparent); box-shadow: 0 0 30rpx rgba(229, 62, 62, 0.8); transform: rotate(-25deg) translateX(-100%); opacity: 0; }
-.zhan-text { font-size: 200rpx; color: #c53030; font-weight: 900; text-shadow: 8rpx 8rpx 0 #fff; border: 12rpx solid #c53030; border-radius: 50%; width: 300rpx; height: 300rpx; line-height: 280rpx; text-align: center; opacity: 0; transform: scale(2) rotate(-15deg); background-color: rgba(255, 255, 255, 0.9); }
-.zhan-effect.animate .slash-line { animation: slashMove 0.4s ease-out forwards; }
-.zhan-effect.animate .zhan-text { animation: zhanAppear 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.2s forwards; }
-@keyframes slashMove { 0% { transform: rotate(-25deg) translateX(-100%) scaleX(0.5); opacity: 0; } 30% { opacity: 1; } 100% { transform: rotate(-25deg) translateX(100%) scaleX(1.2); opacity: 0; } }
-@keyframes zhanAppear { 0% { opacity: 0; transform: scale(3) rotate(-45deg); } 60% { opacity: 1; transform: scale(0.9) rotate(-15deg); } 80% { transform: scale(1.1) rotate(-15deg); } 100% { opacity: 1; transform: scale(1) rotate(-15deg); } }
+/* 彩带喷发绽放动画 */
+.confetti-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 999;
+  overflow: hidden;
+}
+
+.confetti {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.9;
+  box-shadow: 0 0 6rpx currentColor;
+}
+
+/* 彩带雨动画 */
+.confetti-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 999;
+  overflow: hidden;
+}
+
+.confetti {
+  position: absolute;
+  width: 16rpx;
+  height: 16rpx;
+  border-radius: 50%;
+  opacity: 0.9;
+  animation: confettiFall linear forwards;
+}
+
+@keyframes confettiFall {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(150vh) rotate(720deg);
+    opacity: 0;
+  }
+}
+
+/* 庆祝文字特效 */
+.celebration-text {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  z-index: 1000;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.celebration-text.show {
+  animation: celebrationPop 1.5s ease-out forwards;
+}
+
+.celebration-text-content {
+  font-size: 120rpx;
+  font-weight: 800;
+  color: #48bb78;
+  letter-spacing: 6rpx;
+  display: block;
+  text-align: center;
+}
+
+@keyframes celebrationPop {
+  0% {
+    transform: translate(-50%, -50%) scale(0) rotate(-5deg);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.1) rotate(2deg);
+    opacity: 1;
+  }
+  70% {
+    transform: translate(-50%, -50%) scale(1) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(0.95) rotate(0deg);
+    opacity: 0;
+  }
+}
+
 @keyframes fadeIn { from { opacity: 0; transform: translateY(-10rpx); } to { opacity: 1; transform: translateY(0); } }
 @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.02); } 100% { transform: scale(1); } }
 
