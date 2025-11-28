@@ -92,16 +92,17 @@ levels.forEach(level => {
   }
 });
 
-// 生成文件内容
-const fileContent = `const wordList = ${JSON.stringify(fullWordList, null, 2)};
-
-module.exports = {
-  wordList: wordList
-};
-`;
-
 // 写入文件
-const outputPath = path.join(__dirname, '../data/word-list.js');
+// 修改为直接写入到 cloudfunctions/importData 目录，以便云函数直接读取，减少小程序端包体积
+const outputPath = path.join(__dirname, '../cloudfunctions/importData/word-list.js');
+// 同时也保留一份在 data 目录以备不时之需（稍后会在 project.config.json 中忽略它）
+// const localOutputPath = path.join(__dirname, '../data/word-list.js'); 
+
+// 生成文件内容
+// 格式微调：直接导出一个数组，方便云函数 require
+const fileContent = `module.exports = ${JSON.stringify(fullWordList, null, 2)};`;
+
 fs.writeFileSync(outputPath, fileContent);
+// fs.writeFileSync(localOutputPath, fileContent); // 暂时不需要本地副本，以免混淆
 
 console.log(`已生成 ${fullWordList.length} 个单词到 ${outputPath}`);

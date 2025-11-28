@@ -87,7 +87,7 @@ Page({
         pageSize: 500
       }
     }).then(res => {
-      wx.hideLoading();
+        wx.hideLoading();
       console.log('getWords result:', res); // 调试日志
       
       if (!res.result || !res.result.success) {
@@ -95,24 +95,24 @@ Page({
       }
 
       const words = res.result.data;
-      
+        
       if (!words || words.length === 0) {
-        wx.showModal({
-          title: '提示',
+          wx.showModal({
+            title: '提示',
           content: `没有找到 ${level} 级别的单词，可能是数据未初始化或加载失败。`,
-          showCancel: false,
-          success: () => wx.navigateBack()
-        });
-        return;
-      }
+            showCancel: false,
+            success: () => wx.navigateBack()
+          });
+          return;
+        }
 
-      this.setData({
-        wordList: words,
-        totalWords: words.length,
-        isLoading: false,
+        this.setData({
+          wordList: words,
+          totalWords: words.length,
+          isLoading: false,
         modeLabel: `${level} 级别学习`
-      });
-      
+        });
+        
       // 尝试从本地缓存读取上次学习进度
       const lastIndex = wx.getStorageSync(`last_index_${level}`) || 0;
       
@@ -123,7 +123,7 @@ Page({
            content: '上次已经学到最后了，是否重新开始？',
            success: (modalRes) => {
              if (modalRes.confirm) {
-               this.loadWord(0);
+        this.loadWord(0);
              } else {
                this.loadWord(lastIndex); // 停留在最后
              }
@@ -139,12 +139,12 @@ Page({
          }
          this.loadWord(lastIndex);
       }
-    })
-    .catch(err => {
-      wx.hideLoading();
-      console.error(err);
-      wx.showToast({ title: '加载失败', icon: 'none' });
-    });
+      })
+      .catch(err => {
+        wx.hideLoading();
+        console.error(err);
+        wx.showToast({ title: '加载失败', icon: 'none' });
+      });
   },
 
   // 根据 mode 加载整个列表（错题本或收藏夹）

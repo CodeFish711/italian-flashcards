@@ -19,7 +19,20 @@
     "compileType": "miniprogram",
     "simulatorPluginLibVersion": {},
     "packOptions": {
-        "ignore": [],
+        "ignore": [
+            {
+                "type": "folder",
+                "value": "scripts"
+            },
+            {
+                "type": "folder",
+                "value": "data"
+            },
+            {
+                "type": "folder",
+                "value": "cloudfunctions/forceClear"
+            }
+        ],
         "include": []
     },
     "appid": "wx34fc2f4d216f6018",

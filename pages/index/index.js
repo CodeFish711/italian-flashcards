@@ -1,5 +1,5 @@
 // pages/index/index.js
-const { wordList } = require('../../data/word-list.js');
+// const { wordList } = require('../../data/word-list.js'); // 移除本地引用，减小包体积
 
 Page({
   data: {
@@ -70,7 +70,7 @@ Page({
   initDatabase() {
     wx.showModal({
       title: '确认初始化',
-      content: '这将清空现有云端词库并重新上传，确定继续吗？',
+      content: '这将清空云端词库并使用最新生成的预置数据重新填充，耗时约10秒，确定继续吗？',
       success: (res) => {
         if (res.confirm) {
           this.startImportProcess();
@@ -80,32 +80,47 @@ Page({
   },
 
   startImportProcess() {
-    wx.showLoading({ title: '正在强力清空旧数据...' });
+    wx.showLoading({ title: '正在云端初始化...' });
     
-    // 1. 调用新的强力清空云函数
+    // 直接调用云函数进行全量初始化 (清空+导入)
+    // 这样前端不需要打包巨大的 word-list.js 文件
     wx.cloud.callFunction({
-      name: 'forceClear'
+      name: 'importData',
+      data: { action: 'init' }
     }).then(res => {
-      console.log('清空结果:', res);
+      wx.hideLoading();
+      console.log('初始化结果:', res);
+      
       if (res.result && res.result.success) {
-        wx.showToast({ title: `清理完成: ${res.result.deleted}`, icon: 'none' });
-        // 2. 开始分批上传
-        this.uploadInBatches();
+        wx.showToast({
+          title: '初始化成功',
+          icon: 'success',
+          duration: 2000
+        });
+        // 刷新进度
+        setTimeout(() => {
+          this.loadLevelProgress();
+        }, 2000);
       } else {
-        throw new Error('清空返回失败');
+        throw new Error(res.result ? res.result.msg : '未知错误');
       }
     }).catch(err => {
       wx.hideLoading();
-      console.error('清空失败', err);
-      // 如果云函数调用失败，提示用户手动清空
+      console.error('初始化失败', err);
       wx.showModal({ 
-        title: '自动清空失败', 
-        content: '请进入“云开发控制台 -> 数据库 -> words 集合”，手动删除所有数据，然后再点击初始化。', 
+        title: '初始化失败', 
+        content: '请检查云函数日志或网络连接。\n' + (err.message || JSON.stringify(err)), 
         showCancel: false 
       });
     });
   },
 
+  // uploadInBatches 已被弃用，因为数据现已内置在云函数中
+  // uploadInBatches(index = 0) { ... }
+
+
+  /* 
+  // uploadInBatches 已被弃用，因为数据现已内置在云函数中
   uploadInBatches() {
     wx.showLoading({ title: '准备上传...' });
     
@@ -169,4 +184,5 @@ Page({
     // 开始第一批上传
     uploadBatch();
   }
+  */
 })
