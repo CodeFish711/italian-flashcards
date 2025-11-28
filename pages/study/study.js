@@ -48,7 +48,8 @@ Page({
     sessionCorrectCount: 0, // 本次学习正确数
     sessionTotalAnswered: 0, // 本次学习已答题数
     accuracy: 0, // 正确率 (百分比整数)
-    showDetailModal: false // 显示详情弹窗
+    showDetailModal: false, // 显示详情弹窗
+    shouldCenterButton: false // 是否居中显示下一题按钮
   },
 
   // 手势相关变量
@@ -462,7 +463,8 @@ Page({
       showAddMistakeBtn: false, // 重置
       currentWordProgressId: word._progressId || null, // 保存 progress ID
       rotateY: 0,          // 重置旋转
-      showRemoveFromMistake: false // 重置
+      showRemoveFromMistake: false, // 重置
+      shouldCenterButton: false // 重置居中标志
     });
 
     // 检查该单词是否已收藏
@@ -497,7 +499,8 @@ Page({
       showFeedback: true,
       sessionTotalAnswered: newTotal,
       sessionCorrectCount: newCorrect,
-      accuracy: newAccuracy
+      accuracy: newAccuracy,
+      shouldCenterButton: false // 默认不居中
     });
 
     if (isCorrect) {
@@ -507,14 +510,25 @@ Page({
       
       // 如果是错题模式且做对了，显示删除按钮
       if (this.data.studyMode === 'mistake') {
-        this.setData({ showRemoveFromMistake: true });
+        this.setData({ 
+          showRemoveFromMistake: true,
+          shouldCenterButton: false // 错题模式下有删除按钮，不居中
+        });
+      } else {
+        // 答对且不是错题模式，检查是否应该居中
+        this.setData({ 
+          shouldCenterButton: true // 答对且没有错题本按钮，居中
+        });
       }
       
       // 自动跳转已被禁用，等待用户点击"下一题"
 
     } else {
+       // 答错时，明确不居中
        this.setData({ 
-         showAnswer: true
+         showAnswer: true,
+         showAddMistakeBtn: false, // 先设为 false，等异步检查完成后再更新
+         shouldCenterButton: false // 答错时不居中
        });
        
        // 检查该单词是否已在错题本中

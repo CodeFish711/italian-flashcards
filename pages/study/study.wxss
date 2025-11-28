@@ -15,6 +15,17 @@ page {
   background-color: #ffffff; /* 确保容器也是白色 */
 }
 
+/* --- 固定容器：锁定布局，防止内容移动 --- */
+.fixed-container {
+  width: 100%;
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  /* 固定宽度和位置，防止内部元素状态变化导致布局移动 */
+}
+
 /* --- 移除动态背景系统（纯白背景不需要） --- */
 .bg-layer {
   display: none; /* 隐藏背景层 */
@@ -27,12 +38,14 @@ page {
   flex-direction: column;
   position: relative;
   z-index: 2;
+  width: 100%;
   height: 100%;
   transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1); /* 更平滑的动画 */
   will-change: transform;
   transform-style: preserve-3d; /* 启用3D变换 */
   perspective: 1000px; /* 3D透视效果 */
   backface-visibility: hidden; /* 防止翻转时闪烁 */
+  /* 固定宽度，防止内部元素变化导致移动 */
 }
 
 /* 移除原有的 .card 样式 */
@@ -42,24 +55,39 @@ page {
 .card-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  height: 80rpx;
+  align-items: flex-start;
+  min-height: 100rpx;
   margin-bottom: 20rpx;
   flex-shrink: 0;
+  width: 100%; /* 固定宽度，防止移动 */
+  box-sizing: border-box;
+  position: relative; /* 相对定位，防止移动 */
+}
+
+.header-left {
+  display: flex;
+  flex-direction: column;
+  gap: 8rpx;
+}
+
+.header-top-row {
+  display: flex;
+  align-items: center;
+  gap: 12rpx;
 }
 
 .mode-label {
-  font-size: 28rpx;
+  font-size: 26rpx;
   color: #4a5568;
-  font-weight: 700;
-  padding: 8rpx 20rpx;
+  font-weight: 600;
+  padding: 6rpx 16rpx;
   background-color: #f7fafc;
-  border-radius: 20rpx;
+  border-radius: 16rpx;
 }
 
 .header-right {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 16rpx;
 }
 
@@ -140,6 +168,9 @@ page {
   justify-content: center;
   flex-grow: 1;
   min-height: 200rpx;
+  width: 100%; /* 固定宽度，防止移动 */
+  box-sizing: border-box;
+  position: relative; /* 相对定位，防止移动 */
   /* 增加一点文字阴影提升可读性，防止背景干扰 */
 }
 
@@ -149,8 +180,41 @@ page {
   color: #2d3748;
   line-height: 1.1;
   text-align: center;
-  margin-bottom: 16rpx;
+  /* margin-bottom: 16rpx; */ /* 移入 word-row 控制 */
   text-shadow: 0 4rpx 12rpx rgba(0,0,0,0.05);
+}
+
+.word-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 16rpx;
+}
+
+.detail-icon-btn {
+  position: absolute;
+  right: -80rpx; /* 放在单词右侧，距离更远 */
+  top: 50%;
+  transform: translateY(-50%);
+  width: 70rpx;
+  height: 70rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ebf8ff;
+  border-radius: 50%;
+  box-shadow: 0 4rpx 12rpx rgba(0,0,0,0.15);
+  transition: all 0.3s;
+}
+
+.detail-icon-btn:active {
+  transform: translateY(-50%) scale(0.95);
+  background-color: #bee3f8;
+}
+
+.detail-icon-btn text {
+  font-size: 40rpx;
 }
 
 .pronunciation {
@@ -205,6 +269,9 @@ page {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%; /* 固定宽度，防止移动 */
+  box-sizing: border-box;
+  position: relative; /* 相对定位，防止移动 */
 }
 
 .example-text {
@@ -225,9 +292,17 @@ page {
   font-size: 28rpx;
   color: #718096;
   margin-top: 10rpx;
+  min-height: 40rpx; /* 固定高度，避免布局变化 */
+  display: block;
   opacity: 0; 
 }
-.example-translation.fade-in { animation: fadeIn 0.4s ease-out forwards; }
+.example-translation.fade-in { 
+  animation: fadeIn 0.4s ease-out forwards; 
+}
+.example-translation.hidden {
+  opacity: 0;
+  visibility: hidden; /* 占据空间但不可见 */
+}
 
 .spacer { flex: 0.2; } /* 小占位 */
 
@@ -239,6 +314,9 @@ page {
   margin-top: auto; 
   padding-bottom: 30rpx; /* 增加底部安全距离 */
   flex-shrink: 0;
+  min-height: 300rpx; /* 固定最小高度，避免布局变化 */
+  width: 100%; /* 固定宽度，防止移动 */
+  box-sizing: border-box;
 }
 
 .option-btn {
@@ -253,6 +331,10 @@ page {
   box-shadow: 0 2rpx 8rpx rgba(0,0,0,0.04);
   transform: translateY(0);
   transition: background-color 0.2s ease;
+  min-height: 88rpx; /* 固定最小高度，避免状态变化导致高度变化 */
+  width: 100%; /* 固定宽度，防止移动 */
+  box-sizing: border-box;
+  position: relative; /* 相对定位，防止移动 */
 }
 
 .btn-hover {
@@ -280,16 +362,44 @@ page {
   animation: pulse 1.5s infinite;
 }
 
+.option-btn[disabled] {
+  opacity: 1; /* 保持可见，只是不能点击 */
+}
+
 /* 底部按钮 */
 .footer-area { 
   margin-top: 20rpx;
   padding-bottom: 20rpx;
+  min-height: 100rpx; /* 固定高度，避免布局变化 */
+  flex-shrink: 0;
+  width: 100%; /* 固定宽度，防止移动 */
+  box-sizing: border-box;
 }
 
 .footer-buttons {
   display: flex;
   gap: 20rpx;
   align-items: center;
+  justify-content: space-between;
+  min-height: 80rpx; /* 固定高度 */
+  width: 100%; /* 固定宽度，防止移动 */
+  box-sizing: border-box;
+}
+
+.footer-buttons.center {
+  justify-content: center;
+  /* 答对时，左侧按钮隐藏，右侧按钮居中 */
+}
+
+.footer-buttons.center .next-btn {
+  flex: 0 0 auto; /* 取消 flex: 1，使用自动宽度 */
+  max-width: 60%; /* 最大宽度限制，让按钮稍微窄一点 */
+  min-width: 200rpx; /* 最小宽度保证 */
+}
+
+.footer-buttons .hidden {
+  display: none;
+  /* 完全隐藏，不占空间 */
 }
 
 .add-mistake-btn {
@@ -300,6 +410,8 @@ page {
   font-size: 28rpx;
   padding: 20rpx 30rpx;
   flex: 1;
+  min-height: 80rpx; /* 固定高度 */
+  box-sizing: border-box;
 }
 
 .detail-btn {
@@ -320,6 +432,8 @@ page {
   font-size: 30rpx;
   padding: 20rpx 30rpx;
   flex: 1;
+  min-height: 80rpx; /* 固定高度 */
+  box-sizing: border-box;
 }
 
 .remove-mistake-btn {
@@ -330,6 +444,8 @@ page {
   font-size: 30rpx;
   padding: 20rpx 30rpx;
   flex: 1; /* 统一 flex */
+  min-height: 80rpx; /* 固定高度 */
+  box-sizing: border-box;
 }
 
 /* 模态框样式 */
@@ -503,4 +619,5 @@ page {
 
 @keyframes fadeIn { from { opacity: 0; transform: translateY(-10rpx); } to { opacity: 1; transform: translateY(0); } }
 @keyframes pulse { 0% { transform: scale(1); } 50% { transform: scale(1.02); } 100% { transform: scale(1); } }
+
 

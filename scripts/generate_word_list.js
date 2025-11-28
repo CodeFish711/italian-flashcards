@@ -60,6 +60,116 @@ function generateOptions(correctMeaning, allMeanings) {
   return options.sort(() => Math.random() - 0.5);
 }
 
+// 常见不规则动词变位表 (直陈式现在时)
+const irregularVerbs = {
+  'essere': 'sono, sei, è, siamo, siete, sono',
+  'avere': 'ho, hai, ha, abbiamo, avete, hanno',
+  'andare': 'vado, vai, va, andiamo, andate, vanno',
+  'venire': 'vengo, vieni, viene, veniamo, venite, vengono',
+  'fare': 'faccio, fai, fa, facciamo, fate, fanno',
+  'dire': 'dico, dici, dice, diciamo, dite, dicono',
+  'dare': 'do, dai, dà, diamo, date, danno',
+  'stare': 'sto, stai, sta, stiamo, state, stanno',
+  'dovere': 'devo, devi, deve, dobbiamo, dovete, devono',
+  'potere': 'posso, puoi, può, possiamo, potete, possono',
+  'volere': 'voglio, vuoi, vuole, vogliamo, volete, vogliono',
+  'sapere': 'so, sai, sa, sappiamo, sapete, sanno',
+  'bere': 'bevo, bevi, beve, beviamo, bevete, bevono',
+  'uscire': 'esco, esci, esce, usciamo, uscite, escono',
+  'riuscire': 'riesco, riesci, riesce, riusciamo, riuscite, riescono'
+};
+
+// 辅助函数：生成动词详情
+function getVerbDetail(word) {
+  const lowerWord = word.toLowerCase();
+  
+  // 1. 检查不规则动词
+  if (irregularVerbs[lowerWord]) {
+    return `原型：${word} (不规则动词)。\n\n直陈式现在时变位：\n${irregularVerbs[lowerWord]}`;
+  }
+  
+  // 2. 规则变位提示
+  let conjugation = "";
+  let group = "";
+  
+  if (lowerWord.endsWith('are')) {
+    group = "第一组 (-are)";
+    const root = word.slice(0, -3);
+    conjugation = `${root}o, ${root}i, ${root}a, ${root}iamo, ${root}ate, ${root}ano`;
+  } else if (lowerWord.endsWith('ere')) {
+    group = "第二组 (-ere)";
+    const root = word.slice(0, -3);
+    conjugation = `${root}o, ${root}i, ${root}e, ${root}iamo, ${root}ete, ${root}ono`;
+  } else if (lowerWord.endsWith('ire')) {
+    group = "第三组 (-ire)";
+    // 简单处理，不做 -isco 区分，提示一般规则
+    const root = word.slice(0, -3);
+    conjugation = `${root}o, ${root}i, ${root}e, ${root}iamo, ${root}ite, ${root}ono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)`;
+  } else if (lowerWord.endsWith('rre')) {
+      return `原型：${word}。\n这是一个缩略形式的不规则动词 (源自拉丁语)，变位通常不规则。`;
+  }
+  
+  if (conjugation) {
+    return `原型：${word} (${group})。\n\n规则变位示例 (直陈式现在时)：\n${conjugation}`;
+  }
+  
+  return `原型：${word} (动词)。\n请注意根据语境的人称和时态进行变化。`;
+}
+
+// 辅助函数：生成名词详情
+function getNounDetail(word, pos) {
+  const lowerWord = word.toLowerCase();
+  const lastChar = lowerWord.slice(-1);
+  const root = word.slice(0, -1);
+  
+  // 辅音结尾（外来词）
+  const consonants = ['b','c','d','f','g','h','k','l','m','n','p','q','r','s','t','v','w','x','y','z'];
+  // 简单判断是否以辅音结尾 (排除元音)
+  const vowels = ['a','e','i','o','u','à','è','ì','ò','ù'];
+  if (!vowels.includes(lastChar)) {
+     return `外来词/辅音结尾名词。\n通常为阳性，复数形式保持不变 (il ${word} -> i ${word})。`;
+  }
+
+  // 重音结尾
+  if (['à','è','ì','ò','ù'].includes(lastChar)) {
+      return `重音结尾名词。\n复数形式保持不变 (la ${word} -> le ${word})。`;
+  }
+  
+  if (pos === 'n.m.' || (pos === 'n.' && lastChar === 'o')) {
+     return `阳性单数名词。\n复数形式通常变成 -i：\n${word} -> ${root}i`;
+  }
+  
+  if (pos === 'n.f.' || (pos === 'n.' && lastChar === 'a')) {
+     if (lowerWord.endsWith('ca') || lowerWord.endsWith('ga')) {
+         return `阴性单数名词 (-ca/-ga)。\n复数形式通常加 h 保持发音：\n${word} -> ${word.slice(0,-1)}he`;
+     }
+     return `阴性单数名词。\n复数形式通常变成 -e：\n${word} -> ${root}e`;
+  }
+  
+  if (lastChar === 'e') {
+     return `单数名词 (-e 结尾)。\n通常为双性或需记忆性别。\n复数形式通常变成 -i：\n${word} -> ${root}i`;
+  }
+  
+  return `名词。\n请根据具体语境判断单复数变化。`;
+}
+
+// 辅助函数：生成形容词详情
+function getAdjDetail(word) {
+  const lowerWord = word.toLowerCase();
+  const lastChar = lowerWord.slice(-1);
+  const root = word.slice(0, -1);
+  
+  if (lastChar === 'o') {
+    return `四尾形容词 (o/a/i/e)。\n\n变化规则：\n阳单: ${word}\n阴单: ${root}a\n阳复: ${root}i\n阴复: ${root}e`;
+  }
+  
+  if (lastChar === 'e') {
+    return `双尾形容词 (e/i)。\n\n变化规则：\n单数 (阳/阴): ${word}\n复数 (阳/阴): ${root}i`;
+  }
+  
+  return `形容词。\n需根据修饰的名词进行性数配合。`;
+}
+
 // 主生成逻辑
 const fullWordList = [];
 let globalId = 1;
@@ -91,16 +201,15 @@ levels.forEach(level => {
     if (!detail) {
         // 如果数据源中没有 detail 字段，则进行简单的自动生成
         if (pos.includes('v.')) {
-            detail = `原型：${word} (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。`;
+            detail = getVerbDetail(word);
         } else if (pos.includes('n.')) {
-            // 简单的单复数推断 (非常基础，仅供参考)
-            const lastChar = word.slice(-1);
-            if (lastChar === 'o') detail = `阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：${word.slice(0, -1)}i)。`;
-            else if (lastChar === 'a') detail = `阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：${word.slice(0, -1)}e)。`;
-            else if (lastChar === 'e') detail = `单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：${word.slice(0, -1)}i)。`;
-            else detail = `名词。\n请查阅词典确认其性和数的具体变化规则。`;
+            detail = getNounDetail(word, pos);
         } else if (pos.includes('adj.')) {
-             detail = `形容词。\n需根据修饰的名词进行性数配合 (如: o/a/i/e)。`;
+            detail = getAdjDetail(word);
+        } else if (pos.includes('adv.')) {
+            detail = `副词。\n通常修饰动词、形容词或其他副词，无性数变化。`;
+        } else if (pos.includes('prep.')) {
+            detail = `介词。\n如果是基础介词 (di, a, da, in, su)，注意与定冠词的缩合形式 (如: al, dello, nella...)。`;
         } else {
             detail = `${POS_MAP[pos] || '词汇'}。\n常用基础词汇。`;
         }

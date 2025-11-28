@@ -11,20 +11,20 @@ module.exports = [
     "detail": "感叹词。\n常用基础词汇。",
     "options": [
       {
-        "text": "星期五",
+        "text": "价格",
         "isCorrect": false
       },
       {
-        "text": "消息",
-        "isCorrect": false
-      },
-      {
-        "text": "儿子",
+        "text": "父亲",
         "isCorrect": false
       },
       {
         "text": "你好/再见",
         "isCorrect": true
+      },
+      {
+        "text": "我们",
+        "isCorrect": false
       }
     ]
   },
@@ -37,22 +37,22 @@ module.exports = [
     "meaning": "是",
     "example": "Sì, voglio venire con te.",
     "example_meaning": "是，我想和你一起去。",
-    "detail": "原型：Sì (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sì (动词)。\n请注意根据语境的人称和时态进行变化。",
     "options": [
+      {
+        "text": "头发",
+        "isCorrect": false
+      },
+      {
+        "text": "关着的",
+        "isCorrect": false
+      },
       {
         "text": "是",
         "isCorrect": true
       },
       {
-        "text": "热",
-        "isCorrect": false
-      },
-      {
-        "text": "咖啡",
-        "isCorrect": false
-      },
-      {
-        "text": "她/您",
+        "text": "去",
         "isCorrect": false
       }
     ]
@@ -66,18 +66,18 @@ module.exports = [
     "meaning": "不",
     "example": "No, non mi piace il caffè.",
     "example_meaning": "不，我不喜欢咖啡。",
-    "detail": "原型：No (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：No (动词)。\n请注意根据语境的人称和时态进行变化。",
     "options": [
-      {
-        "text": "酒吧/咖啡馆",
-        "isCorrect": false
-      },
       {
         "text": "星期三",
         "isCorrect": false
       },
       {
-        "text": "男孩",
+        "text": "有",
+        "isCorrect": false
+      },
+      {
+        "text": "吃",
         "isCorrect": false
       },
       {
@@ -98,20 +98,20 @@ module.exports = [
     "detail": "感叹词。\n常用基础词汇。",
     "options": [
       {
-        "text": "生气的",
-        "isCorrect": false
-      },
-      {
-        "text": "家庭",
-        "isCorrect": false
-      },
-      {
-        "text": "手",
-        "isCorrect": false
-      },
-      {
         "text": "谢谢",
         "isCorrect": true
+      },
+      {
+        "text": "广场",
+        "isCorrect": false
+      },
+      {
+        "text": "咖啡",
+        "isCorrect": false
+      },
+      {
+        "text": "肚子",
+        "isCorrect": false
       }
     ]
   },
@@ -131,15 +131,15 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "左边",
+        "text": "电话",
         "isCorrect": false
       },
       {
-        "text": "居住",
+        "text": "开着的",
         "isCorrect": false
       },
       {
-        "text": "门",
+        "text": "你们",
         "isCorrect": false
       }
     ]
@@ -156,19 +156,19 @@ module.exports = [
     "detail": "感叹词。\n常用基础词汇。",
     "options": [
       {
+        "text": "名字",
+        "isCorrect": false
+      },
+      {
         "text": "对不起/借过",
         "isCorrect": true
       },
       {
-        "text": "什么",
+        "text": "黑色的",
         "isCorrect": false
       },
       {
-        "text": "市场",
-        "isCorrect": false
-      },
-      {
-        "text": "红色的",
+        "text": "姐妹",
         "isCorrect": false
       }
     ]
@@ -185,20 +185,20 @@ module.exports = [
     "detail": "词汇。\n常用基础词汇。",
     "options": [
       {
-        "text": "面食",
+        "text": "铅笔",
+        "isCorrect": false
+      },
+      {
+        "text": "周/星期",
+        "isCorrect": false
+      },
+      {
+        "text": "密码",
         "isCorrect": false
       },
       {
         "text": "请",
         "isCorrect": true
-      },
-      {
-        "text": "衣服/连衣裙",
-        "isCorrect": false
-      },
-      {
-        "text": "旅馆",
-        "isCorrect": false
       }
     ]
   },
@@ -211,23 +211,23 @@ module.exports = [
     "meaning": "荣幸/高兴",
     "example": "Piacere di conoscerti.",
     "example_meaning": "很高兴认识你。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Piaceri)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nPiacere -> Piaceri",
     "options": [
-      {
-        "text": "中国的/中国人",
-        "isCorrect": false
-      },
-      {
-        "text": "火车",
-        "isCorrect": false
-      },
-      {
-        "text": "星期六",
-        "isCorrect": false
-      },
       {
         "text": "荣幸/高兴",
         "isCorrect": true
+      },
+      {
+        "text": "浴室",
+        "isCorrect": false
+      },
+      {
+        "text": "汽车/机器",
+        "isCorrect": false
+      },
+      {
+        "text": "嘴",
+        "isCorrect": false
       }
     ]
   },
@@ -243,20 +243,20 @@ module.exports = [
     "detail": "感叹词。\n常用基础词汇。",
     "options": [
       {
-        "text": "头发",
+        "text": "自行车",
         "isCorrect": false
       },
       {
-        "text": "好的",
-        "isCorrect": false
-      },
-      {
-        "text": "星期四",
+        "text": "我们",
         "isCorrect": false
       },
       {
         "text": "早上好",
         "isCorrect": true
+      },
+      {
+        "text": "好的",
+        "isCorrect": false
       }
     ]
   },
@@ -272,20 +272,20 @@ module.exports = [
     "detail": "感叹词。\n常用基础词汇。",
     "options": [
       {
-        "text": "糖",
-        "isCorrect": false
-      },
-      {
-        "text": "三",
-        "isCorrect": false
-      },
-      {
-        "text": "报纸",
+        "text": "对不起/借过",
         "isCorrect": false
       },
       {
         "text": "晚上好",
         "isCorrect": true
+      },
+      {
+        "text": "鼻子",
+        "isCorrect": false
+      },
+      {
+        "text": "衬衫",
+        "isCorrect": false
       }
     ]
   },
@@ -301,7 +301,11 @@ module.exports = [
     "detail": "感叹词。\n常用基础词汇。",
     "options": [
       {
-        "text": "花",
+        "text": "椅子",
+        "isCorrect": false
+      },
+      {
+        "text": "儿童",
         "isCorrect": false
       },
       {
@@ -309,11 +313,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "八",
-        "isCorrect": false
-      },
-      {
-        "text": "晚上好",
+        "text": "餐厅",
         "isCorrect": false
       }
     ]
@@ -330,19 +330,19 @@ module.exports = [
     "detail": "感叹词。\n常用基础词汇。",
     "options": [
       {
+        "text": "嘴",
+        "isCorrect": false
+      },
+      {
+        "text": "热的",
+        "isCorrect": false
+      },
+      {
         "text": "再见",
         "isCorrect": true
       },
       {
-        "text": "狗",
-        "isCorrect": false
-      },
-      {
-        "text": "好的",
-        "isCorrect": false
-      },
-      {
-        "text": "父亲",
+        "text": "是",
         "isCorrect": false
       }
     ]
@@ -356,23 +356,23 @@ module.exports = [
     "meaning": "如何",
     "example": "Come ti chiami?",
     "example_meaning": "你叫什么名字？",
-    "detail": "原型：Come (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Come (动词)。\n请注意根据语境的人称和时态进行变化。",
     "options": [
       {
-        "text": "晚安",
+        "text": "树",
         "isCorrect": false
       },
       {
-        "text": "夜晚",
-        "isCorrect": false
-      },
-      {
-        "text": "时间/天气",
+        "text": "包",
         "isCorrect": false
       },
       {
         "text": "如何",
         "isCorrect": true
+      },
+      {
+        "text": "花",
+        "isCorrect": false
       }
     ]
   },
@@ -385,22 +385,22 @@ module.exports = [
     "meaning": "在哪里",
     "example": "Dove abiti?",
     "example_meaning": "你住在哪里？",
-    "detail": "原型：Dove (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Dove (动词)。\n请注意根据语境的人称和时态进行变化。",
     "options": [
       {
         "text": "在哪里",
         "isCorrect": true
       },
       {
-        "text": "鱼",
+        "text": "车站",
         "isCorrect": false
       },
       {
-        "text": "嘴",
+        "text": "六",
         "isCorrect": false
       },
       {
-        "text": "来",
+        "text": "早晨",
         "isCorrect": false
       }
     ]
@@ -414,14 +414,14 @@ module.exports = [
     "meaning": "什么时候",
     "example": "Quando parte il treno?",
     "example_meaning": "火车什么时候开？",
-    "detail": "原型：Quando (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Quando (动词)。\n请注意根据语境的人称和时态进行变化。",
     "options": [
       {
-        "text": "密码",
+        "text": "早晨",
         "isCorrect": false
       },
       {
-        "text": "生病的",
+        "text": "意大利的/意大利人",
         "isCorrect": false
       },
       {
@@ -429,7 +429,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "裙子",
+        "text": "右边",
         "isCorrect": false
       }
     ]
@@ -443,23 +443,23 @@ module.exports = [
     "meaning": "谁",
     "example": "Chi è quella ragazza?",
     "example_meaning": "那个女孩是谁？",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "名词。\n请根据具体语境判断单复数变化。",
     "options": [
       {
-        "text": "学校",
+        "text": "汽车/机器",
         "isCorrect": false
       },
       {
-        "text": "票",
-        "isCorrect": false
-      },
-      {
-        "text": "热",
+        "text": "嘴",
         "isCorrect": false
       },
       {
         "text": "谁",
         "isCorrect": true
+      },
+      {
+        "text": "太阳",
+        "isCorrect": false
       }
     ]
   },
@@ -472,10 +472,10 @@ module.exports = [
     "meaning": "什么",
     "example": "Che cosa fai?",
     "example_meaning": "你在做什么？",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Chi)。",
+    "detail": "单数名词 (-e 结尾)。\n通常为双性或需记忆性别。\n复数形式通常变成 -i：\nChe -> Chi",
     "options": [
       {
-        "text": "如何",
+        "text": "生气的",
         "isCorrect": false
       },
       {
@@ -483,11 +483,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "哪个",
+        "text": "快乐的",
         "isCorrect": false
       },
       {
-        "text": "面食",
+        "text": "分钟",
         "isCorrect": false
       }
     ]
@@ -501,23 +501,23 @@ module.exports = [
     "meaning": "为什么",
     "example": "Perché non mangi?",
     "example_meaning": "你为什么不吃？",
-    "detail": "原型：Perché (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Perché (动词)。\n请注意根据语境的人称和时态进行变化。",
     "options": [
       {
-        "text": "星期二",
-        "isCorrect": false
-      },
-      {
-        "text": "三",
-        "isCorrect": false
-      },
-      {
-        "text": "风",
+        "text": "不客气",
         "isCorrect": false
       },
       {
         "text": "为什么",
         "isCorrect": true
+      },
+      {
+        "text": "黄色的",
+        "isCorrect": false
+      },
+      {
+        "text": "悲伤的",
+        "isCorrect": false
       }
     ]
   },
@@ -530,23 +530,23 @@ module.exports = [
     "meaning": "多少",
     "example": "Quanto costa questo?",
     "example_meaning": "这个多少钱？",
-    "detail": "原型：Quanto (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Quanto (动词)。\n请注意根据语境的人称和时态进行变化。",
     "options": [
-      {
-        "text": "早上好",
-        "isCorrect": false
-      },
-      {
-        "text": "睡",
-        "isCorrect": false
-      },
-      {
-        "text": "鱼",
-        "isCorrect": false
-      },
       {
         "text": "多少",
         "isCorrect": true
+      },
+      {
+        "text": "名叫",
+        "isCorrect": false
+      },
+      {
+        "text": "学校",
+        "isCorrect": false
+      },
+      {
+        "text": "晚上",
+        "isCorrect": false
       }
     ]
   },
@@ -559,10 +559,10 @@ module.exports = [
     "meaning": "哪个",
     "example": "Quale preferisci?",
     "example_meaning": "你更喜欢哪个？",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Quali)。",
+    "detail": "单数名词 (-e 结尾)。\n通常为双性或需记忆性别。\n复数形式通常变成 -i：\nQuale -> Quali",
     "options": [
       {
-        "text": "头",
+        "text": "电话",
         "isCorrect": false
       },
       {
@@ -570,11 +570,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "丑陋的",
+        "text": "钢笔",
         "isCorrect": false
       },
       {
-        "text": "雨",
+        "text": "什么时候",
         "isCorrect": false
       }
     ]
@@ -588,22 +588,22 @@ module.exports = [
     "meaning": "我",
     "example": "Io sono italiano.",
     "example_meaning": "我是意大利人。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Ii)。",
+    "detail": "名词。\n请根据具体语境判断单复数变化。",
     "options": [
       {
         "text": "我",
         "isCorrect": true
       },
       {
-        "text": "什么",
+        "text": "谁",
         "isCorrect": false
       },
       {
-        "text": "做",
+        "text": "有",
         "isCorrect": false
       },
       {
-        "text": "高的",
+        "text": "钢笔",
         "isCorrect": false
       }
     ]
@@ -617,18 +617,18 @@ module.exports = [
     "meaning": "你",
     "example": "Tu sei molto gentile.",
     "example_meaning": "你很亲切。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "名词。\n请根据具体语境判断单复数变化。",
     "options": [
       {
-        "text": "机场",
+        "text": "黑色的",
         "isCorrect": false
       },
       {
-        "text": "时间/天气",
+        "text": "海",
         "isCorrect": false
       },
       {
-        "text": "姓氏",
+        "text": "绿色的",
         "isCorrect": false
       },
       {
@@ -646,23 +646,23 @@ module.exports = [
     "meaning": "他",
     "example": "Lui lavora in banca.",
     "example_meaning": "他在银行工作。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "名词。\n请根据具体语境判断单复数变化。",
     "options": [
+      {
+        "text": "如何",
+        "isCorrect": false
+      },
+      {
+        "text": "票",
+        "isCorrect": false
+      },
+      {
+        "text": "名字",
+        "isCorrect": false
+      },
       {
         "text": "他",
         "isCorrect": true
-      },
-      {
-        "text": "晚上好",
-        "isCorrect": false
-      },
-      {
-        "text": "在哪里",
-        "isCorrect": false
-      },
-      {
-        "text": "啤酒",
-        "isCorrect": false
       }
     ]
   },
@@ -675,22 +675,22 @@ module.exports = [
     "meaning": "她/您",
     "example": "Lei è mia sorella.",
     "example_meaning": "她是我的姐妹。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "名词。\n请根据具体语境判断单复数变化。",
     "options": [
-      {
-        "text": "机场",
-        "isCorrect": false
-      },
       {
         "text": "她/您",
         "isCorrect": true
       },
       {
-        "text": "蓝色的",
+        "text": "办公室",
         "isCorrect": false
       },
       {
-        "text": "衬衫",
+        "text": "再见",
+        "isCorrect": false
+      },
+      {
+        "text": "门",
         "isCorrect": false
       }
     ]
@@ -704,23 +704,23 @@ module.exports = [
     "meaning": "我们",
     "example": "Noi andiamo al mare.",
     "example_meaning": "我们去海边。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "名词。\n请根据具体语境判断单复数变化。",
     "options": [
       {
-        "text": "绿色的",
+        "text": "桌子",
         "isCorrect": false
       },
       {
-        "text": "学习",
-        "isCorrect": false
-      },
-      {
-        "text": "钢笔",
+        "text": "街道",
         "isCorrect": false
       },
       {
         "text": "我们",
         "isCorrect": true
+      },
+      {
+        "text": "不客气",
+        "isCorrect": false
       }
     ]
   },
@@ -733,18 +733,18 @@ module.exports = [
     "meaning": "你们",
     "example": "Voi siete pronti?",
     "example_meaning": "你们准备好了吗？",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "名词。\n请根据具体语境判断单复数变化。",
     "options": [
       {
-        "text": "居住",
+        "text": "车站",
         "isCorrect": false
       },
       {
-        "text": "飞机",
+        "text": "今天",
         "isCorrect": false
       },
       {
-        "text": "咖啡",
+        "text": "水果",
         "isCorrect": false
       },
       {
@@ -762,14 +762,14 @@ module.exports = [
     "meaning": "他们",
     "example": "Loro studiano molto.",
     "example_meaning": "他们学习很努力。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Lori)。",
+    "detail": "名词。\n请根据具体语境判断单复数变化。",
     "options": [
       {
-        "text": "四",
+        "text": "吃",
         "isCorrect": false
       },
       {
-        "text": "是/存在",
+        "text": "电话",
         "isCorrect": false
       },
       {
@@ -777,7 +777,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "花",
+        "text": "分钟",
         "isCorrect": false
       }
     ]
@@ -791,22 +791,22 @@ module.exports = [
     "meaning": "是/存在",
     "example": "Io sono felice.",
     "example_meaning": "我很快乐。",
-    "detail": "原型：Essere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Essere (不规则动词)。\n\n直陈式现在时变位：\nsono, sei, è, siamo, siete, sono",
     "options": [
       {
         "text": "是/存在",
         "isCorrect": true
       },
       {
-        "text": "餐厅",
+        "text": "喝",
         "isCorrect": false
       },
       {
-        "text": "昨天",
+        "text": "学习",
         "isCorrect": false
       },
       {
-        "text": "有",
+        "text": "累的",
         "isCorrect": false
       }
     ]
@@ -820,23 +820,23 @@ module.exports = [
     "meaning": "有",
     "example": "Ho una macchina nuova.",
     "example_meaning": "我有一辆新车。",
-    "detail": "原型：Avere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Avere (不规则动词)。\n\n直陈式现在时变位：\nho, hai, ha, abbiamo, avete, hanno",
     "options": [
       {
-        "text": "左边",
-        "isCorrect": false
-      },
-      {
-        "text": "街道",
-        "isCorrect": false
-      },
-      {
-        "text": "鱼",
+        "text": "车站",
         "isCorrect": false
       },
       {
         "text": "有",
         "isCorrect": true
+      },
+      {
+        "text": "二",
+        "isCorrect": false
+      },
+      {
+        "text": "钢笔",
+        "isCorrect": false
       }
     ]
   },
@@ -849,23 +849,23 @@ module.exports = [
     "meaning": "做",
     "example": "Che cosa fai stasera?",
     "example_meaning": "你今晚做什么？",
-    "detail": "原型：Fare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Fare (不规则动词)。\n\n直陈式现在时变位：\nfaccio, fai, fa, facciamo, fate, fanno",
     "options": [
       {
-        "text": "旧的/老的",
-        "isCorrect": false
-      },
-      {
-        "text": "说话",
-        "isCorrect": false
-      },
-      {
-        "text": "父亲",
+        "text": "头",
         "isCorrect": false
       },
       {
         "text": "做",
         "isCorrect": true
+      },
+      {
+        "text": "公共汽车",
+        "isCorrect": false
+      },
+      {
+        "text": "自行车",
+        "isCorrect": false
       }
     ]
   },
@@ -878,22 +878,22 @@ module.exports = [
     "meaning": "去",
     "example": "Vado a casa.",
     "example_meaning": "我回家。",
-    "detail": "原型：Andare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Andare (不规则动词)。\n\n直陈式现在时变位：\nvado, vai, va, andiamo, andate, vanno",
     "options": [
       {
         "text": "去",
         "isCorrect": true
       },
       {
-        "text": "开着的",
+        "text": "星期二",
         "isCorrect": false
       },
       {
-        "text": "苹果",
+        "text": "衣服/连衣裙",
         "isCorrect": false
       },
       {
-        "text": "黑色的",
+        "text": "晚上好",
         "isCorrect": false
       }
     ]
@@ -907,14 +907,14 @@ module.exports = [
     "meaning": "来",
     "example": "Vieni con noi?",
     "example_meaning": "你和我们一起来吗？",
-    "detail": "原型：Venire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Venire (不规则动词)。\n\n直陈式现在时变位：\nvengo, vieni, viene, veniamo, venite, vengono",
     "options": [
       {
-        "text": "名叫",
-        "isCorrect": false
+        "text": "来",
+        "isCorrect": true
       },
       {
-        "text": "开着的",
+        "text": "头发",
         "isCorrect": false
       },
       {
@@ -922,8 +922,8 @@ module.exports = [
         "isCorrect": false
       },
       {
-        "text": "来",
-        "isCorrect": true
+        "text": "你好/再见",
+        "isCorrect": false
       }
     ]
   },
@@ -936,22 +936,22 @@ module.exports = [
     "meaning": "吃",
     "example": "Mi piace mangiare la pizza.",
     "example_meaning": "我喜欢吃披萨。",
-    "detail": "原型：Mangiare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Mangiare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nMangio, Mangii, Mangia, Mangiiamo, Mangiate, Mangiano",
     "options": [
       {
         "text": "吃",
         "isCorrect": true
       },
       {
-        "text": "铅笔",
+        "text": "广场",
         "isCorrect": false
       },
       {
-        "text": "脚",
+        "text": "耳朵",
         "isCorrect": false
       },
       {
-        "text": "名字",
+        "text": "房间",
         "isCorrect": false
       }
     ]
@@ -965,23 +965,23 @@ module.exports = [
     "meaning": "喝",
     "example": "Bevo un bicchiere d'acqua.",
     "example_meaning": "我喝一杯水。",
-    "detail": "原型：Bere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Bere (不规则动词)。\n\n直陈式现在时变位：\nbevo, bevi, beve, beviamo, bevete, bevono",
     "options": [
       {
-        "text": "手",
-        "isCorrect": false
-      },
-      {
-        "text": "好的",
-        "isCorrect": false
-      },
-      {
-        "text": "椅子",
+        "text": "家庭",
         "isCorrect": false
       },
       {
         "text": "喝",
         "isCorrect": true
+      },
+      {
+        "text": "关着的",
+        "isCorrect": false
+      },
+      {
+        "text": "糖",
+        "isCorrect": false
       }
     ]
   },
@@ -994,23 +994,23 @@ module.exports = [
     "meaning": "睡",
     "example": "Dormo otto ore a notte.",
     "example_meaning": "我每晚睡八小时。",
-    "detail": "原型：Dormire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Dormire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nDormo, Dormi, Dorme, Dormiamo, Dormite, Dormono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
+      {
+        "text": "猫",
+        "isCorrect": false
+      },
+      {
+        "text": "名叫",
+        "isCorrect": false
+      },
+      {
+        "text": "牛奶",
+        "isCorrect": false
+      },
       {
         "text": "睡",
         "isCorrect": true
-      },
-      {
-        "text": "餐厅",
-        "isCorrect": false
-      },
-      {
-        "text": "他",
-        "isCorrect": false
-      },
-      {
-        "text": "年",
-        "isCorrect": false
       }
     ]
   },
@@ -1023,23 +1023,23 @@ module.exports = [
     "meaning": "说话",
     "example": "Parli italiano?",
     "example_meaning": "你会说意大利语吗？",
-    "detail": "原型：Parlare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Parlare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nParlo, Parli, Parla, Parliamo, Parlate, Parlano",
     "options": [
+      {
+        "text": "学习",
+        "isCorrect": false
+      },
+      {
+        "text": "钢笔",
+        "isCorrect": false
+      },
+      {
+        "text": "衬衫",
+        "isCorrect": false
+      },
       {
         "text": "说话",
         "isCorrect": true
-      },
-      {
-        "text": "兄弟",
-        "isCorrect": false
-      },
-      {
-        "text": "盐",
-        "isCorrect": false
-      },
-      {
-        "text": "对不起/借过",
-        "isCorrect": false
       }
     ]
   },
@@ -1052,23 +1052,23 @@ module.exports = [
     "meaning": "居住",
     "example": "Abito a Roma.",
     "example_meaning": "我住在罗马。",
-    "detail": "原型：Abitare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Abitare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAbito, Abiti, Abita, Abitiamo, Abitate, Abitano",
     "options": [
-      {
-        "text": "城市",
-        "isCorrect": false
-      },
-      {
-        "text": "钱",
-        "isCorrect": false
-      },
-      {
-        "text": "父亲",
-        "isCorrect": false
-      },
       {
         "text": "居住",
         "isCorrect": true
+      },
+      {
+        "text": "一千",
+        "isCorrect": false
+      },
+      {
+        "text": "星期三",
+        "isCorrect": false
+      },
+      {
+        "text": "眼镜",
+        "isCorrect": false
       }
     ]
   },
@@ -1081,23 +1081,23 @@ module.exports = [
     "meaning": "名叫",
     "example": "Mi chiamo Marco.",
     "example_meaning": "我叫马可。",
-    "detail": "原型：Chiamarsi (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Chiamarsi (动词)。\n请注意根据语境的人称和时态进行变化。",
     "options": [
-      {
-        "text": "女孩",
-        "isCorrect": false
-      },
-      {
-        "text": "不",
-        "isCorrect": false
-      },
-      {
-        "text": "睡",
-        "isCorrect": false
-      },
       {
         "text": "名叫",
         "isCorrect": true
+      },
+      {
+        "text": "火车",
+        "isCorrect": false
+      },
+      {
+        "text": "网站",
+        "isCorrect": false
+      },
+      {
+        "text": "椅子",
+        "isCorrect": false
       }
     ]
   },
@@ -1110,18 +1110,18 @@ module.exports = [
     "meaning": "工作",
     "example": "Lavoro in un ufficio.",
     "example_meaning": "我在办公室工作。",
-    "detail": "原型：Lavorare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Lavorare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nLavoro, Lavori, Lavora, Lavoriamo, Lavorate, Lavorano",
     "options": [
       {
-        "text": "黑色的",
+        "text": "大的",
         "isCorrect": false
       },
       {
-        "text": "花",
+        "text": "街道",
         "isCorrect": false
       },
       {
-        "text": "海",
+        "text": "黄色的",
         "isCorrect": false
       },
       {
@@ -1139,10 +1139,14 @@ module.exports = [
     "meaning": "学习",
     "example": "Studio italiano ogni giorno.",
     "example_meaning": "我每天学习意大利语。",
-    "detail": "原型：Studiare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Studiare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nStudio, Studii, Studia, Studiiamo, Studiate, Studiano",
     "options": [
       {
-        "text": "生气的",
+        "text": "机场",
+        "isCorrect": false
+      },
+      {
+        "text": "坏的",
         "isCorrect": false
       },
       {
@@ -1150,11 +1154,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "昨天",
-        "isCorrect": false
-      },
-      {
-        "text": "面包",
+        "text": "头",
         "isCorrect": false
       }
     ]
@@ -1168,23 +1168,23 @@ module.exports = [
     "meaning": "朋友",
     "example": "Lui è il mio migliore amico.",
     "example_meaning": "他是通过最好的朋友。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Amici)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nAmico -> Amici",
     "options": [
+      {
+        "text": "盐",
+        "isCorrect": false
+      },
+      {
+        "text": "桌子",
+        "isCorrect": false
+      },
+      {
+        "text": "水",
+        "isCorrect": false
+      },
       {
         "text": "朋友",
         "isCorrect": true
-      },
-      {
-        "text": "咖啡",
-        "isCorrect": false
-      },
-      {
-        "text": "裤子",
-        "isCorrect": false
-      },
-      {
-        "text": "铅笔",
-        "isCorrect": false
       }
     ]
   },
@@ -1197,14 +1197,14 @@ module.exports = [
     "meaning": "女性朋友",
     "example": "Lei è una mia amica.",
     "example_meaning": "她是我的一个女性朋友。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Amice)。",
+    "detail": "阴性单数名词 (-ca/-ga)。\n复数形式通常加 h 保持发音：\nAmica -> Amiche",
     "options": [
       {
-        "text": "盐",
+        "text": "河",
         "isCorrect": false
       },
       {
-        "text": "天/白天",
+        "text": "睡意",
         "isCorrect": false
       },
       {
@@ -1212,7 +1212,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "市场",
+        "text": "累的",
         "isCorrect": false
       }
     ]
@@ -1226,22 +1226,22 @@ module.exports = [
     "meaning": "男孩",
     "example": "Quel ragazzo è simpatico.",
     "example_meaning": "那个男孩很友善。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Ragazzi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nRagazzo -> Ragazzi",
     "options": [
+      {
+        "text": "星期二",
+        "isCorrect": false
+      },
+      {
+        "text": "你",
+        "isCorrect": false
+      },
       {
         "text": "男孩",
         "isCorrect": true
       },
       {
-        "text": "容易的",
-        "isCorrect": false
-      },
-      {
-        "text": "头发",
-        "isCorrect": false
-      },
-      {
-        "text": "丑陋的",
+        "text": "你好/再见",
         "isCorrect": false
       }
     ]
@@ -1255,22 +1255,22 @@ module.exports = [
     "meaning": "女孩",
     "example": "Quella ragazza è bella.",
     "example_meaning": "那个女孩很漂亮。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Ragazze)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nRagazza -> Ragazze",
     "options": [
-      {
-        "text": "说话",
-        "isCorrect": false
-      },
-      {
-        "text": "分钟",
-        "isCorrect": false
-      },
       {
         "text": "女孩",
         "isCorrect": true
       },
       {
-        "text": "家/房子",
+        "text": "请",
+        "isCorrect": false
+      },
+      {
+        "text": "餐厅",
+        "isCorrect": false
+      },
+      {
+        "text": "床",
         "isCorrect": false
       }
     ]
@@ -1284,23 +1284,23 @@ module.exports = [
     "meaning": "男人",
     "example": "L'uomo legge il giornale.",
     "example_meaning": "那个男人在看报纸。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Uomi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nUomo -> Uomi",
     "options": [
+      {
+        "text": "居住",
+        "isCorrect": false
+      },
+      {
+        "text": "八",
+        "isCorrect": false
+      },
+      {
+        "text": "市场",
+        "isCorrect": false
+      },
       {
         "text": "男人",
         "isCorrect": true
-      },
-      {
-        "text": "黑色的",
-        "isCorrect": false
-      },
-      {
-        "text": "心",
-        "isCorrect": false
-      },
-      {
-        "text": "高的",
-        "isCorrect": false
       }
     ]
   },
@@ -1313,23 +1313,23 @@ module.exports = [
     "meaning": "女人",
     "example": "La donna beve un caffè.",
     "example_meaning": "那个女人在喝咖啡。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Donne)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nDonna -> Donne",
     "options": [
-      {
-        "text": "名字",
-        "isCorrect": false
-      },
-      {
-        "text": "有",
-        "isCorrect": false
-      },
-      {
-        "text": "不客气",
-        "isCorrect": false
-      },
       {
         "text": "女人",
         "isCorrect": true
+      },
+      {
+        "text": "我们",
+        "isCorrect": false
+      },
+      {
+        "text": "七",
+        "isCorrect": false
+      },
+      {
+        "text": "好的",
+        "isCorrect": false
       }
     ]
   },
@@ -1342,22 +1342,22 @@ module.exports = [
     "meaning": "儿童",
     "example": "Il bambino gioca nel parco.",
     "example_meaning": "孩子在公园里玩。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Bambini)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nBambino -> Bambini",
     "options": [
-      {
-        "text": "眼镜",
-        "isCorrect": false
-      },
       {
         "text": "儿童",
         "isCorrect": true
       },
       {
-        "text": "今天",
+        "text": "姐妹",
         "isCorrect": false
       },
       {
-        "text": "鱼",
+        "text": "鼻子",
+        "isCorrect": false
+      },
+      {
+        "text": "飞机",
         "isCorrect": false
       }
     ]
@@ -1371,23 +1371,23 @@ module.exports = [
     "meaning": "父亲",
     "example": "Mio padre è alto.",
     "example_meaning": "我的父亲很高。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Padri)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nPadre -> Padri",
     "options": [
       {
-        "text": "你好/再见",
+        "text": "鸟",
+        "isCorrect": false
+      },
+      {
+        "text": "他",
+        "isCorrect": false
+      },
+      {
+        "text": "有",
         "isCorrect": false
       },
       {
         "text": "父亲",
         "isCorrect": true
-      },
-      {
-        "text": "马",
-        "isCorrect": false
-      },
-      {
-        "text": "口渴",
-        "isCorrect": false
       }
     ]
   },
@@ -1400,22 +1400,22 @@ module.exports = [
     "meaning": "母亲",
     "example": "Mia madre cucina bene.",
     "example_meaning": "我的母亲做饭很好吃。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Madri)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nMadre -> Madre",
     "options": [
-      {
-        "text": "关着的",
-        "isCorrect": false
-      },
-      {
-        "text": "手",
-        "isCorrect": false
-      },
       {
         "text": "母亲",
         "isCorrect": true
       },
       {
-        "text": "早晨",
+        "text": "谁",
+        "isCorrect": false
+      },
+      {
+        "text": "门",
+        "isCorrect": false
+      },
+      {
+        "text": "河",
         "isCorrect": false
       }
     ]
@@ -1429,18 +1429,18 @@ module.exports = [
     "meaning": "兄弟",
     "example": "Ho un fratello maggiore.",
     "example_meaning": "我有一个哥哥。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Fratelli)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nFratello -> Fratelli",
     "options": [
+      {
+        "text": "容易的",
+        "isCorrect": false
+      },
       {
         "text": "兄弟",
         "isCorrect": true
       },
       {
-        "text": "绿色的",
-        "isCorrect": false
-      },
-      {
-        "text": "公共汽车",
+        "text": "不",
         "isCorrect": false
       },
       {
@@ -1458,23 +1458,23 @@ module.exports = [
     "meaning": "姐妹",
     "example": "Mia sorella studia medicina.",
     "example_meaning": "我的姐妹学医。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Sorelle)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nSorella -> Sorelle",
     "options": [
+      {
+        "text": "机场",
+        "isCorrect": false
+      },
+      {
+        "text": "男孩",
+        "isCorrect": false
+      },
+      {
+        "text": "困难的",
+        "isCorrect": false
+      },
       {
         "text": "姐妹",
         "isCorrect": true
-      },
-      {
-        "text": "街道",
-        "isCorrect": false
-      },
-      {
-        "text": "书",
-        "isCorrect": false
-      },
-      {
-        "text": "马",
-        "isCorrect": false
       }
     ]
   },
@@ -1487,22 +1487,22 @@ module.exports = [
     "meaning": "儿子",
     "example": "Mio figlio va a scuola.",
     "example_meaning": "我的儿子去上学。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Figlii)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nFiglio -> Figlii",
     "options": [
+      {
+        "text": "颜色",
+        "isCorrect": false
+      },
       {
         "text": "儿子",
         "isCorrect": true
       },
       {
-        "text": "睡意",
+        "text": "狗",
         "isCorrect": false
       },
       {
-        "text": "时间/天气",
-        "isCorrect": false
-      },
-      {
-        "text": "晚上好",
+        "text": "为什么",
         "isCorrect": false
       }
     ]
@@ -1516,22 +1516,22 @@ module.exports = [
     "meaning": "女儿",
     "example": "Mia figlia ama la musica.",
     "example_meaning": "我的女儿爱音乐。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Figlie)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nFiglia -> Figlie",
     "options": [
-      {
-        "text": "啤酒",
-        "isCorrect": false
-      },
       {
         "text": "女儿",
         "isCorrect": true
       },
       {
-        "text": "雪",
+        "text": "鸟",
         "isCorrect": false
       },
       {
-        "text": "飞机",
+        "text": "再见",
+        "isCorrect": false
+      },
+      {
+        "text": "是/存在",
         "isCorrect": false
       }
     ]
@@ -1545,23 +1545,23 @@ module.exports = [
     "meaning": "家庭",
     "example": "Amo la mia famiglia.",
     "example_meaning": "我爱我的家庭。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Famiglie)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nFamiglia -> Famiglie",
     "options": [
       {
-        "text": "面包",
+        "text": "家/房子",
+        "isCorrect": false
+      },
+      {
+        "text": "你好/再见",
+        "isCorrect": false
+      },
+      {
+        "text": "餐厅",
         "isCorrect": false
       },
       {
         "text": "家庭",
         "isCorrect": true
-      },
-      {
-        "text": "手",
-        "isCorrect": false
-      },
-      {
-        "text": "说话",
-        "isCorrect": false
       }
     ]
   },
@@ -1574,23 +1574,23 @@ module.exports = [
     "meaning": "家/房子",
     "example": "La mia casa è piccola ma accogliente.",
     "example_meaning": "我的家虽小但很温馨。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Case)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nCasa -> Case",
     "options": [
       {
-        "text": "谁",
-        "isCorrect": false
-      },
-      {
-        "text": "包",
-        "isCorrect": false
-      },
-      {
-        "text": "房间",
+        "text": "右边",
         "isCorrect": false
       },
       {
         "text": "家/房子",
         "isCorrect": true
+      },
+      {
+        "text": "请",
+        "isCorrect": false
+      },
+      {
+        "text": "湖",
+        "isCorrect": false
       }
     ]
   },
@@ -1603,10 +1603,14 @@ module.exports = [
     "meaning": "学校",
     "example": "Vado a scuola alle otto.",
     "example_meaning": "我八点去学校。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Scuole)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nScuola -> Scuole",
     "options": [
       {
-        "text": "山",
+        "text": "电话",
+        "isCorrect": false
+      },
+      {
+        "text": "姓氏",
         "isCorrect": false
       },
       {
@@ -1614,11 +1618,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "他",
-        "isCorrect": false
-      },
-      {
-        "text": "鸟",
+        "text": "儿童",
         "isCorrect": false
       }
     ]
@@ -1632,18 +1632,18 @@ module.exports = [
     "meaning": "办公室",
     "example": "Il mio ufficio è in centro.",
     "example_meaning": "我的办公室在市中心。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Ufficii)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nUfficio -> Ufficii",
     "options": [
       {
-        "text": "晚安",
+        "text": "裤子",
         "isCorrect": false
       },
       {
-        "text": "什么时候",
+        "text": "夜晚",
         "isCorrect": false
       },
       {
-        "text": "为什么",
+        "text": "蓝色的",
         "isCorrect": false
       },
       {
@@ -1661,23 +1661,23 @@ module.exports = [
     "meaning": "餐厅",
     "example": "Mangiamo al ristorante stasera.",
     "example_meaning": "我们今晚在餐厅吃饭。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Ristoranti)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nRistorante -> Ristoranti",
     "options": [
-      {
-        "text": "新的",
-        "isCorrect": false
-      },
-      {
-        "text": "来",
-        "isCorrect": false
-      },
-      {
-        "text": "名叫",
-        "isCorrect": false
-      },
       {
         "text": "餐厅",
         "isCorrect": true
+      },
+      {
+        "text": "房间",
+        "isCorrect": false
+      },
+      {
+        "text": "儿子",
+        "isCorrect": false
+      },
+      {
+        "text": "什么时候",
+        "isCorrect": false
       }
     ]
   },
@@ -1690,23 +1690,23 @@ module.exports = [
     "meaning": "酒吧/咖啡馆",
     "example": "Prendiamo un caffè al bar.",
     "example_meaning": "我们在咖啡馆喝杯咖啡吧。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "外来词/辅音结尾名词。\n通常为阳性，复数形式保持不变 (il Bar -> i Bar)。",
     "options": [
       {
-        "text": "颜色",
-        "isCorrect": false
-      },
-      {
-        "text": "公共汽车",
-        "isCorrect": false
-      },
-      {
-        "text": "男孩",
+        "text": "面食",
         "isCorrect": false
       },
       {
         "text": "酒吧/咖啡馆",
         "isCorrect": true
+      },
+      {
+        "text": "号码",
+        "isCorrect": false
+      },
+      {
+        "text": "来",
+        "isCorrect": false
       }
     ]
   },
@@ -1719,22 +1719,22 @@ module.exports = [
     "meaning": "医院",
     "example": "Lavora in un ospedale.",
     "example_meaning": "他在一家医院工作。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Ospedali)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nOspedale -> Ospedali",
     "options": [
-      {
-        "text": "钢笔",
-        "isCorrect": false
-      },
       {
         "text": "医院",
         "isCorrect": true
       },
       {
-        "text": "饥饿",
+        "text": "晚上",
         "isCorrect": false
       },
       {
-        "text": "酒吧/咖啡馆",
+        "text": "谢谢",
+        "isCorrect": false
+      },
+      {
+        "text": "窗户",
         "isCorrect": false
       }
     ]
@@ -1748,23 +1748,23 @@ module.exports = [
     "meaning": "车站",
     "example": "Il treno è in stazione.",
     "example_meaning": "火车在车站。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Stazioni)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nStazione -> Stazione",
     "options": [
       {
-        "text": "星期四",
-        "isCorrect": false
-      },
-      {
-        "text": "海",
-        "isCorrect": false
-      },
-      {
-        "text": "明天",
+        "text": "高的",
         "isCorrect": false
       },
       {
         "text": "车站",
         "isCorrect": true
+      },
+      {
+        "text": "头",
+        "isCorrect": false
+      },
+      {
+        "text": "市场",
+        "isCorrect": false
       }
     ]
   },
@@ -1777,22 +1777,22 @@ module.exports = [
     "meaning": "机场",
     "example": "Vado all'aeroporto.",
     "example_meaning": "我去机场。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Aeroporti)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nAeroporto -> Aeroporti",
     "options": [
+      {
+        "text": "天/白天",
+        "isCorrect": false
+      },
       {
         "text": "机场",
         "isCorrect": true
       },
       {
-        "text": "肉",
+        "text": "星期日",
         "isCorrect": false
       },
       {
-        "text": "女孩",
-        "isCorrect": false
-      },
-      {
-        "text": "办公室",
+        "text": "公共汽车",
         "isCorrect": false
       }
     ]
@@ -1806,22 +1806,22 @@ module.exports = [
     "meaning": "旅馆",
     "example": "L'albergo è molto costoso.",
     "example_meaning": "这家旅馆很贵。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Albergi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nAlbergo -> Albergi",
     "options": [
       {
         "text": "旅馆",
         "isCorrect": true
       },
       {
-        "text": "一",
+        "text": "晚上",
         "isCorrect": false
       },
       {
-        "text": "新的",
+        "text": "风",
         "isCorrect": false
       },
       {
-        "text": "鱼",
+        "text": "公共汽车",
         "isCorrect": false
       }
     ]
@@ -1835,23 +1835,23 @@ module.exports = [
     "meaning": "商店",
     "example": "Il negozio apre alle nove.",
     "example_meaning": "商店九点开门。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Negozii)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nNegozio -> Negozii",
     "options": [
+      {
+        "text": "有",
+        "isCorrect": false
+      },
+      {
+        "text": "号码",
+        "isCorrect": false
+      },
+      {
+        "text": "裙子",
+        "isCorrect": false
+      },
       {
         "text": "商店",
         "isCorrect": true
-      },
-      {
-        "text": "狗",
-        "isCorrect": false
-      },
-      {
-        "text": "晚上好",
-        "isCorrect": false
-      },
-      {
-        "text": "自行车",
-        "isCorrect": false
       }
     ]
   },
@@ -1864,22 +1864,22 @@ module.exports = [
     "meaning": "市场",
     "example": "Compro la frutta al mercato.",
     "example_meaning": "我在市场买水果。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Mercati)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nMercato -> Mercati",
     "options": [
-      {
-        "text": "冷的",
-        "isCorrect": false
-      },
-      {
-        "text": "一",
-        "isCorrect": false
-      },
       {
         "text": "市场",
         "isCorrect": true
       },
       {
-        "text": "谢谢",
+        "text": "太阳",
+        "isCorrect": false
+      },
+      {
+        "text": "说话",
+        "isCorrect": false
+      },
+      {
+        "text": "什么时候",
         "isCorrect": false
       }
     ]
@@ -1893,23 +1893,23 @@ module.exports = [
     "meaning": "城市",
     "example": "Roma è una città antica.",
     "example_meaning": "罗马是一座古老的城市。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "重音结尾名词。\n复数形式保持不变 (la Città -> le Città)。",
     "options": [
       {
-        "text": "工作",
+        "text": "儿童",
+        "isCorrect": false
+      },
+      {
+        "text": "快乐的",
+        "isCorrect": false
+      },
+      {
+        "text": "号码",
         "isCorrect": false
       },
       {
         "text": "城市",
         "isCorrect": true
-      },
-      {
-        "text": "五",
-        "isCorrect": false
-      },
-      {
-        "text": "颜色",
-        "isCorrect": false
       }
     ]
   },
@@ -1922,23 +1922,23 @@ module.exports = [
     "meaning": "街道",
     "example": "La strada è chiusa.",
     "example_meaning": "这条路封闭了。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Strade)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nStrada -> Strade",
     "options": [
       {
-        "text": "衣服/连衣裙",
+        "text": "坏的",
         "isCorrect": false
       },
       {
-        "text": "房间",
+        "text": "冷的",
+        "isCorrect": false
+      },
+      {
+        "text": "啤酒",
         "isCorrect": false
       },
       {
         "text": "街道",
         "isCorrect": true
-      },
-      {
-        "text": "眼睛",
-        "isCorrect": false
       }
     ]
   },
@@ -1951,14 +1951,10 @@ module.exports = [
     "meaning": "广场",
     "example": "Ci vediamo in piazza.",
     "example_meaning": "我们在广场见。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Piazze)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nPiazza -> Piazze",
     "options": [
       {
-        "text": "星期五",
-        "isCorrect": false
-      },
-      {
-        "text": "耳朵",
+        "text": "冷的",
         "isCorrect": false
       },
       {
@@ -1966,7 +1962,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "肉",
+        "text": "左边",
+        "isCorrect": false
+      },
+      {
+        "text": "再见",
         "isCorrect": false
       }
     ]
@@ -1980,23 +1980,23 @@ module.exports = [
     "meaning": "意大利",
     "example": "L'Italia è un bel paese.",
     "example_meaning": "意大利是一个美丽的国家。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Italie)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nItalia -> Italie",
     "options": [
+      {
+        "text": "累的",
+        "isCorrect": false
+      },
+      {
+        "text": "肉",
+        "isCorrect": false
+      },
+      {
+        "text": "时间/天气",
+        "isCorrect": false
+      },
       {
         "text": "意大利",
         "isCorrect": true
-      },
-      {
-        "text": "嘴",
-        "isCorrect": false
-      },
-      {
-        "text": "浴室",
-        "isCorrect": false
-      },
-      {
-        "text": "餐厅",
-        "isCorrect": false
       }
     ]
   },
@@ -2009,23 +2009,23 @@ module.exports = [
     "meaning": "意大利的/意大利人",
     "example": "Mi piace il cibo italiano.",
     "example_meaning": "我喜欢意大利食物。",
-    "detail": "形容词。\n需根据修饰的名词进行性数配合 (如: o/a/i/e)。",
+    "detail": "四尾形容词 (o/a/i/e)。\n\n变化规则：\n阳单: Italiano\n阴单: Italiana\n阳复: Italiani\n阴复: Italiane",
     "options": [
       {
-        "text": "马",
+        "text": "大的",
         "isCorrect": false
       },
       {
-        "text": "名叫",
+        "text": "咖啡",
+        "isCorrect": false
+      },
+      {
+        "text": "旧的/老的",
         "isCorrect": false
       },
       {
         "text": "意大利的/意大利人",
         "isCorrect": true
-      },
-      {
-        "text": "衬衫",
-        "isCorrect": false
       }
     ]
   },
@@ -2038,22 +2038,22 @@ module.exports = [
     "meaning": "中国的/中国人",
     "example": "Io sono cinese.",
     "example_meaning": "我是中国人。",
-    "detail": "形容词。\n需根据修饰的名词进行性数配合 (如: o/a/i/e)。",
+    "detail": "双尾形容词 (e/i)。\n\n变化规则：\n单数 (阳/阴): Cinese\n复数 (阳/阴): Cinesi",
     "options": [
-      {
-        "text": "衬衫",
-        "isCorrect": false
-      },
       {
         "text": "中国的/中国人",
         "isCorrect": true
       },
       {
-        "text": "肚子",
+        "text": "夜晚",
         "isCorrect": false
       },
       {
-        "text": "冷",
+        "text": "她/您",
+        "isCorrect": false
+      },
+      {
+        "text": "公共汽车",
         "isCorrect": false
       }
     ]
@@ -2067,22 +2067,22 @@ module.exports = [
     "meaning": "面包",
     "example": "Mangio pane e marmellata.",
     "example_meaning": "我吃面包加果酱。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Pani)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nPane -> Pani",
     "options": [
-      {
-        "text": "鞋",
-        "isCorrect": false
-      },
       {
         "text": "面包",
         "isCorrect": true
       },
       {
-        "text": "我",
+        "text": "星期二",
         "isCorrect": false
       },
       {
-        "text": "公共汽车",
+        "text": "累的",
+        "isCorrect": false
+      },
+      {
+        "text": "盐",
         "isCorrect": false
       }
     ]
@@ -2096,22 +2096,22 @@ module.exports = [
     "meaning": "水",
     "example": "Vorrei un bicchiere d'acqua.",
     "example_meaning": "我想要一杯水。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Acque)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nAcqua -> Acque",
     "options": [
-      {
-        "text": "红色的",
-        "isCorrect": false
-      },
       {
         "text": "水",
         "isCorrect": true
       },
       {
-        "text": "女人",
+        "text": "男孩",
         "isCorrect": false
       },
       {
-        "text": "鸟",
+        "text": "七",
+        "isCorrect": false
+      },
+      {
+        "text": "生气的",
         "isCorrect": false
       }
     ]
@@ -2125,10 +2125,10 @@ module.exports = [
     "meaning": "葡萄酒",
     "example": "Il vino rosso è buono.",
     "example_meaning": "红葡萄酒很好喝。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Vini)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nVino -> Vini",
     "options": [
       {
-        "text": "她/您",
+        "text": "朋友",
         "isCorrect": false
       },
       {
@@ -2136,11 +2136,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "我们",
+        "text": "苹果",
         "isCorrect": false
       },
       {
-        "text": "口渴",
+        "text": "地址",
         "isCorrect": false
       }
     ]
@@ -2154,23 +2154,23 @@ module.exports = [
     "meaning": "啤酒",
     "example": "Una birra piccola, per favore.",
     "example_meaning": "请给我一杯小啤酒。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Birre)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nBirra -> Birre",
     "options": [
-      {
-        "text": "号码",
-        "isCorrect": false
-      },
-      {
-        "text": "糖",
-        "isCorrect": false
-      },
-      {
-        "text": "网站",
-        "isCorrect": false
-      },
       {
         "text": "啤酒",
         "isCorrect": true
+      },
+      {
+        "text": "分钟",
+        "isCorrect": false
+      },
+      {
+        "text": "父亲",
+        "isCorrect": false
+      },
+      {
+        "text": "什么",
+        "isCorrect": false
       }
     ]
   },
@@ -2183,23 +2183,23 @@ module.exports = [
     "meaning": "牛奶",
     "example": "Bevo latte a colazione.",
     "example_meaning": "我早餐喝牛奶。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Latti)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nLatte -> Latti",
     "options": [
-      {
-        "text": "晚安",
-        "isCorrect": false
-      },
-      {
-        "text": "昨天",
-        "isCorrect": false
-      },
-      {
-        "text": "五",
-        "isCorrect": false
-      },
       {
         "text": "牛奶",
         "isCorrect": true
+      },
+      {
+        "text": "地址",
+        "isCorrect": false
+      },
+      {
+        "text": "九",
+        "isCorrect": false
+      },
+      {
+        "text": "号码",
+        "isCorrect": false
       }
     ]
   },
@@ -2212,23 +2212,23 @@ module.exports = [
     "meaning": "咖啡",
     "example": "Un caffè, per favore.",
     "example_meaning": "请给我一杯咖啡。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "重音结尾名词。\n复数形式保持不变 (la Caffè -> le Caffè)。",
     "options": [
+      {
+        "text": "餐厅",
+        "isCorrect": false
+      },
+      {
+        "text": "一百",
+        "isCorrect": false
+      },
+      {
+        "text": "山",
+        "isCorrect": false
+      },
       {
         "text": "咖啡",
         "isCorrect": true
-      },
-      {
-        "text": "书",
-        "isCorrect": false
-      },
-      {
-        "text": "高的",
-        "isCorrect": false
-      },
-      {
-        "text": "房间",
-        "isCorrect": false
       }
     ]
   },
@@ -2241,22 +2241,22 @@ module.exports = [
     "meaning": "糖",
     "example": "Prendi zucchero nel caffè?",
     "example_meaning": "你咖啡里加糖吗？",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Zuccheri)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nZucchero -> Zuccheri",
     "options": [
+      {
+        "text": "睡",
+        "isCorrect": false
+      },
+      {
+        "text": "意大利",
+        "isCorrect": false
+      },
       {
         "text": "糖",
         "isCorrect": true
       },
       {
-        "text": "学校",
-        "isCorrect": false
-      },
-      {
-        "text": "明天",
-        "isCorrect": false
-      },
-      {
-        "text": "裤子",
+        "text": "面包",
         "isCorrect": false
       }
     ]
@@ -2270,23 +2270,23 @@ module.exports = [
     "meaning": "盐",
     "example": "Passami il sale, per favore.",
     "example_meaning": "请把盐递给我。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Sali)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nSale -> Sali",
     "options": [
       {
-        "text": "高的",
+        "text": "广场",
         "isCorrect": false
       },
       {
-        "text": "面包",
-        "isCorrect": false
-      },
-      {
-        "text": "钢笔",
+        "text": "密码",
         "isCorrect": false
       },
       {
         "text": "盐",
         "isCorrect": true
+      },
+      {
+        "text": "肚子",
+        "isCorrect": false
       }
     ]
   },
@@ -2299,22 +2299,22 @@ module.exports = [
     "meaning": "水果",
     "example": "Mangio molta frutta.",
     "example_meaning": "我吃很多水果。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Frutte)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nFrutta -> Frutte",
     "options": [
+      {
+        "text": "女孩",
+        "isCorrect": false
+      },
       {
         "text": "水果",
         "isCorrect": true
       },
       {
-        "text": "床",
-        "isCorrect": false
-      },
-      {
-        "text": "分钟",
-        "isCorrect": false
-      },
-      {
         "text": "电话",
+        "isCorrect": false
+      },
+      {
+        "text": "海",
         "isCorrect": false
       }
     ]
@@ -2328,22 +2328,22 @@ module.exports = [
     "meaning": "苹果",
     "example": "Una mela al giorno toglie il medico di torno.",
     "example_meaning": "一天一苹果，医生远离我。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Mele)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nMela -> Mele",
     "options": [
-      {
-        "text": "鼻子",
-        "isCorrect": false
-      },
-      {
-        "text": "居住",
-        "isCorrect": false
-      },
       {
         "text": "苹果",
         "isCorrect": true
       },
       {
-        "text": "我",
+        "text": "门",
+        "isCorrect": false
+      },
+      {
+        "text": "太阳",
+        "isCorrect": false
+      },
+      {
+        "text": "雨",
         "isCorrect": false
       }
     ]
@@ -2357,10 +2357,10 @@ module.exports = [
     "meaning": "披萨",
     "example": "La pizza Margherita è la mia preferita.",
     "example_meaning": "玛格丽特披萨是我的最爱。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Pizze)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nPizza -> Pizze",
     "options": [
       {
-        "text": "开着的",
+        "text": "六",
         "isCorrect": false
       },
       {
@@ -2368,11 +2368,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "肉",
+        "text": "一百",
         "isCorrect": false
       },
       {
-        "text": "矮的/低的",
+        "text": "女人",
         "isCorrect": false
       }
     ]
@@ -2386,22 +2386,22 @@ module.exports = [
     "meaning": "面食",
     "example": "Gli italiani amano la pasta.",
     "example_meaning": "意大利人爱吃面食。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Paste)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nPasta -> Paste",
     "options": [
-      {
-        "text": "女性朋友",
-        "isCorrect": false
-      },
       {
         "text": "面食",
         "isCorrect": true
       },
       {
-        "text": "美丽的",
+        "text": "再见",
         "isCorrect": false
       },
       {
-        "text": "新的",
+        "text": "你",
+        "isCorrect": false
+      },
+      {
+        "text": "生气的",
         "isCorrect": false
       }
     ]
@@ -2415,22 +2415,22 @@ module.exports = [
     "meaning": "肉",
     "example": "Non mangio carne.",
     "example_meaning": "我不吃肉。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Carni)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nCarne -> Carne",
     "options": [
       {
         "text": "肉",
         "isCorrect": true
       },
       {
-        "text": "兄弟",
+        "text": "下午",
         "isCorrect": false
       },
       {
-        "text": "晚上好",
+        "text": "办公室",
         "isCorrect": false
       },
       {
-        "text": "车站",
+        "text": "葡萄酒",
         "isCorrect": false
       }
     ]
@@ -2444,23 +2444,23 @@ module.exports = [
     "meaning": "鱼",
     "example": "Il pesce è fresco.",
     "example_meaning": "这鱼很新鲜。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Pesci)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nPesce -> Pesci",
     "options": [
       {
-        "text": "车站",
+        "text": "咖啡",
+        "isCorrect": false
+      },
+      {
+        "text": "坏的",
+        "isCorrect": false
+      },
+      {
+        "text": "好的",
         "isCorrect": false
       },
       {
         "text": "鱼",
         "isCorrect": true
-      },
-      {
-        "text": "黄色的",
-        "isCorrect": false
-      },
-      {
-        "text": "哪个",
-        "isCorrect": false
       }
     ]
   },
@@ -2476,20 +2476,20 @@ module.exports = [
     "detail": "词汇。\n常用基础词汇。",
     "options": [
       {
+        "text": "好的",
+        "isCorrect": false
+      },
+      {
+        "text": "肚子",
+        "isCorrect": false
+      },
+      {
+        "text": "电子邮件",
+        "isCorrect": false
+      },
+      {
         "text": "一",
         "isCorrect": true
-      },
-      {
-        "text": "天/白天",
-        "isCorrect": false
-      },
-      {
-        "text": "风",
-        "isCorrect": false
-      },
-      {
-        "text": "星期日",
-        "isCorrect": false
       }
     ]
   },
@@ -2505,15 +2505,15 @@ module.exports = [
     "detail": "词汇。\n常用基础词汇。",
     "options": [
       {
-        "text": "分钟",
+        "text": "星期六",
         "isCorrect": false
       },
       {
-        "text": "母亲",
+        "text": "意大利",
         "isCorrect": false
       },
       {
-        "text": "密码",
+        "text": "车站",
         "isCorrect": false
       },
       {
@@ -2538,15 +2538,15 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "朋友",
+        "text": "有",
         "isCorrect": false
       },
       {
-        "text": "男孩",
+        "text": "红色的",
         "isCorrect": false
       },
       {
-        "text": "生气的",
+        "text": "母亲",
         "isCorrect": false
       }
     ]
@@ -2563,20 +2563,20 @@ module.exports = [
     "detail": "词汇。\n常用基础词汇。",
     "options": [
       {
-        "text": "浴室",
+        "text": "啤酒",
         "isCorrect": false
       },
       {
-        "text": "月",
-        "isCorrect": false
-      },
-      {
-        "text": "黑色的",
+        "text": "面食",
         "isCorrect": false
       },
       {
         "text": "四",
         "isCorrect": true
+      },
+      {
+        "text": "雨",
+        "isCorrect": false
       }
     ]
   },
@@ -2596,15 +2596,15 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "四",
+        "text": "热",
         "isCorrect": false
       },
       {
-        "text": "天/白天",
+        "text": "是/存在",
         "isCorrect": false
       },
       {
-        "text": "星期二",
+        "text": "荣幸/高兴",
         "isCorrect": false
       }
     ]
@@ -2621,19 +2621,19 @@ module.exports = [
     "detail": "词汇。\n常用基础词汇。",
     "options": [
       {
-        "text": "窗户",
-        "isCorrect": false
-      },
-      {
         "text": "六",
         "isCorrect": true
       },
       {
-        "text": "星期二",
+        "text": "早上好",
         "isCorrect": false
       },
       {
-        "text": "葡萄酒",
+        "text": "吃",
+        "isCorrect": false
+      },
+      {
+        "text": "兄弟",
         "isCorrect": false
       }
     ]
@@ -2650,20 +2650,20 @@ module.exports = [
     "detail": "词汇。\n常用基础词汇。",
     "options": [
       {
-        "text": "面包",
+        "text": "蓝色的",
         "isCorrect": false
       },
       {
-        "text": "手",
-        "isCorrect": false
-      },
-      {
-        "text": "晚安",
+        "text": "分钟",
         "isCorrect": false
       },
       {
         "text": "七",
         "isCorrect": true
+      },
+      {
+        "text": "机场",
+        "isCorrect": false
       }
     ]
   },
@@ -2679,15 +2679,15 @@ module.exports = [
     "detail": "词汇。\n常用基础词汇。",
     "options": [
       {
-        "text": "我",
+        "text": "姐妹",
         "isCorrect": false
       },
       {
-        "text": "兄弟",
+        "text": "星期二",
         "isCorrect": false
       },
       {
-        "text": "钱",
+        "text": "在哪里",
         "isCorrect": false
       },
       {
@@ -2708,20 +2708,20 @@ module.exports = [
     "detail": "词汇。\n常用基础词汇。",
     "options": [
       {
-        "text": "矮的/低的",
-        "isCorrect": false
-      },
-      {
-        "text": "有",
-        "isCorrect": false
-      },
-      {
-        "text": "名叫",
-        "isCorrect": false
-      },
-      {
         "text": "九",
         "isCorrect": true
+      },
+      {
+        "text": "肚子",
+        "isCorrect": false
+      },
+      {
+        "text": "明天",
+        "isCorrect": false
+      },
+      {
+        "text": "葡萄酒",
+        "isCorrect": false
       }
     ]
   },
@@ -2737,20 +2737,20 @@ module.exports = [
     "detail": "词汇。\n常用基础词汇。",
     "options": [
       {
-        "text": "钱",
+        "text": "是",
+        "isCorrect": false
+      },
+      {
+        "text": "周/星期",
+        "isCorrect": false
+      },
+      {
+        "text": "姓氏",
         "isCorrect": false
       },
       {
         "text": "十",
         "isCorrect": true
-      },
-      {
-        "text": "名叫",
-        "isCorrect": false
-      },
-      {
-        "text": "吃",
-        "isCorrect": false
       }
     ]
   },
@@ -2766,20 +2766,20 @@ module.exports = [
     "detail": "词汇。\n常用基础词汇。",
     "options": [
       {
-        "text": "父亲",
-        "isCorrect": false
-      },
-      {
-        "text": "星期五",
-        "isCorrect": false
-      },
-      {
-        "text": "姐妹",
+        "text": "面食",
         "isCorrect": false
       },
       {
         "text": "一百",
         "isCorrect": true
+      },
+      {
+        "text": "为什么",
+        "isCorrect": false
+      },
+      {
+        "text": "请",
+        "isCorrect": false
       }
     ]
   },
@@ -2795,20 +2795,20 @@ module.exports = [
     "detail": "词汇。\n常用基础词汇。",
     "options": [
       {
-        "text": "丑陋的",
-        "isCorrect": false
-      },
-      {
-        "text": "山",
-        "isCorrect": false
-      },
-      {
-        "text": "晚上",
-        "isCorrect": false
-      },
-      {
         "text": "一千",
         "isCorrect": true
+      },
+      {
+        "text": "来",
+        "isCorrect": false
+      },
+      {
+        "text": "请",
+        "isCorrect": false
+      },
+      {
+        "text": "钢笔",
+        "isCorrect": false
       }
     ]
   },
@@ -2821,22 +2821,22 @@ module.exports = [
     "meaning": "今天",
     "example": "Oggi è una bella giornata.",
     "example_meaning": "今天天气很好。",
-    "detail": "原型：Oggi (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Oggi (动词)。\n请注意根据语境的人称和时态进行变化。",
     "options": [
+      {
+        "text": "鼻子",
+        "isCorrect": false
+      },
       {
         "text": "今天",
         "isCorrect": true
       },
       {
-        "text": "容易的",
+        "text": "她/您",
         "isCorrect": false
       },
       {
-        "text": "为什么",
-        "isCorrect": false
-      },
-      {
-        "text": "窗户",
+        "text": "学习",
         "isCorrect": false
       }
     ]
@@ -2850,23 +2850,23 @@ module.exports = [
     "meaning": "明天",
     "example": "Domani non lavoro.",
     "example_meaning": "我明天不工作。",
-    "detail": "原型：Domani (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Domani (动词)。\n请注意根据语境的人称和时态进行变化。",
     "options": [
+      {
+        "text": "桌子",
+        "isCorrect": false
+      },
+      {
+        "text": "女孩",
+        "isCorrect": false
+      },
+      {
+        "text": "来",
+        "isCorrect": false
+      },
       {
         "text": "明天",
         "isCorrect": true
-      },
-      {
-        "text": "中国的/中国人",
-        "isCorrect": false
-      },
-      {
-        "text": "裙子",
-        "isCorrect": false
-      },
-      {
-        "text": "星期二",
-        "isCorrect": false
       }
     ]
   },
@@ -2879,23 +2879,23 @@ module.exports = [
     "meaning": "昨天",
     "example": "Ieri sono andato al cinema.",
     "example_meaning": "昨天我去了电影院。",
-    "detail": "原型：Ieri (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Ieri (动词)。\n请注意根据语境的人称和时态进行变化。",
     "options": [
       {
-        "text": "好的",
+        "text": "眼睛",
+        "isCorrect": false
+      },
+      {
+        "text": "面食",
+        "isCorrect": false
+      },
+      {
+        "text": "月",
         "isCorrect": false
       },
       {
         "text": "昨天",
         "isCorrect": true
-      },
-      {
-        "text": "谢谢",
-        "isCorrect": false
-      },
-      {
-        "text": "为什么",
-        "isCorrect": false
       }
     ]
   },
@@ -2908,23 +2908,23 @@ module.exports = [
     "meaning": "天/白天",
     "example": "Buon giorno!",
     "example_meaning": "日安！",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Giorni)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nGiorno -> Giorni",
     "options": [
       {
-        "text": "女儿",
+        "text": "星期三",
+        "isCorrect": false
+      },
+      {
+        "text": "票",
+        "isCorrect": false
+      },
+      {
+        "text": "对不起/借过",
         "isCorrect": false
       },
       {
         "text": "天/白天",
         "isCorrect": true
-      },
-      {
-        "text": "火车",
-        "isCorrect": false
-      },
-      {
-        "text": "吃",
-        "isCorrect": false
       }
     ]
   },
@@ -2937,23 +2937,23 @@ module.exports = [
     "meaning": "夜晚",
     "example": "La notte è buia.",
     "example_meaning": "夜晚是黑暗的。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Notti)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nNotte -> Notte",
     "options": [
+      {
+        "text": "兄弟",
+        "isCorrect": false
+      },
+      {
+        "text": "公共汽车",
+        "isCorrect": false
+      },
+      {
+        "text": "有",
+        "isCorrect": false
+      },
       {
         "text": "夜晚",
         "isCorrect": true
-      },
-      {
-        "text": "请",
-        "isCorrect": false
-      },
-      {
-        "text": "四",
-        "isCorrect": false
-      },
-      {
-        "text": "红色的",
-        "isCorrect": false
       }
     ]
   },
@@ -2966,22 +2966,22 @@ module.exports = [
     "meaning": "早晨",
     "example": "Mi sveglio presto la mattina.",
     "example_meaning": "我早上起得很早。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Mattine)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nMattina -> Mattine",
     "options": [
+      {
+        "text": "睡意",
+        "isCorrect": false
+      },
+      {
+        "text": "美丽的",
+        "isCorrect": false
+      },
       {
         "text": "早晨",
         "isCorrect": true
       },
       {
-        "text": "衣服/连衣裙",
-        "isCorrect": false
-      },
-      {
-        "text": "报纸",
-        "isCorrect": false
-      },
-      {
-        "text": "今天",
+        "text": "山",
         "isCorrect": false
       }
     ]
@@ -2995,22 +2995,22 @@ module.exports = [
     "meaning": "下午",
     "example": "Ci vediamo nel pomeriggio.",
     "example_meaning": "我们下午见。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Pomeriggii)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nPomeriggio -> Pomeriggii",
     "options": [
+      {
+        "text": "雪",
+        "isCorrect": false
+      },
+      {
+        "text": "是/存在",
+        "isCorrect": false
+      },
       {
         "text": "下午",
         "isCorrect": true
       },
       {
-        "text": "今天",
-        "isCorrect": false
-      },
-      {
-        "text": "电话",
-        "isCorrect": false
-      },
-      {
-        "text": "钢笔",
+        "text": "睡意",
         "isCorrect": false
       }
     ]
@@ -3024,18 +3024,18 @@ module.exports = [
     "meaning": "晚上",
     "example": "Esco questa sera.",
     "example_meaning": "我今晚出去。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Sere)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nSera -> Sere",
     "options": [
       {
-        "text": "新的",
+        "text": "六",
         "isCorrect": false
       },
       {
-        "text": "汽车/机器",
+        "text": "星期日",
         "isCorrect": false
       },
       {
-        "text": "耳朵",
+        "text": "报纸",
         "isCorrect": false
       },
       {
@@ -3053,22 +3053,22 @@ module.exports = [
     "meaning": "周/星期",
     "example": "Fine settimana.",
     "example_meaning": "周末。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Settimane)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nSettimana -> Settimane",
     "options": [
+      {
+        "text": "今天",
+        "isCorrect": false
+      },
+      {
+        "text": "大的",
+        "isCorrect": false
+      },
       {
         "text": "周/星期",
         "isCorrect": true
       },
       {
-        "text": "不",
-        "isCorrect": false
-      },
-      {
-        "text": "兄弟",
-        "isCorrect": false
-      },
-      {
-        "text": "高的",
+        "text": "鱼",
         "isCorrect": false
       }
     ]
@@ -3082,23 +3082,23 @@ module.exports = [
     "meaning": "月",
     "example": "Il mese prossimo vado in vacanza.",
     "example_meaning": "下个月我去度假。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Mesi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nMese -> Mesi",
     "options": [
+      {
+        "text": "你",
+        "isCorrect": false
+      },
+      {
+        "text": "黑色的",
+        "isCorrect": false
+      },
+      {
+        "text": "头发",
+        "isCorrect": false
+      },
       {
         "text": "月",
         "isCorrect": true
-      },
-      {
-        "text": "时间/天气",
-        "isCorrect": false
-      },
-      {
-        "text": "六",
-        "isCorrect": false
-      },
-      {
-        "text": "二",
-        "isCorrect": false
       }
     ]
   },
@@ -3111,22 +3111,22 @@ module.exports = [
     "meaning": "年",
     "example": "Buon anno nuovo!",
     "example_meaning": "新年快乐！",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Anni)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nAnno -> Anni",
     "options": [
       {
         "text": "年",
         "isCorrect": true
       },
       {
-        "text": "裤子",
+        "text": "说话",
         "isCorrect": false
       },
       {
-        "text": "女人",
+        "text": "坏的",
         "isCorrect": false
       },
       {
-        "text": "意大利",
+        "text": "风",
         "isCorrect": false
       }
     ]
@@ -3140,22 +3140,22 @@ module.exports = [
     "meaning": "小时/现在",
     "example": "Che ora è?",
     "example_meaning": "几点了？",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Ore)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nOra -> Ore",
     "options": [
-      {
-        "text": "星期四",
-        "isCorrect": false
-      },
       {
         "text": "小时/现在",
         "isCorrect": true
       },
       {
-        "text": "新的",
+        "text": "工作",
         "isCorrect": false
       },
       {
-        "text": "六",
+        "text": "星期三",
+        "isCorrect": false
+      },
+      {
+        "text": "星期四",
         "isCorrect": false
       }
     ]
@@ -3169,23 +3169,23 @@ module.exports = [
     "meaning": "分钟",
     "example": "Aspetta un minuto.",
     "example_meaning": "等一分钟。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Minuti)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nMinuto -> Minuti",
     "options": [
+      {
+        "text": "坏的",
+        "isCorrect": false
+      },
+      {
+        "text": "冷的",
+        "isCorrect": false
+      },
+      {
+        "text": "如何",
+        "isCorrect": false
+      },
       {
         "text": "分钟",
         "isCorrect": true
-      },
-      {
-        "text": "裙子",
-        "isCorrect": false
-      },
-      {
-        "text": "小的",
-        "isCorrect": false
-      },
-      {
-        "text": "你们",
-        "isCorrect": false
       }
     ]
   },
@@ -3198,23 +3198,23 @@ module.exports = [
     "meaning": "星期一",
     "example": "Il lunedì è difficile.",
     "example_meaning": "星期一很难熬。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "重音结尾名词。\n复数形式保持不变 (la Lunedì -> le Lunedì)。",
     "options": [
       {
-        "text": "月",
-        "isCorrect": false
-      },
-      {
-        "text": "葡萄酒",
-        "isCorrect": false
-      },
-      {
-        "text": "医院",
+        "text": "中国的/中国人",
         "isCorrect": false
       },
       {
         "text": "星期一",
         "isCorrect": true
+      },
+      {
+        "text": "雨",
+        "isCorrect": false
+      },
+      {
+        "text": "为什么",
+        "isCorrect": false
       }
     ]
   },
@@ -3227,23 +3227,23 @@ module.exports = [
     "meaning": "星期二",
     "example": "Martedì ho lezione.",
     "example_meaning": "周二我有课。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "重音结尾名词。\n复数形式保持不变 (la Martedì -> le Martedì)。",
     "options": [
-      {
-        "text": "颜色",
-        "isCorrect": false
-      },
-      {
-        "text": "睡意",
-        "isCorrect": false
-      },
-      {
-        "text": "家/房子",
-        "isCorrect": false
-      },
       {
         "text": "星期二",
         "isCorrect": true
+      },
+      {
+        "text": "八",
+        "isCorrect": false
+      },
+      {
+        "text": "鼻子",
+        "isCorrect": false
+      },
+      {
+        "text": "早上好",
+        "isCorrect": false
       }
     ]
   },
@@ -3256,22 +3256,22 @@ module.exports = [
     "meaning": "星期三",
     "example": "Oggi è mercoledì.",
     "example_meaning": "今天是星期三。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "重音结尾名词。\n复数形式保持不变 (la Mercoledì -> le Mercoledì)。",
     "options": [
+      {
+        "text": "网站",
+        "isCorrect": false
+      },
       {
         "text": "星期三",
         "isCorrect": true
       },
       {
-        "text": "男人",
+        "text": "面包",
         "isCorrect": false
       },
       {
-        "text": "八",
-        "isCorrect": false
-      },
-      {
-        "text": "星期一",
+        "text": "心",
         "isCorrect": false
       }
     ]
@@ -3285,23 +3285,23 @@ module.exports = [
     "meaning": "星期四",
     "example": "Giovedì mangio gnocchi.",
     "example_meaning": "周四我吃团子。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "重音结尾名词。\n复数形式保持不变 (la Giovedì -> le Giovedì)。",
     "options": [
-      {
-        "text": "我们",
-        "isCorrect": false
-      },
-      {
-        "text": "太阳",
-        "isCorrect": false
-      },
-      {
-        "text": "困难的",
-        "isCorrect": false
-      },
       {
         "text": "星期四",
         "isCorrect": true
+      },
+      {
+        "text": "黄色的",
+        "isCorrect": false
+      },
+      {
+        "text": "糖",
+        "isCorrect": false
+      },
+      {
+        "text": "分钟",
+        "isCorrect": false
       }
     ]
   },
@@ -3314,22 +3314,22 @@ module.exports = [
     "meaning": "星期五",
     "example": "Grazie a Dio è venerdì.",
     "example_meaning": "谢天谢地是周五。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "重音结尾名词。\n复数形式保持不变 (la Venerdì -> le Venerdì)。",
     "options": [
       {
         "text": "星期五",
         "isCorrect": true
       },
       {
-        "text": "嘴",
+        "text": "开着的",
         "isCorrect": false
       },
       {
-        "text": "姐妹",
+        "text": "啤酒",
         "isCorrect": false
       },
       {
-        "text": "眼睛",
+        "text": "你们",
         "isCorrect": false
       }
     ]
@@ -3343,22 +3343,22 @@ module.exports = [
     "meaning": "星期六",
     "example": "Sabato sera esco.",
     "example_meaning": "周六晚上我出去。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Sabati)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nSabato -> Sabati",
     "options": [
       {
         "text": "星期六",
         "isCorrect": true
       },
       {
-        "text": "街道",
+        "text": "天/白天",
         "isCorrect": false
       },
       {
-        "text": "号码",
+        "text": "谢谢",
         "isCorrect": false
       },
       {
-        "text": "椅子",
+        "text": "六",
         "isCorrect": false
       }
     ]
@@ -3372,23 +3372,23 @@ module.exports = [
     "meaning": "星期日",
     "example": "La domenica riposo.",
     "example_meaning": "周日我休息。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Domenice)。",
+    "detail": "阴性单数名词 (-ca/-ga)。\n复数形式通常加 h 保持发音：\nDomenica -> Domeniche",
     "options": [
       {
-        "text": "冷的",
-        "isCorrect": false
-      },
-      {
-        "text": "居住",
-        "isCorrect": false
-      },
-      {
-        "text": "旅馆",
+        "text": "美丽的",
         "isCorrect": false
       },
       {
         "text": "星期日",
         "isCorrect": true
+      },
+      {
+        "text": "星期五",
+        "isCorrect": false
+      },
+      {
+        "text": "医院",
+        "isCorrect": false
       }
     ]
   },
@@ -3401,14 +3401,10 @@ module.exports = [
     "meaning": "大的",
     "example": "Roma è una grande città.",
     "example_meaning": "罗马是一座大城市。",
-    "detail": "形容词。\n需根据修饰的名词进行性数配合 (如: o/a/i/e)。",
+    "detail": "双尾形容词 (e/i)。\n\n变化规则：\n单数 (阳/阴): Grande\n复数 (阳/阴): Grandi",
     "options": [
       {
-        "text": "早晨",
-        "isCorrect": false
-      },
-      {
-        "text": "四",
+        "text": "公共汽车",
         "isCorrect": false
       },
       {
@@ -3416,7 +3412,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "时间/天气",
+        "text": "黄色的",
+        "isCorrect": false
+      },
+      {
+        "text": "广场",
         "isCorrect": false
       }
     ]
@@ -3430,22 +3430,22 @@ module.exports = [
     "meaning": "小的",
     "example": "Il mondo è piccolo.",
     "example_meaning": "世界很小。",
-    "detail": "形容词。\n需根据修饰的名词进行性数配合 (如: o/a/i/e)。",
+    "detail": "四尾形容词 (o/a/i/e)。\n\n变化规则：\n阳单: Piccolo\n阴单: Piccola\n阳复: Piccoli\n阴复: Piccole",
     "options": [
       {
         "text": "小的",
         "isCorrect": true
       },
       {
-        "text": "周/星期",
+        "text": "男孩",
         "isCorrect": false
       },
       {
-        "text": "城市",
+        "text": "去",
         "isCorrect": false
       },
       {
-        "text": "桌子",
+        "text": "小时/现在",
         "isCorrect": false
       }
     ]
@@ -3459,23 +3459,23 @@ module.exports = [
     "meaning": "好的",
     "example": "Questo gelato è buono.",
     "example_meaning": "这个冰淇淋很好吃。",
-    "detail": "形容词。\n需根据修饰的名词进行性数配合 (如: o/a/i/e)。",
+    "detail": "四尾形容词 (o/a/i/e)。\n\n变化规则：\n阳单: Buono\n阴单: Buona\n阳复: Buoni\n阴复: Buone",
     "options": [
       {
-        "text": "盐",
+        "text": "夜晚",
         "isCorrect": false
       },
       {
-        "text": "披萨",
+        "text": "喝",
+        "isCorrect": false
+      },
+      {
+        "text": "铅笔",
         "isCorrect": false
       },
       {
         "text": "好的",
         "isCorrect": true
-      },
-      {
-        "text": "糖",
-        "isCorrect": false
       }
     ]
   },
@@ -3488,22 +3488,22 @@ module.exports = [
     "meaning": "坏的",
     "example": "Il tempo è cattivo oggi.",
     "example_meaning": "今天天气很坏。",
-    "detail": "形容词。\n需根据修饰的名词进行性数配合 (如: o/a/i/e)。",
+    "detail": "四尾形容词 (o/a/i/e)。\n\n变化规则：\n阳单: Cattivo\n阴单: Cattiva\n阳复: Cattivi\n阴复: Cattive",
     "options": [
+      {
+        "text": "意大利",
+        "isCorrect": false
+      },
       {
         "text": "坏的",
         "isCorrect": true
       },
       {
-        "text": "星期二",
+        "text": "女孩",
         "isCorrect": false
       },
       {
-        "text": "早晨",
-        "isCorrect": false
-      },
-      {
-        "text": "头发",
+        "text": "嘴",
         "isCorrect": false
       }
     ]
@@ -3517,23 +3517,23 @@ module.exports = [
     "meaning": "美丽的",
     "example": "Che bel panorama!",
     "example_meaning": "多美的景色！",
-    "detail": "形容词。\n需根据修饰的名词进行性数配合 (如: o/a/i/e)。",
+    "detail": "四尾形容词 (o/a/i/e)。\n\n变化规则：\n阳单: Bello\n阴单: Bella\n阳复: Belli\n阴复: Belle",
     "options": [
       {
-        "text": "风",
+        "text": "电子邮件",
         "isCorrect": false
       },
       {
-        "text": "不客气",
-        "isCorrect": false
-      },
-      {
-        "text": "星期日",
+        "text": "天/白天",
         "isCorrect": false
       },
       {
         "text": "美丽的",
         "isCorrect": true
+      },
+      {
+        "text": "饥饿",
+        "isCorrect": false
       }
     ]
   },
@@ -3546,23 +3546,23 @@ module.exports = [
     "meaning": "丑陋的",
     "example": "È un brutto sogno.",
     "example_meaning": "这是一个噩梦。",
-    "detail": "形容词。\n需根据修饰的名词进行性数配合 (如: o/a/i/e)。",
+    "detail": "四尾形容词 (o/a/i/e)。\n\n变化规则：\n阳单: Brutto\n阴单: Brutta\n阳复: Brutti\n阴复: Brutte",
     "options": [
+      {
+        "text": "喝",
+        "isCorrect": false
+      },
+      {
+        "text": "困难的",
+        "isCorrect": false
+      },
+      {
+        "text": "朋友",
+        "isCorrect": false
+      },
       {
         "text": "丑陋的",
         "isCorrect": true
-      },
-      {
-        "text": "钢笔",
-        "isCorrect": false
-      },
-      {
-        "text": "晚上好",
-        "isCorrect": false
-      },
-      {
-        "text": "咖啡",
-        "isCorrect": false
       }
     ]
   },
@@ -3575,22 +3575,22 @@ module.exports = [
     "meaning": "新的",
     "example": "Ho un telefono nuovo.",
     "example_meaning": "我有一个新电话。",
-    "detail": "形容词。\n需根据修饰的名词进行性数配合 (如: o/a/i/e)。",
+    "detail": "四尾形容词 (o/a/i/e)。\n\n变化规则：\n阳单: Nuovo\n阴单: Nuova\n阳复: Nuovi\n阴复: Nuove",
     "options": [
+      {
+        "text": "矮的/低的",
+        "isCorrect": false
+      },
       {
         "text": "新的",
         "isCorrect": true
       },
       {
-        "text": "蓝色的",
+        "text": "商店",
         "isCorrect": false
       },
       {
-        "text": "号码",
-        "isCorrect": false
-      },
-      {
-        "text": "意大利",
+        "text": "包",
         "isCorrect": false
       }
     ]
@@ -3604,18 +3604,18 @@ module.exports = [
     "meaning": "旧的/老的",
     "example": "Il mio computer è vecchio.",
     "example_meaning": "我的电脑旧了。",
-    "detail": "形容词。\n需根据修饰的名词进行性数配合 (如: o/a/i/e)。",
+    "detail": "四尾形容词 (o/a/i/e)。\n\n变化规则：\n阳单: Vecchio\n阴单: Vecchia\n阳复: Vecchii\n阴复: Vecchie",
     "options": [
       {
-        "text": "树",
+        "text": "鱼",
         "isCorrect": false
       },
       {
-        "text": "热",
+        "text": "面包",
         "isCorrect": false
       },
       {
-        "text": "绿色的",
+        "text": "什么",
         "isCorrect": false
       },
       {
@@ -3633,18 +3633,18 @@ module.exports = [
     "meaning": "高的",
     "example": "Lui è molto alto.",
     "example_meaning": "他很高。",
-    "detail": "形容词。\n需根据修饰的名词进行性数配合 (如: o/a/i/e)。",
+    "detail": "四尾形容词 (o/a/i/e)。\n\n变化规则：\n阳单: Alto\n阴单: Alta\n阳复: Alti\n阴复: Alte",
     "options": [
       {
-        "text": "天/白天",
+        "text": "市场",
         "isCorrect": false
       },
       {
-        "text": "水",
+        "text": "鱼",
         "isCorrect": false
       },
       {
-        "text": "吃",
+        "text": "矮的/低的",
         "isCorrect": false
       },
       {
@@ -3662,18 +3662,18 @@ module.exports = [
     "meaning": "矮的/低的",
     "example": "Il tavolo è troppo basso.",
     "example_meaning": "这张桌子太低了。",
-    "detail": "形容词。\n需根据修饰的名词进行性数配合 (如: o/a/i/e)。",
+    "detail": "四尾形容词 (o/a/i/e)。\n\n变化规则：\n阳单: Basso\n阴单: Bassa\n阳复: Bassi\n阴复: Basse",
     "options": [
       {
-        "text": "名字",
+        "text": "热的",
         "isCorrect": false
       },
       {
-        "text": "是",
+        "text": "吃",
         "isCorrect": false
       },
       {
-        "text": "颜色",
+        "text": "我们",
         "isCorrect": false
       },
       {
@@ -3691,22 +3691,22 @@ module.exports = [
     "meaning": "热的",
     "example": "Oggi fa caldo.",
     "example_meaning": "今天很热。",
-    "detail": "形容词。\n需根据修饰的名词进行性数配合 (如: o/a/i/e)。",
+    "detail": "四尾形容词 (o/a/i/e)。\n\n变化规则：\n阳单: Caldo\n阴单: Calda\n阳复: Caldi\n阴复: Calde",
     "options": [
       {
         "text": "热的",
         "isCorrect": true
       },
       {
-        "text": "累的",
+        "text": "面包",
         "isCorrect": false
       },
       {
-        "text": "风",
+        "text": "意大利",
         "isCorrect": false
       },
       {
-        "text": "说话",
+        "text": "树",
         "isCorrect": false
       }
     ]
@@ -3720,14 +3720,14 @@ module.exports = [
     "meaning": "冷的",
     "example": "L'acqua è fredda.",
     "example_meaning": "水是冷的。",
-    "detail": "形容词。\n需根据修饰的名词进行性数配合 (如: o/a/i/e)。",
+    "detail": "四尾形容词 (o/a/i/e)。\n\n变化规则：\n阳单: Freddo\n阴单: Fredda\n阳复: Freddi\n阴复: Fredde",
     "options": [
       {
-        "text": "自行车",
+        "text": "雨",
         "isCorrect": false
       },
       {
-        "text": "房间",
+        "text": "快乐的",
         "isCorrect": false
       },
       {
@@ -3735,7 +3735,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "九",
+        "text": "荣幸/高兴",
         "isCorrect": false
       }
     ]
@@ -3749,23 +3749,23 @@ module.exports = [
     "meaning": "容易的",
     "example": "L'esame era facile.",
     "example_meaning": "考试很容易。",
-    "detail": "形容词。\n需根据修饰的名词进行性数配合 (如: o/a/i/e)。",
+    "detail": "双尾形容词 (e/i)。\n\n变化规则：\n单数 (阳/阴): Facile\n复数 (阳/阴): Facili",
     "options": [
-      {
-        "text": "十",
-        "isCorrect": false
-      },
-      {
-        "text": "今天",
-        "isCorrect": false
-      },
-      {
-        "text": "什么时候",
-        "isCorrect": false
-      },
       {
         "text": "容易的",
         "isCorrect": true
+      },
+      {
+        "text": "家/房子",
+        "isCorrect": false
+      },
+      {
+        "text": "星期五",
+        "isCorrect": false
+      },
+      {
+        "text": "女儿",
+        "isCorrect": false
       }
     ]
   },
@@ -3778,18 +3778,18 @@ module.exports = [
     "meaning": "困难的",
     "example": "L'italiano non è difficile.",
     "example_meaning": "意大利语不难。",
-    "detail": "形容词。\n需根据修饰的名词进行性数配合 (如: o/a/i/e)。",
+    "detail": "双尾形容词 (e/i)。\n\n变化规则：\n单数 (阳/阴): Difficile\n复数 (阳/阴): Difficili",
     "options": [
       {
-        "text": "汽车/机器",
+        "text": "一",
         "isCorrect": false
       },
       {
-        "text": "家庭",
+        "text": "互联网",
         "isCorrect": false
       },
       {
-        "text": "我们",
+        "text": "消息",
         "isCorrect": false
       },
       {
@@ -3807,22 +3807,22 @@ module.exports = [
     "meaning": "开着的",
     "example": "Il negozio è aperto.",
     "example_meaning": "商店开着。",
-    "detail": "形容词。\n需根据修饰的名词进行性数配合 (如: o/a/i/e)。",
+    "detail": "四尾形容词 (o/a/i/e)。\n\n变化规则：\n阳单: Aperto\n阴单: Aperta\n阳复: Aperti\n阴复: Aperte",
     "options": [
+      {
+        "text": "红色的",
+        "isCorrect": false
+      },
+      {
+        "text": "男人",
+        "isCorrect": false
+      },
       {
         "text": "开着的",
         "isCorrect": true
       },
       {
-        "text": "地址",
-        "isCorrect": false
-      },
-      {
-        "text": "意大利",
-        "isCorrect": false
-      },
-      {
-        "text": "早上好",
+        "text": "女儿",
         "isCorrect": false
       }
     ]
@@ -3836,10 +3836,10 @@ module.exports = [
     "meaning": "关着的",
     "example": "Il museo è chiuso lunedì.",
     "example_meaning": "博物馆周一闭馆。",
-    "detail": "形容词。\n需根据修饰的名词进行性数配合 (如: o/a/i/e)。",
+    "detail": "四尾形容词 (o/a/i/e)。\n\n变化规则：\n阳单: Chiuso\n阴单: Chiusa\n阳复: Chiusi\n阴复: Chiuse",
     "options": [
       {
-        "text": "星期日",
+        "text": "星期三",
         "isCorrect": false
       },
       {
@@ -3847,11 +3847,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "花",
+        "text": "旅馆",
         "isCorrect": false
       },
       {
-        "text": "绿色的",
+        "text": "小的",
         "isCorrect": false
       }
     ]
@@ -3865,22 +3865,22 @@ module.exports = [
     "meaning": "右边",
     "example": "Gira a destra.",
     "example_meaning": "向右转。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Destre)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nDestra -> Destre",
     "options": [
-      {
-        "text": "广场",
-        "isCorrect": false
-      },
       {
         "text": "右边",
         "isCorrect": true
       },
       {
-        "text": "号码",
+        "text": "早晨",
         "isCorrect": false
       },
       {
-        "text": "女性朋友",
+        "text": "容易的",
+        "isCorrect": false
+      },
+      {
+        "text": "居住",
         "isCorrect": false
       }
     ]
@@ -3894,23 +3894,23 @@ module.exports = [
     "meaning": "左边",
     "example": "Gira a sinistra.",
     "example_meaning": "向左转。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Sinistre)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nSinistra -> Sinistre",
     "options": [
       {
-        "text": "新的",
+        "text": "河",
         "isCorrect": false
       },
       {
-        "text": "报纸",
+        "text": "累的",
+        "isCorrect": false
+      },
+      {
+        "text": "房间",
         "isCorrect": false
       },
       {
         "text": "左边",
         "isCorrect": true
-      },
-      {
-        "text": "钱",
-        "isCorrect": false
       }
     ]
   },
@@ -3923,23 +3923,23 @@ module.exports = [
     "meaning": "火车",
     "example": "Prendo il treno.",
     "example_meaning": "我坐火车。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Treni)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nTreno -> Treni",
     "options": [
+      {
+        "text": "钱",
+        "isCorrect": false
+      },
+      {
+        "text": "居住",
+        "isCorrect": false
+      },
+      {
+        "text": "窗户",
+        "isCorrect": false
+      },
       {
         "text": "火车",
         "isCorrect": true
-      },
-      {
-        "text": "晚上好",
-        "isCorrect": false
-      },
-      {
-        "text": "餐厅",
-        "isCorrect": false
-      },
-      {
-        "text": "美丽的",
-        "isCorrect": false
       }
     ]
   },
@@ -3952,23 +3952,23 @@ module.exports = [
     "meaning": "公共汽车",
     "example": "L'autobus è in ritardo.",
     "example_meaning": "公共汽车晚点了。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "外来词/辅音结尾名词。\n通常为阳性，复数形式保持不变 (il Autobus -> i Autobus)。",
     "options": [
-      {
-        "text": "星期二",
-        "isCorrect": false
-      },
-      {
-        "text": "什么",
-        "isCorrect": false
-      },
-      {
-        "text": "二",
-        "isCorrect": false
-      },
       {
         "text": "公共汽车",
         "isCorrect": true
+      },
+      {
+        "text": "你好/再见",
+        "isCorrect": false
+      },
+      {
+        "text": "荣幸/高兴",
+        "isCorrect": false
+      },
+      {
+        "text": "裙子",
+        "isCorrect": false
       }
     ]
   },
@@ -3981,23 +3981,23 @@ module.exports = [
     "meaning": "汽车/机器",
     "example": "Guido la macchina.",
     "example_meaning": "我开车。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Macchine)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nMacchina -> Macchine",
     "options": [
       {
-        "text": "左边",
+        "text": "耳朵",
         "isCorrect": false
       },
       {
-        "text": "狗",
+        "text": "雪",
+        "isCorrect": false
+      },
+      {
+        "text": "什么时候",
         "isCorrect": false
       },
       {
         "text": "汽车/机器",
         "isCorrect": true
-      },
-      {
-        "text": "昨天",
-        "isCorrect": false
       }
     ]
   },
@@ -4010,22 +4010,22 @@ module.exports = [
     "meaning": "自行车",
     "example": "Vado in bicicletta.",
     "example_meaning": "我骑自行车去。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Biciclette)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nBicicletta -> Biciclette",
     "options": [
-      {
-        "text": "肉",
-        "isCorrect": false
-      },
-      {
-        "text": "饥饿",
-        "isCorrect": false
-      },
       {
         "text": "自行车",
         "isCorrect": true
       },
       {
-        "text": "酒吧/咖啡馆",
+        "text": "披萨",
+        "isCorrect": false
+      },
+      {
+        "text": "家庭",
+        "isCorrect": false
+      },
+      {
+        "text": "八",
         "isCorrect": false
       }
     ]
@@ -4039,23 +4039,23 @@ module.exports = [
     "meaning": "飞机",
     "example": "L'aereo decolla.",
     "example_meaning": "飞机起飞了。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Aerei)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nAereo -> Aerei",
     "options": [
+      {
+        "text": "星期二",
+        "isCorrect": false
+      },
+      {
+        "text": "小的",
+        "isCorrect": false
+      },
+      {
+        "text": "早上好",
+        "isCorrect": false
+      },
       {
         "text": "飞机",
         "isCorrect": true
-      },
-      {
-        "text": "风",
-        "isCorrect": false
-      },
-      {
-        "text": "谢谢",
-        "isCorrect": false
-      },
-      {
-        "text": "电子邮件",
-        "isCorrect": false
       }
     ]
   },
@@ -4068,22 +4068,22 @@ module.exports = [
     "meaning": "票",
     "example": "Un biglietto, per favore.",
     "example_meaning": "请给我一张票。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Biglietti)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nBiglietto -> Biglietti",
     "options": [
       {
         "text": "票",
         "isCorrect": true
       },
       {
-        "text": "昨天",
+        "text": "面包",
         "isCorrect": false
       },
       {
-        "text": "餐厅",
+        "text": "太阳",
         "isCorrect": false
       },
       {
-        "text": "窗户",
+        "text": "名字",
         "isCorrect": false
       }
     ]
@@ -4097,14 +4097,10 @@ module.exports = [
     "meaning": "钱",
     "example": "Non ho soldi.",
     "example_meaning": "我没有钱。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nSoldi -> Soldi",
     "options": [
       {
-        "text": "为什么",
-        "isCorrect": false
-      },
-      {
-        "text": "姓氏",
+        "text": "时间/天气",
         "isCorrect": false
       },
       {
@@ -4112,7 +4108,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "湖",
+        "text": "窗户",
+        "isCorrect": false
+      },
+      {
+        "text": "家庭",
         "isCorrect": false
       }
     ]
@@ -4126,23 +4126,23 @@ module.exports = [
     "meaning": "价格",
     "example": "Qual è il prezzo?",
     "example_meaning": "价格是多少？",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Prezzi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nPrezzo -> Prezzi",
     "options": [
-      {
-        "text": "雪",
-        "isCorrect": false
-      },
-      {
-        "text": "雨",
-        "isCorrect": false
-      },
-      {
-        "text": "什么时候",
-        "isCorrect": false
-      },
       {
         "text": "价格",
         "isCorrect": true
+      },
+      {
+        "text": "八",
+        "isCorrect": false
+      },
+      {
+        "text": "热的",
+        "isCorrect": false
+      },
+      {
+        "text": "披萨",
+        "isCorrect": false
       }
     ]
   },
@@ -4155,10 +4155,14 @@ module.exports = [
     "meaning": "书",
     "example": "Leggo un libro.",
     "example_meaning": "我在读书。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Libri)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nLibro -> Libri",
     "options": [
       {
-        "text": "脚",
+        "text": "面食",
+        "isCorrect": false
+      },
+      {
+        "text": "女孩",
         "isCorrect": false
       },
       {
@@ -4166,11 +4170,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "女性朋友",
-        "isCorrect": false
-      },
-      {
-        "text": "为什么",
+        "text": "累的",
         "isCorrect": false
       }
     ]
@@ -4184,18 +4184,18 @@ module.exports = [
     "meaning": "报纸",
     "example": "Compri il giornale?",
     "example_meaning": "你买报纸吗？",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Giornali)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nGiornale -> Giornali",
     "options": [
       {
-        "text": "衬衫",
+        "text": "一",
         "isCorrect": false
       },
       {
-        "text": "水果",
+        "text": "车站",
         "isCorrect": false
       },
       {
-        "text": "意大利的/意大利人",
+        "text": "口渴",
         "isCorrect": false
       },
       {
@@ -4213,22 +4213,22 @@ module.exports = [
     "meaning": "钢笔",
     "example": "Hai una penna?",
     "example_meaning": "你有一支钢笔吗？",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Penne)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nPenna -> Penne",
     "options": [
-      {
-        "text": "不",
-        "isCorrect": false
-      },
-      {
-        "text": "眼睛",
-        "isCorrect": false
-      },
       {
         "text": "钢笔",
         "isCorrect": true
       },
       {
-        "text": "网站",
+        "text": "矮的/低的",
+        "isCorrect": false
+      },
+      {
+        "text": "今天",
+        "isCorrect": false
+      },
+      {
+        "text": "雨",
         "isCorrect": false
       }
     ]
@@ -4242,22 +4242,22 @@ module.exports = [
     "meaning": "铅笔",
     "example": "Scrivo con la matita.",
     "example_meaning": "我用铅笔写字。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Matite)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nMatita -> Matite",
     "options": [
       {
         "text": "铅笔",
         "isCorrect": true
       },
       {
-        "text": "鼻子",
+        "text": "姓氏",
         "isCorrect": false
       },
       {
-        "text": "女孩",
+        "text": "火车",
         "isCorrect": false
       },
       {
-        "text": "分钟",
+        "text": "中国的/中国人",
         "isCorrect": false
       }
     ]
@@ -4271,22 +4271,22 @@ module.exports = [
     "meaning": "桌子",
     "example": "Il pranzo è sul tavolo.",
     "example_meaning": "午餐在桌子上。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Tavoli)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nTavolo -> Tavoli",
     "options": [
-      {
-        "text": "名叫",
-        "isCorrect": false
-      },
-      {
-        "text": "多少",
-        "isCorrect": false
-      },
       {
         "text": "桌子",
         "isCorrect": true
       },
       {
-        "text": "肚子",
+        "text": "黄色的",
+        "isCorrect": false
+      },
+      {
+        "text": "价格",
+        "isCorrect": false
+      },
+      {
+        "text": "椅子",
         "isCorrect": false
       }
     ]
@@ -4300,18 +4300,18 @@ module.exports = [
     "meaning": "椅子",
     "example": "Siediti sulla sedia.",
     "example_meaning": "坐在椅子上。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Sedie)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nSedia -> Sedie",
     "options": [
       {
-        "text": "冷的",
+        "text": "我们",
         "isCorrect": false
       },
       {
-        "text": "女人",
+        "text": "市场",
         "isCorrect": false
       },
       {
-        "text": "酒吧/咖啡馆",
+        "text": "父亲",
         "isCorrect": false
       },
       {
@@ -4329,22 +4329,22 @@ module.exports = [
     "meaning": "门",
     "example": "Chiudi la porta, per favore.",
     "example_meaning": "请关上门。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Porte)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nPorta -> Porte",
     "options": [
-      {
-        "text": "容易的",
-        "isCorrect": false
-      },
-      {
-        "text": "他",
-        "isCorrect": false
-      },
       {
         "text": "门",
         "isCorrect": true
       },
       {
-        "text": "衬衫",
+        "text": "鸟",
+        "isCorrect": false
+      },
+      {
+        "text": "风",
+        "isCorrect": false
+      },
+      {
+        "text": "电子邮件",
         "isCorrect": false
       }
     ]
@@ -4358,23 +4358,23 @@ module.exports = [
     "meaning": "窗户",
     "example": "Apri la finestra.",
     "example_meaning": "打开窗户。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Finestre)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nFinestra -> Finestre",
     "options": [
+      {
+        "text": "苹果",
+        "isCorrect": false
+      },
+      {
+        "text": "学校",
+        "isCorrect": false
+      },
+      {
+        "text": "床",
+        "isCorrect": false
+      },
       {
         "text": "窗户",
         "isCorrect": true
-      },
-      {
-        "text": "坏的",
-        "isCorrect": false
-      },
-      {
-        "text": "钱",
-        "isCorrect": false
-      },
-      {
-        "text": "早晨",
-        "isCorrect": false
       }
     ]
   },
@@ -4387,23 +4387,23 @@ module.exports = [
     "meaning": "床",
     "example": "Vado a letto.",
     "example_meaning": "我去睡觉。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Letti)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nLetto -> Letti",
     "options": [
-      {
-        "text": "旧的/老的",
-        "isCorrect": false
-      },
-      {
-        "text": "太阳",
-        "isCorrect": false
-      },
-      {
-        "text": "父亲",
-        "isCorrect": false
-      },
       {
         "text": "床",
         "isCorrect": true
+      },
+      {
+        "text": "冷",
+        "isCorrect": false
+      },
+      {
+        "text": "我们",
+        "isCorrect": false
+      },
+      {
+        "text": "山",
+        "isCorrect": false
       }
     ]
   },
@@ -4416,18 +4416,18 @@ module.exports = [
     "meaning": "浴室",
     "example": "Dov'è il bagno?",
     "example_meaning": "浴室在哪里？",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Bagni)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nBagno -> Bagni",
     "options": [
       {
-        "text": "钢笔",
+        "text": "飞机",
         "isCorrect": false
       },
       {
-        "text": "吃",
+        "text": "你好/再见",
         "isCorrect": false
       },
       {
-        "text": "黑色的",
+        "text": "糖",
         "isCorrect": false
       },
       {
@@ -4445,23 +4445,23 @@ module.exports = [
     "meaning": "厨房",
     "example": "La cucina è pulita.",
     "example_meaning": "厨房很干净。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Cucine)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nCucina -> Cucine",
     "options": [
-      {
-        "text": "关着的",
-        "isCorrect": false
-      },
-      {
-        "text": "飞机",
-        "isCorrect": false
-      },
-      {
-        "text": "车站",
-        "isCorrect": false
-      },
       {
         "text": "厨房",
         "isCorrect": true
+      },
+      {
+        "text": "脚",
+        "isCorrect": false
+      },
+      {
+        "text": "钱",
+        "isCorrect": false
+      },
+      {
+        "text": "面食",
+        "isCorrect": false
       }
     ]
   },
@@ -4474,23 +4474,23 @@ module.exports = [
     "meaning": "房间",
     "example": "Questa è la mia camera.",
     "example_meaning": "这是我的房间。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Camere)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nCamera -> Camere",
     "options": [
       {
-        "text": "牛奶",
+        "text": "鱼",
         "isCorrect": false
       },
       {
-        "text": "雪",
+        "text": "多少",
+        "isCorrect": false
+      },
+      {
+        "text": "周/星期",
         "isCorrect": false
       },
       {
         "text": "房间",
         "isCorrect": true
-      },
-      {
-        "text": "鱼",
-        "isCorrect": false
       }
     ]
   },
@@ -4503,22 +4503,22 @@ module.exports = [
     "meaning": "颜色",
     "example": "Qual è il tuo colore preferito?",
     "example_meaning": "你最喜欢什么颜色？",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Colori)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nColore -> Colori",
     "options": [
       {
         "text": "颜色",
         "isCorrect": true
       },
       {
-        "text": "机场",
+        "text": "水果",
         "isCorrect": false
       },
       {
-        "text": "电话",
+        "text": "网站",
         "isCorrect": false
       },
       {
-        "text": "不",
+        "text": "花",
         "isCorrect": false
       }
     ]
@@ -4532,22 +4532,22 @@ module.exports = [
     "meaning": "白色的",
     "example": "La neve è bianca.",
     "example_meaning": "雪是白色的。",
-    "detail": "形容词。\n需根据修饰的名词进行性数配合 (如: o/a/i/e)。",
+    "detail": "四尾形容词 (o/a/i/e)。\n\n变化规则：\n阳单: Bianco\n阴单: Bianca\n阳复: Bianci\n阴复: Biance",
     "options": [
+      {
+        "text": "鱼",
+        "isCorrect": false
+      },
       {
         "text": "白色的",
         "isCorrect": true
       },
       {
-        "text": "生气的",
+        "text": "眼睛",
         "isCorrect": false
       },
       {
-        "text": "星期日",
-        "isCorrect": false
-      },
-      {
-        "text": "互联网",
+        "text": "厨房",
         "isCorrect": false
       }
     ]
@@ -4561,22 +4561,22 @@ module.exports = [
     "meaning": "黑色的",
     "example": "Il gatto nero.",
     "example_meaning": "黑猫。",
-    "detail": "形容词。\n需根据修饰的名词进行性数配合 (如: o/a/i/e)。",
+    "detail": "四尾形容词 (o/a/i/e)。\n\n变化规则：\n阳单: Nero\n阴单: Nera\n阳复: Neri\n阴复: Nere",
     "options": [
-      {
-        "text": "树",
-        "isCorrect": false
-      },
       {
         "text": "黑色的",
         "isCorrect": true
       },
       {
-        "text": "你们",
+        "text": "热的",
         "isCorrect": false
       },
       {
-        "text": "汽车/机器",
+        "text": "谁",
+        "isCorrect": false
+      },
+      {
+        "text": "树",
         "isCorrect": false
       }
     ]
@@ -4590,23 +4590,23 @@ module.exports = [
     "meaning": "红色的",
     "example": "La rosa è rossa.",
     "example_meaning": "玫瑰是红色的。",
-    "detail": "形容词。\n需根据修饰的名词进行性数配合 (如: o/a/i/e)。",
+    "detail": "四尾形容词 (o/a/i/e)。\n\n变化规则：\n阳单: Rosso\n阴单: Rossa\n阳复: Rossi\n阴复: Rosse",
     "options": [
       {
-        "text": "水果",
+        "text": "电子邮件",
         "isCorrect": false
       },
       {
-        "text": "冷的",
+        "text": "谁",
+        "isCorrect": false
+      },
+      {
+        "text": "门",
         "isCorrect": false
       },
       {
         "text": "红色的",
         "isCorrect": true
-      },
-      {
-        "text": "三",
-        "isCorrect": false
       }
     ]
   },
@@ -4619,22 +4619,22 @@ module.exports = [
     "meaning": "蓝色的",
     "example": "Il cielo è blu.",
     "example_meaning": "天空是蓝色的。",
-    "detail": "形容词。\n需根据修饰的名词进行性数配合 (如: o/a/i/e)。",
+    "detail": "形容词。\n需根据修饰的名词进行性数配合。",
     "options": [
       {
-        "text": "手",
-        "isCorrect": false
+        "text": "蓝色的",
+        "isCorrect": true
       },
       {
         "text": "面食",
         "isCorrect": false
       },
       {
-        "text": "蓝色的",
-        "isCorrect": true
+        "text": "工作",
+        "isCorrect": false
       },
       {
-        "text": "姓氏",
+        "text": "小时/现在",
         "isCorrect": false
       }
     ]
@@ -4648,23 +4648,23 @@ module.exports = [
     "meaning": "绿色的",
     "example": "L'erba è verde.",
     "example_meaning": "草是绿色的。",
-    "detail": "形容词。\n需根据修饰的名词进行性数配合 (如: o/a/i/e)。",
+    "detail": "双尾形容词 (e/i)。\n\n变化规则：\n单数 (阳/阴): Verde\n复数 (阳/阴): Verdi",
     "options": [
-      {
-        "text": "男人",
-        "isCorrect": false
-      },
-      {
-        "text": "大的",
-        "isCorrect": false
-      },
-      {
-        "text": "旧的/老的",
-        "isCorrect": false
-      },
       {
         "text": "绿色的",
         "isCorrect": true
+      },
+      {
+        "text": "时间/天气",
+        "isCorrect": false
+      },
+      {
+        "text": "书",
+        "isCorrect": false
+      },
+      {
+        "text": "飞机",
+        "isCorrect": false
       }
     ]
   },
@@ -4677,18 +4677,18 @@ module.exports = [
     "meaning": "黄色的",
     "example": "Il sole è giallo.",
     "example_meaning": "太阳是黄色的。",
-    "detail": "形容词。\n需根据修饰的名词进行性数配合 (如: o/a/i/e)。",
+    "detail": "四尾形容词 (o/a/i/e)。\n\n变化规则：\n阳单: Giallo\n阴单: Gialla\n阳复: Gialli\n阴复: Gialle",
     "options": [
       {
-        "text": "今天",
+        "text": "是/存在",
         "isCorrect": false
       },
       {
-        "text": "小的",
+        "text": "星期六",
         "isCorrect": false
       },
       {
-        "text": "飞机",
+        "text": "什么时候",
         "isCorrect": false
       },
       {
@@ -4706,18 +4706,18 @@ module.exports = [
     "meaning": "衣服/连衣裙",
     "example": "Hai un bel vestito.",
     "example_meaning": "你有一件漂亮的连衣裙。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Vestiti)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nVestito -> Vestiti",
     "options": [
       {
-        "text": "母亲",
+        "text": "星期三",
         "isCorrect": false
       },
       {
-        "text": "为什么",
+        "text": "新的",
         "isCorrect": false
       },
       {
-        "text": "六",
+        "text": "我们",
         "isCorrect": false
       },
       {
@@ -4735,23 +4735,23 @@ module.exports = [
     "meaning": "鞋",
     "example": "Queste scarpe sono comode.",
     "example_meaning": "这双鞋很舒服。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Scarpe)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nScarpa -> Scarpe",
     "options": [
       {
-        "text": "谢谢",
-        "isCorrect": false
-      },
-      {
-        "text": "电话",
-        "isCorrect": false
-      },
-      {
-        "text": "手表/钟",
+        "text": "坏的",
         "isCorrect": false
       },
       {
         "text": "鞋",
         "isCorrect": true
+      },
+      {
+        "text": "小时/现在",
+        "isCorrect": false
+      },
+      {
+        "text": "左边",
+        "isCorrect": false
       }
     ]
   },
@@ -4764,23 +4764,23 @@ module.exports = [
     "meaning": "衬衫",
     "example": "Indosso una camicia bianca.",
     "example_meaning": "我穿着一件白衬衫。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Camicie)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nCamicia -> Camicie",
     "options": [
       {
-        "text": "消息",
+        "text": "衬衫",
+        "isCorrect": true
+      },
+      {
+        "text": "商店",
         "isCorrect": false
       },
       {
-        "text": "热的",
+        "text": "太阳",
         "isCorrect": false
       },
       {
         "text": "累的",
         "isCorrect": false
-      },
-      {
-        "text": "衬衫",
-        "isCorrect": true
       }
     ]
   },
@@ -4793,23 +4793,23 @@ module.exports = [
     "meaning": "裤子",
     "example": "Ho comprato dei pantaloni nuovi.",
     "example_meaning": "我买了一条新裤子。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Pantaloni)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nPantalone -> Pantaloni",
     "options": [
+      {
+        "text": "地址",
+        "isCorrect": false
+      },
+      {
+        "text": "电子邮件",
+        "isCorrect": false
+      },
+      {
+        "text": "他们",
+        "isCorrect": false
+      },
       {
         "text": "裤子",
         "isCorrect": true
-      },
-      {
-        "text": "我们",
-        "isCorrect": false
-      },
-      {
-        "text": "雨",
-        "isCorrect": false
-      },
-      {
-        "text": "对不起/借过",
-        "isCorrect": false
       }
     ]
   },
@@ -4822,18 +4822,18 @@ module.exports = [
     "meaning": "裙子",
     "example": "La gonna è corta.",
     "example_meaning": "裙子很短。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Gonne)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nGonna -> Gonne",
     "options": [
       {
-        "text": "互联网",
+        "text": "女性朋友",
         "isCorrect": false
       },
       {
-        "text": "嘴",
+        "text": "衬衫",
         "isCorrect": false
       },
       {
-        "text": "咖啡",
+        "text": "猫",
         "isCorrect": false
       },
       {
@@ -4851,23 +4851,23 @@ module.exports = [
     "meaning": "包",
     "example": "Dov'è la mia borsa?",
     "example_meaning": "我的包在哪里？",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Borse)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nBorsa -> Borse",
     "options": [
       {
-        "text": "星期日",
-        "isCorrect": false
-      },
-      {
-        "text": "小时/现在",
-        "isCorrect": false
-      },
-      {
-        "text": "右边",
+        "text": "裙子",
         "isCorrect": false
       },
       {
         "text": "包",
         "isCorrect": true
+      },
+      {
+        "text": "电子邮件",
+        "isCorrect": false
+      },
+      {
+        "text": "糖",
+        "isCorrect": false
       }
     ]
   },
@@ -4880,23 +4880,23 @@ module.exports = [
     "meaning": "眼镜",
     "example": "Porto gli occhiali.",
     "example_meaning": "我戴眼镜。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nOcchiali -> Occhiali",
     "options": [
       {
-        "text": "床",
+        "text": "困难的",
         "isCorrect": false
       },
       {
-        "text": "星期四",
-        "isCorrect": false
-      },
-      {
-        "text": "姐妹",
+        "text": "雪",
         "isCorrect": false
       },
       {
         "text": "眼镜",
         "isCorrect": true
+      },
+      {
+        "text": "天/白天",
+        "isCorrect": false
       }
     ]
   },
@@ -4909,22 +4909,22 @@ module.exports = [
     "meaning": "手表/钟",
     "example": "Che bel orologio!",
     "example_meaning": "多漂亮的手表！",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Orologii)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nOrologio -> Orologii",
     "options": [
-      {
-        "text": "饥饿",
-        "isCorrect": false
-      },
-      {
-        "text": "我们",
-        "isCorrect": false
-      },
       {
         "text": "手表/钟",
         "isCorrect": true
       },
       {
-        "text": "女人",
+        "text": "高的",
+        "isCorrect": false
+      },
+      {
+        "text": "网站",
+        "isCorrect": false
+      },
+      {
+        "text": "市场",
         "isCorrect": false
       }
     ]
@@ -4938,23 +4938,23 @@ module.exports = [
     "meaning": "时间/天气",
     "example": "Che tempo fa?",
     "example_meaning": "天气怎么样？",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Tempi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nTempo -> Tempi",
     "options": [
-      {
-        "text": "裤子",
-        "isCorrect": false
-      },
-      {
-        "text": "一",
-        "isCorrect": false
-      },
-      {
-        "text": "哪个",
-        "isCorrect": false
-      },
       {
         "text": "时间/天气",
         "isCorrect": true
+      },
+      {
+        "text": "窗户",
+        "isCorrect": false
+      },
+      {
+        "text": "票",
+        "isCorrect": false
+      },
+      {
+        "text": "山",
+        "isCorrect": false
       }
     ]
   },
@@ -4967,23 +4967,23 @@ module.exports = [
     "meaning": "太阳",
     "example": "C'è il sole oggi.",
     "example_meaning": "今天出太阳了。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Soli)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nSole -> Soli",
     "options": [
-      {
-        "text": "姓氏",
-        "isCorrect": false
-      },
-      {
-        "text": "鱼",
-        "isCorrect": false
-      },
-      {
-        "text": "美丽的",
-        "isCorrect": false
-      },
       {
         "text": "太阳",
         "isCorrect": true
+      },
+      {
+        "text": "关着的",
+        "isCorrect": false
+      },
+      {
+        "text": "名字",
+        "isCorrect": false
+      },
+      {
+        "text": "裙子",
+        "isCorrect": false
       }
     ]
   },
@@ -4996,22 +4996,22 @@ module.exports = [
     "meaning": "雨",
     "example": "Non mi piace la pioggia.",
     "example_meaning": "我不喜欢雨。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Pioggie)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nPioggia -> Pioggie",
     "options": [
+      {
+        "text": "新的",
+        "isCorrect": false
+      },
+      {
+        "text": "白色的",
+        "isCorrect": false
+      },
       {
         "text": "雨",
         "isCorrect": true
       },
       {
-        "text": "分钟",
-        "isCorrect": false
-      },
-      {
-        "text": "开着的",
-        "isCorrect": false
-      },
-      {
-        "text": "飞机",
+        "text": "酒吧/咖啡馆",
         "isCorrect": false
       }
     ]
@@ -5025,14 +5025,10 @@ module.exports = [
     "meaning": "雪",
     "example": "La neve cade.",
     "example_meaning": "雪在下。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Nevi)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nNeve -> Neve",
     "options": [
       {
-        "text": "城市",
-        "isCorrect": false
-      },
-      {
-        "text": "晚上",
+        "text": "三",
         "isCorrect": false
       },
       {
@@ -5040,7 +5036,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "晚上好",
+        "text": "旧的/老的",
+        "isCorrect": false
+      },
+      {
+        "text": "办公室",
         "isCorrect": false
       }
     ]
@@ -5054,23 +5054,23 @@ module.exports = [
     "meaning": "风",
     "example": "C'è molto vento.",
     "example_meaning": "风很大。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Venti)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nVento -> Venti",
     "options": [
+      {
+        "text": "太阳",
+        "isCorrect": false
+      },
+      {
+        "text": "报纸",
+        "isCorrect": false
+      },
+      {
+        "text": "如何",
+        "isCorrect": false
+      },
       {
         "text": "风",
         "isCorrect": true
-      },
-      {
-        "text": "睡意",
-        "isCorrect": false
-      },
-      {
-        "text": "星期二",
-        "isCorrect": false
-      },
-      {
-        "text": "对不起/借过",
-        "isCorrect": false
       }
     ]
   },
@@ -5083,23 +5083,23 @@ module.exports = [
     "meaning": "海",
     "example": "Andiamo al mare.",
     "example_meaning": "我们去海边吧。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Mari)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nMare -> Mari",
     "options": [
-      {
-        "text": "什么时候",
-        "isCorrect": false
-      },
-      {
-        "text": "父亲",
-        "isCorrect": false
-      },
-      {
-        "text": "说话",
-        "isCorrect": false
-      },
       {
         "text": "海",
         "isCorrect": true
+      },
+      {
+        "text": "水",
+        "isCorrect": false
+      },
+      {
+        "text": "时间/天气",
+        "isCorrect": false
+      },
+      {
+        "text": "票",
+        "isCorrect": false
       }
     ]
   },
@@ -5112,23 +5112,23 @@ module.exports = [
     "meaning": "山",
     "example": "Amo la montagna.",
     "example_meaning": "我爱山。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Montagne)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nMontagna -> Montagne",
     "options": [
+      {
+        "text": "床",
+        "isCorrect": false
+      },
+      {
+        "text": "谢谢",
+        "isCorrect": false
+      },
+      {
+        "text": "不客气",
+        "isCorrect": false
+      },
       {
         "text": "山",
         "isCorrect": true
-      },
-      {
-        "text": "风",
-        "isCorrect": false
-      },
-      {
-        "text": "冷的",
-        "isCorrect": false
-      },
-      {
-        "text": "衣服/连衣裙",
-        "isCorrect": false
       }
     ]
   },
@@ -5141,22 +5141,22 @@ module.exports = [
     "meaning": "湖",
     "example": "Il lago è calmo.",
     "example_meaning": "湖面平静。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Lagi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nLago -> Lagi",
     "options": [
       {
         "text": "湖",
         "isCorrect": true
       },
       {
-        "text": "多少",
+        "text": "九",
         "isCorrect": false
       },
       {
-        "text": "厨房",
+        "text": "包",
         "isCorrect": false
       },
       {
-        "text": "新的",
+        "text": "街道",
         "isCorrect": false
       }
     ]
@@ -5170,14 +5170,10 @@ module.exports = [
     "meaning": "河",
     "example": "Il fiume scorre.",
     "example_meaning": "河水流淌。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Fiumi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nFiume -> Fiumi",
     "options": [
       {
-        "text": "谁",
-        "isCorrect": false
-      },
-      {
-        "text": "电话",
+        "text": "做",
         "isCorrect": false
       },
       {
@@ -5185,7 +5181,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "嘴",
+        "text": "黑色的",
+        "isCorrect": false
+      },
+      {
+        "text": "餐厅",
         "isCorrect": false
       }
     ]
@@ -5199,14 +5199,14 @@ module.exports = [
     "meaning": "树",
     "example": "L'albero è verde.",
     "example_meaning": "树是绿色的。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Alberi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nAlbero -> Alberi",
     "options": [
       {
-        "text": "餐厅",
+        "text": "谁",
         "isCorrect": false
       },
       {
-        "text": "报纸",
+        "text": "肉",
         "isCorrect": false
       },
       {
@@ -5214,7 +5214,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "医院",
+        "text": "眼睛",
         "isCorrect": false
       }
     ]
@@ -5228,22 +5228,22 @@ module.exports = [
     "meaning": "花",
     "example": "Questo fiore profuma.",
     "example_meaning": "这朵花很香。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Fiori)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nFiore -> Fiori",
     "options": [
-      {
-        "text": "是/存在",
-        "isCorrect": false
-      },
-      {
-        "text": "湖",
-        "isCorrect": false
-      },
       {
         "text": "花",
         "isCorrect": true
       },
       {
-        "text": "包",
+        "text": "头",
+        "isCorrect": false
+      },
+      {
+        "text": "心",
+        "isCorrect": false
+      },
+      {
+        "text": "朋友",
         "isCorrect": false
       }
     ]
@@ -5257,10 +5257,14 @@ module.exports = [
     "meaning": "狗",
     "example": "Il cane abbaia.",
     "example_meaning": "狗在叫。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Cani)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nCane -> Cani",
     "options": [
       {
-        "text": "不",
+        "text": "什么时候",
+        "isCorrect": false
+      },
+      {
+        "text": "口渴",
         "isCorrect": false
       },
       {
@@ -5268,11 +5272,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "在哪里",
-        "isCorrect": false
-      },
-      {
-        "text": "水果",
+        "text": "累的",
         "isCorrect": false
       }
     ]
@@ -5286,18 +5286,18 @@ module.exports = [
     "meaning": "猫",
     "example": "Il gatto miagola.",
     "example_meaning": "猫在叫。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Gatti)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nGatto -> Gatti",
     "options": [
       {
-        "text": "地址",
+        "text": "一百",
         "isCorrect": false
       },
       {
-        "text": "星期一",
+        "text": "父亲",
         "isCorrect": false
       },
       {
-        "text": "裙子",
+        "text": "城市",
         "isCorrect": false
       },
       {
@@ -5315,14 +5315,10 @@ module.exports = [
     "meaning": "鸟",
     "example": "L'uccello vola.",
     "example_meaning": "鸟在飞。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Uccelli)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nUccello -> Uccelli",
     "options": [
       {
-        "text": "肉",
-        "isCorrect": false
-      },
-      {
-        "text": "机场",
+        "text": "七",
         "isCorrect": false
       },
       {
@@ -5330,7 +5326,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "鞋",
+        "text": "早上好",
+        "isCorrect": false
+      },
+      {
+        "text": "工作",
         "isCorrect": false
       }
     ]
@@ -5344,18 +5344,18 @@ module.exports = [
     "meaning": "马",
     "example": "Il cavallo corre.",
     "example_meaning": "马在跑。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Cavalli)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nCavallo -> Cavalli",
     "options": [
       {
-        "text": "八",
+        "text": "头发",
         "isCorrect": false
       },
       {
-        "text": "火车",
+        "text": "家庭",
         "isCorrect": false
       },
       {
-        "text": "自行车",
+        "text": "水",
         "isCorrect": false
       },
       {
@@ -5373,22 +5373,22 @@ module.exports = [
     "meaning": "头",
     "example": "Ho mal di testa.",
     "example_meaning": "我头痛。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Teste)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nTesta -> Teste",
     "options": [
+      {
+        "text": "电话",
+        "isCorrect": false
+      },
+      {
+        "text": "星期日",
+        "isCorrect": false
+      },
       {
         "text": "头",
         "isCorrect": true
       },
       {
-        "text": "谢谢",
-        "isCorrect": false
-      },
-      {
-        "text": "是",
-        "isCorrect": false
-      },
-      {
-        "text": "晚上",
+        "text": "朋友",
         "isCorrect": false
       }
     ]
@@ -5402,23 +5402,23 @@ module.exports = [
     "meaning": "手",
     "example": "Dammi la mano.",
     "example_meaning": "把手给我。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Mani)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nMano -> Mane",
     "options": [
+      {
+        "text": "月",
+        "isCorrect": false
+      },
+      {
+        "text": "城市",
+        "isCorrect": false
+      },
+      {
+        "text": "汽车/机器",
+        "isCorrect": false
+      },
       {
         "text": "手",
         "isCorrect": true
-      },
-      {
-        "text": "商店",
-        "isCorrect": false
-      },
-      {
-        "text": "生气的",
-        "isCorrect": false
-      },
-      {
-        "text": "糖",
-        "isCorrect": false
       }
     ]
   },
@@ -5431,22 +5431,22 @@ module.exports = [
     "meaning": "脚",
     "example": "Ho male al piede.",
     "example_meaning": "我脚痛。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Piedi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nPiede -> Piedi",
     "options": [
-      {
-        "text": "饥饿",
-        "isCorrect": false
-      },
       {
         "text": "脚",
         "isCorrect": true
       },
       {
-        "text": "天/白天",
+        "text": "饥饿",
         "isCorrect": false
       },
       {
-        "text": "矮的/低的",
+        "text": "冷的",
+        "isCorrect": false
+      },
+      {
+        "text": "飞机",
         "isCorrect": false
       }
     ]
@@ -5460,22 +5460,22 @@ module.exports = [
     "meaning": "眼睛",
     "example": "Ha gli occhi azzurri.",
     "example_meaning": "他有蓝眼睛。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Occhii)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nOcchio -> Occhii",
     "options": [
       {
         "text": "眼睛",
         "isCorrect": true
       },
       {
-        "text": "昨天",
+        "text": "年",
         "isCorrect": false
       },
       {
-        "text": "星期一",
+        "text": "葡萄酒",
         "isCorrect": false
       },
       {
-        "text": "消息",
+        "text": "冷",
         "isCorrect": false
       }
     ]
@@ -5489,23 +5489,23 @@ module.exports = [
     "meaning": "嘴",
     "example": "Apri la bocca.",
     "example_meaning": "张嘴。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Bocce)。",
+    "detail": "阴性单数名词 (-ca/-ga)。\n复数形式通常加 h 保持发音：\nBocca -> Bocche",
     "options": [
       {
-        "text": "山",
-        "isCorrect": false
+        "text": "嘴",
+        "isCorrect": true
       },
       {
         "text": "新的",
         "isCorrect": false
       },
       {
-        "text": "热的",
+        "text": "商店",
         "isCorrect": false
       },
       {
-        "text": "嘴",
-        "isCorrect": true
+        "text": "酒吧/咖啡馆",
+        "isCorrect": false
       }
     ]
   },
@@ -5518,18 +5518,18 @@ module.exports = [
     "meaning": "鼻子",
     "example": "Ho il naso chiuso.",
     "example_meaning": "我鼻子塞了。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Nasi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nNaso -> Nasi",
     "options": [
       {
-        "text": "她/您",
+        "text": "开着的",
         "isCorrect": false
       },
       {
-        "text": "手表/钟",
+        "text": "冷",
         "isCorrect": false
       },
       {
-        "text": "儿子",
+        "text": "价格",
         "isCorrect": false
       },
       {
@@ -5547,22 +5547,22 @@ module.exports = [
     "meaning": "耳朵",
     "example": "Mi fa male l'orecchio.",
     "example_meaning": "我耳朵痛。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Orecchii)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nOrecchio -> Orecchii",
     "options": [
-      {
-        "text": "开着的",
-        "isCorrect": false
-      },
       {
         "text": "耳朵",
         "isCorrect": true
       },
       {
-        "text": "山",
+        "text": "姐妹",
         "isCorrect": false
       },
       {
-        "text": "做",
+        "text": "分钟",
+        "isCorrect": false
+      },
+      {
+        "text": "姓氏",
         "isCorrect": false
       }
     ]
@@ -5576,14 +5576,14 @@ module.exports = [
     "meaning": "头发",
     "example": "Hai dei bei capelli.",
     "example_meaning": "你的头发很漂亮。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nCapelli -> Capelli",
     "options": [
       {
-        "text": "牛奶",
+        "text": "水果",
         "isCorrect": false
       },
       {
-        "text": "工作",
+        "text": "钢笔",
         "isCorrect": false
       },
       {
@@ -5591,7 +5591,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "学校",
+        "text": "床",
         "isCorrect": false
       }
     ]
@@ -5605,23 +5605,23 @@ module.exports = [
     "meaning": "心",
     "example": "Il mio cuore batte forte.",
     "example_meaning": "我的心跳得很快。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Cuori)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nCuore -> Cuori",
     "options": [
       {
-        "text": "开着的",
+        "text": "车站",
         "isCorrect": false
       },
       {
-        "text": "二",
-        "isCorrect": false
-      },
-      {
-        "text": "手",
+        "text": "街道",
         "isCorrect": false
       },
       {
         "text": "心",
         "isCorrect": true
+      },
+      {
+        "text": "六",
+        "isCorrect": false
       }
     ]
   },
@@ -5634,23 +5634,23 @@ module.exports = [
     "meaning": "肚子",
     "example": "Ho mal di pancia.",
     "example_meaning": "我肚子痛。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Pancie)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nPancia -> Pancie",
     "options": [
       {
-        "text": "女儿",
+        "text": "下午",
         "isCorrect": false
       },
       {
-        "text": "桌子",
-        "isCorrect": false
-      },
-      {
-        "text": "容易的",
+        "text": "七",
         "isCorrect": false
       },
       {
         "text": "肚子",
         "isCorrect": true
+      },
+      {
+        "text": "荣幸/高兴",
+        "isCorrect": false
       }
     ]
   },
@@ -5663,22 +5663,22 @@ module.exports = [
     "meaning": "生病的",
     "example": "Sono malato oggi.",
     "example_meaning": "我今天病了。",
-    "detail": "形容词。\n需根据修饰的名词进行性数配合 (如: o/a/i/e)。",
+    "detail": "四尾形容词 (o/a/i/e)。\n\n变化规则：\n阳单: Malato\n阴单: Malata\n阳复: Malati\n阴复: Malate",
     "options": [
-      {
-        "text": "手",
-        "isCorrect": false
-      },
       {
         "text": "生病的",
         "isCorrect": true
       },
       {
-        "text": "名字",
+        "text": "耳朵",
         "isCorrect": false
       },
       {
-        "text": "铅笔",
+        "text": "再见",
+        "isCorrect": false
+      },
+      {
+        "text": "肉",
         "isCorrect": false
       }
     ]
@@ -5692,23 +5692,23 @@ module.exports = [
     "meaning": "累的",
     "example": "Sono molto stanco.",
     "example_meaning": "我很累。",
-    "detail": "形容词。\n需根据修饰的名词进行性数配合 (如: o/a/i/e)。",
+    "detail": "四尾形容词 (o/a/i/e)。\n\n变化规则：\n阳单: Stanco\n阴单: Stanca\n阳复: Stanci\n阴复: Stance",
     "options": [
+      {
+        "text": "嘴",
+        "isCorrect": false
+      },
+      {
+        "text": "六",
+        "isCorrect": false
+      },
+      {
+        "text": "鱼",
+        "isCorrect": false
+      },
       {
         "text": "累的",
         "isCorrect": true
-      },
-      {
-        "text": "眼镜",
-        "isCorrect": false
-      },
-      {
-        "text": "家庭",
-        "isCorrect": false
-      },
-      {
-        "text": "面食",
-        "isCorrect": false
       }
     ]
   },
@@ -5721,22 +5721,22 @@ module.exports = [
     "meaning": "快乐的",
     "example": "Sono felice di vederti.",
     "example_meaning": "很高兴见到你。",
-    "detail": "形容词。\n需根据修饰的名词进行性数配合 (如: o/a/i/e)。",
+    "detail": "双尾形容词 (e/i)。\n\n变化规则：\n单数 (阳/阴): Felice\n复数 (阳/阴): Felici",
     "options": [
       {
         "text": "快乐的",
         "isCorrect": true
       },
       {
-        "text": "四",
+        "text": "坏的",
         "isCorrect": false
       },
       {
-        "text": "葡萄酒",
+        "text": "号码",
         "isCorrect": false
       },
       {
-        "text": "衬衫",
+        "text": "雨",
         "isCorrect": false
       }
     ]
@@ -5750,23 +5750,23 @@ module.exports = [
     "meaning": "悲伤的",
     "example": "Perché sei triste?",
     "example_meaning": "你为什么伤心？",
-    "detail": "形容词。\n需根据修饰的名词进行性数配合 (如: o/a/i/e)。",
+    "detail": "双尾形容词 (e/i)。\n\n变化规则：\n单数 (阳/阴): Triste\n复数 (阳/阴): Tristi",
     "options": [
+      {
+        "text": "男孩",
+        "isCorrect": false
+      },
+      {
+        "text": "冷",
+        "isCorrect": false
+      },
+      {
+        "text": "困难的",
+        "isCorrect": false
+      },
       {
         "text": "悲伤的",
         "isCorrect": true
-      },
-      {
-        "text": "他",
-        "isCorrect": false
-      },
-      {
-        "text": "九",
-        "isCorrect": false
-      },
-      {
-        "text": "中国的/中国人",
-        "isCorrect": false
       }
     ]
   },
@@ -5779,22 +5779,22 @@ module.exports = [
     "meaning": "生气的",
     "example": "Lui è arrabbiato.",
     "example_meaning": "他生气了。",
-    "detail": "形容词。\n需根据修饰的名词进行性数配合 (如: o/a/i/e)。",
+    "detail": "四尾形容词 (o/a/i/e)。\n\n变化规则：\n阳单: Arrabbiato\n阴单: Arrabbiata\n阳复: Arrabbiati\n阴复: Arrabbiate",
     "options": [
-      {
-        "text": "为什么",
-        "isCorrect": false
-      },
       {
         "text": "生气的",
         "isCorrect": true
       },
       {
-        "text": "手",
+        "text": "一",
         "isCorrect": false
       },
       {
-        "text": "眼睛",
+        "text": "父亲",
+        "isCorrect": false
+      },
+      {
+        "text": "广场",
         "isCorrect": false
       }
     ]
@@ -5808,23 +5808,23 @@ module.exports = [
     "meaning": "饥饿",
     "example": "Ho fame.",
     "example_meaning": "我饿了。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Fami)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nFame -> Fame",
     "options": [
-      {
-        "text": "周/星期",
-        "isCorrect": false
-      },
-      {
-        "text": "兄弟",
-        "isCorrect": false
-      },
-      {
-        "text": "雨",
-        "isCorrect": false
-      },
       {
         "text": "饥饿",
         "isCorrect": true
+      },
+      {
+        "text": "今天",
+        "isCorrect": false
+      },
+      {
+        "text": "糖",
+        "isCorrect": false
+      },
+      {
+        "text": "医院",
+        "isCorrect": false
       }
     ]
   },
@@ -5837,22 +5837,22 @@ module.exports = [
     "meaning": "口渴",
     "example": "Ho sete.",
     "example_meaning": "我渴了。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Seti)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nSete -> Sete",
     "options": [
+      {
+        "text": "容易的",
+        "isCorrect": false
+      },
+      {
+        "text": "电子邮件",
+        "isCorrect": false
+      },
       {
         "text": "口渴",
         "isCorrect": true
       },
       {
-        "text": "工作",
-        "isCorrect": false
-      },
-      {
-        "text": "啤酒",
-        "isCorrect": false
-      },
-      {
-        "text": "美丽的",
+        "text": "密码",
         "isCorrect": false
       }
     ]
@@ -5866,22 +5866,22 @@ module.exports = [
     "meaning": "热",
     "example": "Sento caldo.",
     "example_meaning": "我觉得热。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Caldi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nCaldo -> Caldi",
     "options": [
       {
         "text": "热",
         "isCorrect": true
       },
       {
-        "text": "晚安",
+        "text": "号码",
         "isCorrect": false
       },
       {
-        "text": "工作",
+        "text": "昨天",
         "isCorrect": false
       },
       {
-        "text": "酒吧/咖啡馆",
+        "text": "好的",
         "isCorrect": false
       }
     ]
@@ -5895,22 +5895,22 @@ module.exports = [
     "meaning": "冷",
     "example": "Ho freddo.",
     "example_meaning": "我冷。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Freddi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nFreddo -> Freddi",
     "options": [
       {
         "text": "冷",
         "isCorrect": true
       },
       {
-        "text": "厨房",
+        "text": "下午",
         "isCorrect": false
       },
       {
-        "text": "意大利",
+        "text": "美丽的",
         "isCorrect": false
       },
       {
-        "text": "居住",
+        "text": "九",
         "isCorrect": false
       }
     ]
@@ -5924,22 +5924,22 @@ module.exports = [
     "meaning": "睡意",
     "example": "Ho sonno.",
     "example_meaning": "我困了。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Sonni)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nSonno -> Sonni",
     "options": [
+      {
+        "text": "儿童",
+        "isCorrect": false
+      },
       {
         "text": "睡意",
         "isCorrect": true
       },
       {
-        "text": "女性朋友",
+        "text": "树",
         "isCorrect": false
       },
       {
-        "text": "母亲",
-        "isCorrect": false
-      },
-      {
-        "text": "手",
+        "text": "窗户",
         "isCorrect": false
       }
     ]
@@ -5953,23 +5953,23 @@ module.exports = [
     "meaning": "名字",
     "example": "Qual è il tuo nome?",
     "example_meaning": "你叫什么名字？",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Nomi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nNome -> Nomi",
     "options": [
       {
-        "text": "一千",
+        "text": "什么",
         "isCorrect": false
       },
       {
-        "text": "水果",
-        "isCorrect": false
-      },
-      {
-        "text": "星期六",
+        "text": "天/白天",
         "isCorrect": false
       },
       {
         "text": "名字",
         "isCorrect": true
+      },
+      {
+        "text": "兄弟",
+        "isCorrect": false
       }
     ]
   },
@@ -5982,22 +5982,22 @@ module.exports = [
     "meaning": "姓氏",
     "example": "Qual è il tuo cognome?",
     "example_meaning": "你姓什么？",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Cognomi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nCognome -> Cognomi",
     "options": [
       {
-        "text": "姓氏",
-        "isCorrect": true
+        "text": "蓝色的",
+        "isCorrect": false
       },
       {
         "text": "不",
         "isCorrect": false
       },
       {
-        "text": "朋友",
-        "isCorrect": false
+        "text": "姓氏",
+        "isCorrect": true
       },
       {
-        "text": "九",
+        "text": "七",
         "isCorrect": false
       }
     ]
@@ -6011,22 +6011,22 @@ module.exports = [
     "meaning": "地址",
     "example": "Qual è il tuo indirizzo?",
     "example_meaning": "你的地址是什么？",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Indirizzi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nIndirizzo -> Indirizzi",
     "options": [
       {
         "text": "地址",
         "isCorrect": true
       },
       {
-        "text": "早晨",
+        "text": "猫",
         "isCorrect": false
       },
       {
-        "text": "椅子",
+        "text": "冷的",
         "isCorrect": false
       },
       {
-        "text": "树",
+        "text": "七",
         "isCorrect": false
       }
     ]
@@ -6040,23 +6040,23 @@ module.exports = [
     "meaning": "号码",
     "example": "Dammi il tuo numero.",
     "example_meaning": "把你的号码给我。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Numeri)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nNumero -> Numeri",
     "options": [
       {
-        "text": "黄色的",
+        "text": "办公室",
+        "isCorrect": false
+      },
+      {
+        "text": "星期一",
+        "isCorrect": false
+      },
+      {
+        "text": "四",
         "isCorrect": false
       },
       {
         "text": "号码",
         "isCorrect": true
-      },
-      {
-        "text": "女性朋友",
-        "isCorrect": false
-      },
-      {
-        "text": "自行车",
-        "isCorrect": false
       }
     ]
   },
@@ -6069,22 +6069,22 @@ module.exports = [
     "meaning": "电话",
     "example": "Il telefono squilla.",
     "example_meaning": "电话响了。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Telefoni)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nTelefono -> Telefoni",
     "options": [
-      {
-        "text": "女性朋友",
-        "isCorrect": false
-      },
-      {
-        "text": "儿子",
-        "isCorrect": false
-      },
       {
         "text": "电话",
         "isCorrect": true
       },
       {
-        "text": "姓氏",
+        "text": "手",
+        "isCorrect": false
+      },
+      {
+        "text": "五",
+        "isCorrect": false
+      },
+      {
+        "text": "吃",
         "isCorrect": false
       }
     ]
@@ -6098,22 +6098,22 @@ module.exports = [
     "meaning": "电子邮件",
     "example": "Inviami un'email.",
     "example_meaning": "给我发邮件。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "外来词/辅音结尾名词。\n通常为阳性，复数形式保持不变 (il Email -> i Email)。",
     "options": [
-      {
-        "text": "九",
-        "isCorrect": false
-      },
       {
         "text": "电子邮件",
         "isCorrect": true
       },
       {
-        "text": "什么时候",
+        "text": "兄弟",
         "isCorrect": false
       },
       {
-        "text": "嘴",
+        "text": "是",
+        "isCorrect": false
+      },
+      {
+        "text": "鼻子",
         "isCorrect": false
       }
     ]
@@ -6127,12 +6127,8 @@ module.exports = [
     "meaning": "密码",
     "example": "Inserisci la password.",
     "example_meaning": "输入密码。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "外来词/辅音结尾名词。\n通常为阳性，复数形式保持不变 (il Password -> i Password)。",
     "options": [
-      {
-        "text": "她/您",
-        "isCorrect": false
-      },
       {
         "text": "密码",
         "isCorrect": true
@@ -6142,7 +6138,11 @@ module.exports = [
         "isCorrect": false
       },
       {
-        "text": "湖",
+        "text": "桌子",
+        "isCorrect": false
+      },
+      {
+        "text": "累的",
         "isCorrect": false
       }
     ]
@@ -6156,22 +6156,22 @@ module.exports = [
     "meaning": "互联网",
     "example": "Cerco su internet.",
     "example_meaning": "我在网上查。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "外来词/辅音结尾名词。\n通常为阳性，复数形式保持不变 (il Internet -> i Internet)。",
     "options": [
       {
         "text": "互联网",
         "isCorrect": true
       },
       {
-        "text": "床",
+        "text": "悲伤的",
         "isCorrect": false
       },
       {
-        "text": "网站",
+        "text": "九",
         "isCorrect": false
       },
       {
-        "text": "晚安",
+        "text": "钢笔",
         "isCorrect": false
       }
     ]
@@ -6185,22 +6185,22 @@ module.exports = [
     "meaning": "网站",
     "example": "Visita il nostro sito.",
     "example_meaning": "访问我们的网站。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Siti)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nSito -> Siti",
     "options": [
-      {
-        "text": "他",
-        "isCorrect": false
-      },
-      {
-        "text": "儿童",
-        "isCorrect": false
-      },
       {
         "text": "网站",
         "isCorrect": true
       },
       {
-        "text": "中国的/中国人",
+        "text": "关着的",
+        "isCorrect": false
+      },
+      {
+        "text": "我",
+        "isCorrect": false
+      },
+      {
+        "text": "脚",
         "isCorrect": false
       }
     ]
@@ -6214,23 +6214,23 @@ module.exports = [
     "meaning": "消息",
     "example": "Ho ricevuto un messaggio.",
     "example_meaning": "我收到了一条消息。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Messaggii)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nMessaggio -> Messaggii",
     "options": [
-      {
-        "text": "水果",
-        "isCorrect": false
-      },
-      {
-        "text": "海",
-        "isCorrect": false
-      },
-      {
-        "text": "酒吧/咖啡馆",
-        "isCorrect": false
-      },
       {
         "text": "消息",
         "isCorrect": true
+      },
+      {
+        "text": "办公室",
+        "isCorrect": false
+      },
+      {
+        "text": "广场",
+        "isCorrect": false
+      },
+      {
+        "text": "新的",
+        "isCorrect": false
       }
     ]
   },
@@ -6243,23 +6243,23 @@ module.exports = [
     "meaning": "能够",
     "example": "Posso aiutarti?",
     "example_meaning": "我能帮你吗？",
-    "detail": "原型：Potere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Potere (不规则动词)。\n\n直陈式现在时变位：\nposso, puoi, può, possiamo, potete, possono",
     "options": [
-      {
-        "text": "大蒜",
-        "isCorrect": false
-      },
-      {
-        "text": "警察",
-        "isCorrect": false
-      },
-      {
-        "text": "花费(钱/时间)",
-        "isCorrect": false
-      },
       {
         "text": "能够",
         "isCorrect": true
+      },
+      {
+        "text": "生日",
+        "isCorrect": false
+      },
+      {
+        "text": "借出",
+        "isCorrect": false
+      },
+      {
+        "text": "旅行",
+        "isCorrect": false
       }
     ]
   },
@@ -6272,23 +6272,23 @@ module.exports = [
     "meaning": "想要",
     "example": "Voglio un gelato.",
     "example_meaning": "我想要一个冰淇淋。",
-    "detail": "原型：Volere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Volere (不规则动词)。\n\n直陈式现在时变位：\nvoglio, vuoi, vuole, vogliamo, volete, vogliono",
     "options": [
       {
-        "text": "厕所",
+        "text": "准备",
+        "isCorrect": false
+      },
+      {
+        "text": "入口",
+        "isCorrect": false
+      },
+      {
+        "text": "看见",
         "isCorrect": false
       },
       {
         "text": "想要",
         "isCorrect": true
-      },
-      {
-        "text": "照片",
-        "isCorrect": false
-      },
-      {
-        "text": "沙拉",
-        "isCorrect": false
       }
     ]
   },
@@ -6301,23 +6301,23 @@ module.exports = [
     "meaning": "必须",
     "example": "Devo andare adesso.",
     "example_meaning": "我现在必须走了。",
-    "detail": "原型：Dovere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Dovere (不规则动词)。\n\n直陈式现在时变位：\ndevo, devi, deve, dobbiamo, dovete, devono",
     "options": [
+      {
+        "text": "鸡蛋",
+        "isCorrect": false
+      },
+      {
+        "text": "报纸",
+        "isCorrect": false
+      },
+      {
+        "text": "云",
+        "isCorrect": false
+      },
       {
         "text": "必须",
         "isCorrect": true
-      },
-      {
-        "text": "闻",
-        "isCorrect": false
-      },
-      {
-        "text": "惊喜",
-        "isCorrect": false
-      },
-      {
-        "text": "酱汁",
-        "isCorrect": false
       }
     ]
   },
@@ -6330,18 +6330,18 @@ module.exports = [
     "meaning": "知道/懂得",
     "example": "Non lo so.",
     "example_meaning": "我不知道。",
-    "detail": "原型：Sapere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sapere (不规则动词)。\n\n直陈式现在时变位：\nso, sai, sa, sappiamo, sapete, sanno",
     "options": [
       {
-        "text": "页",
+        "text": "花费/值",
         "isCorrect": false
       },
       {
-        "text": "冰淇淋",
+        "text": "生日",
         "isCorrect": false
       },
       {
-        "text": "洋葱",
+        "text": "雨衣",
         "isCorrect": false
       },
       {
@@ -6359,23 +6359,23 @@ module.exports = [
     "meaning": "认识/了解",
     "example": "Conosci Maria?",
     "example_meaning": "你认识玛丽亚吗？",
-    "detail": "原型：Conoscere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Conoscere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nConosco, Conosci, Conosce, Conosciamo, Conoscete, Conoscono",
     "options": [
       {
-        "text": "交警",
+        "text": "主意",
         "isCorrect": false
       },
       {
-        "text": "醋",
+        "text": "说",
+        "isCorrect": false
+      },
+      {
+        "text": "准备",
         "isCorrect": false
       },
       {
         "text": "认识/了解",
         "isCorrect": true
-      },
-      {
-        "text": "蛋糕",
-        "isCorrect": false
       }
     ]
   },
@@ -6388,23 +6388,23 @@ module.exports = [
     "meaning": "相信",
     "example": "Credo di sì.",
     "example_meaning": "我想是的。",
-    "detail": "原型：Credere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Credere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nCredo, Credi, Crede, Crediamo, Credete, Credono",
     "options": [
       {
-        "text": "袜子",
+        "text": "入口",
         "isCorrect": false
       },
       {
-        "text": "疼痛",
-        "isCorrect": false
-      },
-      {
-        "text": "冰淇淋",
+        "text": "电脑",
         "isCorrect": false
       },
       {
         "text": "相信",
         "isCorrect": true
+      },
+      {
+        "text": "香蕉",
+        "isCorrect": false
       }
     ]
   },
@@ -6417,22 +6417,22 @@ module.exports = [
     "meaning": "思考/想",
     "example": "Cosa ne pensi?",
     "example_meaning": "你怎么看？",
-    "detail": "原型：Pensare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Pensare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPenso, Pensi, Pensa, Pensiamo, Pensate, Pensano",
     "options": [
+      {
+        "text": "救护车",
+        "isCorrect": false
+      },
       {
         "text": "思考/想",
         "isCorrect": true
       },
       {
-        "text": "运气",
+        "text": "复活节",
         "isCorrect": false
       },
       {
-        "text": "牛仔裤",
-        "isCorrect": false
-      },
-      {
-        "text": "月亮",
+        "text": "油",
         "isCorrect": false
       }
     ]
@@ -6446,23 +6446,23 @@ module.exports = [
     "meaning": "理解",
     "example": "Non capisco.",
     "example_meaning": "我不明白。",
-    "detail": "原型：Capire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Capire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nCapo, Capi, Cape, Capiamo, Capite, Capono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
+      {
+        "text": "毛衣",
+        "isCorrect": false
+      },
+      {
+        "text": "页",
+        "isCorrect": false
+      },
+      {
+        "text": "谎言",
+        "isCorrect": false
+      },
       {
         "text": "理解",
         "isCorrect": true
-      },
-      {
-        "text": "出口",
-        "isCorrect": false
-      },
-      {
-        "text": "音乐",
-        "isCorrect": false
-      },
-      {
-        "text": "大衣",
-        "isCorrect": false
       }
     ]
   },
@@ -6475,22 +6475,22 @@ module.exports = [
     "meaning": "听见/感觉",
     "example": "Senti questo rumore?",
     "example_meaning": "你听到这个声音了吗？",
-    "detail": "原型：Sentire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sentire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nSento, Senti, Sente, Sentiamo, Sentite, Sentono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
-      {
-        "text": "洋葱",
-        "isCorrect": false
-      },
       {
         "text": "听见/感觉",
         "isCorrect": true
+      },
+      {
+        "text": "袜子",
+        "isCorrect": false
       },
       {
         "text": "收音机",
         "isCorrect": false
       },
       {
-        "text": "玩",
+        "text": "手机",
         "isCorrect": false
       }
     ]
@@ -6504,22 +6504,22 @@ module.exports = [
     "meaning": "看见",
     "example": "Vedi quella casa?",
     "example_meaning": "你看到那座房子了吗？",
-    "detail": "原型：Vedere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Vedere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nVedo, Vedi, Vede, Vediamo, Vedete, Vedono",
     "options": [
       {
         "text": "看见",
         "isCorrect": true
       },
       {
-        "text": "相信",
+        "text": "早餐",
         "isCorrect": false
       },
       {
-        "text": "问/请求",
+        "text": "读",
         "isCorrect": false
       },
       {
-        "text": "节省",
+        "text": "雨伞",
         "isCorrect": false
       }
     ]
@@ -6533,18 +6533,18 @@ module.exports = [
     "meaning": "注视/看",
     "example": "Guardo la TV.",
     "example_meaning": "我在看电视。",
-    "detail": "原型：Guardare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Guardare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nGuardo, Guardi, Guarda, Guardiamo, Guardate, Guardano",
     "options": [
       {
-        "text": "知道/懂得",
+        "text": "语言/舌头",
         "isCorrect": false
       },
       {
-        "text": "猪肉",
+        "text": "修理",
         "isCorrect": false
       },
       {
-        "text": "危险",
+        "text": "结束",
         "isCorrect": false
       },
       {
@@ -6562,23 +6562,23 @@ module.exports = [
     "meaning": "听",
     "example": "Ascolta la musica.",
     "example_meaning": "听音乐。",
-    "detail": "原型：Ascoltare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Ascoltare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAscolto, Ascolti, Ascolta, Ascoltiamo, Ascoltate, Ascoltano",
     "options": [
+      {
+        "text": "聚会/节日",
+        "isCorrect": false
+      },
+      {
+        "text": "走路",
+        "isCorrect": false
+      },
+      {
+        "text": "交警",
+        "isCorrect": false
+      },
       {
         "text": "听",
         "isCorrect": true
-      },
-      {
-        "text": "问/请求",
-        "isCorrect": false
-      },
-      {
-        "text": "思想",
-        "isCorrect": false
-      },
-      {
-        "text": "雨伞",
-        "isCorrect": false
       }
     ]
   },
@@ -6591,22 +6591,22 @@ module.exports = [
     "meaning": "触摸",
     "example": "Non toccare!",
     "example_meaning": "别碰！",
-    "detail": "原型：Toccare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Toccare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nTocco, Tocci, Tocca, Tocciamo, Toccate, Toccano",
     "options": [
       {
         "text": "触摸",
         "isCorrect": true
       },
       {
-        "text": "草莓",
+        "text": "内裤",
         "isCorrect": false
       },
       {
-        "text": "读",
+        "text": "烹饪",
         "isCorrect": false
       },
       {
-        "text": "音乐",
+        "text": "注意",
         "isCorrect": false
       }
     ]
@@ -6620,22 +6620,22 @@ module.exports = [
     "meaning": "品尝",
     "example": "Vuoi assaggiare?",
     "example_meaning": "你想尝尝吗？",
-    "detail": "原型：Assaggiare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Assaggiare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAssaggio, Assaggii, Assaggia, Assaggiiamo, Assaggiate, Assaggiano",
     "options": [
       {
         "text": "品尝",
         "isCorrect": true
       },
       {
-        "text": "知道/懂得",
+        "text": "地球/土地",
         "isCorrect": false
       },
       {
-        "text": "疾病",
+        "text": "赠送",
         "isCorrect": false
       },
       {
-        "text": "离开/留下",
+        "text": "想要",
         "isCorrect": false
       }
     ]
@@ -6649,18 +6649,18 @@ module.exports = [
     "meaning": "闻",
     "example": "Odora questo fiore.",
     "example_meaning": "闻闻这朵花。",
-    "detail": "原型：Odorare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Odorare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nOdoro, Odori, Odora, Odoriamo, Odorate, Odorano",
     "options": [
       {
-        "text": "跳舞",
+        "text": "节省",
         "isCorrect": false
       },
       {
-        "text": "跑",
+        "text": "电视",
         "isCorrect": false
       },
       {
-        "text": "真相",
+        "text": "听",
         "isCorrect": false
       },
       {
@@ -6678,22 +6678,22 @@ module.exports = [
     "meaning": "寻找",
     "example": "Cerco le mie chiavi.",
     "example_meaning": "我在找钥匙。",
-    "detail": "原型：Cercare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Cercare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nCerco, Cerci, Cerca, Cerciamo, Cercate, Cercano",
     "options": [
-      {
-        "text": "信/字母",
-        "isCorrect": false
-      },
       {
         "text": "寻找",
         "isCorrect": true
       },
       {
-        "text": "意大利面",
+        "text": "解决方案",
         "isCorrect": false
       },
       {
-        "text": "假期",
+        "text": "洋葱",
+        "isCorrect": false
+      },
+      {
+        "text": "厄运",
         "isCorrect": false
       }
     ]
@@ -6707,10 +6707,14 @@ module.exports = [
     "meaning": "找到",
     "example": "Ho trovato un lavoro.",
     "example_meaning": "我找到了一份工作。",
-    "detail": "原型：Trovare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Trovare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nTrovo, Trovi, Trova, Troviamo, Trovate, Trovano",
     "options": [
       {
-        "text": "牛仔裤",
+        "text": "交警",
+        "isCorrect": false
+      },
+      {
+        "text": "拿/取/乘坐",
         "isCorrect": false
       },
       {
@@ -6718,11 +6722,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "医生",
-        "isCorrect": false
-      },
-      {
-        "text": "柠檬",
+        "text": "药店",
         "isCorrect": false
       }
     ]
@@ -6736,14 +6736,14 @@ module.exports = [
     "meaning": "丢失/输",
     "example": "Non perdere tempo.",
     "example_meaning": "别浪费时间。",
-    "detail": "原型：Perdere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Perdere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nPerdo, Perdi, Perde, Perdiamo, Perdete, Perdono",
     "options": [
       {
-        "text": "晚餐",
+        "text": "惊喜",
         "isCorrect": false
       },
       {
-        "text": "想要",
+        "text": "洗",
         "isCorrect": false
       },
       {
@@ -6751,7 +6751,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "注意",
+        "text": "停止",
         "isCorrect": false
       }
     ]
@@ -6765,23 +6765,23 @@ module.exports = [
     "meaning": "赢",
     "example": "Abbiamo vinto la partita.",
     "example_meaning": "我们赢了比赛。",
-    "detail": "原型：Vincere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Vincere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nVinco, Vinci, Vince, Vinciamo, Vincete, Vincono",
     "options": [
       {
-        "text": "入口",
+        "text": "理解",
         "isCorrect": false
       },
       {
-        "text": "梦/梦想",
-        "isCorrect": false
-      },
-      {
-        "text": "惊喜",
+        "text": "恐惧",
         "isCorrect": false
       },
       {
         "text": "赢",
         "isCorrect": true
+      },
+      {
+        "text": "云",
+        "isCorrect": false
       }
     ]
   },
@@ -6794,23 +6794,23 @@ module.exports = [
     "meaning": "玩",
     "example": "I bambini giocano.",
     "example_meaning": "孩子们在玩。",
-    "detail": "原型：Giocare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Giocare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nGioco, Gioci, Gioca, Giociamo, Giocate, Giocano",
     "options": [
       {
-        "text": "早餐",
+        "text": "蛋糕",
         "isCorrect": false
       },
       {
-        "text": "冰淇淋",
-        "isCorrect": false
-      },
-      {
-        "text": "地图",
+        "text": "回忆",
         "isCorrect": false
       },
       {
         "text": "玩",
         "isCorrect": true
+      },
+      {
+        "text": "意大利面",
+        "isCorrect": false
       }
     ]
   },
@@ -6823,23 +6823,23 @@ module.exports = [
     "meaning": "演奏/响",
     "example": "Suono la chitarra.",
     "example_meaning": "我弹吉他。",
-    "detail": "原型：Suonare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Suonare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSuono, Suoni, Suona, Suoniamo, Suonate, Suonano",
     "options": [
-      {
-        "text": "交警",
-        "isCorrect": false
-      },
-      {
-        "text": "大蒜",
-        "isCorrect": false
-      },
-      {
-        "text": "信/字母",
-        "isCorrect": false
-      },
       {
         "text": "演奏/响",
         "isCorrect": true
+      },
+      {
+        "text": "触摸",
+        "isCorrect": false
+      },
+      {
+        "text": "禁止",
+        "isCorrect": false
+      },
+      {
+        "text": "袜子",
+        "isCorrect": false
       }
     ]
   },
@@ -6852,22 +6852,22 @@ module.exports = [
     "meaning": "跳舞",
     "example": "Ti piace ballare?",
     "example_meaning": "你喜欢跳舞吗？",
-    "detail": "原型：Ballare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Ballare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nBallo, Balli, Balla, Balliamo, Ballate, Ballano",
     "options": [
       {
         "text": "跳舞",
         "isCorrect": true
       },
       {
-        "text": "牛仔裤",
+        "text": "雷暴",
         "isCorrect": false
       },
       {
-        "text": "寻找",
+        "text": "旅行",
         "isCorrect": false
       },
       {
-        "text": "电梯",
+        "text": "勇气",
         "isCorrect": false
       }
     ]
@@ -6881,23 +6881,23 @@ module.exports = [
     "meaning": "唱歌",
     "example": "Lei canta bene.",
     "example_meaning": "她唱得很好。",
-    "detail": "原型：Cantare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Cantare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nCanto, Canti, Canta, Cantiamo, Cantate, Cantano",
     "options": [
-      {
-        "text": "旅行",
-        "isCorrect": false
-      },
-      {
-        "text": "闻",
-        "isCorrect": false
-      },
-      {
-        "text": "思想",
-        "isCorrect": false
-      },
       {
         "text": "唱歌",
         "isCorrect": true
+      },
+      {
+        "text": "说",
+        "isCorrect": false
+      },
+      {
+        "text": "现实",
+        "isCorrect": false
+      },
+      {
+        "text": "回答",
+        "isCorrect": false
       }
     ]
   },
@@ -6910,23 +6910,23 @@ module.exports = [
     "meaning": "跑",
     "example": "Corro ogni mattina.",
     "example_meaning": "我每天早上跑步。",
-    "detail": "原型：Correre (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Correre (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nCorro, Corri, Corre, Corriamo, Correte, Corrono",
     "options": [
-      {
-        "text": "交警",
-        "isCorrect": false
-      },
-      {
-        "text": "能够",
-        "isCorrect": false
-      },
-      {
-        "text": "米饭",
-        "isCorrect": false
-      },
       {
         "text": "跑",
         "isCorrect": true
+      },
+      {
+        "text": "思想",
+        "isCorrect": false
+      },
+      {
+        "text": "天空",
+        "isCorrect": false
+      },
+      {
+        "text": "早餐",
+        "isCorrect": false
       }
     ]
   },
@@ -6939,10 +6939,10 @@ module.exports = [
     "meaning": "走路",
     "example": "Mi piace camminare.",
     "example_meaning": "我喜欢走路。",
-    "detail": "原型：Camminare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Camminare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nCammino, Cammini, Cammina, Camminiamo, Camminate, Camminano",
     "options": [
       {
-        "text": "公园",
+        "text": "运动",
         "isCorrect": false
       },
       {
@@ -6950,11 +6950,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "弄脏",
+        "text": "新闻",
         "isCorrect": false
       },
       {
-        "text": "女士",
+        "text": "蛋糕",
         "isCorrect": false
       }
     ]
@@ -6968,22 +6968,22 @@ module.exports = [
     "meaning": "停止",
     "example": "Ferma l'auto.",
     "example_meaning": "停车。",
-    "detail": "原型：Fermare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Fermare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nFermo, Fermi, Ferma, Fermiamo, Fermate, Fermano",
     "options": [
       {
         "text": "停止",
         "isCorrect": true
       },
       {
-        "text": "电脑",
+        "text": "电梯",
         "isCorrect": false
       },
       {
-        "text": "祝贺",
+        "text": "电视",
         "isCorrect": false
       },
       {
-        "text": "早餐",
+        "text": "歌曲",
         "isCorrect": false
       }
     ]
@@ -6997,22 +6997,22 @@ module.exports = [
     "meaning": "继续",
     "example": "Continua a leggere.",
     "example_meaning": "继续读。",
-    "detail": "原型：Continuare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Continuare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nContinuo, Continui, Continua, Continuiamo, Continuate, Continuano",
     "options": [
       {
         "text": "继续",
         "isCorrect": true
       },
       {
-        "text": "烹饪",
+        "text": "音乐",
         "isCorrect": false
       },
       {
-        "text": "洋葱",
+        "text": "想要",
         "isCorrect": false
       },
       {
-        "text": "电梯",
+        "text": "柠檬",
         "isCorrect": false
       }
     ]
@@ -7026,10 +7026,14 @@ module.exports = [
     "meaning": "开始",
     "example": "Il film inizia alle otto.",
     "example_meaning": "电影八点开始。",
-    "detail": "原型：Iniziare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Iniziare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nInizio, Inizii, Inizia, Iniziiamo, Iniziate, Iniziano",
     "options": [
       {
-        "text": "需要",
+        "text": "夹克",
+        "isCorrect": false
+      },
+      {
+        "text": "警察",
         "isCorrect": false
       },
       {
@@ -7037,11 +7041,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "地图",
-        "isCorrect": false
-      },
-      {
-        "text": "牛仔裤",
+        "text": "咳嗽",
         "isCorrect": false
       }
     ]
@@ -7055,23 +7055,23 @@ module.exports = [
     "meaning": "结束",
     "example": "Ho finito il lavoro.",
     "example_meaning": "我做完了工作。",
-    "detail": "原型：Finire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Finire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nFino, Fini, Fine, Finiamo, Finite, Finono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
+      {
+        "text": "花园",
+        "isCorrect": false
+      },
+      {
+        "text": "地球/土地",
+        "isCorrect": false
+      },
+      {
+        "text": "入口",
+        "isCorrect": false
+      },
       {
         "text": "结束",
         "isCorrect": true
-      },
-      {
-        "text": "酱汁",
-        "isCorrect": false
-      },
-      {
-        "text": "花费/值",
-        "isCorrect": false
-      },
-      {
-        "text": "打开",
-        "isCorrect": false
       }
     ]
   },
@@ -7084,22 +7084,22 @@ module.exports = [
     "meaning": "打开",
     "example": "Apri la porta.",
     "example_meaning": "开门。",
-    "detail": "原型：Aprire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Aprire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nApro, Apri, Apre, Apriamo, Aprite, Aprono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
         "text": "打开",
         "isCorrect": true
       },
       {
-        "text": "T恤",
+        "text": "鸡肉",
         "isCorrect": false
       },
       {
-        "text": "醋",
+        "text": "看见",
         "isCorrect": false
       },
       {
-        "text": "句子",
+        "text": "手机",
         "isCorrect": false
       }
     ]
@@ -7113,22 +7113,22 @@ module.exports = [
     "meaning": "关闭",
     "example": "Chiudi la finestra.",
     "example_meaning": "关窗。",
-    "detail": "原型：Chiudere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Chiudere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nChiudo, Chiudi, Chiude, Chiudiamo, Chiudete, Chiudono",
     "options": [
       {
         "text": "关闭",
         "isCorrect": true
       },
       {
-        "text": "赠送",
+        "text": "新闻",
         "isCorrect": false
       },
       {
-        "text": "演奏/响",
+        "text": "手机",
         "isCorrect": false
       },
       {
-        "text": "洋葱",
+        "text": "支付",
         "isCorrect": false
       }
     ]
@@ -7142,22 +7142,22 @@ module.exports = [
     "meaning": "打开(电器/火)",
     "example": "Accendi la luce.",
     "example_meaning": "开灯。",
-    "detail": "原型：Accendere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Accendere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nAccendo, Accendi, Accende, Accendiamo, Accendete, Accendono",
     "options": [
-      {
-        "text": "弄脏",
-        "isCorrect": false
-      },
       {
         "text": "打开(电器/火)",
         "isCorrect": true
       },
       {
-        "text": "大蒜",
+        "text": "使用",
         "isCorrect": false
       },
       {
-        "text": "天空",
+        "text": "恐惧",
+        "isCorrect": false
+      },
+      {
+        "text": "消防员",
         "isCorrect": false
       }
     ]
@@ -7171,22 +7171,22 @@ module.exports = [
     "meaning": "关掉(电器/火)",
     "example": "Spegni la TV.",
     "example_meaning": "关电视。",
-    "detail": "原型：Spegnere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Spegnere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nSpegno, Spegni, Spegne, Spegniamo, Spegnete, Spegnono",
     "options": [
+      {
+        "text": "停止",
+        "isCorrect": false
+      },
+      {
+        "text": "听见/感觉",
+        "isCorrect": false
+      },
       {
         "text": "关掉(电器/火)",
         "isCorrect": true
       },
       {
-        "text": "祝贺",
-        "isCorrect": false
-      },
-      {
-        "text": "警察",
-        "isCorrect": false
-      },
-      {
-        "text": "节省",
+        "text": "相信",
         "isCorrect": false
       }
     ]
@@ -7200,22 +7200,22 @@ module.exports = [
     "meaning": "打破",
     "example": "Hai rotto il bicchiere.",
     "example_meaning": "你打破了杯子。",
-    "detail": "原型：Romper (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Romper (动词)。\n请注意根据语境的人称和时态进行变化。",
     "options": [
-      {
-        "text": "愿望/欲望",
-        "isCorrect": false
-      },
       {
         "text": "打破",
         "isCorrect": true
       },
       {
-        "text": "听",
+        "text": "花",
         "isCorrect": false
       },
       {
-        "text": "T恤",
+        "text": "大蒜",
+        "isCorrect": false
+      },
+      {
+        "text": "使用",
         "isCorrect": false
       }
     ]
@@ -7229,23 +7229,23 @@ module.exports = [
     "meaning": "修理",
     "example": "Devo aggiustare la bici.",
     "example_meaning": "我得修自行车。",
-    "detail": "原型：Aggiustare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Aggiustare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAggiusto, Aggiusti, Aggiusta, Aggiustiamo, Aggiustate, Aggiustano",
     "options": [
+      {
+        "text": "花",
+        "isCorrect": false
+      },
+      {
+        "text": "音乐",
+        "isCorrect": false
+      },
+      {
+        "text": "草莓",
+        "isCorrect": false
+      },
       {
         "text": "修理",
         "isCorrect": true
-      },
-      {
-        "text": "知道/懂得",
-        "isCorrect": false
-      },
-      {
-        "text": "意大利面",
-        "isCorrect": false
-      },
-      {
-        "text": "注意",
-        "isCorrect": false
       }
     ]
   },
@@ -7258,23 +7258,23 @@ module.exports = [
     "meaning": "打扫",
     "example": "Pulisco la casa.",
     "example_meaning": "我打扫房子。",
-    "detail": "原型：Pulire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Pulire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nPulo, Puli, Pule, Puliamo, Pulite, Pulono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "关掉(电器/火)",
+        "text": "关闭",
         "isCorrect": false
       },
       {
-        "text": "玩",
+        "text": "勇气",
+        "isCorrect": false
+      },
+      {
+        "text": "小吃",
         "isCorrect": false
       },
       {
         "text": "打扫",
         "isCorrect": true
-      },
-      {
-        "text": "离开/留下",
-        "isCorrect": false
       }
     ]
   },
@@ -7287,22 +7287,22 @@ module.exports = [
     "meaning": "弄脏",
     "example": "Non sporcare il pavimento.",
     "example_meaning": "别弄脏地板。",
-    "detail": "原型：Sporcare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sporcare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSporco, Sporci, Sporca, Sporciamo, Sporcate, Sporcano",
     "options": [
-      {
-        "text": "沙拉",
-        "isCorrect": false
-      },
       {
         "text": "弄脏",
         "isCorrect": true
       },
       {
-        "text": "地图",
+        "text": "公园",
         "isCorrect": false
       },
       {
-        "text": "音乐",
+        "text": "洗",
+        "isCorrect": false
+      },
+      {
+        "text": "星星",
         "isCorrect": false
       }
     ]
@@ -7316,22 +7316,22 @@ module.exports = [
     "meaning": "洗",
     "example": "Lavo i piatti.",
     "example_meaning": "我洗盘子。",
-    "detail": "原型：Lavare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Lavare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nLavo, Lavi, Lava, Laviamo, Lavate, Lavano",
     "options": [
-      {
-        "text": "音乐",
-        "isCorrect": false
-      },
       {
         "text": "洗",
         "isCorrect": true
       },
       {
-        "text": "注视/看",
+        "text": "饼干",
         "isCorrect": false
       },
       {
-        "text": "圣诞节",
+        "text": "恐惧",
+        "isCorrect": false
+      },
+      {
+        "text": "支付",
         "isCorrect": false
       }
     ]
@@ -7345,23 +7345,23 @@ module.exports = [
     "meaning": "烹饪",
     "example": "Chi cucina stasera?",
     "example_meaning": "今晚谁做饭？",
-    "detail": "原型：Cucinare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Cucinare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nCucino, Cucini, Cucina, Cuciniamo, Cucinate, Cucinano",
     "options": [
       {
-        "text": "出口",
+        "text": "夹克",
+        "isCorrect": false
+      },
+      {
+        "text": "回答",
+        "isCorrect": false
+      },
+      {
+        "text": "继续",
         "isCorrect": false
       },
       {
         "text": "烹饪",
         "isCorrect": true
-      },
-      {
-        "text": "鸡蛋",
-        "isCorrect": false
-      },
-      {
-        "text": "巧克力",
-        "isCorrect": false
       }
     ]
   },
@@ -7374,22 +7374,22 @@ module.exports = [
     "meaning": "准备",
     "example": "Preparo la cena.",
     "example_meaning": "我准备晚餐。",
-    "detail": "原型：Preparare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Preparare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPreparo, Prepari, Prepara, Prepariamo, Preparate, Preparano",
     "options": [
+      {
+        "text": "草莓",
+        "isCorrect": false
+      },
       {
         "text": "准备",
         "isCorrect": true
       },
       {
-        "text": "离开/留下",
+        "text": "梨",
         "isCorrect": false
       },
       {
-        "text": "需要",
-        "isCorrect": false
-      },
-      {
-        "text": "祝贺",
+        "text": "手提箱",
         "isCorrect": false
       }
     ]
@@ -7403,23 +7403,23 @@ module.exports = [
     "meaning": "买",
     "example": "Compro il pane.",
     "example_meaning": "我买面包。",
-    "detail": "原型：Comprare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Comprare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nCompro, Compri, Compra, Compriamo, Comprate, Comprano",
     "options": [
+      {
+        "text": "厕所",
+        "isCorrect": false
+      },
+      {
+        "text": "必须",
+        "isCorrect": false
+      },
+      {
+        "text": "打开",
+        "isCorrect": false
+      },
       {
         "text": "买",
         "isCorrect": true
-      },
-      {
-        "text": "电影",
-        "isCorrect": false
-      },
-      {
-        "text": "网球",
-        "isCorrect": false
-      },
-      {
-        "text": "消息",
-        "isCorrect": false
       }
     ]
   },
@@ -7432,23 +7432,23 @@ module.exports = [
     "meaning": "卖",
     "example": "Vendo la mia auto.",
     "example_meaning": "我卖我的车。",
-    "detail": "原型：Vendere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Vendere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nVendo, Vendi, Vende, Vendiamo, Vendete, Vendono",
     "options": [
       {
-        "text": "卖",
-        "isCorrect": true
-      },
-      {
-        "text": "赢",
-        "isCorrect": false
-      },
-      {
-        "text": "雨衣",
+        "text": "小吃",
         "isCorrect": false
       },
       {
         "text": "牛仔裤",
         "isCorrect": false
+      },
+      {
+        "text": "电视",
+        "isCorrect": false
+      },
+      {
+        "text": "卖",
+        "isCorrect": true
       }
     ]
   },
@@ -7461,14 +7461,14 @@ module.exports = [
     "meaning": "支付",
     "example": "Pago io.",
     "example_meaning": "我来付。",
-    "detail": "原型：Pagare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Pagare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPago, Pagi, Paga, Pagiamo, Pagate, Pagano",
     "options": [
       {
-        "text": "洗",
+        "text": "弄脏",
         "isCorrect": false
       },
       {
-        "text": "准备",
+        "text": "醋",
         "isCorrect": false
       },
       {
@@ -7476,7 +7476,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "秘密",
+        "text": "沙拉",
         "isCorrect": false
       }
     ]
@@ -7490,18 +7490,18 @@ module.exports = [
     "meaning": "花费/值",
     "example": "Quanto costa?",
     "example_meaning": "多少钱？",
-    "detail": "原型：Costare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Costare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nCosto, Costi, Costa, Costiamo, Costate, Costano",
     "options": [
       {
-        "text": "打开(电器/火)",
+        "text": "胡萝卜",
         "isCorrect": false
       },
       {
-        "text": "早餐",
+        "text": "思考/想",
         "isCorrect": false
       },
       {
-        "text": "勇气",
+        "text": "感冒",
         "isCorrect": false
       },
       {
@@ -7519,22 +7519,22 @@ module.exports = [
     "meaning": "花费(钱/时间)",
     "example": "Ho speso molti soldi.",
     "example_meaning": "我花了很多钱。",
-    "detail": "原型：Spendere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Spendere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nSpendo, Spendi, Spende, Spendiamo, Spendete, Spendono",
     "options": [
+      {
+        "text": "唱歌",
+        "isCorrect": false
+      },
       {
         "text": "花费(钱/时间)",
         "isCorrect": true
       },
       {
-        "text": "地图",
+        "text": "天空",
         "isCorrect": false
       },
       {
-        "text": "生日",
-        "isCorrect": false
-      },
-      {
-        "text": "禁止",
+        "text": "早餐",
         "isCorrect": false
       }
     ]
@@ -7548,23 +7548,23 @@ module.exports = [
     "meaning": "赚钱",
     "example": "Lui guadagna bene.",
     "example_meaning": "他挣钱不少。",
-    "detail": "原型：Guadagnare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Guadagnare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nGuadagno, Guadagni, Guadagna, Guadagniamo, Guadagnate, Guadagnano",
     "options": [
+      {
+        "text": "甜点",
+        "isCorrect": false
+      },
+      {
+        "text": "发烧",
+        "isCorrect": false
+      },
+      {
+        "text": "足球",
+        "isCorrect": false
+      },
       {
         "text": "赚钱",
         "isCorrect": true
-      },
-      {
-        "text": "游泳",
-        "isCorrect": false
-      },
-      {
-        "text": "早餐",
-        "isCorrect": false
-      },
-      {
-        "text": "准备",
-        "isCorrect": false
       }
     ]
   },
@@ -7577,23 +7577,23 @@ module.exports = [
     "meaning": "节省",
     "example": "Devo risparmiare.",
     "example_meaning": "我必须省钱。",
-    "detail": "原型：Risparmiare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Risparmiare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nRisparmio, Risparmii, Risparmia, Risparmiiamo, Risparmiate, Risparmiano",
     "options": [
+      {
+        "text": "番茄",
+        "isCorrect": false
+      },
+      {
+        "text": "药店",
+        "isCorrect": false
+      },
+      {
+        "text": "放/穿",
+        "isCorrect": false
+      },
       {
         "text": "节省",
         "isCorrect": true
-      },
-      {
-        "text": "单词/话",
-        "isCorrect": false
-      },
-      {
-        "text": "主意",
-        "isCorrect": false
-      },
-      {
-        "text": "照片",
-        "isCorrect": false
       }
     ]
   },
@@ -7606,22 +7606,22 @@ module.exports = [
     "meaning": "借出",
     "example": "Mi presti la penna?",
     "example_meaning": "借我支笔好吗？",
-    "detail": "原型：Prestare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Prestare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPresto, Presti, Presta, Prestiamo, Prestate, Prestano",
     "options": [
-      {
-        "text": "草",
-        "isCorrect": false
-      },
-      {
-        "text": "土豆",
-        "isCorrect": false
-      },
       {
         "text": "借出",
         "isCorrect": true
       },
       {
-        "text": "胡椒",
+        "text": "小吃",
+        "isCorrect": false
+      },
+      {
+        "text": "祝贺",
+        "isCorrect": false
+      },
+      {
+        "text": "闻",
         "isCorrect": false
       }
     ]
@@ -7635,22 +7635,22 @@ module.exports = [
     "meaning": "问/请求",
     "example": "Chiedo un'informazione.",
     "example_meaning": "我问个信息。",
-    "detail": "原型：Chiedere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Chiedere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nChiedo, Chiedi, Chiede, Chiediamo, Chiedete, Chiedono",
     "options": [
       {
         "text": "问/请求",
         "isCorrect": true
       },
       {
-        "text": "梦/梦想",
+        "text": "草莓",
         "isCorrect": false
       },
       {
-        "text": "牛肉",
+        "text": "植物",
         "isCorrect": false
       },
       {
-        "text": "奶酪",
+        "text": "感冒",
         "isCorrect": false
       }
     ]
@@ -7664,18 +7664,18 @@ module.exports = [
     "meaning": "回答",
     "example": "Rispondi alla domanda.",
     "example_meaning": "回答问题。",
-    "detail": "原型：Rispondere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Rispondere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nRispondo, Rispondi, Risponde, Rispondiamo, Rispondete, Rispondono",
     "options": [
       {
-        "text": "出口",
+        "text": "寻找",
         "isCorrect": false
       },
       {
-        "text": "新闻",
+        "text": "草莓",
         "isCorrect": false
       },
       {
-        "text": "健康",
+        "text": "跑",
         "isCorrect": false
       },
       {
@@ -7693,22 +7693,22 @@ module.exports = [
     "meaning": "说",
     "example": "Dimmi la verità.",
     "example_meaning": "告诉我真相。",
-    "detail": "原型：Dire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Dire (不规则动词)。\n\n直陈式现在时变位：\ndico, dici, dice, diciamo, dite, dicono",
     "options": [
-      {
-        "text": "旅行",
-        "isCorrect": false
-      },
-      {
-        "text": "读",
-        "isCorrect": false
-      },
       {
         "text": "说",
         "isCorrect": true
       },
       {
-        "text": "找到",
+        "text": "带",
+        "isCorrect": false
+      },
+      {
+        "text": "圣诞节",
+        "isCorrect": false
+      },
+      {
+        "text": "知道/懂得",
         "isCorrect": false
       }
     ]
@@ -7722,22 +7722,22 @@ module.exports = [
     "meaning": "写",
     "example": "Scrivo una lettera.",
     "example_meaning": "我写一封信。",
-    "detail": "原型：Scrivere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Scrivere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nScrivo, Scrivi, Scrive, Scriviamo, Scrivete, Scrivono",
     "options": [
       {
         "text": "写",
         "isCorrect": true
       },
       {
-        "text": "注视/看",
+        "text": "巧克力",
         "isCorrect": false
       },
       {
-        "text": "需要",
+        "text": "胡椒",
         "isCorrect": false
       },
       {
-        "text": "听见/感觉",
+        "text": "回答",
         "isCorrect": false
       }
     ]
@@ -7751,23 +7751,23 @@ module.exports = [
     "meaning": "读",
     "example": "Leggo un libro.",
     "example_meaning": "我在读书。",
-    "detail": "原型：Leggere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Leggere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nLeggo, Leggi, Legge, Leggiamo, Leggete, Leggono",
     "options": [
       {
-        "text": "惊喜",
-        "isCorrect": false
-      },
-      {
-        "text": "注意",
-        "isCorrect": false
-      },
-      {
-        "text": "咳嗽",
+        "text": "赚钱",
         "isCorrect": false
       },
       {
         "text": "读",
         "isCorrect": true
+      },
+      {
+        "text": "消息",
+        "isCorrect": false
+      },
+      {
+        "text": "禁止",
+        "isCorrect": false
       }
     ]
   },
@@ -7780,23 +7780,23 @@ module.exports = [
     "meaning": "发送",
     "example": "Invia il messaggio.",
     "example_meaning": "发送消息。",
-    "detail": "原型：Inviare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Inviare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nInvio, Invii, Invia, Inviiamo, Inviate, Inviano",
     "options": [
       {
-        "text": "宪兵",
-        "isCorrect": false
-      },
-      {
-        "text": "收音机",
-        "isCorrect": false
-      },
-      {
-        "text": "男士",
+        "text": "跑",
         "isCorrect": false
       },
       {
         "text": "发送",
         "isCorrect": true
+      },
+      {
+        "text": "足球",
+        "isCorrect": false
+      },
+      {
+        "text": "问/请求",
+        "isCorrect": false
       }
     ]
   },
@@ -7809,23 +7809,23 @@ module.exports = [
     "meaning": "收到",
     "example": "Ho ricevuto un regalo.",
     "example_meaning": "我收到了一个礼物。",
-    "detail": "原型：Ricevere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Ricevere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nRicevo, Ricevi, Riceve, Riceviamo, Ricevete, Ricevono",
     "options": [
       {
-        "text": "蔬菜",
+        "text": "午餐",
         "isCorrect": false
       },
       {
-        "text": "意大利面",
-        "isCorrect": false
-      },
-      {
-        "text": "打开(电器/火)",
+        "text": "照片",
         "isCorrect": false
       },
       {
         "text": "收到",
         "isCorrect": true
+      },
+      {
+        "text": "花园",
+        "isCorrect": false
       }
     ]
   },
@@ -7838,22 +7838,22 @@ module.exports = [
     "meaning": "赠送",
     "example": "Ti regalo un libro.",
     "example_meaning": "我送你一本书。",
-    "detail": "原型：Regalare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Regalare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nRegalo, Regali, Regala, Regaliamo, Regalate, Regalano",
     "options": [
+      {
+        "text": "照片",
+        "isCorrect": false
+      },
       {
         "text": "赠送",
         "isCorrect": true
       },
       {
-        "text": "必须",
+        "text": "警察",
         "isCorrect": false
       },
       {
-        "text": "甜点",
-        "isCorrect": false
-      },
-      {
-        "text": "柠檬",
+        "text": "页",
         "isCorrect": false
       }
     ]
@@ -7867,23 +7867,23 @@ module.exports = [
     "meaning": "拿/取/乘坐",
     "example": "Prendo un caffè.",
     "example_meaning": "我要一杯咖啡。",
-    "detail": "原型：Prendere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Prendere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nPrendo, Prendi, Prende, Prendiamo, Prendete, Prendono",
     "options": [
       {
-        "text": "赠送",
+        "text": "寻找",
+        "isCorrect": false
+      },
+      {
+        "text": "玩",
+        "isCorrect": false
+      },
+      {
+        "text": "旅行",
         "isCorrect": false
       },
       {
         "text": "拿/取/乘坐",
         "isCorrect": true
-      },
-      {
-        "text": "健身房",
-        "isCorrect": false
-      },
-      {
-        "text": "语言/舌头",
-        "isCorrect": false
       }
     ]
   },
@@ -7896,22 +7896,22 @@ module.exports = [
     "meaning": "离开/留下",
     "example": "Lascio le chiavi qui.",
     "example_meaning": "我把钥匙留这儿。",
-    "detail": "原型：Lasciare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Lasciare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nLascio, Lascii, Lascia, Lasciiamo, Lasciate, Lasciano",
     "options": [
       {
         "text": "离开/留下",
         "isCorrect": true
       },
       {
-        "text": "早餐",
+        "text": "午餐",
         "isCorrect": false
       },
       {
-        "text": "电影",
+        "text": "男士",
         "isCorrect": false
       },
       {
-        "text": "收音机",
+        "text": "网球",
         "isCorrect": false
       }
     ]
@@ -7925,23 +7925,23 @@ module.exports = [
     "meaning": "放/穿",
     "example": "Metti il libro sul tavolo.",
     "example_meaning": "把书放在桌子上。",
-    "detail": "原型：Mettere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Mettere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nMetto, Metti, Mette, Mettiamo, Mettete, Mettono",
     "options": [
+      {
+        "text": "杂志",
+        "isCorrect": false
+      },
+      {
+        "text": "月亮",
+        "isCorrect": false
+      },
+      {
+        "text": "健康",
+        "isCorrect": false
+      },
       {
         "text": "放/穿",
         "isCorrect": true
-      },
-      {
-        "text": "午餐",
-        "isCorrect": false
-      },
-      {
-        "text": "继续",
-        "isCorrect": false
-      },
-      {
-        "text": "玩",
-        "isCorrect": false
       }
     ]
   },
@@ -7954,23 +7954,23 @@ module.exports = [
     "meaning": "拿走/脱",
     "example": "Togli le scarpe.",
     "example_meaning": "脱鞋。",
-    "detail": "原型：Togliere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Togliere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nToglio, Toglii, Toglie, Togliiamo, Togliete, Togliono",
     "options": [
+      {
+        "text": "发烧",
+        "isCorrect": false
+      },
+      {
+        "text": "修理",
+        "isCorrect": false
+      },
+      {
+        "text": "赚钱",
+        "isCorrect": false
+      },
       {
         "text": "拿走/脱",
         "isCorrect": true
-      },
-      {
-        "text": "惊喜",
-        "isCorrect": false
-      },
-      {
-        "text": "发送",
-        "isCorrect": false
-      },
-      {
-        "text": "复活节",
-        "isCorrect": false
       }
     ]
   },
@@ -7983,23 +7983,23 @@ module.exports = [
     "meaning": "带",
     "example": "Portami l'acqua.",
     "example_meaning": "给我带水来。",
-    "detail": "原型：Portare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Portare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPorto, Porti, Porta, Portiamo, Portate, Portano",
     "options": [
       {
-        "text": "书",
+        "text": "圣诞节",
         "isCorrect": false
       },
       {
-        "text": "电梯",
-        "isCorrect": false
-      },
-      {
-        "text": "药",
+        "text": "电影",
         "isCorrect": false
       },
       {
         "text": "带",
         "isCorrect": true
+      },
+      {
+        "text": "早餐",
+        "isCorrect": false
       }
     ]
   },
@@ -8012,18 +8012,18 @@ module.exports = [
     "meaning": "使用",
     "example": "Posso usare il tuo telefono?",
     "example_meaning": "我能用你的电话吗？",
-    "detail": "原型：Usare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Usare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nUso, Usi, Usa, Usiamo, Usate, Usano",
     "options": [
       {
-        "text": "赠送",
+        "text": "油",
         "isCorrect": false
       },
       {
-        "text": "牛仔裤",
+        "text": "甜点",
         "isCorrect": false
       },
       {
-        "text": "解决方案",
+        "text": "句子",
         "isCorrect": false
       },
       {
@@ -8041,18 +8041,18 @@ module.exports = [
     "meaning": "需要",
     "example": "Ho bisogno di aiuto.",
     "example_meaning": "我需要帮助。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Bisogni)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nBisogno -> Bisogni",
     "options": [
       {
-        "text": "健身房",
+        "text": "卖",
         "isCorrect": false
       },
       {
-        "text": "玩",
+        "text": "照相机",
         "isCorrect": false
       },
       {
-        "text": "现实",
+        "text": "收音机",
         "isCorrect": false
       },
       {
@@ -8070,18 +8070,18 @@ module.exports = [
     "meaning": "愿望/欲望",
     "example": "Ho voglia di gelato.",
     "example_meaning": "我想吃冰淇淋。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Voglie)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nVoglia -> Voglie",
     "options": [
       {
-        "text": "厕所",
+        "text": "写",
         "isCorrect": false
       },
       {
-        "text": "音乐",
+        "text": "洗",
         "isCorrect": false
       },
       {
-        "text": "明信片",
+        "text": "拿/取/乘坐",
         "isCorrect": false
       },
       {
@@ -8099,22 +8099,22 @@ module.exports = [
     "meaning": "恐惧",
     "example": "Non avere paura.",
     "example_meaning": "别害怕。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Paure)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nPaura -> Paure",
     "options": [
-      {
-        "text": "明信片",
-        "isCorrect": false
-      },
       {
         "text": "恐惧",
         "isCorrect": true
       },
       {
-        "text": "书",
+        "text": "放/穿",
         "isCorrect": false
       },
       {
-        "text": "玩",
+        "text": "护照",
+        "isCorrect": false
+      },
+      {
+        "text": "猪肉",
         "isCorrect": false
       }
     ]
@@ -8128,23 +8128,23 @@ module.exports = [
     "meaning": "勇气",
     "example": "Abbi coraggio.",
     "example_meaning": "要有勇气。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Coraggii)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nCoraggio -> Coraggii",
     "options": [
+      {
+        "text": "开始",
+        "isCorrect": false
+      },
+      {
+        "text": "放/穿",
+        "isCorrect": false
+      },
+      {
+        "text": "谎言",
+        "isCorrect": false
+      },
       {
         "text": "勇气",
         "isCorrect": true
-      },
-      {
-        "text": "祝贺",
-        "isCorrect": false
-      },
-      {
-        "text": "健康",
-        "isCorrect": false
-      },
-      {
-        "text": "打开(电器/火)",
-        "isCorrect": false
       }
     ]
   },
@@ -8157,23 +8157,23 @@ module.exports = [
     "meaning": "运气",
     "example": "Buona fortuna!",
     "example_meaning": "祝你好运！",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Fortune)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nFortuna -> Fortune",
     "options": [
       {
-        "text": "内裤",
+        "text": "桃子",
         "isCorrect": false
       },
       {
-        "text": "准备",
+        "text": "秘密",
+        "isCorrect": false
+      },
+      {
+        "text": "寻找",
         "isCorrect": false
       },
       {
         "text": "运气",
         "isCorrect": true
-      },
-      {
-        "text": "开始",
-        "isCorrect": false
       }
     ]
   },
@@ -8186,14 +8186,14 @@ module.exports = [
     "meaning": "厄运",
     "example": "Che sfortuna!",
     "example_meaning": "真倒霉！",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Sfortune)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nSfortuna -> Sfortune",
     "options": [
       {
-        "text": "禁止",
+        "text": "橙子",
         "isCorrect": false
       },
       {
-        "text": "雨伞",
+        "text": "烹饪",
         "isCorrect": false
       },
       {
@@ -8201,7 +8201,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "鸡蛋",
+        "text": "意大利面",
         "isCorrect": false
       }
     ]
@@ -8215,23 +8215,23 @@ module.exports = [
     "meaning": "问题",
     "example": "Non c'è problema.",
     "example_meaning": "没问题。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Probleme)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nProblema -> Problemi",
     "options": [
-      {
-        "text": "听见/感觉",
-        "isCorrect": false
-      },
-      {
-        "text": "胡椒",
-        "isCorrect": false
-      },
-      {
-        "text": "博物馆",
-        "isCorrect": false
-      },
       {
         "text": "问题",
         "isCorrect": true
+      },
+      {
+        "text": "土豆",
+        "isCorrect": false
+      },
+      {
+        "text": "消息",
+        "isCorrect": false
+      },
+      {
+        "text": "赚钱",
+        "isCorrect": false
       }
     ]
   },
@@ -8244,23 +8244,23 @@ module.exports = [
     "meaning": "解决方案",
     "example": "Ho trovato una soluzione.",
     "example_meaning": "我找到了解决方案。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Soluzioni)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nSoluzione -> Soluzione",
     "options": [
       {
-        "text": "圣诞节",
+        "text": "回答",
         "isCorrect": false
       },
       {
-        "text": "草",
-        "isCorrect": false
-      },
-      {
-        "text": "礼物",
+        "text": "葡萄",
         "isCorrect": false
       },
       {
         "text": "解决方案",
         "isCorrect": true
+      },
+      {
+        "text": "夹克",
+        "isCorrect": false
       }
     ]
   },
@@ -8273,22 +8273,22 @@ module.exports = [
     "meaning": "问题",
     "example": "Ho una domanda.",
     "example_meaning": "我有一个问题。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Domande)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nDomanda -> Domande",
     "options": [
+      {
+        "text": "祝贺",
+        "isCorrect": false
+      },
+      {
+        "text": "电影院",
+        "isCorrect": false
+      },
       {
         "text": "问题",
         "isCorrect": true
       },
       {
-        "text": "胡萝卜",
-        "isCorrect": false
-      },
-      {
-        "text": "报纸",
-        "isCorrect": false
-      },
-      {
-        "text": "拿走/脱",
+        "text": "跑",
         "isCorrect": false
       }
     ]
@@ -8302,22 +8302,22 @@ module.exports = [
     "meaning": "回答",
     "example": "Aspetto una risposta.",
     "example_meaning": "我在等回答。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Risposte)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nRisposta -> Risposte",
     "options": [
       {
         "text": "回答",
         "isCorrect": true
       },
       {
-        "text": "甜点",
+        "text": "雨衣",
         "isCorrect": false
       },
       {
-        "text": "牛仔裤",
+        "text": "厄运",
         "isCorrect": false
       },
       {
-        "text": "认识/了解",
+        "text": "T恤",
         "isCorrect": false
       }
     ]
@@ -8331,14 +8331,10 @@ module.exports = [
     "meaning": "主意",
     "example": "Ho un'idea.",
     "example_meaning": "我有个主意。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Idee)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nIdea -> Idee",
     "options": [
       {
-        "text": "必须",
-        "isCorrect": false
-      },
-      {
-        "text": "星星",
+        "text": "梨",
         "isCorrect": false
       },
       {
@@ -8346,7 +8342,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "放/穿",
+        "text": "健身房",
+        "isCorrect": false
+      },
+      {
+        "text": "拿/取/乘坐",
         "isCorrect": false
       }
     ]
@@ -8360,22 +8360,22 @@ module.exports = [
     "meaning": "思想",
     "example": "È un pensiero gentile.",
     "example_meaning": "这是个好主意。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Pensieri)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nPensiero -> Pensieri",
     "options": [
       {
         "text": "思想",
         "isCorrect": true
       },
       {
-        "text": "药",
+        "text": "厄运",
         "isCorrect": false
       },
       {
-        "text": "帮助",
+        "text": "祝贺",
         "isCorrect": false
       },
       {
-        "text": "音乐",
+        "text": "草",
         "isCorrect": false
       }
     ]
@@ -8389,22 +8389,22 @@ module.exports = [
     "meaning": "回忆",
     "example": "Ho un bel ricordo.",
     "example_meaning": "我有美好的回忆。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Ricordi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nRicordo -> Ricordi",
     "options": [
-      {
-        "text": "鸡肉",
-        "isCorrect": false
-      },
-      {
-        "text": "厕所",
-        "isCorrect": false
-      },
       {
         "text": "回忆",
         "isCorrect": true
       },
       {
-        "text": "收音机",
+        "text": "健康",
+        "isCorrect": false
+      },
+      {
+        "text": "出口",
+        "isCorrect": false
+      },
+      {
+        "text": "开始",
         "isCorrect": false
       }
     ]
@@ -8418,23 +8418,23 @@ module.exports = [
     "meaning": "梦/梦想",
     "example": "Ho fatto un sogno strano.",
     "example_meaning": "我做了一个奇怪的梦。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Sogni)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nSogno -> Sogni",
     "options": [
-      {
-        "text": "假期",
-        "isCorrect": false
-      },
-      {
-        "text": "手提箱",
-        "isCorrect": false
-      },
-      {
-        "text": "禁止",
-        "isCorrect": false
-      },
       {
         "text": "梦/梦想",
         "isCorrect": true
+      },
+      {
+        "text": "地球/土地",
+        "isCorrect": false
+      },
+      {
+        "text": "注意",
+        "isCorrect": false
+      },
+      {
+        "text": "酱汁",
+        "isCorrect": false
       }
     ]
   },
@@ -8447,22 +8447,22 @@ module.exports = [
     "meaning": "现实",
     "example": "Torna alla realtà.",
     "example_meaning": "回到现实吧。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "重音结尾名词。\n复数形式保持不变 (la Realtà -> le Realtà)。",
     "options": [
+      {
+        "text": "勇气",
+        "isCorrect": false
+      },
+      {
+        "text": "禁止",
+        "isCorrect": false
+      },
       {
         "text": "现实",
         "isCorrect": true
       },
       {
-        "text": "丢失/输",
-        "isCorrect": false
-      },
-      {
-        "text": "元旦",
-        "isCorrect": false
-      },
-      {
-        "text": "赢",
+        "text": "听见/感觉",
         "isCorrect": false
       }
     ]
@@ -8476,22 +8476,22 @@ module.exports = [
     "meaning": "真相",
     "example": "Dimmi la verità.",
     "example_meaning": "告诉我真相。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "重音结尾名词。\n复数形式保持不变 (la Verità -> le Verità)。",
     "options": [
+      {
+        "text": "胡椒",
+        "isCorrect": false
+      },
       {
         "text": "真相",
         "isCorrect": true
       },
       {
-        "text": "写",
+        "text": "继续",
         "isCorrect": false
       },
       {
-        "text": "足球",
-        "isCorrect": false
-      },
-      {
-        "text": "花费/值",
+        "text": "博物馆",
         "isCorrect": false
       }
     ]
@@ -8505,22 +8505,22 @@ module.exports = [
     "meaning": "谎言",
     "example": "Non dire bugie.",
     "example_meaning": "别撒谎。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Bugie)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nBugia -> Bugie",
     "options": [
       {
         "text": "谎言",
         "isCorrect": true
       },
       {
-        "text": "页",
+        "text": "赢",
         "isCorrect": false
       },
       {
-        "text": "女士",
+        "text": "想要",
         "isCorrect": false
       },
       {
-        "text": "跑",
+        "text": "晚餐",
         "isCorrect": false
       }
     ]
@@ -8534,23 +8534,23 @@ module.exports = [
     "meaning": "秘密",
     "example": "È un segreto.",
     "example_meaning": "这是一个秘密。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Segreti)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nSegreto -> Segreti",
     "options": [
+      {
+        "text": "胡椒",
+        "isCorrect": false
+      },
+      {
+        "text": "找到",
+        "isCorrect": false
+      },
+      {
+        "text": "认识/了解",
+        "isCorrect": false
+      },
       {
         "text": "秘密",
         "isCorrect": true
-      },
-      {
-        "text": "帮助",
-        "isCorrect": false
-      },
-      {
-        "text": "牛仔裤",
-        "isCorrect": false
-      },
-      {
-        "text": "赚钱",
-        "isCorrect": false
       }
     ]
   },
@@ -8563,22 +8563,22 @@ module.exports = [
     "meaning": "惊喜",
     "example": "Che bella sorpresa!",
     "example_meaning": "多好的惊喜！",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Sorprese)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nSorpresa -> Sorprese",
     "options": [
+      {
+        "text": "咳嗽",
+        "isCorrect": false
+      },
+      {
+        "text": "问题",
+        "isCorrect": false
+      },
       {
         "text": "惊喜",
         "isCorrect": true
       },
       {
-        "text": "找到",
-        "isCorrect": false
-      },
-      {
-        "text": "电视",
-        "isCorrect": false
-      },
-      {
-        "text": "现实",
+        "text": "草莓",
         "isCorrect": false
       }
     ]
@@ -8592,22 +8592,22 @@ module.exports = [
     "meaning": "礼物",
     "example": "Questo regalo è per te.",
     "example_meaning": "这个礼物是给你的。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Regali)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nRegalo -> Regali",
     "options": [
-      {
-        "text": "足球",
-        "isCorrect": false
-      },
       {
         "text": "礼物",
         "isCorrect": true
       },
       {
-        "text": "醋",
+        "text": "语言/舌头",
         "isCorrect": false
       },
       {
-        "text": "回答",
+        "text": "巧克力",
+        "isCorrect": false
+      },
+      {
+        "text": "疾病",
         "isCorrect": false
       }
     ]
@@ -8621,22 +8621,22 @@ module.exports = [
     "meaning": "聚会/节日",
     "example": "Vado a una festa.",
     "example_meaning": "我去参加聚会。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Feste)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nFesta -> Feste",
     "options": [
+      {
+        "text": "护照",
+        "isCorrect": false
+      },
       {
         "text": "聚会/节日",
         "isCorrect": true
       },
       {
-        "text": "走路",
+        "text": "唱歌",
         "isCorrect": false
       },
       {
-        "text": "雨衣",
-        "isCorrect": false
-      },
-      {
-        "text": "读",
+        "text": "天空",
         "isCorrect": false
       }
     ]
@@ -8650,22 +8650,22 @@ module.exports = [
     "meaning": "生日",
     "example": "Buon compleanno!",
     "example_meaning": "生日快乐！",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Compleanni)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nCompleanno -> Compleanni",
     "options": [
       {
         "text": "生日",
         "isCorrect": true
       },
       {
-        "text": "危险",
+        "text": "打开",
         "isCorrect": false
       },
       {
-        "text": "元旦",
+        "text": "语言/舌头",
         "isCorrect": false
       },
       {
-        "text": "游泳",
+        "text": "鸡蛋",
         "isCorrect": false
       }
     ]
@@ -8679,23 +8679,23 @@ module.exports = [
     "meaning": "祝贺",
     "example": "Tanti auguri!",
     "example_meaning": "祝贺你！",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nAuguri -> Auguri",
     "options": [
-      {
-        "text": "帮助",
-        "isCorrect": false
-      },
-      {
-        "text": "圣诞节",
-        "isCorrect": false
-      },
-      {
-        "text": "句子",
-        "isCorrect": false
-      },
       {
         "text": "祝贺",
         "isCorrect": true
+      },
+      {
+        "text": "知道/懂得",
+        "isCorrect": false
+      },
+      {
+        "text": "注视/看",
+        "isCorrect": false
+      },
+      {
+        "text": "足球",
+        "isCorrect": false
       }
     ]
   },
@@ -8708,22 +8708,22 @@ module.exports = [
     "meaning": "圣诞节",
     "example": "Buon Natale!",
     "example_meaning": "圣诞快乐！",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Natali)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nNatale -> Natali",
     "options": [
       {
         "text": "圣诞节",
         "isCorrect": true
       },
       {
-        "text": "足球",
+        "text": "借出",
         "isCorrect": false
       },
       {
-        "text": "危险",
+        "text": "复活节",
         "isCorrect": false
       },
       {
-        "text": "问/请求",
+        "text": "照片",
         "isCorrect": false
       }
     ]
@@ -8737,22 +8737,22 @@ module.exports = [
     "meaning": "复活节",
     "example": "Buona Pasqua!",
     "example_meaning": "复活节快乐！",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Pasque)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nPasqua -> Pasque",
     "options": [
       {
         "text": "复活节",
         "isCorrect": true
       },
       {
-        "text": "梦/梦想",
+        "text": "回答",
         "isCorrect": false
       },
       {
-        "text": "开始",
+        "text": "书",
         "isCorrect": false
       },
       {
-        "text": "夹克",
+        "text": "打破",
         "isCorrect": false
       }
     ]
@@ -8766,23 +8766,23 @@ module.exports = [
     "meaning": "元旦",
     "example": "Felice anno nuovo.",
     "example_meaning": "新年快乐。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Capodanni)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nCapodanno -> Capodanni",
     "options": [
       {
-        "text": "土豆",
+        "text": "洋葱",
         "isCorrect": false
       },
       {
-        "text": "月亮",
+        "text": "说",
+        "isCorrect": false
+      },
+      {
+        "text": "愿望/欲望",
         "isCorrect": false
       },
       {
         "text": "元旦",
         "isCorrect": true
-      },
-      {
-        "text": "发送",
-        "isCorrect": false
       }
     ]
   },
@@ -8795,23 +8795,23 @@ module.exports = [
     "meaning": "假期",
     "example": "Sono in vacanza.",
     "example_meaning": "我在度假。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Vacanze)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nVacanza -> Vacanze",
     "options": [
       {
-        "text": "赚钱",
-        "isCorrect": false
-      },
-      {
-        "text": "秘密",
-        "isCorrect": false
-      },
-      {
-        "text": "带",
+        "text": "元旦",
         "isCorrect": false
       },
       {
         "text": "假期",
         "isCorrect": true
+      },
+      {
+        "text": "草莓",
+        "isCorrect": false
+      },
+      {
+        "text": "蔬菜",
+        "isCorrect": false
       }
     ]
   },
@@ -8824,23 +8824,23 @@ module.exports = [
     "meaning": "旅行",
     "example": "Buon viaggio!",
     "example_meaning": "旅途愉快！",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Viaggii)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nViaggio -> Viaggii",
     "options": [
+      {
+        "text": "电脑",
+        "isCorrect": false
+      },
+      {
+        "text": "注意",
+        "isCorrect": false
+      },
+      {
+        "text": "厄运",
+        "isCorrect": false
+      },
       {
         "text": "旅行",
         "isCorrect": true
-      },
-      {
-        "text": "能够",
-        "isCorrect": false
-      },
-      {
-        "text": "回答",
-        "isCorrect": false
-      },
-      {
-        "text": "花",
-        "isCorrect": false
       }
     ]
   },
@@ -8853,14 +8853,10 @@ module.exports = [
     "meaning": "手提箱",
     "example": "Prepara la valigia.",
     "example_meaning": "收拾行李。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Valigie)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nValigia -> Valigie",
     "options": [
       {
-        "text": "说",
-        "isCorrect": false
-      },
-      {
-        "text": "毛衣",
+        "text": "地图",
         "isCorrect": false
       },
       {
@@ -8868,7 +8864,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "节省",
+        "text": "入口",
+        "isCorrect": false
+      },
+      {
+        "text": "橙子",
         "isCorrect": false
       }
     ]
@@ -8882,23 +8882,23 @@ module.exports = [
     "meaning": "护照",
     "example": "Hai il passaporto?",
     "example_meaning": "你有护照吗？",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Passaporti)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nPassaporto -> Passaporti",
     "options": [
+      {
+        "text": "饼干",
+        "isCorrect": false
+      },
+      {
+        "text": "星星",
+        "isCorrect": false
+      },
+      {
+        "text": "语言/舌头",
+        "isCorrect": false
+      },
       {
         "text": "护照",
         "isCorrect": true
-      },
-      {
-        "text": "梦/梦想",
-        "isCorrect": false
-      },
-      {
-        "text": "禁止",
-        "isCorrect": false
-      },
-      {
-        "text": "丢失/输",
-        "isCorrect": false
       }
     ]
   },
@@ -8911,22 +8911,22 @@ module.exports = [
     "meaning": "明信片",
     "example": "Ti mando una cartolina.",
     "example_meaning": "我给你寄张明信片。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Cartoline)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nCartolina -> Cartoline",
     "options": [
+      {
+        "text": "出口",
+        "isCorrect": false
+      },
       {
         "text": "明信片",
         "isCorrect": true
       },
       {
-        "text": "蔬菜",
+        "text": "大蒜",
         "isCorrect": false
       },
       {
-        "text": "胡椒",
-        "isCorrect": false
-      },
-      {
-        "text": "带",
+        "text": "疾病",
         "isCorrect": false
       }
     ]
@@ -8940,23 +8940,23 @@ module.exports = [
     "meaning": "地图",
     "example": "Guarda la mappa.",
     "example_meaning": "看地图。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Mappe)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nMappa -> Mappe",
     "options": [
+      {
+        "text": "寻找",
+        "isCorrect": false
+      },
+      {
+        "text": "勇气",
+        "isCorrect": false
+      },
+      {
+        "text": "帮助",
+        "isCorrect": false
+      },
       {
         "text": "地图",
         "isCorrect": true
-      },
-      {
-        "text": "赢",
-        "isCorrect": false
-      },
-      {
-        "text": "花费/值",
-        "isCorrect": false
-      },
-      {
-        "text": "看见",
-        "isCorrect": false
       }
     ]
   },
@@ -8969,10 +8969,14 @@ module.exports = [
     "meaning": "照片",
     "example": "Facciamo una foto.",
     "example_meaning": "我们拍张照吧。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Foti)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nFoto -> Fote",
     "options": [
       {
-        "text": "牛仔裤",
+        "text": "惊喜",
+        "isCorrect": false
+      },
+      {
+        "text": "写",
         "isCorrect": false
       },
       {
@@ -8980,11 +8984,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "猪肉",
-        "isCorrect": false
-      },
-      {
-        "text": "雨伞",
+        "text": "修理",
         "isCorrect": false
       }
     ]
@@ -8998,22 +8998,22 @@ module.exports = [
     "meaning": "照相机",
     "example": "Ho una nuova macchina fotografica.",
     "example_meaning": "我有一台新照相机。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Macchina fotografice)。",
+    "detail": "阴性单数名词 (-ca/-ga)。\n复数形式通常加 h 保持发音：\nMacchina fotografica -> Macchina fotografiche",
     "options": [
-      {
-        "text": "丢失/输",
-        "isCorrect": false
-      },
       {
         "text": "照相机",
         "isCorrect": true
       },
       {
-        "text": "疼痛",
+        "text": "甜点",
         "isCorrect": false
       },
       {
-        "text": "油",
+        "text": "问/请求",
+        "isCorrect": false
+      },
+      {
+        "text": "地球/土地",
         "isCorrect": false
       }
     ]
@@ -9027,10 +9027,10 @@ module.exports = [
     "meaning": "电脑",
     "example": "Lavoro al computer.",
     "example_meaning": "我在电脑上工作。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "外来词/辅音结尾名词。\n通常为阳性，复数形式保持不变 (il Computer -> i Computer)。",
     "options": [
       {
-        "text": "公园",
+        "text": "报纸",
         "isCorrect": false
       },
       {
@@ -9038,11 +9038,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "思想",
+        "text": "拿走/脱",
         "isCorrect": false
       },
       {
-        "text": "醋",
+        "text": "旅行",
         "isCorrect": false
       }
     ]
@@ -9056,22 +9056,22 @@ module.exports = [
     "meaning": "手机",
     "example": "Il mio cellulare è scarico.",
     "example_meaning": "我的手机没电了。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Cellulari)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nCellulare -> Cellulari",
     "options": [
+      {
+        "text": "秘密",
+        "isCorrect": false
+      },
+      {
+        "text": "护士",
+        "isCorrect": false
+      },
       {
         "text": "手机",
         "isCorrect": true
       },
       {
-        "text": "注意",
-        "isCorrect": false
-      },
-      {
-        "text": "回答",
-        "isCorrect": false
-      },
-      {
-        "text": "闻",
+        "text": "宪兵",
         "isCorrect": false
       }
     ]
@@ -9085,22 +9085,22 @@ module.exports = [
     "meaning": "电视",
     "example": "Guardo la televisione.",
     "example_meaning": "我看电视。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Televisioni)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nTelevisione -> Televisione",
     "options": [
       {
         "text": "电视",
         "isCorrect": true
       },
       {
-        "text": "午餐",
+        "text": "巧克力",
         "isCorrect": false
       },
       {
-        "text": "歌曲",
+        "text": "知道/懂得",
         "isCorrect": false
       },
       {
-        "text": "花费(钱/时间)",
+        "text": "注意",
         "isCorrect": false
       }
     ]
@@ -9114,23 +9114,23 @@ module.exports = [
     "meaning": "收音机",
     "example": "Ascolto la radio.",
     "example_meaning": "我听收音机。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Radii)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nRadio -> Radie",
     "options": [
-      {
-        "text": "警察",
-        "isCorrect": false
-      },
-      {
-        "text": "丢失/输",
-        "isCorrect": false
-      },
-      {
-        "text": "电脑",
-        "isCorrect": false
-      },
       {
         "text": "收音机",
         "isCorrect": true
+      },
+      {
+        "text": "电影",
+        "isCorrect": false
+      },
+      {
+        "text": "圣诞节",
+        "isCorrect": false
+      },
+      {
+        "text": "游泳池",
+        "isCorrect": false
       }
     ]
   },
@@ -9143,22 +9143,22 @@ module.exports = [
     "meaning": "报纸",
     "example": "Leggi il giornale.",
     "example_meaning": "读报纸。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Giornali)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nGiornale -> Giornali",
     "options": [
       {
         "text": "报纸",
         "isCorrect": true
       },
       {
-        "text": "歌曲",
+        "text": "星星",
         "isCorrect": false
       },
       {
-        "text": "夹克",
+        "text": "葡萄",
         "isCorrect": false
       },
       {
-        "text": "云",
+        "text": "礼物",
         "isCorrect": false
       }
     ]
@@ -9172,23 +9172,23 @@ module.exports = [
     "meaning": "杂志",
     "example": "Compro una rivista.",
     "example_meaning": "我买一本杂志。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Riviste)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nRivista -> Riviste",
     "options": [
       {
-        "text": "生日",
+        "text": "月亮",
         "isCorrect": false
       },
       {
-        "text": "玩",
+        "text": "打开",
+        "isCorrect": false
+      },
+      {
+        "text": "问题",
         "isCorrect": false
       },
       {
         "text": "杂志",
         "isCorrect": true
-      },
-      {
-        "text": "电梯",
-        "isCorrect": false
       }
     ]
   },
@@ -9201,22 +9201,22 @@ module.exports = [
     "meaning": "书",
     "example": "Amo leggere libri.",
     "example_meaning": "我爱读书。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Libri)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nLibro -> Libri",
     "options": [
+      {
+        "text": "运气",
+        "isCorrect": false
+      },
       {
         "text": "书",
         "isCorrect": true
       },
       {
-        "text": "草",
+        "text": "离开/留下",
         "isCorrect": false
       },
       {
-        "text": "理解",
-        "isCorrect": false
-      },
-      {
-        "text": "女士",
+        "text": "雨伞",
         "isCorrect": false
       }
     ]
@@ -9230,22 +9230,22 @@ module.exports = [
     "meaning": "页",
     "example": "Apri a pagina dieci.",
     "example_meaning": "翻到第十页。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Pagine)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nPagina -> Pagine",
     "options": [
       {
         "text": "页",
         "isCorrect": true
       },
       {
+        "text": "理解",
+        "isCorrect": false
+      },
+      {
         "text": "番茄",
         "isCorrect": false
       },
       {
-        "text": "巧克力",
-        "isCorrect": false
-      },
-      {
-        "text": "弄脏",
+        "text": "解决方案",
         "isCorrect": false
       }
     ]
@@ -9259,14 +9259,14 @@ module.exports = [
     "meaning": "单词/话",
     "example": "Non ho parole.",
     "example_meaning": "我无话可说。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Parole)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nParola -> Parole",
     "options": [
       {
-        "text": "写",
+        "text": "救护车",
         "isCorrect": false
       },
       {
-        "text": "能够",
+        "text": "艺术",
         "isCorrect": false
       },
       {
@@ -9274,7 +9274,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "护照",
+        "text": "番茄",
         "isCorrect": false
       }
     ]
@@ -9288,23 +9288,23 @@ module.exports = [
     "meaning": "句子",
     "example": "Scrivi una frase.",
     "example_meaning": "写一个句子。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Frasi)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nFrase -> Frase",
     "options": [
-      {
-        "text": "发烧",
-        "isCorrect": false
-      },
-      {
-        "text": "必须",
-        "isCorrect": false
-      },
-      {
-        "text": "关闭",
-        "isCorrect": false
-      },
       {
         "text": "句子",
         "isCorrect": true
+      },
+      {
+        "text": "毛衣",
+        "isCorrect": false
+      },
+      {
+        "text": "触摸",
+        "isCorrect": false
+      },
+      {
+        "text": "晚餐",
+        "isCorrect": false
       }
     ]
   },
@@ -9317,22 +9317,22 @@ module.exports = [
     "meaning": "语言/舌头",
     "example": "Parlo due lingue.",
     "example_meaning": "我会说两种语言。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Lingue)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nLingua -> Lingue",
     "options": [
+      {
+        "text": "秘密",
+        "isCorrect": false
+      },
+      {
+        "text": "袜子",
+        "isCorrect": false
+      },
       {
         "text": "语言/舌头",
         "isCorrect": true
       },
       {
-        "text": "帮助",
-        "isCorrect": false
-      },
-      {
-        "text": "跑",
-        "isCorrect": false
-      },
-      {
-        "text": "咳嗽",
+        "text": "疼痛",
         "isCorrect": false
       }
     ]
@@ -9346,23 +9346,23 @@ module.exports = [
     "meaning": "信/字母",
     "example": "Ho ricevuto una lettera.",
     "example_meaning": "我收到了一封信。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Lettere)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nLettera -> Lettere",
     "options": [
-      {
-        "text": "拿/取/乘坐",
-        "isCorrect": false
-      },
-      {
-        "text": "梦/梦想",
-        "isCorrect": false
-      },
-      {
-        "text": "草",
-        "isCorrect": false
-      },
       {
         "text": "信/字母",
         "isCorrect": true
+      },
+      {
+        "text": "星星",
+        "isCorrect": false
+      },
+      {
+        "text": "借出",
+        "isCorrect": false
+      },
+      {
+        "text": "恐惧",
+        "isCorrect": false
       }
     ]
   },
@@ -9375,22 +9375,22 @@ module.exports = [
     "meaning": "消息",
     "example": "Inviami un messaggio.",
     "example_meaning": "给我发个消息。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Messaggii)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nMessaggio -> Messaggii",
     "options": [
+      {
+        "text": "节省",
+        "isCorrect": false
+      },
       {
         "text": "消息",
         "isCorrect": true
       },
       {
-        "text": "认识/了解",
+        "text": "鸡肉",
         "isCorrect": false
       },
       {
-        "text": "品尝",
-        "isCorrect": false
-      },
-      {
-        "text": "感冒",
+        "text": "警察",
         "isCorrect": false
       }
     ]
@@ -9404,22 +9404,22 @@ module.exports = [
     "meaning": "新闻",
     "example": "Ho una buona notizia.",
     "example_meaning": "我有一个好消息。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Notizie)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nNotizia -> Notizie",
     "options": [
       {
         "text": "新闻",
         "isCorrect": true
       },
       {
-        "text": "月亮",
+        "text": "回答",
         "isCorrect": false
       },
       {
-        "text": "收到",
+        "text": "感冒",
         "isCorrect": false
       },
       {
-        "text": "唱歌",
+        "text": "能够",
         "isCorrect": false
       }
     ]
@@ -9433,22 +9433,22 @@ module.exports = [
     "meaning": "电影",
     "example": "Andiamo a vedere un film.",
     "example_meaning": "我们去看电影吧。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "外来词/辅音结尾名词。\n通常为阳性，复数形式保持不变 (il Film -> i Film)。",
     "options": [
       {
         "text": "电影",
         "isCorrect": true
       },
       {
-        "text": "电影院",
+        "text": "恐惧",
         "isCorrect": false
       },
       {
-        "text": "厕所",
+        "text": "袜子",
         "isCorrect": false
       },
       {
-        "text": "音乐",
+        "text": "夹克",
         "isCorrect": false
       }
     ]
@@ -9462,22 +9462,22 @@ module.exports = [
     "meaning": "电影院",
     "example": "Il cinema è pieno.",
     "example_meaning": "电影院满了。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Cineme)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nCinema -> Cinemi",
     "options": [
-      {
-        "text": "放/穿",
-        "isCorrect": false
-      },
       {
         "text": "电影院",
         "isCorrect": true
       },
       {
-        "text": "问题",
+        "text": "奶酪",
         "isCorrect": false
       },
       {
-        "text": "鸡蛋",
+        "text": "关闭",
+        "isCorrect": false
+      },
+      {
+        "text": "听",
         "isCorrect": false
       }
     ]
@@ -9491,22 +9491,22 @@ module.exports = [
     "meaning": "剧院",
     "example": "Mi piace il teatro.",
     "example_meaning": "我喜欢剧院。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Teatri)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nTeatro -> Teatri",
     "options": [
-      {
-        "text": "禁止",
-        "isCorrect": false
-      },
       {
         "text": "剧院",
         "isCorrect": true
       },
       {
-        "text": "恐惧",
+        "text": "消防员",
         "isCorrect": false
       },
       {
-        "text": "走路",
+        "text": "句子",
+        "isCorrect": false
+      },
+      {
+        "text": "公园",
         "isCorrect": false
       }
     ]
@@ -9520,22 +9520,22 @@ module.exports = [
     "meaning": "博物馆",
     "example": "Visitiamo il museo.",
     "example_meaning": "我们参观博物馆。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Musei)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nMuseo -> Musei",
     "options": [
       {
         "text": "博物馆",
         "isCorrect": true
       },
       {
-        "text": "句子",
+        "text": "手机",
         "isCorrect": false
       },
       {
-        "text": "继续",
+        "text": "晚餐",
         "isCorrect": false
       },
       {
-        "text": "救护车",
+        "text": "点心",
         "isCorrect": false
       }
     ]
@@ -9549,23 +9549,23 @@ module.exports = [
     "meaning": "艺术",
     "example": "L'arte italiana è famosa.",
     "example_meaning": "意大利艺术很有名。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Arti)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nArte -> Arte",
     "options": [
+      {
+        "text": "离开/留下",
+        "isCorrect": false
+      },
+      {
+        "text": "洋葱",
+        "isCorrect": false
+      },
+      {
+        "text": "发烧",
+        "isCorrect": false
+      },
       {
         "text": "艺术",
         "isCorrect": true
-      },
-      {
-        "text": "拿/取/乘坐",
-        "isCorrect": false
-      },
-      {
-        "text": "奶酪",
-        "isCorrect": false
-      },
-      {
-        "text": "月亮",
-        "isCorrect": false
       }
     ]
   },
@@ -9578,23 +9578,23 @@ module.exports = [
     "meaning": "音乐",
     "example": "Ascolto musica rock.",
     "example_meaning": "我听摇滚乐。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Musice)。",
+    "detail": "阴性单数名词 (-ca/-ga)。\n复数形式通常加 h 保持发音：\nMusica -> Musiche",
     "options": [
       {
-        "text": "醋",
-        "isCorrect": false
-      },
-      {
-        "text": "内裤",
-        "isCorrect": false
-      },
-      {
-        "text": "开始",
+        "text": "雷暴",
         "isCorrect": false
       },
       {
         "text": "音乐",
         "isCorrect": true
+      },
+      {
+        "text": "解决方案",
+        "isCorrect": false
+      },
+      {
+        "text": "土豆",
+        "isCorrect": false
       }
     ]
   },
@@ -9607,22 +9607,22 @@ module.exports = [
     "meaning": "歌曲",
     "example": "Canta una canzone.",
     "example_meaning": "唱首歌。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Canzoni)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nCanzone -> Canzone",
     "options": [
       {
         "text": "歌曲",
         "isCorrect": true
       },
       {
-        "text": "花费/值",
+        "text": "问题",
         "isCorrect": false
       },
       {
-        "text": "写",
+        "text": "发烧",
         "isCorrect": false
       },
       {
-        "text": "买",
+        "text": "运动",
         "isCorrect": false
       }
     ]
@@ -9636,23 +9636,23 @@ module.exports = [
     "meaning": "运动",
     "example": "Faccio sport.",
     "example_meaning": "我做运动。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "外来词/辅音结尾名词。\n通常为阳性，复数形式保持不变 (il Sport -> i Sport)。",
     "options": [
-      {
-        "text": "问/请求",
-        "isCorrect": false
-      },
-      {
-        "text": "厕所",
-        "isCorrect": false
-      },
-      {
-        "text": "早餐",
-        "isCorrect": false
-      },
       {
         "text": "运动",
         "isCorrect": true
+      },
+      {
+        "text": "生日",
+        "isCorrect": false
+      },
+      {
+        "text": "继续",
+        "isCorrect": false
+      },
+      {
+        "text": "星星",
+        "isCorrect": false
       }
     ]
   },
@@ -9665,10 +9665,10 @@ module.exports = [
     "meaning": "足球",
     "example": "Il calcio è popolare.",
     "example_meaning": "足球很受欢迎。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Calcii)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nCalcio -> Calcii",
     "options": [
       {
-        "text": "胡椒",
+        "text": "打破",
         "isCorrect": false
       },
       {
@@ -9676,12 +9676,12 @@ module.exports = [
         "isCorrect": false
       },
       {
-        "text": "雨伞",
-        "isCorrect": false
-      },
-      {
         "text": "足球",
         "isCorrect": true
+      },
+      {
+        "text": "地球/土地",
+        "isCorrect": false
       }
     ]
   },
@@ -9694,23 +9694,23 @@ module.exports = [
     "meaning": "网球",
     "example": "Gioco a tennis.",
     "example_meaning": "我打网球。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "外来词/辅音结尾名词。\n通常为阳性，复数形式保持不变 (il Tennis -> i Tennis)。",
     "options": [
-      {
-        "text": "停止",
-        "isCorrect": false
-      },
-      {
-        "text": "语言/舌头",
-        "isCorrect": false
-      },
-      {
-        "text": "意大利面",
-        "isCorrect": false
-      },
       {
         "text": "网球",
         "isCorrect": true
+      },
+      {
+        "text": "梨",
+        "isCorrect": false
+      },
+      {
+        "text": "草莓",
+        "isCorrect": false
+      },
+      {
+        "text": "停止",
+        "isCorrect": false
       }
     ]
   },
@@ -9723,22 +9723,22 @@ module.exports = [
     "meaning": "游泳",
     "example": "Vado a nuoto.",
     "example_meaning": "我去游泳。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Nuoti)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nNuoto -> Nuoti",
     "options": [
       {
         "text": "游泳",
         "isCorrect": true
       },
       {
-        "text": "药",
+        "text": "健康",
         "isCorrect": false
       },
       {
-        "text": "云",
+        "text": "疾病",
         "isCorrect": false
       },
       {
-        "text": "葡萄",
+        "text": "猪肉",
         "isCorrect": false
       }
     ]
@@ -9752,22 +9752,22 @@ module.exports = [
     "meaning": "滑雪",
     "example": "Mi piace lo sci.",
     "example_meaning": "我喜欢滑雪。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nSci -> Sci",
     "options": [
+      {
+        "text": "谎言",
+        "isCorrect": false
+      },
       {
         "text": "滑雪",
         "isCorrect": true
       },
       {
-        "text": "弄脏",
+        "text": "看见",
         "isCorrect": false
       },
       {
-        "text": "恐惧",
-        "isCorrect": false
-      },
-      {
-        "text": "胡椒",
+        "text": "雨伞",
         "isCorrect": false
       }
     ]
@@ -9781,10 +9781,10 @@ module.exports = [
     "meaning": "健身房",
     "example": "Vado in palestra.",
     "example_meaning": "我去健身房。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Palestre)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nPalestra -> Palestre",
     "options": [
       {
-        "text": "停止",
+        "text": "疼痛",
         "isCorrect": false
       },
       {
@@ -9792,11 +9792,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "艺术",
+        "text": "跑",
         "isCorrect": false
       },
       {
-        "text": "生日",
+        "text": "打开",
         "isCorrect": false
       }
     ]
@@ -9810,23 +9810,23 @@ module.exports = [
     "meaning": "游泳池",
     "example": "La piscina è aperta.",
     "example_meaning": "游泳池开着。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Piscine)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nPiscina -> Piscine",
     "options": [
       {
-        "text": "收到",
+        "text": "想要",
+        "isCorrect": false
+      },
+      {
+        "text": "厄运",
+        "isCorrect": false
+      },
+      {
+        "text": "圣诞节",
         "isCorrect": false
       },
       {
         "text": "游泳池",
         "isCorrect": true
-      },
-      {
-        "text": "明信片",
-        "isCorrect": false
-      },
-      {
-        "text": "弄脏",
-        "isCorrect": false
       }
     ]
   },
@@ -9839,10 +9839,14 @@ module.exports = [
     "meaning": "公园",
     "example": "Passeggio nel parco.",
     "example_meaning": "我在公园散步。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Parci)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nParco -> Parci",
     "options": [
       {
-        "text": "照相机",
+        "text": "牛肉",
+        "isCorrect": false
+      },
+      {
+        "text": "地球/土地",
         "isCorrect": false
       },
       {
@@ -9850,11 +9854,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "新闻",
-        "isCorrect": false
-      },
-      {
-        "text": "鸡蛋",
+        "text": "思考/想",
         "isCorrect": false
       }
     ]
@@ -9868,14 +9868,14 @@ module.exports = [
     "meaning": "花园",
     "example": "Il giardino è fiorito.",
     "example_meaning": "花园开花了。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Giardini)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nGiardino -> Giardini",
     "options": [
       {
-        "text": "泳衣/服装",
+        "text": "洋葱",
         "isCorrect": false
       },
       {
-        "text": "听见/感觉",
+        "text": "关掉(电器/火)",
         "isCorrect": false
       },
       {
@@ -9883,7 +9883,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "明信片",
+        "text": "现实",
         "isCorrect": false
       }
     ]
@@ -9897,18 +9897,18 @@ module.exports = [
     "meaning": "花",
     "example": "Che bel fiore!",
     "example_meaning": "多美的花！",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Fiori)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nFiore -> Fiori",
     "options": [
       {
-        "text": "帮助",
+        "text": "鸡肉",
         "isCorrect": false
       },
       {
-        "text": "借出",
+        "text": "猪肉",
         "isCorrect": false
       },
       {
-        "text": "牛仔裤",
+        "text": "照相机",
         "isCorrect": false
       },
       {
@@ -9926,22 +9926,22 @@ module.exports = [
     "meaning": "植物",
     "example": "Annaffia la pianta.",
     "example_meaning": "给植物浇水。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Piante)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nPianta -> Piante",
     "options": [
-      {
-        "text": "大衣",
-        "isCorrect": false
-      },
       {
         "text": "植物",
         "isCorrect": true
       },
       {
-        "text": "勇气",
+        "text": "需要",
         "isCorrect": false
       },
       {
-        "text": "公园",
+        "text": "雷暴",
+        "isCorrect": false
+      },
+      {
+        "text": "运气",
         "isCorrect": false
       }
     ]
@@ -9955,23 +9955,23 @@ module.exports = [
     "meaning": "草",
     "example": "Non calpestare l'erba.",
     "example_meaning": "勿踏草坪。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Erbe)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nErba -> Erbe",
     "options": [
-      {
-        "text": "柠檬",
-        "isCorrect": false
-      },
-      {
-        "text": "回忆",
-        "isCorrect": false
-      },
-      {
-        "text": "杂志",
-        "isCorrect": false
-      },
       {
         "text": "草",
         "isCorrect": true
+      },
+      {
+        "text": "主意",
+        "isCorrect": false
+      },
+      {
+        "text": "牛肉",
+        "isCorrect": false
+      },
+      {
+        "text": "胡椒",
+        "isCorrect": false
       }
     ]
   },
@@ -9984,22 +9984,22 @@ module.exports = [
     "meaning": "地球/土地",
     "example": "La Terra è rotonda.",
     "example_meaning": "地球是圆的。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Terre)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nTerra -> Terre",
     "options": [
+      {
+        "text": "单词/话",
+        "isCorrect": false
+      },
       {
         "text": "地球/土地",
         "isCorrect": true
       },
       {
-        "text": "回答",
+        "text": "女士",
         "isCorrect": false
       },
       {
-        "text": "打扫",
-        "isCorrect": false
-      },
-      {
-        "text": "关闭",
+        "text": "意大利面",
         "isCorrect": false
       }
     ]
@@ -10013,23 +10013,23 @@ module.exports = [
     "meaning": "天空",
     "example": "Il cielo è azzurro.",
     "example_meaning": "天空是蓝色的。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Cieli)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nCielo -> Cieli",
     "options": [
-      {
-        "text": "走路",
-        "isCorrect": false
-      },
-      {
-        "text": "泳衣/服装",
-        "isCorrect": false
-      },
-      {
-        "text": "烹饪",
-        "isCorrect": false
-      },
       {
         "text": "天空",
         "isCorrect": true
+      },
+      {
+        "text": "手提箱",
+        "isCorrect": false
+      },
+      {
+        "text": "游泳",
+        "isCorrect": false
+      },
+      {
+        "text": "打破",
+        "isCorrect": false
       }
     ]
   },
@@ -10042,10 +10042,14 @@ module.exports = [
     "meaning": "星星",
     "example": "Guarda le stelle.",
     "example_meaning": "看星星。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Stelle)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nStella -> Stelle",
     "options": [
       {
-        "text": "洗",
+        "text": "离开/留下",
+        "isCorrect": false
+      },
+      {
+        "text": "电影院",
         "isCorrect": false
       },
       {
@@ -10053,11 +10057,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "放/穿",
-        "isCorrect": false
-      },
-      {
-        "text": "医生",
+        "text": "信/字母",
         "isCorrect": false
       }
     ]
@@ -10071,23 +10071,23 @@ module.exports = [
     "meaning": "月亮",
     "example": "La luna splende.",
     "example_meaning": "月亮闪耀。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Lune)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nLuna -> Lune",
     "options": [
       {
-        "text": "内裤",
+        "text": "饼干",
         "isCorrect": false
       },
       {
-        "text": "主意",
+        "text": "沙拉",
+        "isCorrect": false
+      },
+      {
+        "text": "打破",
         "isCorrect": false
       },
       {
         "text": "月亮",
         "isCorrect": true
-      },
-      {
-        "text": "疾病",
-        "isCorrect": false
       }
     ]
   },
@@ -10100,23 +10100,23 @@ module.exports = [
     "meaning": "云",
     "example": "C'è una nuvola.",
     "example_meaning": "有一朵云。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Nuvole)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nNuvola -> Nuvole",
     "options": [
       {
-        "text": "停止",
+        "text": "写",
         "isCorrect": false
       },
       {
-        "text": "帮助",
+        "text": "公园",
+        "isCorrect": false
+      },
+      {
+        "text": "T恤",
         "isCorrect": false
       },
       {
         "text": "云",
         "isCorrect": true
-      },
-      {
-        "text": "鸡肉",
-        "isCorrect": false
       }
     ]
   },
@@ -10129,22 +10129,22 @@ module.exports = [
     "meaning": "雷暴",
     "example": "Sta arrivando un temporale.",
     "example_meaning": "暴风雨要来了。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Temporali)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nTemporale -> Temporali",
     "options": [
-      {
-        "text": "单词/话",
-        "isCorrect": false
-      },
       {
         "text": "雷暴",
         "isCorrect": true
       },
       {
-        "text": "照相机",
+        "text": "唱歌",
         "isCorrect": false
       },
       {
-        "text": "牛肉",
+        "text": "写",
+        "isCorrect": false
+      },
+      {
+        "text": "赚钱",
         "isCorrect": false
       }
     ]
@@ -10158,18 +10158,18 @@ module.exports = [
     "meaning": "雨伞",
     "example": "Prendi l'ombrello.",
     "example_meaning": "带上雨伞。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Ombrelli)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nOmbrello -> Ombrelli",
     "options": [
       {
-        "text": "草莓",
+        "text": "星星",
         "isCorrect": false
       },
       {
-        "text": "收音机",
+        "text": "发烧",
         "isCorrect": false
       },
       {
-        "text": "赠送",
+        "text": "元旦",
         "isCorrect": false
       },
       {
@@ -10187,22 +10187,22 @@ module.exports = [
     "meaning": "雨衣",
     "example": "Indossa l'impermeabile.",
     "example_meaning": "穿上雨衣。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Impermeabili)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nImpermeabile -> Impermeabili",
     "options": [
+      {
+        "text": "奶酪",
+        "isCorrect": false
+      },
       {
         "text": "雨衣",
         "isCorrect": true
       },
       {
-        "text": "认识/了解",
+        "text": "花费(钱/时间)",
         "isCorrect": false
       },
       {
-        "text": "报纸",
-        "isCorrect": false
-      },
-      {
-        "text": "拿走/脱",
+        "text": "桃子",
         "isCorrect": false
       }
     ]
@@ -10216,18 +10216,18 @@ module.exports = [
     "meaning": "大衣",
     "example": "Fa freddo, metti il cappotto.",
     "example_meaning": "天冷，穿上大衣。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Cappotti)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nCappotto -> Cappotti",
     "options": [
       {
-        "text": "晚餐",
+        "text": "救护车",
         "isCorrect": false
       },
       {
-        "text": "地球/土地",
+        "text": "继续",
         "isCorrect": false
       },
       {
-        "text": "打扫",
+        "text": "谎言",
         "isCorrect": false
       },
       {
@@ -10245,23 +10245,23 @@ module.exports = [
     "meaning": "夹克",
     "example": "La tua giacca è bella.",
     "example_meaning": "你的夹克很漂亮。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Giacce)。",
+    "detail": "阴性单数名词 (-ca/-ga)。\n复数形式通常加 h 保持发音：\nGiacca -> Giacche",
     "options": [
       {
-        "text": "现实",
-        "isCorrect": false
-      },
-      {
-        "text": "草莓",
-        "isCorrect": false
-      },
-      {
-        "text": "思想",
+        "text": "秘密",
         "isCorrect": false
       },
       {
         "text": "夹克",
         "isCorrect": true
+      },
+      {
+        "text": "报纸",
+        "isCorrect": false
+      },
+      {
+        "text": "解决方案",
+        "isCorrect": false
       }
     ]
   },
@@ -10274,22 +10274,22 @@ module.exports = [
     "meaning": "毛衣",
     "example": "Questo maglione è caldo.",
     "example_meaning": "这件毛衣很暖和。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Maglioni)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nMaglione -> Maglioni",
     "options": [
-      {
-        "text": "现实",
-        "isCorrect": false
-      },
       {
         "text": "毛衣",
         "isCorrect": true
       },
       {
-        "text": "网球",
+        "text": "支付",
         "isCorrect": false
       },
       {
-        "text": "假期",
+        "text": "香蕉",
+        "isCorrect": false
+      },
+      {
+        "text": "问/请求",
         "isCorrect": false
       }
     ]
@@ -10303,8 +10303,12 @@ module.exports = [
     "meaning": "T恤",
     "example": "Indosso una t-shirt.",
     "example_meaning": "我穿T恤。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "外来词/辅音结尾名词。\n通常为阳性，复数形式保持不变 (il T-shirt -> i T-shirt)。",
     "options": [
+      {
+        "text": "收音机",
+        "isCorrect": false
+      },
       {
         "text": "胡萝卜",
         "isCorrect": false
@@ -10314,11 +10318,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "袜子",
-        "isCorrect": false
-      },
-      {
-        "text": "问题",
+        "text": "毛衣",
         "isCorrect": false
       }
     ]
@@ -10332,18 +10332,18 @@ module.exports = [
     "meaning": "牛仔裤",
     "example": "Mi piacciono i tuoi jeans.",
     "example_meaning": "我喜欢你的牛仔裤。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "外来词/辅音结尾名词。\n通常为阳性，复数形式保持不变 (il Jeans -> i Jeans)。",
     "options": [
       {
-        "text": "准备",
+        "text": "健身房",
         "isCorrect": false
       },
       {
-        "text": "放/穿",
+        "text": "问/请求",
         "isCorrect": false
       },
       {
-        "text": "救护车",
+        "text": "必须",
         "isCorrect": false
       },
       {
@@ -10361,14 +10361,10 @@ module.exports = [
     "meaning": "袜子",
     "example": "Mettiti le calze.",
     "example_meaning": "穿上袜子。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Calzi)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nCalze -> Calze",
     "options": [
       {
-        "text": "消防员",
-        "isCorrect": false
-      },
-      {
-        "text": "巧克力",
+        "text": "关掉(电器/火)",
         "isCorrect": false
       },
       {
@@ -10376,7 +10372,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "土豆",
+        "text": "收音机",
+        "isCorrect": false
+      },
+      {
+        "text": "开始",
         "isCorrect": false
       }
     ]
@@ -10390,23 +10390,23 @@ module.exports = [
     "meaning": "内裤",
     "example": "Compro delle mutande.",
     "example_meaning": "我买些内裤。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Mutandi)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nMutande -> Mutande",
     "options": [
       {
-        "text": "复活节",
+        "text": "跳舞",
+        "isCorrect": false
+      },
+      {
+        "text": "主意",
+        "isCorrect": false
+      },
+      {
+        "text": "礼物",
         "isCorrect": false
       },
       {
         "text": "内裤",
         "isCorrect": true
-      },
-      {
-        "text": "消息",
-        "isCorrect": false
-      },
-      {
-        "text": "赢",
-        "isCorrect": false
       }
     ]
   },
@@ -10419,14 +10419,14 @@ module.exports = [
     "meaning": "泳衣/服装",
     "example": "Mettiti il costume.",
     "example_meaning": "穿上泳衣。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Costumi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nCostume -> Costumi",
     "options": [
       {
-        "text": "帮助",
+        "text": "元旦",
         "isCorrect": false
       },
       {
-        "text": "植物",
+        "text": "出口",
         "isCorrect": false
       },
       {
@@ -10434,7 +10434,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "点心",
+        "text": "找到",
         "isCorrect": false
       }
     ]
@@ -10448,14 +10448,14 @@ module.exports = [
     "meaning": "早餐",
     "example": "Faccio colazione.",
     "example_meaning": "我吃早餐。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Colazioni)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nColazione -> Colazione",
     "options": [
       {
-        "text": "洋葱",
+        "text": "警察",
         "isCorrect": false
       },
       {
-        "text": "T恤",
+        "text": "问题",
         "isCorrect": false
       },
       {
@@ -10463,7 +10463,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "赚钱",
+        "text": "跳舞",
         "isCorrect": false
       }
     ]
@@ -10477,23 +10477,23 @@ module.exports = [
     "meaning": "午餐",
     "example": "Il pranzo è pronto.",
     "example_meaning": "午餐好了。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Pranzi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nPranzo -> Pranzi",
     "options": [
       {
-        "text": "地球/土地",
+        "text": "烹饪",
         "isCorrect": false
       },
       {
-        "text": "植物",
-        "isCorrect": false
-      },
-      {
-        "text": "发烧",
+        "text": "鸡蛋",
         "isCorrect": false
       },
       {
         "text": "午餐",
         "isCorrect": true
+      },
+      {
+        "text": "寻找",
+        "isCorrect": false
       }
     ]
   },
@@ -10506,22 +10506,22 @@ module.exports = [
     "meaning": "晚餐",
     "example": "Cosa c'è per cena?",
     "example_meaning": "晚餐吃什么？",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Cene)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nCena -> Cene",
     "options": [
+      {
+        "text": "点心",
+        "isCorrect": false
+      },
       {
         "text": "晚餐",
         "isCorrect": true
       },
       {
-        "text": "午餐",
+        "text": "香蕉",
         "isCorrect": false
       },
       {
-        "text": "网球",
-        "isCorrect": false
-      },
-      {
-        "text": "橙子",
+        "text": "艺术",
         "isCorrect": false
       }
     ]
@@ -10535,10 +10535,10 @@ module.exports = [
     "meaning": "点心",
     "example": "È ora della merenda.",
     "example_meaning": "是吃点心的时候了。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Merende)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nMerenda -> Merende",
     "options": [
       {
-        "text": "甜点",
+        "text": "赢",
         "isCorrect": false
       },
       {
@@ -10546,11 +10546,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "月亮",
+        "text": "健康",
         "isCorrect": false
       },
       {
-        "text": "救护车",
+        "text": "演奏/响",
         "isCorrect": false
       }
     ]
@@ -10564,22 +10564,22 @@ module.exports = [
     "meaning": "小吃",
     "example": "Faccio uno spuntino.",
     "example_meaning": "我吃点零食。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Spuntini)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nSpuntino -> Spuntini",
     "options": [
-      {
-        "text": "护士",
-        "isCorrect": false
-      },
-      {
-        "text": "修理",
-        "isCorrect": false
-      },
       {
         "text": "小吃",
         "isCorrect": true
       },
       {
-        "text": "饼干",
+        "text": "带",
+        "isCorrect": false
+      },
+      {
+        "text": "胡萝卜",
+        "isCorrect": false
+      },
+      {
+        "text": "植物",
         "isCorrect": false
       }
     ]
@@ -10593,23 +10593,23 @@ module.exports = [
     "meaning": "米饭",
     "example": "Mangio riso e pollo.",
     "example_meaning": "我吃米饭和鸡肉。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Risi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nRiso -> Risi",
     "options": [
       {
-        "text": "聚会/节日",
+        "text": "星星",
         "isCorrect": false
       },
       {
-        "text": "护士",
+        "text": "桃子",
+        "isCorrect": false
+      },
+      {
+        "text": "继续",
         "isCorrect": false
       },
       {
         "text": "米饭",
         "isCorrect": true
-      },
-      {
-        "text": "巧克力",
-        "isCorrect": false
       }
     ]
   },
@@ -10622,14 +10622,10 @@ module.exports = [
     "meaning": "意大利面",
     "example": "La pasta è al dente.",
     "example_meaning": "面条很有嚼劲。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Paste)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nPasta -> Paste",
     "options": [
       {
-        "text": "疼痛",
-        "isCorrect": false
-      },
-      {
-        "text": "洗",
+        "text": "页",
         "isCorrect": false
       },
       {
@@ -10637,7 +10633,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "买",
+        "text": "电影院",
+        "isCorrect": false
+      },
+      {
+        "text": "醋",
         "isCorrect": false
       }
     ]
@@ -10651,23 +10651,23 @@ module.exports = [
     "meaning": "酱汁",
     "example": "Il sugo è rosso.",
     "example_meaning": "酱汁是红的。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Sugi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nSugo -> Sugi",
     "options": [
-      {
-        "text": "花费(钱/时间)",
-        "isCorrect": false
-      },
-      {
-        "text": "手机",
-        "isCorrect": false
-      },
-      {
-        "text": "寻找",
-        "isCorrect": false
-      },
       {
         "text": "酱汁",
         "isCorrect": true
+      },
+      {
+        "text": "借出",
+        "isCorrect": false
+      },
+      {
+        "text": "关闭",
+        "isCorrect": false
+      },
+      {
+        "text": "句子",
+        "isCorrect": false
       }
     ]
   },
@@ -10680,22 +10680,22 @@ module.exports = [
     "meaning": "奶酪",
     "example": "Mi piace il formaggio.",
     "example_meaning": "我喜欢奶酪。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Formaggii)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nFormaggio -> Formaggii",
     "options": [
       {
         "text": "奶酪",
         "isCorrect": true
       },
       {
-        "text": "博物馆",
+        "text": "游泳",
         "isCorrect": false
       },
       {
-        "text": "夹克",
+        "text": "男士",
         "isCorrect": false
       },
       {
-        "text": "护士",
+        "text": "护照",
         "isCorrect": false
       }
     ]
@@ -10709,14 +10709,14 @@ module.exports = [
     "meaning": "鸡蛋",
     "example": "Un uovo sodo.",
     "example_meaning": "一个煮鸡蛋。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Uovi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nUovo -> Uovi",
     "options": [
       {
         "text": "鸡蛋",
         "isCorrect": true
       },
       {
-        "text": "男士",
+        "text": "饼干",
         "isCorrect": false
       },
       {
@@ -10724,7 +10724,7 @@ module.exports = [
         "isCorrect": false
       },
       {
-        "text": "假期",
+        "text": "赢",
         "isCorrect": false
       }
     ]
@@ -10738,23 +10738,23 @@ module.exports = [
     "meaning": "鸡肉",
     "example": "Pollo arrosto.",
     "example_meaning": "烤鸡。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Polli)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nPollo -> Polli",
     "options": [
+      {
+        "text": "解决方案",
+        "isCorrect": false
+      },
+      {
+        "text": "报纸",
+        "isCorrect": false
+      },
+      {
+        "text": "问题",
+        "isCorrect": false
+      },
       {
         "text": "鸡肉",
         "isCorrect": true
-      },
-      {
-        "text": "准备",
-        "isCorrect": false
-      },
-      {
-        "text": "打开(电器/火)",
-        "isCorrect": false
-      },
-      {
-        "text": "恐惧",
-        "isCorrect": false
       }
     ]
   },
@@ -10767,18 +10767,18 @@ module.exports = [
     "meaning": "猪肉",
     "example": "Carne di maiale.",
     "example_meaning": "猪肉。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Maiali)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nMaiale -> Maiali",
     "options": [
       {
-        "text": "柠檬",
+        "text": "跳舞",
         "isCorrect": false
       },
       {
-        "text": "回答",
+        "text": "准备",
         "isCorrect": false
       },
       {
-        "text": "疼痛",
+        "text": "警察",
         "isCorrect": false
       },
       {
@@ -10796,14 +10796,14 @@ module.exports = [
     "meaning": "牛肉",
     "example": "Bistecca di manzo.",
     "example_meaning": "牛排。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Manzi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nManzo -> Manzi",
     "options": [
       {
-        "text": "祝贺",
+        "text": "明信片",
         "isCorrect": false
       },
       {
-        "text": "知道/懂得",
+        "text": "T恤",
         "isCorrect": false
       },
       {
@@ -10811,7 +10811,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "午餐",
+        "text": "游泳",
         "isCorrect": false
       }
     ]
@@ -10825,22 +10825,22 @@ module.exports = [
     "meaning": "蔬菜",
     "example": "Mangia la verdura.",
     "example_meaning": "吃蔬菜。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Verdure)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nVerdura -> Verdure",
     "options": [
+      {
+        "text": "想要",
+        "isCorrect": false
+      },
+      {
+        "text": "烹饪",
+        "isCorrect": false
+      },
       {
         "text": "蔬菜",
         "isCorrect": true
       },
       {
-        "text": "毛衣",
-        "isCorrect": false
-      },
-      {
-        "text": "交警",
-        "isCorrect": false
-      },
-      {
-        "text": "理解",
+        "text": "打开(电器/火)",
         "isCorrect": false
       }
     ]
@@ -10854,22 +10854,22 @@ module.exports = [
     "meaning": "沙拉",
     "example": "Vorrei un'insalata.",
     "example_meaning": "我想要一份沙拉。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Insalate)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nInsalata -> Insalate",
     "options": [
       {
         "text": "沙拉",
         "isCorrect": true
       },
       {
-        "text": "大衣",
+        "text": "节省",
         "isCorrect": false
       },
       {
-        "text": "健身房",
+        "text": "读",
         "isCorrect": false
       },
       {
-        "text": "足球",
+        "text": "毛衣",
         "isCorrect": false
       }
     ]
@@ -10883,22 +10883,22 @@ module.exports = [
     "meaning": "番茄",
     "example": "Il pomodoro è rosso.",
     "example_meaning": "番茄是红色的。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Pomodori)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nPomodoro -> Pomodori",
     "options": [
       {
         "text": "番茄",
         "isCorrect": true
       },
       {
-        "text": "演奏/响",
+        "text": "唱歌",
         "isCorrect": false
       },
       {
-        "text": "卖",
+        "text": "疼痛",
         "isCorrect": false
       },
       {
-        "text": "地图",
+        "text": "跳舞",
         "isCorrect": false
       }
     ]
@@ -10912,18 +10912,18 @@ module.exports = [
     "meaning": "土豆",
     "example": "Patate fritte.",
     "example_meaning": "炸薯条。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Patate)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nPatata -> Patate",
     "options": [
       {
-        "text": "医生",
+        "text": "T恤",
         "isCorrect": false
       },
       {
-        "text": "新闻",
+        "text": "大衣",
         "isCorrect": false
       },
       {
-        "text": "闻",
+        "text": "疾病",
         "isCorrect": false
       },
       {
@@ -10941,23 +10941,23 @@ module.exports = [
     "meaning": "胡萝卜",
     "example": "Le carote fanno bene.",
     "example_meaning": "胡萝卜有益健康。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Carote)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nCarota -> Carote",
     "options": [
-      {
-        "text": "女士",
-        "isCorrect": false
-      },
-      {
-        "text": "主意",
-        "isCorrect": false
-      },
-      {
-        "text": "手机",
-        "isCorrect": false
-      },
       {
         "text": "胡萝卜",
         "isCorrect": true
+      },
+      {
+        "text": "柠檬",
+        "isCorrect": false
+      },
+      {
+        "text": "品尝",
+        "isCorrect": false
+      },
+      {
+        "text": "支付",
+        "isCorrect": false
       }
     ]
   },
@@ -10970,23 +10970,23 @@ module.exports = [
     "meaning": "洋葱",
     "example": "Taglia la cipolla.",
     "example_meaning": "切洋葱。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Cipolle)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nCipolla -> Cipolle",
     "options": [
+      {
+        "text": "护照",
+        "isCorrect": false
+      },
+      {
+        "text": "跳舞",
+        "isCorrect": false
+      },
+      {
+        "text": "牛肉",
+        "isCorrect": false
+      },
       {
         "text": "洋葱",
         "isCorrect": true
-      },
-      {
-        "text": "读",
-        "isCorrect": false
-      },
-      {
-        "text": "电视",
-        "isCorrect": false
-      },
-      {
-        "text": "礼物",
-        "isCorrect": false
       }
     ]
   },
@@ -10999,22 +10999,22 @@ module.exports = [
     "meaning": "大蒜",
     "example": "L'aglio dà sapore.",
     "example_meaning": "大蒜提味。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Aglii)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nAglio -> Aglii",
     "options": [
       {
         "text": "大蒜",
         "isCorrect": true
       },
       {
-        "text": "警察",
+        "text": "理解",
         "isCorrect": false
       },
       {
-        "text": "滑雪",
+        "text": "点心",
         "isCorrect": false
       },
       {
-        "text": "谎言",
+        "text": "帮助",
         "isCorrect": false
       }
     ]
@@ -11028,14 +11028,14 @@ module.exports = [
     "meaning": "油",
     "example": "Olio d'oliva.",
     "example_meaning": "橄榄油。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Olii)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nOlio -> Olii",
     "options": [
       {
-        "text": "袜子",
+        "text": "使用",
         "isCorrect": false
       },
       {
-        "text": "弄脏",
+        "text": "回忆",
         "isCorrect": false
       },
       {
@@ -11043,7 +11043,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "打破",
+        "text": "出口",
         "isCorrect": false
       }
     ]
@@ -11057,14 +11057,14 @@ module.exports = [
     "meaning": "醋",
     "example": "Aceto balsamico.",
     "example_meaning": "香醋。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Aceti)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nAceto -> Aceti",
     "options": [
       {
-        "text": "烹饪",
-        "isCorrect": false
+        "text": "醋",
+        "isCorrect": true
       },
       {
-        "text": "奶酪",
+        "text": "借出",
         "isCorrect": false
       },
       {
@@ -11072,8 +11072,8 @@ module.exports = [
         "isCorrect": false
       },
       {
-        "text": "醋",
-        "isCorrect": true
+        "text": "准备",
+        "isCorrect": false
       }
     ]
   },
@@ -11086,23 +11086,23 @@ module.exports = [
     "meaning": "胡椒",
     "example": "Sale e pepe.",
     "example_meaning": "盐和胡椒。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Pepi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nPepe -> Pepi",
     "options": [
       {
-        "text": "药",
+        "text": "大衣",
         "isCorrect": false
       },
       {
-        "text": "巧克力",
-        "isCorrect": false
-      },
-      {
-        "text": "小吃",
+        "text": "问题",
         "isCorrect": false
       },
       {
         "text": "胡椒",
         "isCorrect": true
+      },
+      {
+        "text": "鸡蛋",
+        "isCorrect": false
       }
     ]
   },
@@ -11115,23 +11115,23 @@ module.exports = [
     "meaning": "甜点",
     "example": "Prendo il dolce.",
     "example_meaning": "我要甜点。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Dolci)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nDolce -> Dolci",
     "options": [
-      {
-        "text": "卖",
-        "isCorrect": false
-      },
-      {
-        "text": "电影院",
-        "isCorrect": false
-      },
-      {
-        "text": "草",
-        "isCorrect": false
-      },
       {
         "text": "甜点",
         "isCorrect": true
+      },
+      {
+        "text": "演奏/响",
+        "isCorrect": false
+      },
+      {
+        "text": "语言/舌头",
+        "isCorrect": false
+      },
+      {
+        "text": "交警",
+        "isCorrect": false
       }
     ]
   },
@@ -11144,22 +11144,22 @@ module.exports = [
     "meaning": "冰淇淋",
     "example": "Un gelato al cioccolato.",
     "example_meaning": "一个巧克力冰淇淋。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Gelati)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nGelato -> Gelati",
     "options": [
       {
         "text": "冰淇淋",
         "isCorrect": true
       },
       {
-        "text": "读",
+        "text": "游泳",
         "isCorrect": false
       },
       {
-        "text": "拿/取/乘坐",
+        "text": "准备",
         "isCorrect": false
       },
       {
-        "text": "点心",
+        "text": "看见",
         "isCorrect": false
       }
     ]
@@ -11173,23 +11173,23 @@ module.exports = [
     "meaning": "蛋糕",
     "example": "Torta di compleanno.",
     "example_meaning": "生日蛋糕。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Torte)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nTorta -> Torte",
     "options": [
-      {
-        "text": "回答",
-        "isCorrect": false
-      },
-      {
-        "text": "跳舞",
-        "isCorrect": false
-      },
-      {
-        "text": "主意",
-        "isCorrect": false
-      },
       {
         "text": "蛋糕",
         "isCorrect": true
+      },
+      {
+        "text": "花园",
+        "isCorrect": false
+      },
+      {
+        "text": "疼痛",
+        "isCorrect": false
+      },
+      {
+        "text": "月亮",
+        "isCorrect": false
       }
     ]
   },
@@ -11202,23 +11202,23 @@ module.exports = [
     "meaning": "饼干",
     "example": "Vuoi un biscotto?",
     "example_meaning": "你要饼干吗？",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Biscotti)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nBiscotto -> Biscotti",
     "options": [
-      {
-        "text": "剧院",
-        "isCorrect": false
-      },
-      {
-        "text": "游泳",
-        "isCorrect": false
-      },
-      {
-        "text": "奶酪",
-        "isCorrect": false
-      },
       {
         "text": "饼干",
         "isCorrect": true
+      },
+      {
+        "text": "赠送",
+        "isCorrect": false
+      },
+      {
+        "text": "土豆",
+        "isCorrect": false
+      },
+      {
+        "text": "手提箱",
+        "isCorrect": false
       }
     ]
   },
@@ -11231,22 +11231,22 @@ module.exports = [
     "meaning": "巧克力",
     "example": "Amo il cioccolato.",
     "example_meaning": "我爱巧克力。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Cioccolati)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nCioccolato -> Cioccolati",
     "options": [
       {
         "text": "巧克力",
         "isCorrect": true
       },
       {
-        "text": "买",
+        "text": "回忆",
         "isCorrect": false
       },
       {
-        "text": "写",
+        "text": "疾病",
         "isCorrect": false
       },
       {
-        "text": "天空",
+        "text": "惊喜",
         "isCorrect": false
       }
     ]
@@ -11260,23 +11260,23 @@ module.exports = [
     "meaning": "橙子",
     "example": "Succo d'arancia.",
     "example_meaning": "橙汁。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Arancie)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nArancia -> Arancie",
     "options": [
-      {
-        "text": "小吃",
-        "isCorrect": false
-      },
-      {
-        "text": "油",
-        "isCorrect": false
-      },
-      {
-        "text": "洋葱",
-        "isCorrect": false
-      },
       {
         "text": "橙子",
         "isCorrect": true
+      },
+      {
+        "text": "蔬菜",
+        "isCorrect": false
+      },
+      {
+        "text": "游泳池",
+        "isCorrect": false
+      },
+      {
+        "text": "触摸",
+        "isCorrect": false
       }
     ]
   },
@@ -11289,18 +11289,18 @@ module.exports = [
     "meaning": "香蕉",
     "example": "Mangia una banana.",
     "example_meaning": "吃根香蕉。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Banane)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nBanana -> Banane",
     "options": [
       {
-        "text": "打扫",
+        "text": "烹饪",
         "isCorrect": false
       },
       {
-        "text": "歌曲",
+        "text": "雨衣",
         "isCorrect": false
       },
       {
-        "text": "使用",
+        "text": "想要",
         "isCorrect": false
       },
       {
@@ -11318,23 +11318,23 @@ module.exports = [
     "meaning": "柠檬",
     "example": "Tè al limone.",
     "example_meaning": "柠檬茶。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Limoni)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nLimone -> Limoni",
     "options": [
-      {
-        "text": "油",
-        "isCorrect": false
-      },
-      {
-        "text": "出口",
-        "isCorrect": false
-      },
-      {
-        "text": "甜点",
-        "isCorrect": false
-      },
       {
         "text": "柠檬",
         "isCorrect": true
+      },
+      {
+        "text": "药",
+        "isCorrect": false
+      },
+      {
+        "text": "危险",
+        "isCorrect": false
+      },
+      {
+        "text": "油",
+        "isCorrect": false
       }
     ]
   },
@@ -11347,10 +11347,10 @@ module.exports = [
     "meaning": "草莓",
     "example": "Gelato alla fragola.",
     "example_meaning": "草莓冰淇淋。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Fragole)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nFragola -> Fragole",
     "options": [
       {
-        "text": "胡萝卜",
+        "text": "花费/值",
         "isCorrect": false
       },
       {
@@ -11358,11 +11358,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "牛仔裤",
+        "text": "博物馆",
         "isCorrect": false
       },
       {
-        "text": "买",
+        "text": "护照",
         "isCorrect": false
       }
     ]
@@ -11376,23 +11376,23 @@ module.exports = [
     "meaning": "葡萄",
     "example": "L'uva è dolce.",
     "example_meaning": "葡萄很甜。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Uve)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nUva -> Uve",
     "options": [
+      {
+        "text": "聚会/节日",
+        "isCorrect": false
+      },
+      {
+        "text": "滑雪",
+        "isCorrect": false
+      },
+      {
+        "text": "护士",
+        "isCorrect": false
+      },
       {
         "text": "葡萄",
         "isCorrect": true
-      },
-      {
-        "text": "思想",
-        "isCorrect": false
-      },
-      {
-        "text": "入口",
-        "isCorrect": false
-      },
-      {
-        "text": "注视/看",
-        "isCorrect": false
       }
     ]
   },
@@ -11405,23 +11405,23 @@ module.exports = [
     "meaning": "梨",
     "example": "Una pera matura.",
     "example_meaning": "一个熟梨。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Pere)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nPera -> Pere",
     "options": [
+      {
+        "text": "电影",
+        "isCorrect": false
+      },
+      {
+        "text": "雨伞",
+        "isCorrect": false
+      },
+      {
+        "text": "准备",
+        "isCorrect": false
+      },
       {
         "text": "梨",
         "isCorrect": true
-      },
-      {
-        "text": "聚会/节日",
-        "isCorrect": false
-      },
-      {
-        "text": "发烧",
-        "isCorrect": false
-      },
-      {
-        "text": "丢失/输",
-        "isCorrect": false
       }
     ]
   },
@@ -11434,23 +11434,23 @@ module.exports = [
     "meaning": "桃子",
     "example": "La pesca è succosa.",
     "example_meaning": "桃子多汁。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Pesce)。",
+    "detail": "阴性单数名词 (-ca/-ga)。\n复数形式通常加 h 保持发音：\nPesca -> Pesche",
     "options": [
       {
-        "text": "赚钱",
-        "isCorrect": false
-      },
-      {
-        "text": "带",
-        "isCorrect": false
-      },
-      {
-        "text": "圣诞节",
+        "text": "胡椒",
         "isCorrect": false
       },
       {
         "text": "桃子",
         "isCorrect": true
+      },
+      {
+        "text": "运气",
+        "isCorrect": false
+      },
+      {
+        "text": "公园",
+        "isCorrect": false
       }
     ]
   },
@@ -11463,22 +11463,22 @@ module.exports = [
     "meaning": "健康",
     "example": "Salute!",
     "example_meaning": "干杯/健康！",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Saluti)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nSalute -> Salute",
     "options": [
       {
         "text": "健康",
         "isCorrect": true
       },
       {
-        "text": "药店",
+        "text": "书",
         "isCorrect": false
       },
       {
-        "text": "新闻",
+        "text": "旅行",
         "isCorrect": false
       },
       {
-        "text": "节省",
+        "text": "听",
         "isCorrect": false
       }
     ]
@@ -11492,22 +11492,22 @@ module.exports = [
     "meaning": "疾病",
     "example": "È una malattia grave.",
     "example_meaning": "这是一种严重的疾病。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Malattie)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nMalattia -> Malattie",
     "options": [
-      {
-        "text": "牛肉",
-        "isCorrect": false
-      },
       {
         "text": "疾病",
         "isCorrect": true
       },
       {
-        "text": "公园",
+        "text": "歌曲",
         "isCorrect": false
       },
       {
-        "text": "圣诞节",
+        "text": "开始",
+        "isCorrect": false
+      },
+      {
+        "text": "医生",
         "isCorrect": false
       }
     ]
@@ -11521,14 +11521,10 @@ module.exports = [
     "meaning": "发烧",
     "example": "Ho la febbre.",
     "example_meaning": "我发烧了。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Febbri)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nFebbre -> Febbre",
     "options": [
       {
-        "text": "花",
-        "isCorrect": false
-      },
-      {
-        "text": "电影院",
+        "text": "读",
         "isCorrect": false
       },
       {
@@ -11536,7 +11532,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "医生",
+        "text": "书",
+        "isCorrect": false
+      },
+      {
+        "text": "护士",
         "isCorrect": false
       }
     ]
@@ -11550,22 +11550,22 @@ module.exports = [
     "meaning": "感冒",
     "example": "Ho il raffreddore.",
     "example_meaning": "我感冒了。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Raffreddori)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nRaffreddore -> Raffreddori",
     "options": [
       {
         "text": "感冒",
         "isCorrect": true
       },
       {
-        "text": "关闭",
+        "text": "报纸",
         "isCorrect": false
       },
       {
-        "text": "地图",
+        "text": "跳舞",
         "isCorrect": false
       },
       {
-        "text": "雨衣",
+        "text": "拿走/脱",
         "isCorrect": false
       }
     ]
@@ -11579,23 +11579,23 @@ module.exports = [
     "meaning": "咳嗽",
     "example": "Ho la tosse.",
     "example_meaning": "我咳嗽。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "外来词/辅音结尾名词。\n通常为阳性，复数形式保持不变 (il Tos -> i Tos)。",
     "options": [
       {
-        "text": "必须",
+        "text": "泳衣/服装",
         "isCorrect": false
       },
       {
-        "text": "博物馆",
+        "text": "赠送",
+        "isCorrect": false
+      },
+      {
+        "text": "能够",
         "isCorrect": false
       },
       {
         "text": "咳嗽",
         "isCorrect": true
-      },
-      {
-        "text": "认识/了解",
-        "isCorrect": false
       }
     ]
   },
@@ -11608,22 +11608,22 @@ module.exports = [
     "meaning": "疼痛",
     "example": "Ho dolore qui.",
     "example_meaning": "我这里痛。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Dolori)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nDolore -> Dolori",
     "options": [
-      {
-        "text": "继续",
-        "isCorrect": false
-      },
       {
         "text": "疼痛",
         "isCorrect": true
       },
       {
-        "text": "博物馆",
+        "text": "照片",
         "isCorrect": false
       },
       {
-        "text": "打开",
+        "text": "消息",
+        "isCorrect": false
+      },
+      {
+        "text": "说",
         "isCorrect": false
       }
     ]
@@ -11637,22 +11637,22 @@ module.exports = [
     "meaning": "药店",
     "example": "Vado in farmacia.",
     "example_meaning": "我去药店。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Farmacie)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nFarmacia -> Farmacie",
     "options": [
-      {
-        "text": "恐惧",
-        "isCorrect": false
-      },
       {
         "text": "药店",
         "isCorrect": true
       },
       {
-        "text": "拿走/脱",
+        "text": "找到",
         "isCorrect": false
       },
       {
-        "text": "甜点",
+        "text": "泳衣/服装",
+        "isCorrect": false
+      },
+      {
+        "text": "地球/土地",
         "isCorrect": false
       }
     ]
@@ -11666,22 +11666,22 @@ module.exports = [
     "meaning": "药",
     "example": "Prendi la medicina.",
     "example_meaning": "吃药。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Medicine)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nMedicina -> Medicine",
     "options": [
+      {
+        "text": "午餐",
+        "isCorrect": false
+      },
+      {
+        "text": "大蒜",
+        "isCorrect": false
+      },
       {
         "text": "药",
         "isCorrect": true
       },
       {
-        "text": "听",
-        "isCorrect": false
-      },
-      {
-        "text": "医生",
-        "isCorrect": false
-      },
-      {
-        "text": "天空",
+        "text": "解决方案",
         "isCorrect": false
       }
     ]
@@ -11695,23 +11695,23 @@ module.exports = [
     "meaning": "医生",
     "example": "Chiama il dottore.",
     "example_meaning": "叫医生。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Dottori)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nDottore -> Dottori",
     "options": [
-      {
-        "text": "收音机",
-        "isCorrect": false
-      },
-      {
-        "text": "听",
-        "isCorrect": false
-      },
-      {
-        "text": "理解",
-        "isCorrect": false
-      },
       {
         "text": "医生",
         "isCorrect": true
+      },
+      {
+        "text": "祝贺",
+        "isCorrect": false
+      },
+      {
+        "text": "药店",
+        "isCorrect": false
+      },
+      {
+        "text": "饼干",
+        "isCorrect": false
       }
     ]
   },
@@ -11724,23 +11724,23 @@ module.exports = [
     "meaning": "护士",
     "example": "L'infermiere ti aiuterà.",
     "example_meaning": "护士会帮你。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Infermieri)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nInfermiere -> Infermieri",
     "options": [
-      {
-        "text": "咳嗽",
-        "isCorrect": false
-      },
-      {
-        "text": "聚会/节日",
-        "isCorrect": false
-      },
-      {
-        "text": "电脑",
-        "isCorrect": false
-      },
       {
         "text": "护士",
         "isCorrect": true
+      },
+      {
+        "text": "收音机",
+        "isCorrect": false
+      },
+      {
+        "text": "网球",
+        "isCorrect": false
+      },
+      {
+        "text": "离开/留下",
+        "isCorrect": false
       }
     ]
   },
@@ -11753,22 +11753,22 @@ module.exports = [
     "meaning": "警察",
     "example": "Chiama la polizia.",
     "example_meaning": "报警。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Polizie)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nPolizia -> Polizie",
     "options": [
-      {
-        "text": "使用",
-        "isCorrect": false
-      },
       {
         "text": "警察",
         "isCorrect": true
       },
       {
-        "text": "毛衣",
+        "text": "蔬菜",
         "isCorrect": false
       },
       {
-        "text": "护士",
+        "text": "电梯",
+        "isCorrect": false
+      },
+      {
+        "text": "继续",
         "isCorrect": false
       }
     ]
@@ -11782,22 +11782,22 @@ module.exports = [
     "meaning": "宪兵",
     "example": "È un carabiniere.",
     "example_meaning": "他是宪兵。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Carabinieri)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nCarabiniere -> Carabinieri",
     "options": [
-      {
-        "text": "洗",
-        "isCorrect": false
-      },
       {
         "text": "宪兵",
         "isCorrect": true
       },
       {
-        "text": "网球",
+        "text": "护士",
         "isCorrect": false
       },
       {
-        "text": "能够",
+        "text": "圣诞节",
+        "isCorrect": false
+      },
+      {
+        "text": "真相",
         "isCorrect": false
       }
     ]
@@ -11811,23 +11811,23 @@ module.exports = [
     "meaning": "交警",
     "example": "Chiedi al vigile.",
     "example_meaning": "问交警。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Vigili)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nVigile -> Vigili",
     "options": [
       {
-        "text": "看见",
+        "text": "地球/土地",
         "isCorrect": false
       },
       {
-        "text": "药",
+        "text": "生日",
+        "isCorrect": false
+      },
+      {
+        "text": "烹饪",
         "isCorrect": false
       },
       {
         "text": "交警",
         "isCorrect": true
-      },
-      {
-        "text": "真相",
-        "isCorrect": false
       }
     ]
   },
@@ -11840,10 +11840,10 @@ module.exports = [
     "meaning": "消防员",
     "example": "I pompieri spengono il fuoco.",
     "example_meaning": "消防员灭火。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nPompieri -> Pompieri",
     "options": [
       {
-        "text": "危险",
+        "text": "植物",
         "isCorrect": false
       },
       {
@@ -11851,11 +11851,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "找到",
+        "text": "早餐",
         "isCorrect": false
       },
       {
-        "text": "疾病",
+        "text": "雨伞",
         "isCorrect": false
       }
     ]
@@ -11869,23 +11869,23 @@ module.exports = [
     "meaning": "救护车",
     "example": "Chiama un'ambulanza.",
     "example_meaning": "叫救护车。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Ambulanze)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nAmbulanza -> Ambulanze",
     "options": [
       {
-        "text": "出口",
+        "text": "买",
         "isCorrect": false
       },
       {
-        "text": "思考/想",
-        "isCorrect": false
-      },
-      {
-        "text": "牛仔裤",
+        "text": "猪肉",
         "isCorrect": false
       },
       {
         "text": "救护车",
         "isCorrect": true
+      },
+      {
+        "text": "放/穿",
+        "isCorrect": false
       }
     ]
   },
@@ -11898,23 +11898,23 @@ module.exports = [
     "meaning": "帮助",
     "example": "Aiuto!",
     "example_meaning": "救命！",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Aiuti)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nAiuto -> Aiuti",
     "options": [
+      {
+        "text": "天空",
+        "isCorrect": false
+      },
+      {
+        "text": "聚会/节日",
+        "isCorrect": false
+      },
+      {
+        "text": "蔬菜",
+        "isCorrect": false
+      },
       {
         "text": "帮助",
         "isCorrect": true
-      },
-      {
-        "text": "电脑",
-        "isCorrect": false
-      },
-      {
-        "text": "必须",
-        "isCorrect": false
-      },
-      {
-        "text": "单词/话",
-        "isCorrect": false
       }
     ]
   },
@@ -11927,23 +11927,23 @@ module.exports = [
     "meaning": "危险",
     "example": "Pericolo di morte.",
     "example_meaning": "死亡危险。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Pericoli)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nPericolo -> Pericoli",
     "options": [
+      {
+        "text": "滑雪",
+        "isCorrect": false
+      },
+      {
+        "text": "发烧",
+        "isCorrect": false
+      },
+      {
+        "text": "药店",
+        "isCorrect": false
+      },
       {
         "text": "危险",
         "isCorrect": true
-      },
-      {
-        "text": "宪兵",
-        "isCorrect": false
-      },
-      {
-        "text": "恐惧",
-        "isCorrect": false
-      },
-      {
-        "text": "毛衣",
-        "isCorrect": false
       }
     ]
   },
@@ -11956,22 +11956,22 @@ module.exports = [
     "meaning": "注意",
     "example": "Attenzione al cane.",
     "example_meaning": "小心狗。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Attenzioni)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nAttenzione -> Attenzione",
     "options": [
+      {
+        "text": "地图",
+        "isCorrect": false
+      },
       {
         "text": "注意",
         "isCorrect": true
       },
       {
-        "text": "弄脏",
+        "text": "赠送",
         "isCorrect": false
       },
       {
-        "text": "梨",
-        "isCorrect": false
-      },
-      {
-        "text": "牛仔裤",
+        "text": "谎言",
         "isCorrect": false
       }
     ]
@@ -11985,22 +11985,22 @@ module.exports = [
     "meaning": "禁止",
     "example": "Divieto di sosta.",
     "example_meaning": "禁止停车。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Divieti)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nDivieto -> Divieti",
     "options": [
+      {
+        "text": "博物馆",
+        "isCorrect": false
+      },
+      {
+        "text": "信/字母",
+        "isCorrect": false
+      },
       {
         "text": "禁止",
         "isCorrect": true
       },
       {
-        "text": "拿走/脱",
-        "isCorrect": false
-      },
-      {
-        "text": "打扫",
-        "isCorrect": false
-      },
-      {
-        "text": "拿/取/乘坐",
+        "text": "真相",
         "isCorrect": false
       }
     ]
@@ -12014,22 +12014,22 @@ module.exports = [
     "meaning": "入口",
     "example": "Dov'è l'ingresso?",
     "example_meaning": "入口在哪里？",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Ingressi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nIngresso -> Ingressi",
     "options": [
       {
         "text": "入口",
         "isCorrect": true
       },
       {
-        "text": "看见",
+        "text": "打破",
         "isCorrect": false
       },
       {
-        "text": "相信",
+        "text": "节省",
         "isCorrect": false
       },
       {
-        "text": "电脑",
+        "text": "T恤",
         "isCorrect": false
       }
     ]
@@ -12043,22 +12043,22 @@ module.exports = [
     "meaning": "出口",
     "example": "Uscita di sicurezza.",
     "example_meaning": "紧急出口。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Uscite)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nUscita -> Uscite",
     "options": [
       {
         "text": "出口",
         "isCorrect": true
       },
       {
+        "text": "准备",
+        "isCorrect": false
+      },
+      {
         "text": "唱歌",
         "isCorrect": false
       },
       {
-        "text": "收音机",
-        "isCorrect": false
-      },
-      {
-        "text": "发送",
+        "text": "滑雪",
         "isCorrect": false
       }
     ]
@@ -12072,22 +12072,22 @@ module.exports = [
     "meaning": "厕所",
     "example": "Dov'è il bagno?",
     "example_meaning": "厕所在哪里？",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Bagni)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nBagno -> Bagni",
     "options": [
       {
         "text": "厕所",
         "isCorrect": true
       },
       {
-        "text": "出口",
+        "text": "运动",
         "isCorrect": false
       },
       {
-        "text": "注视/看",
+        "text": "星星",
         "isCorrect": false
       },
       {
-        "text": "公园",
+        "text": "植物",
         "isCorrect": false
       }
     ]
@@ -12101,23 +12101,23 @@ module.exports = [
     "meaning": "男士",
     "example": "Bagno uomini.",
     "example_meaning": "男厕。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nUomini -> Uomini",
     "options": [
-      {
-        "text": "交警",
-        "isCorrect": false
-      },
-      {
-        "text": "夹克",
-        "isCorrect": false
-      },
-      {
-        "text": "书",
-        "isCorrect": false
-      },
       {
         "text": "男士",
         "isCorrect": true
+      },
+      {
+        "text": "雨衣",
+        "isCorrect": false
+      },
+      {
+        "text": "消息",
+        "isCorrect": false
+      },
+      {
+        "text": "主意",
+        "isCorrect": false
       }
     ]
   },
@@ -12130,23 +12130,23 @@ module.exports = [
     "meaning": "女士",
     "example": "Bagno donne.",
     "example_meaning": "女厕。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Donni)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nDonne -> Donne",
     "options": [
+      {
+        "text": "演奏/响",
+        "isCorrect": false
+      },
+      {
+        "text": "运动",
+        "isCorrect": false
+      },
+      {
+        "text": "照相机",
+        "isCorrect": false
+      },
       {
         "text": "女士",
         "isCorrect": true
-      },
-      {
-        "text": "买",
-        "isCorrect": false
-      },
-      {
-        "text": "打扫",
-        "isCorrect": false
-      },
-      {
-        "text": "生日",
-        "isCorrect": false
       }
     ]
   },
@@ -12159,23 +12159,23 @@ module.exports = [
     "meaning": "电梯",
     "example": "Prendo l'ascensore.",
     "example_meaning": "我坐电梯。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Ascensori)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nAscensore -> Ascensori",
     "options": [
       {
-        "text": "回忆",
-        "isCorrect": false
-      },
-      {
-        "text": "祝贺",
-        "isCorrect": false
-      },
-      {
-        "text": "借出",
+        "text": "运动",
         "isCorrect": false
       },
       {
         "text": "电梯",
         "isCorrect": true
+      },
+      {
+        "text": "洗",
+        "isCorrect": false
+      },
+      {
+        "text": "游泳池",
+        "isCorrect": false
       }
     ]
   },
@@ -12188,23 +12188,23 @@ module.exports = [
     "meaning": "发展/开发",
     "example": "L'azienda vuole sviluppare nuovi prodotti.",
     "example_meaning": "公司想要开发新产品。",
-    "detail": "原型：Sviluppare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sviluppare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSviluppo, Sviluppi, Sviluppa, Sviluppiamo, Sviluppate, Sviluppano",
     "options": [
       {
-        "text": "社区",
+        "text": "渴望",
         "isCorrect": false
       },
       {
-        "text": "账单/账户",
+        "text": "文件",
+        "isCorrect": false
+      },
+      {
+        "text": "银行",
         "isCorrect": false
       },
       {
         "text": "发展/开发",
         "isCorrect": true
-      },
-      {
-        "text": "养老金/旅店",
-        "isCorrect": false
       }
     ]
   },
@@ -12217,22 +12217,22 @@ module.exports = [
     "meaning": "到达/达到",
     "example": "Spero di raggiungere il mio obiettivo.",
     "example_meaning": "我希望能达到我的目标。",
-    "detail": "原型：Raggiungere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Raggiungere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nRaggiungo, Raggiungi, Raggiunge, Raggiungiamo, Raggiungete, Raggiungono",
     "options": [
       {
         "text": "到达/达到",
         "isCorrect": true
       },
       {
-        "text": "规则",
+        "text": "质量",
         "isCorrect": false
       },
       {
-        "text": "惩罚",
+        "text": "战斗",
         "isCorrect": false
       },
       {
-        "text": "人民",
+        "text": "实现/意识到",
         "isCorrect": false
       }
     ]
@@ -12246,23 +12246,23 @@ module.exports = [
     "meaning": "改善/提高",
     "example": "Devo migliorare il mio italiano.",
     "example_meaning": "我必须提高我的意大利语。",
-    "detail": "原型：Migliorare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Migliorare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nMiglioro, Migliori, Migliora, Miglioriamo, Migliorate, Migliorano",
     "options": [
+      {
+        "text": "度过/经过",
+        "isCorrect": false
+      },
+      {
+        "text": "售货员",
+        "isCorrect": false
+      },
+      {
+        "text": "增加",
+        "isCorrect": false
+      },
       {
         "text": "改善/提高",
         "isCorrect": true
-      },
-      {
-        "text": "秘书",
-        "isCorrect": false
-      },
-      {
-        "text": "技术",
-        "isCorrect": false
-      },
-      {
-        "text": "质量",
-        "isCorrect": false
       }
     ]
   },
@@ -12275,14 +12275,14 @@ module.exports = [
     "meaning": "恶化",
     "example": "La situazione sta peggiorando.",
     "example_meaning": "局势正在恶化。",
-    "detail": "原型：Peggiorare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Peggiorare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPeggioro, Peggiori, Peggiora, Peggioriamo, Peggiorate, Peggiorano",
     "options": [
       {
-        "text": "恶化",
-        "isCorrect": true
+        "text": "网站",
+        "isCorrect": false
       },
       {
-        "text": "义务",
+        "text": "政治",
         "isCorrect": false
       },
       {
@@ -12290,8 +12290,8 @@ module.exports = [
         "isCorrect": false
       },
       {
-        "text": "手艺/行当",
-        "isCorrect": false
+        "text": "恶化",
+        "isCorrect": true
       }
     ]
   },
@@ -12304,23 +12304,23 @@ module.exports = [
     "meaning": "增加",
     "example": "I prezzi sono aumentati.",
     "example_meaning": "价格上涨了。",
-    "detail": "原型：Aumentare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Aumentare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAumento, Aumenti, Aumenta, Aumentiamo, Aumentate, Aumentano",
     "options": [
+      {
+        "text": "工厂",
+        "isCorrect": false
+      },
+      {
+        "text": "威胁",
+        "isCorrect": false
+      },
+      {
+        "text": "选择",
+        "isCorrect": false
+      },
       {
         "text": "增加",
         "isCorrect": true
-      },
-      {
-        "text": "硬币/货币",
-        "isCorrect": false
-      },
-      {
-        "text": "目标",
-        "isCorrect": false
-      },
-      {
-        "text": "发展/开发",
-        "isCorrect": false
       }
     ]
   },
@@ -12333,10 +12333,14 @@ module.exports = [
     "meaning": "减少",
     "example": "Il traffico è diminuito.",
     "example_meaning": "交通减少了。",
-    "detail": "原型：Diminuire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Diminuire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nDiminuo, Diminui, Diminue, Diminuiamo, Diminuite, Diminuono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "更喜欢",
+        "text": "原因",
+        "isCorrect": false
+      },
+      {
+        "text": "接受",
         "isCorrect": false
       },
       {
@@ -12344,11 +12348,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "文件",
-        "isCorrect": false
-      },
-      {
-        "text": "薪水",
+        "text": "评估",
         "isCorrect": false
       }
     ]
@@ -12362,23 +12362,23 @@ module.exports = [
     "meaning": "改变",
     "example": "Non cambiare mai.",
     "example_meaning": "永远不要改变。",
-    "detail": "原型：Cambiare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Cambiare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nCambio, Cambii, Cambia, Cambiiamo, Cambiate, Cambiano",
     "options": [
-      {
-        "text": "点赞",
-        "isCorrect": false
-      },
-      {
-        "text": "会议",
-        "isCorrect": false
-      },
-      {
-        "text": "文件",
-        "isCorrect": false
-      },
       {
         "text": "改变",
         "isCorrect": true
+      },
+      {
+        "text": "简历",
+        "isCorrect": false
+      },
+      {
+        "text": "保护",
+        "isCorrect": false
+      },
+      {
+        "text": "更喜欢",
+        "isCorrect": false
       }
     ]
   },
@@ -12391,22 +12391,22 @@ module.exports = [
     "meaning": "转变",
     "example": "Il bruco si trasforma in farfalla.",
     "example_meaning": "毛毛虫变成了蝴蝶。",
-    "detail": "原型：Trasformare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Trasformare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nTrasformo, Trasformi, Trasforma, Trasformiamo, Trasformate, Trasformano",
     "options": [
       {
         "text": "转变",
         "isCorrect": true
       },
       {
-        "text": "功劳",
+        "text": "提议",
         "isCorrect": false
       },
       {
-        "text": "钦佩",
+        "text": "理由",
         "isCorrect": false
       },
       {
-        "text": "办公室",
+        "text": "文化",
         "isCorrect": false
       }
     ]
@@ -12420,18 +12420,18 @@ module.exports = [
     "meaning": "变成",
     "example": "Voglio diventare dottore.",
     "example_meaning": "我想成为医生。",
-    "detail": "原型：Diventare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Diventare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nDivento, Diventi, Diventa, Diventiamo, Diventate, Diventano",
     "options": [
       {
-        "text": "减少",
+        "text": "发展/开发",
         "isCorrect": false
       },
       {
-        "text": "约会",
+        "text": "钞票",
         "isCorrect": false
       },
       {
-        "text": "失败",
+        "text": "系统",
         "isCorrect": false
       },
       {
@@ -12449,18 +12449,18 @@ module.exports = [
     "meaning": "保持/停留",
     "example": "Rimango a casa.",
     "example_meaning": "我留在家里。",
-    "detail": "原型：Rimanere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Rimanere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nRimano, Rimani, Rimane, Rimaniamo, Rimanete, Rimanono",
     "options": [
       {
-        "text": "科学",
+        "text": "决定",
         "isCorrect": false
       },
       {
-        "text": "方式",
+        "text": "分享",
         "isCorrect": false
       },
       {
-        "text": "博爱",
+        "text": "采访/面试",
         "isCorrect": false
       },
       {
@@ -12478,23 +12478,23 @@ module.exports = [
     "meaning": "留下",
     "example": "Resta con me.",
     "example_meaning": "留下来陪我。",
-    "detail": "原型：Restare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Restare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nResto, Resti, Resta, Restiamo, Restate, Restano",
     "options": [
       {
-        "text": "社区",
+        "text": "文件夹",
         "isCorrect": false
       },
       {
-        "text": "价值",
+        "text": "工厂",
+        "isCorrect": false
+      },
+      {
+        "text": "政治",
         "isCorrect": false
       },
       {
         "text": "留下",
         "isCorrect": true
-      },
-      {
-        "text": "下载/卸载",
-        "isCorrect": false
       }
     ]
   },
@@ -12507,23 +12507,23 @@ module.exports = [
     "meaning": "似乎",
     "example": "Sembra facile.",
     "example_meaning": "看起来很容易。",
-    "detail": "原型：Sembrare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sembrare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSembro, Sembri, Sembra, Sembriamo, Sembrate, Sembrano",
     "options": [
+      {
+        "text": "职业生涯",
+        "isCorrect": false
+      },
+      {
+        "text": "实现/意识到",
+        "isCorrect": false
+      },
+      {
+        "text": "金融",
+        "isCorrect": false
+      },
       {
         "text": "似乎",
         "isCorrect": true
-      },
-      {
-        "text": "战斗",
-        "isCorrect": false
-      },
-      {
-        "text": "同事",
-        "isCorrect": false
-      },
-      {
-        "text": "历史",
-        "isCorrect": false
       }
     ]
   },
@@ -12536,14 +12536,14 @@ module.exports = [
     "meaning": "出现/显得",
     "example": "All'improvviso è apparso.",
     "example_meaning": "突然间他出现了。",
-    "detail": "原型：Apparire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Apparire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nApparo, Appari, Appare, Appariamo, Apparite, Apparono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "存在",
+        "text": "上传/充电",
         "isCorrect": false
       },
       {
-        "text": "实现/意识到",
+        "text": "注意",
         "isCorrect": false
       },
       {
@@ -12551,7 +12551,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "屏幕",
+        "text": "钞票",
         "isCorrect": false
       }
     ]
@@ -12565,22 +12565,22 @@ module.exports = [
     "meaning": "消失",
     "example": "Il sole è scomparso.",
     "example_meaning": "太阳消失了。",
-    "detail": "原型：Scomparire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Scomparire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nScomparo, Scompari, Scompare, Scompariamo, Scomparite, Scomparono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
-      {
-        "text": "危险",
-        "isCorrect": false
-      },
-      {
-        "text": "秘书",
-        "isCorrect": false
-      },
       {
         "text": "消失",
         "isCorrect": true
       },
       {
-        "text": "经济",
+        "text": "经理/主任",
+        "isCorrect": false
+      },
+      {
+        "text": "商店",
+        "isCorrect": false
+      },
+      {
+        "text": "剪切",
         "isCorrect": false
       }
     ]
@@ -12594,22 +12594,22 @@ module.exports = [
     "meaning": "存在",
     "example": "I draghi non esistono.",
     "example_meaning": "龙是不存在的。",
-    "detail": "原型：Esistere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Esistere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nEsisto, Esisti, Esiste, Esistiamo, Esistete, Esistono",
     "options": [
+      {
+        "text": "怀疑",
+        "isCorrect": false
+      },
       {
         "text": "存在",
         "isCorrect": true
       },
       {
-        "text": "强迫",
+        "text": "价格",
         "isCorrect": false
       },
       {
-        "text": "正义",
-        "isCorrect": false
-      },
-      {
-        "text": "原因",
+        "text": "承诺/投入",
         "isCorrect": false
       }
     ]
@@ -12623,23 +12623,23 @@ module.exports = [
     "meaning": "发生",
     "example": "Cosa è successo?",
     "example_meaning": "发生了什么？",
-    "detail": "原型：Succedere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Succedere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nSuccedo, Succedi, Succede, Succediamo, Succedete, Succedono",
     "options": [
       {
-        "text": "删除/取消",
+        "text": "会议",
+        "isCorrect": false
+      },
+      {
+        "text": "网站",
+        "isCorrect": false
+      },
+      {
+        "text": "支票",
         "isCorrect": false
       },
       {
         "text": "发生",
         "isCorrect": true
-      },
-      {
-        "text": "工人",
-        "isCorrect": false
-      },
-      {
-        "text": "保持/停留",
-        "isCorrect": false
       }
     ]
   },
@@ -12652,23 +12652,23 @@ module.exports = [
     "meaning": "发生",
     "example": "Non accadrà più.",
     "example_meaning": "不会再发生了。",
-    "detail": "原型：Accadere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Accadere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nAccado, Accadi, Accade, Accadiamo, Accadete, Accadono",
     "options": [
+      {
+        "text": "鼠标",
+        "isCorrect": false
+      },
+      {
+        "text": "工厂",
+        "isCorrect": false
+      },
+      {
+        "text": "惩罚",
+        "isCorrect": false
+      },
       {
         "text": "发生",
         "isCorrect": true
-      },
-      {
-        "text": "电脑",
-        "isCorrect": false
-      },
-      {
-        "text": "粘贴",
-        "isCorrect": false
-      },
-      {
-        "text": "帖子",
-        "isCorrect": false
       }
     ]
   },
@@ -12681,23 +12681,23 @@ module.exports = [
     "meaning": "偶然发生",
     "example": "Può capitare a tutti.",
     "example_meaning": "每个人都可能遇到。",
-    "detail": "原型：Capitare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Capitare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nCapito, Capiti, Capita, Capitiamo, Capitate, Capitano",
     "options": [
+      {
+        "text": "键盘",
+        "isCorrect": false
+      },
+      {
+        "text": "后果",
+        "isCorrect": false
+      },
+      {
+        "text": "收据",
+        "isCorrect": false
+      },
       {
         "text": "偶然发生",
         "isCorrect": true
-      },
-      {
-        "text": "强迫",
-        "isCorrect": false
-      },
-      {
-        "text": "结果",
-        "isCorrect": false
-      },
-      {
-        "text": "尊重",
-        "isCorrect": false
       }
     ]
   },
@@ -12710,14 +12710,10 @@ module.exports = [
     "meaning": "发生/举行",
     "example": "L'incontro avverrà domani.",
     "example_meaning": "会议将在明天举行。",
-    "detail": "原型：Avvenire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Avvenire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nAvveno, Avveni, Avvene, Avveniamo, Avvenite, Avvenono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "人民",
-        "isCorrect": false
-      },
-      {
-        "text": "鼠标",
+        "text": "文件夹",
         "isCorrect": false
       },
       {
@@ -12725,7 +12721,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "工业",
+        "text": "销售",
+        "isCorrect": false
+      },
+      {
+        "text": "屏幕",
         "isCorrect": false
       }
     ]
@@ -12739,23 +12739,23 @@ module.exports = [
     "meaning": "持续",
     "example": "Il film dura due ore.",
     "example_meaning": "电影持续两小时。",
-    "detail": "原型：Durare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Durare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nDuro, Duri, Dura, Duriamo, Durate, Durano",
     "options": [
+      {
+        "text": "发展/开发",
+        "isCorrect": false
+      },
+      {
+        "text": "风险",
+        "isCorrect": false
+      },
+      {
+        "text": "购买",
+        "isCorrect": false
+      },
       {
         "text": "持续",
         "isCorrect": true
-      },
-      {
-        "text": "价格",
-        "isCorrect": false
-      },
-      {
-        "text": "允许",
-        "isCorrect": false
-      },
-      {
-        "text": "冰箱",
-        "isCorrect": false
       }
     ]
   },
@@ -12768,22 +12768,22 @@ module.exports = [
     "meaning": "度过/经过",
     "example": "Ho passato una bella serata.",
     "example_meaning": "我度过了一个美好的夜晚。",
-    "detail": "原型：Passare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Passare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPasso, Passi, Passa, Passiamo, Passate, Passano",
     "options": [
+      {
+        "text": "持续",
+        "isCorrect": false
+      },
       {
         "text": "度过/经过",
         "isCorrect": true
       },
       {
-        "text": "规则",
+        "text": "链接",
         "isCorrect": false
       },
       {
-        "text": "电脑",
-        "isCorrect": false
-      },
-      {
-        "text": "实现/意识到",
+        "text": "失败",
         "isCorrect": false
       }
     ]
@@ -12797,22 +12797,22 @@ module.exports = [
     "meaning": "度过(时间)",
     "example": "Abbiamo trascorso le vacanze al mare.",
     "example_meaning": "我们在海边度过了假期。",
-    "detail": "原型：Trascorrere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Trascorrere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nTrascorro, Trascorri, Trascorre, Trascorriamo, Trascorrete, Trascorrono",
     "options": [
-      {
-        "text": "借记卡/ATM",
-        "isCorrect": false
-      },
       {
         "text": "度过(时间)",
         "isCorrect": true
       },
       {
-        "text": "秤",
+        "text": "手段/工具",
         "isCorrect": false
       },
       {
-        "text": "秘书",
+        "text": "商品",
+        "isCorrect": false
+      },
+      {
+        "text": "功劳",
         "isCorrect": false
       }
     ]
@@ -12826,23 +12826,23 @@ module.exports = [
     "meaning": "享受",
     "example": "Goditi la vita.",
     "example_meaning": "享受生活。",
-    "detail": "原型：Godere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Godere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nGodo, Godi, Gode, Godiamo, Godete, Godono",
     "options": [
       {
-        "text": "功劳",
+        "text": "老板/头",
+        "isCorrect": false
+      },
+      {
+        "text": "搅拌机",
+        "isCorrect": false
+      },
+      {
+        "text": "烤面包机",
         "isCorrect": false
       },
       {
         "text": "享受",
         "isCorrect": true
-      },
-      {
-        "text": "地理",
-        "isCorrect": false
-      },
-      {
-        "text": "分享",
-        "isCorrect": false
       }
     ]
   },
@@ -12855,22 +12855,22 @@ module.exports = [
     "meaning": "遭受/忍受",
     "example": "Soffre di mal di testa.",
     "example_meaning": "他头痛。",
-    "detail": "原型：Soffrire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Soffrire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nSoffro, Soffri, Soffre, Soffriamo, Soffrite, Soffrono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
         "text": "遭受/忍受",
         "isCorrect": true
       },
       {
-        "text": "羡慕/嫉妒",
+        "text": "销售",
         "isCorrect": false
       },
       {
-        "text": "过错/罪",
+        "text": "平等",
         "isCorrect": false
       },
       {
-        "text": "方式",
+        "text": "文件夹",
         "isCorrect": false
       }
     ]
@@ -12884,23 +12884,23 @@ module.exports = [
     "meaning": "忍受",
     "example": "Non sopporto il caldo.",
     "example_meaning": "我受不了热。",
-    "detail": "原型：Sopportare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sopportare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSopporto, Sopporti, Sopporta, Sopportiamo, Sopportate, Sopportano",
     "options": [
-      {
-        "text": "努力",
-        "isCorrect": false
-      },
-      {
-        "text": "质量",
-        "isCorrect": false
-      },
-      {
-        "text": "威胁",
-        "isCorrect": false
-      },
       {
         "text": "忍受",
         "isCorrect": true
+      },
+      {
+        "text": "链接",
+        "isCorrect": false
+      },
+      {
+        "text": "网站",
+        "isCorrect": false
+      },
+      {
+        "text": "度过/经过",
+        "isCorrect": false
       }
     ]
   },
@@ -12913,22 +12913,22 @@ module.exports = [
     "meaning": "接受",
     "example": "Accetto le tue scuse.",
     "example_meaning": "我接受你的道歉。",
-    "detail": "原型：Accettare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Accettare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAccetto, Accetti, Accetta, Accettiamo, Accettate, Accettano",
     "options": [
       {
         "text": "接受",
         "isCorrect": true
       },
       {
-        "text": "建议/暗示",
+        "text": "奖品",
         "isCorrect": false
       },
       {
-        "text": "责任",
+        "text": "度过(时间)",
         "isCorrect": false
       },
       {
-        "text": "和平",
+        "text": "注意",
         "isCorrect": false
       }
     ]
@@ -12942,10 +12942,10 @@ module.exports = [
     "meaning": "拒绝",
     "example": "Ha rifiutato l'offerta.",
     "example_meaning": "他拒绝了提议。",
-    "detail": "原型：Rifiutare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Rifiutare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nRifiuto, Rifiuti, Rifiuta, Rifiutiamo, Rifiutate, Rifiutano",
     "options": [
       {
-        "text": "减少",
+        "text": "会议",
         "isCorrect": false
       },
       {
@@ -12953,11 +12953,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "办公室",
+        "text": "禁止",
         "isCorrect": false
       },
       {
-        "text": "平等",
+        "text": "确定性",
         "isCorrect": false
       }
     ]
@@ -12971,14 +12971,10 @@ module.exports = [
     "meaning": "允许",
     "example": "Mi permette di uscire?",
     "example_meaning": "您允许我出去吗？",
-    "detail": "原型：Permettere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Permettere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nPermetto, Permetti, Permette, Permettiamo, Permettete, Permettono",
     "options": [
       {
-        "text": "技术",
-        "isCorrect": false
-      },
-      {
-        "text": "后果",
+        "text": "烤箱",
         "isCorrect": false
       },
       {
@@ -12986,7 +12982,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "借记卡/ATM",
+        "text": "工人",
+        "isCorrect": false
+      },
+      {
+        "text": "威胁",
         "isCorrect": false
       }
     ]
@@ -13000,22 +13000,22 @@ module.exports = [
     "meaning": "禁止",
     "example": "È vietato fumare.",
     "example_meaning": "禁止吸烟。",
-    "detail": "原型：Vietare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Vietare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nVieto, Vieti, Vieta, Vietiamo, Vietate, Vietano",
     "options": [
-      {
-        "text": "老板/主要的",
-        "isCorrect": false
-      },
-      {
-        "text": "农业",
-        "isCorrect": false
-      },
       {
         "text": "禁止",
         "isCorrect": true
       },
       {
-        "text": "确定性",
+        "text": "评估",
+        "isCorrect": false
+      },
+      {
+        "text": "方式",
+        "isCorrect": false
+      },
+      {
+        "text": "电脑",
         "isCorrect": false
       }
     ]
@@ -13029,14 +13029,14 @@ module.exports = [
     "meaning": "强迫",
     "example": "Nessuno può obbligarti.",
     "example_meaning": "没人能强迫你。",
-    "detail": "原型：Obbligare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Obbligare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nObbligo, Obbligi, Obbliga, Obbligiamo, Obbligate, Obbligano",
     "options": [
       {
-        "text": "税",
+        "text": "发生/举行",
         "isCorrect": false
       },
       {
-        "text": "养老金/旅店",
+        "text": "系统",
         "isCorrect": false
       },
       {
@@ -13044,7 +13044,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "胜利",
+        "text": "税",
         "isCorrect": false
       }
     ]
@@ -13058,10 +13058,10 @@ module.exports = [
     "meaning": "建议",
     "example": "Ti consiglio questo libro.",
     "example_meaning": "我向你推荐这本书。",
-    "detail": "原型：Consigliare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Consigliare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nConsiglio, Consiglii, Consiglia, Consigliiamo, Consigliate, Consigliano",
     "options": [
       {
-        "text": "注意",
+        "text": "帖子",
         "isCorrect": false
       },
       {
@@ -13073,7 +13073,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "上传/充电",
+        "text": "规则",
         "isCorrect": false
       }
     ]
@@ -13087,18 +13087,18 @@ module.exports = [
     "meaning": "建议/暗示",
     "example": "Cosa suggerisci?",
     "example_meaning": "你有什么建议？",
-    "detail": "原型：Suggerire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Suggerire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nSuggero, Suggeri, Suggere, Suggeriamo, Suggerite, Suggerono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
         "text": "建议/暗示",
         "isCorrect": true
       },
       {
-        "text": "价格",
+        "text": "政府",
         "isCorrect": false
       },
       {
-        "text": "需求/问题",
+        "text": "减少",
         "isCorrect": false
       },
       {
@@ -13116,22 +13116,22 @@ module.exports = [
     "meaning": "提议",
     "example": "Propongo una pausa.",
     "example_meaning": "我提议休息一下。",
-    "detail": "原型：Proporre (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Proporre。\n这是一个缩略形式的不规则动词 (源自拉丁语)，变位通常不规则。",
     "options": [
       {
         "text": "提议",
         "isCorrect": true
       },
       {
-        "text": "方法",
+        "text": "度过(时间)",
         "isCorrect": false
       },
       {
-        "text": "强迫",
+        "text": "公司",
         "isCorrect": false
       },
       {
-        "text": "搅拌机",
+        "text": "文件",
         "isCorrect": false
       }
     ]
@@ -13145,23 +13145,23 @@ module.exports = [
     "meaning": "决定",
     "example": "Ho deciso di partire.",
     "example_meaning": "我决定出发。",
-    "detail": "原型：Decidere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Decidere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nDecido, Decidi, Decide, Decidiamo, Decidete, Decidono",
     "options": [
+      {
+        "text": "技术",
+        "isCorrect": false
+      },
+      {
+        "text": "打印",
+        "isCorrect": false
+      },
+      {
+        "text": "复制",
+        "isCorrect": false
+      },
       {
         "text": "决定",
         "isCorrect": true
-      },
-      {
-        "text": "社区",
-        "isCorrect": false
-      },
-      {
-        "text": "安全/确信",
-        "isCorrect": false
-      },
-      {
-        "text": "商业",
-        "isCorrect": false
       }
     ]
   },
@@ -13174,22 +13174,22 @@ module.exports = [
     "meaning": "选择",
     "example": "Scegli una carta.",
     "example_meaning": "选一张牌。",
-    "detail": "原型：Scegliere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Scegliere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nSceglio, Sceglii, Sceglie, Scegliiamo, Scegliete, Scegliono",
     "options": [
-      {
-        "text": "签名",
-        "isCorrect": false
-      },
-      {
-        "text": "手艺/行当",
-        "isCorrect": false
-      },
       {
         "text": "选择",
         "isCorrect": true
       },
       {
-        "text": "允许",
+        "text": "系统",
+        "isCorrect": false
+      },
+      {
+        "text": "搅拌机",
+        "isCorrect": false
+      },
+      {
+        "text": "博爱",
         "isCorrect": false
       }
     ]
@@ -13203,22 +13203,22 @@ module.exports = [
     "meaning": "更喜欢",
     "example": "Preferisco il tè.",
     "example_meaning": "我更喜欢茶。",
-    "detail": "原型：Preferire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Preferire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nPrefero, Preferi, Prefere, Preferiamo, Preferite, Preferono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
+      {
+        "text": "建议",
+        "isCorrect": false
+      },
       {
         "text": "更喜欢",
         "isCorrect": true
       },
       {
-        "text": "惩罚",
+        "text": "上传/充电",
         "isCorrect": false
       },
       {
-        "text": "职业",
-        "isCorrect": false
-      },
-      {
-        "text": "方式",
+        "text": "售货员",
         "isCorrect": false
       }
     ]
@@ -13232,22 +13232,22 @@ module.exports = [
     "meaning": "渴望",
     "example": "Desidero un mondo migliore.",
     "example_meaning": "我渴望一个更美好的世界。",
-    "detail": "原型：Desiderare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Desiderare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nDesidero, Desideri, Desidera, Desideriamo, Desiderate, Desiderano",
     "options": [
       {
         "text": "渴望",
         "isCorrect": true
       },
       {
-        "text": "下载/卸载",
+        "text": "消失",
         "isCorrect": false
       },
       {
-        "text": "防御",
+        "text": "目的",
         "isCorrect": false
       },
       {
-        "text": "熨斗",
+        "text": "度过/经过",
         "isCorrect": false
       }
     ]
@@ -13261,18 +13261,18 @@ module.exports = [
     "meaning": "梦想/做梦",
     "example": "Sogno di viaggiare.",
     "example_meaning": "我梦想去旅行。",
-    "detail": "原型：Sognare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sognare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSogno, Sogni, Sogna, Sogniamo, Sognate, Sognano",
     "options": [
       {
-        "text": "存在",
+        "text": "金融",
         "isCorrect": false
       },
       {
-        "text": "采访/面试",
+        "text": "文件",
         "isCorrect": false
       },
       {
-        "text": "工资",
+        "text": "点赞",
         "isCorrect": false
       },
       {
@@ -13290,22 +13290,22 @@ module.exports = [
     "meaning": "想象",
     "example": "Immagina un mondo senza guerre.",
     "example_meaning": "想象一个没有战争的世界。",
-    "detail": "原型：Immaginare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Immaginare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nImmagino, Immagini, Immagina, Immaginiamo, Immaginate, Immaginano",
     "options": [
-      {
-        "text": "社交网络",
-        "isCorrect": false
-      },
       {
         "text": "想象",
         "isCorrect": true
       },
       {
-        "text": "网站",
+        "text": "允许",
         "isCorrect": false
       },
       {
-        "text": "方法",
+        "text": "过错/罪",
+        "isCorrect": false
+      },
+      {
+        "text": "工资",
         "isCorrect": false
       }
     ]
@@ -13319,23 +13319,23 @@ module.exports = [
     "meaning": "实现/意识到",
     "example": "Ha realizzato il suo sogno.",
     "example_meaning": "他实现了他的梦想。",
-    "detail": "原型：Realizzare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Realizzare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nRealizzo, Realizzi, Realizza, Realizziamo, Realizzate, Realizzano",
     "options": [
-      {
-        "text": "数量",
-        "isCorrect": false
-      },
-      {
-        "text": "工作",
-        "isCorrect": false
-      },
-      {
-        "text": "考虑",
-        "isCorrect": false
-      },
       {
         "text": "实现/意识到",
         "isCorrect": true
+      },
+      {
+        "text": "文化",
+        "isCorrect": false
+      },
+      {
+        "text": "失败",
+        "isCorrect": false
+      },
+      {
+        "text": "网站",
+        "isCorrect": false
       }
     ]
   },
@@ -13348,23 +13348,23 @@ module.exports = [
     "meaning": "注意",
     "example": "Hai notato qualcosa?",
     "example_meaning": "你注意到什么了吗？",
-    "detail": "原型：Notare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Notare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nNoto, Noti, Nota, Notiamo, Notate, Notano",
     "options": [
       {
-        "text": "改变",
+        "text": "分享",
+        "isCorrect": false
+      },
+      {
+        "text": "威胁",
+        "isCorrect": false
+      },
+      {
+        "text": "删除/取消",
         "isCorrect": false
       },
       {
         "text": "注意",
         "isCorrect": true
-      },
-      {
-        "text": "规则",
-        "isCorrect": false
-      },
-      {
-        "text": "养老金/旅店",
-        "isCorrect": false
       }
     ]
   },
@@ -13377,22 +13377,22 @@ module.exports = [
     "meaning": "观察",
     "example": "Osserva attentamente.",
     "example_meaning": "仔细观察。",
-    "detail": "原型：Osservare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Osservare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nOsservo, Osservi, Osserva, Osserviamo, Osservate, Osservano",
     "options": [
-      {
-        "text": "改善/提高",
-        "isCorrect": false
-      },
       {
         "text": "观察",
         "isCorrect": true
       },
       {
-        "text": "老板/头",
+        "text": "成功",
         "isCorrect": false
       },
       {
-        "text": "度过/经过",
+        "text": "采访/面试",
+        "isCorrect": false
+      },
+      {
+        "text": "胜利",
         "isCorrect": false
       }
     ]
@@ -13406,23 +13406,23 @@ module.exports = [
     "meaning": "考虑",
     "example": "Considera l'offerta.",
     "example_meaning": "考虑一下这个提议。",
-    "detail": "原型：Considerare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Considerare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nConsidero, Consideri, Considera, Consideriamo, Considerate, Considerano",
     "options": [
+      {
+        "text": "历史",
+        "isCorrect": false
+      },
+      {
+        "text": "商店",
+        "isCorrect": false
+      },
+      {
+        "text": "国家/民族",
+        "isCorrect": false
+      },
       {
         "text": "考虑",
         "isCorrect": true
-      },
-      {
-        "text": "科学",
-        "isCorrect": false
-      },
-      {
-        "text": "文件夹",
-        "isCorrect": false
-      },
-      {
-        "text": "减少",
-        "isCorrect": false
       }
     ]
   },
@@ -13435,18 +13435,18 @@ module.exports = [
     "meaning": "评估",
     "example": "Dobbiamo valutare i rischi.",
     "example_meaning": "我们必须评估风险。",
-    "detail": "原型：Valutare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Valutare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nValuto, Valuti, Valuta, Valutiamo, Valutate, Valutano",
     "options": [
       {
-        "text": "商品",
+        "text": "胜利",
         "isCorrect": false
       },
       {
-        "text": "义务",
+        "text": "确定性",
         "isCorrect": false
       },
       {
-        "text": "遭受/忍受",
+        "text": "系统",
         "isCorrect": false
       },
       {
@@ -13464,23 +13464,23 @@ module.exports = [
     "meaning": "判断",
     "example": "Non giudicare gli altri.",
     "example_meaning": "不要评判别人。",
-    "detail": "原型：Giudicare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Giudicare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nGiudico, Giudici, Giudica, Giudiciamo, Giudicate, Giudicano",
     "options": [
+      {
+        "text": "电脑",
+        "isCorrect": false
+      },
+      {
+        "text": "发生/举行",
+        "isCorrect": false
+      },
+      {
+        "text": "确定性",
+        "isCorrect": false
+      },
       {
         "text": "判断",
         "isCorrect": true
-      },
-      {
-        "text": "熨斗",
-        "isCorrect": false
-      },
-      {
-        "text": "结果",
-        "isCorrect": false
-      },
-      {
-        "text": "正义",
-        "isCorrect": false
       }
     ]
   },
@@ -13493,14 +13493,10 @@ module.exports = [
     "meaning": "估算/尊敬",
     "example": "Lo stimo molto.",
     "example_meaning": "我很尊敬他。",
-    "detail": "原型：Stimare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Stimare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nStimo, Stimi, Stima, Stimiamo, Stimate, Stimano",
     "options": [
       {
-        "text": "确定性",
-        "isCorrect": false
-      },
-      {
-        "text": "历史",
+        "text": "需求/问题",
         "isCorrect": false
       },
       {
@@ -13508,7 +13504,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "方法",
+        "text": "胜利",
+        "isCorrect": false
+      },
+      {
+        "text": "出现/显得",
         "isCorrect": false
       }
     ]
@@ -13522,23 +13522,23 @@ module.exports = [
     "meaning": "尊重",
     "example": "Rispetta le regole.",
     "example_meaning": "遵守规则。",
-    "detail": "原型：Rispettare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Rispettare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nRispetto, Rispetti, Rispetta, Rispettiamo, Rispettate, Rispettano",
     "options": [
       {
-        "text": "方法",
+        "text": "系统",
         "isCorrect": false
       },
       {
-        "text": "危险",
+        "text": "想象",
+        "isCorrect": false
+      },
+      {
+        "text": "似乎",
         "isCorrect": false
       },
       {
         "text": "尊重",
         "isCorrect": true
-      },
-      {
-        "text": "正义",
-        "isCorrect": false
       }
     ]
   },
@@ -13551,23 +13551,23 @@ module.exports = [
     "meaning": "钦佩",
     "example": "Ammiro il tuo coraggio.",
     "example_meaning": "我钦佩你的勇气。",
-    "detail": "原型：Ammirare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Ammirare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAmmiro, Ammiri, Ammira, Ammiriamo, Ammirate, Ammirano",
     "options": [
       {
-        "text": "建议/暗示",
+        "text": "秘书",
         "isCorrect": false
       },
       {
-        "text": "工人",
-        "isCorrect": false
-      },
-      {
-        "text": "签名",
+        "text": "决定",
         "isCorrect": false
       },
       {
         "text": "钦佩",
         "isCorrect": true
+      },
+      {
+        "text": "工厂",
+        "isCorrect": false
       }
     ]
   },
@@ -13580,14 +13580,14 @@ module.exports = [
     "meaning": "羡慕/嫉妒",
     "example": "Non invidio nessuno.",
     "example_meaning": "我不羡慕任何人。",
-    "detail": "原型：Invidiare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Invidiare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nInvidio, Invidii, Invidia, Invidiiamo, Invidiate, Invidiano",
     "options": [
       {
-        "text": "钱",
+        "text": "更新",
         "isCorrect": false
       },
       {
-        "text": "售货员",
+        "text": "文件",
         "isCorrect": false
       },
       {
@@ -13595,7 +13595,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "历史",
+        "text": "文件夹",
         "isCorrect": false
       }
     ]
@@ -13609,22 +13609,22 @@ module.exports = [
     "meaning": "嫉妒",
     "example": "La gelosia è brutta.",
     "example_meaning": "嫉妒是不好的。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Gelosie)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nGelosia -> Gelosie",
     "options": [
       {
         "text": "嫉妒",
         "isCorrect": true
       },
       {
-        "text": "想象",
+        "text": "商店",
         "isCorrect": false
       },
       {
-        "text": "企业",
+        "text": "销售",
         "isCorrect": false
       },
       {
-        "text": "似乎",
+        "text": "更新",
         "isCorrect": false
       }
     ]
@@ -13638,22 +13638,22 @@ module.exports = [
     "meaning": "信任",
     "example": "Abbi fiducia in me.",
     "example_meaning": "相信我。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Fiducie)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nFiducia -> Fiducie",
     "options": [
+      {
+        "text": "点赞",
+        "isCorrect": false
+      },
       {
         "text": "信任",
         "isCorrect": true
       },
       {
-        "text": "成功",
+        "text": "老板/主要的",
         "isCorrect": false
       },
       {
-        "text": "经济",
-        "isCorrect": false
-      },
-      {
-        "text": "帖子",
+        "text": "发票",
         "isCorrect": false
       }
     ]
@@ -13667,22 +13667,22 @@ module.exports = [
     "meaning": "怀疑",
     "example": "Ho un sospetto.",
     "example_meaning": "我有个怀疑。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Sospetti)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nSospetto -> Sospetti",
     "options": [
       {
         "text": "怀疑",
         "isCorrect": true
       },
       {
-        "text": "想象",
+        "text": "网站",
         "isCorrect": false
       },
       {
-        "text": "经济",
+        "text": "钞票",
         "isCorrect": false
       },
       {
-        "text": "变成",
+        "text": "文件夹",
         "isCorrect": false
       }
     ]
@@ -13696,23 +13696,23 @@ module.exports = [
     "meaning": "疑问",
     "example": "Non ho dubbi.",
     "example_meaning": "我没有疑问。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Dubbii)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nDubbio -> Dubbii",
     "options": [
-      {
-        "text": "借记卡/ATM",
-        "isCorrect": false
-      },
-      {
-        "text": "结果",
-        "isCorrect": false
-      },
-      {
-        "text": "账单/账户",
-        "isCorrect": false
-      },
       {
         "text": "疑问",
         "isCorrect": true
+      },
+      {
+        "text": "消费者",
+        "isCorrect": false
+      },
+      {
+        "text": "农业",
+        "isCorrect": false
+      },
+      {
+        "text": "政府",
+        "isCorrect": false
       }
     ]
   },
@@ -13725,23 +13725,23 @@ module.exports = [
     "meaning": "确定性",
     "example": "Non ho certezze.",
     "example_meaning": "我不确定。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Certezze)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nCertezza -> Certezze",
     "options": [
+      {
+        "text": "下载/卸载",
+        "isCorrect": false
+      },
+      {
+        "text": "评论",
+        "isCorrect": false
+      },
+      {
+        "text": "提议",
+        "isCorrect": false
+      },
       {
         "text": "确定性",
         "isCorrect": true
-      },
-      {
-        "text": "人民",
-        "isCorrect": false
-      },
-      {
-        "text": "经济",
-        "isCorrect": false
-      },
-      {
-        "text": "发生",
-        "isCorrect": false
       }
     ]
   },
@@ -13754,18 +13754,18 @@ module.exports = [
     "meaning": "安全/确信",
     "example": "La sicurezza è importante.",
     "example_meaning": "安全很重要。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Sicurezze)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nSicurezza -> Sicurezze",
     "options": [
       {
-        "text": "社区",
+        "text": "尝试",
         "isCorrect": false
       },
       {
-        "text": "努力",
+        "text": "科学",
         "isCorrect": false
       },
       {
-        "text": "决定",
+        "text": "梦想/做梦",
         "isCorrect": false
       },
       {
@@ -13783,14 +13783,10 @@ module.exports = [
     "meaning": "危险",
     "example": "Siamo fuori pericolo.",
     "example_meaning": "我们脱离危险了。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Pericoli)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nPericolo -> Pericoli",
     "options": [
       {
-        "text": "秘书",
-        "isCorrect": false
-      },
-      {
-        "text": "正义",
+        "text": "程序/节目",
         "isCorrect": false
       },
       {
@@ -13798,7 +13794,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "增加",
+        "text": "洗碗机",
+        "isCorrect": false
+      },
+      {
+        "text": "社会/公司",
         "isCorrect": false
       }
     ]
@@ -13812,22 +13812,22 @@ module.exports = [
     "meaning": "风险",
     "example": "È un grosso rischio.",
     "example_meaning": "这是一个巨大的风险。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Rischii)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nRischio -> Rischii",
     "options": [
+      {
+        "text": "法律",
+        "isCorrect": false
+      },
       {
         "text": "风险",
         "isCorrect": true
       },
       {
-        "text": "网站",
+        "text": "消失",
         "isCorrect": false
       },
       {
-        "text": "秘书",
-        "isCorrect": false
-      },
-      {
-        "text": "成功",
+        "text": "目的",
         "isCorrect": false
       }
     ]
@@ -13841,22 +13841,22 @@ module.exports = [
     "meaning": "威胁",
     "example": "È una minaccia reale.",
     "example_meaning": "这是一个真正的威胁。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Minaccie)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nMinaccia -> Minaccie",
     "options": [
-      {
-        "text": "建议",
-        "isCorrect": false
-      },
-      {
-        "text": "博爱",
-        "isCorrect": false
-      },
       {
         "text": "威胁",
         "isCorrect": true
       },
       {
-        "text": "金融",
+        "text": "提议",
+        "isCorrect": false
+      },
+      {
+        "text": "国家/民族",
+        "isCorrect": false
+      },
+      {
+        "text": "保护",
         "isCorrect": false
       }
     ]
@@ -13870,22 +13870,22 @@ module.exports = [
     "meaning": "保护",
     "example": "Cerca protezione.",
     "example_meaning": "寻求保护。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Protezioni)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nProtezione -> Protezione",
     "options": [
+      {
+        "text": "养老金/旅店",
+        "isCorrect": false
+      },
+      {
+        "text": "冰箱",
+        "isCorrect": false
+      },
       {
         "text": "保护",
         "isCorrect": true
       },
       {
-        "text": "保持/停留",
-        "isCorrect": false
-      },
-      {
-        "text": "下载/卸载",
-        "isCorrect": false
-      },
-      {
-        "text": "目标",
+        "text": "接受",
         "isCorrect": false
       }
     ]
@@ -13899,23 +13899,23 @@ module.exports = [
     "meaning": "防御",
     "example": "La miglior difesa è l'attacco.",
     "example_meaning": "最好的防御是进攻。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Difese)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nDifesa -> Difese",
     "options": [
       {
-        "text": "建议/暗示",
+        "text": "更新",
+        "isCorrect": false
+      },
+      {
+        "text": "保持/停留",
+        "isCorrect": false
+      },
+      {
+        "text": "国家/民族",
         "isCorrect": false
       },
       {
         "text": "防御",
         "isCorrect": true
-      },
-      {
-        "text": "确定性",
-        "isCorrect": false
-      },
-      {
-        "text": "自由",
-        "isCorrect": false
       }
     ]
   },
@@ -13928,22 +13928,22 @@ module.exports = [
     "meaning": "攻击",
     "example": "Sotto attacco.",
     "example_meaning": "受到攻击。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Attacci)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nAttacco -> Attacci",
     "options": [
       {
         "text": "攻击",
         "isCorrect": true
       },
       {
-        "text": "目标",
+        "text": "到达/达到",
         "isCorrect": false
       },
       {
-        "text": "奖品",
+        "text": "客户",
         "isCorrect": false
       },
       {
-        "text": "接受",
+        "text": "分享",
         "isCorrect": false
       }
     ]
@@ -13957,10 +13957,10 @@ module.exports = [
     "meaning": "战争",
     "example": "La guerra è finita.",
     "example_meaning": "战争结束了。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Guerre)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nGuerra -> Guerre",
     "options": [
       {
-        "text": "失败",
+        "text": "评估",
         "isCorrect": false
       },
       {
@@ -13968,11 +13968,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "钦佩",
+        "text": "度过/经过",
         "isCorrect": false
       },
       {
-        "text": "留下",
+        "text": "文件",
         "isCorrect": false
       }
     ]
@@ -13986,23 +13986,23 @@ module.exports = [
     "meaning": "和平",
     "example": "Vogliamo la pace.",
     "example_meaning": "我们要和平。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Paci)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nPace -> Pace",
     "options": [
-      {
-        "text": "秤",
-        "isCorrect": false
-      },
-      {
-        "text": "系统",
-        "isCorrect": false
-      },
-      {
-        "text": "发生/举行",
-        "isCorrect": false
-      },
       {
         "text": "和平",
         "isCorrect": true
+      },
+      {
+        "text": "尝试",
+        "isCorrect": false
+      },
+      {
+        "text": "价格",
+        "isCorrect": false
+      },
+      {
+        "text": "职业生涯",
+        "isCorrect": false
       }
     ]
   },
@@ -14015,22 +14015,22 @@ module.exports = [
     "meaning": "战斗",
     "example": "Ha vinto la battaglia.",
     "example_meaning": "他赢得了战斗。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Battaglie)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nBattaglia -> Battaglie",
     "options": [
+      {
+        "text": "确定性",
+        "isCorrect": false
+      },
       {
         "text": "战斗",
         "isCorrect": true
       },
       {
-        "text": "危险",
+        "text": "渴望",
         "isCorrect": false
       },
       {
-        "text": "注意",
-        "isCorrect": false
-      },
-      {
-        "text": "观察",
+        "text": "微波炉",
         "isCorrect": false
       }
     ]
@@ -14044,18 +14044,18 @@ module.exports = [
     "meaning": "胜利",
     "example": "Una grande vittoria.",
     "example_meaning": "一场伟大的胜利。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Vittorie)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nVittoria -> Vittorie",
     "options": [
       {
-        "text": "博爱",
+        "text": "义务",
         "isCorrect": false
       },
       {
-        "text": "价格",
+        "text": "产品",
         "isCorrect": false
       },
       {
-        "text": "地理",
+        "text": "惩罚",
         "isCorrect": false
       },
       {
@@ -14073,23 +14073,23 @@ module.exports = [
     "meaning": "失败",
     "example": "Dobbiamo accettare la sconfitta.",
     "example_meaning": "我们必须接受失败。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Sconfitte)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nSconfitta -> Sconfitte",
     "options": [
+      {
+        "text": "和平",
+        "isCorrect": false
+      },
+      {
+        "text": "简历",
+        "isCorrect": false
+      },
+      {
+        "text": "钦佩",
+        "isCorrect": false
+      },
       {
         "text": "失败",
         "isCorrect": true
-      },
-      {
-        "text": "安装",
-        "isCorrect": false
-      },
-      {
-        "text": "系统",
-        "isCorrect": false
-      },
-      {
-        "text": "接受",
-        "isCorrect": false
       }
     ]
   },
@@ -14102,10 +14102,10 @@ module.exports = [
     "meaning": "成功",
     "example": "Ti auguro successo.",
     "example_meaning": "祝你成功。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Successi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nSuccesso -> Successi",
     "options": [
       {
-        "text": "目的",
+        "text": "秘书",
         "isCorrect": false
       },
       {
@@ -14113,11 +14113,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "似乎",
+        "text": "遭受/忍受",
         "isCorrect": false
       },
       {
-        "text": "自由",
+        "text": "威胁",
         "isCorrect": false
       }
     ]
@@ -14131,22 +14131,22 @@ module.exports = [
     "meaning": "失败",
     "example": "Il progetto è stato un fallimento.",
     "example_meaning": "这个项目失败了。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Fallimenti)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nFallimento -> Fallimenti",
     "options": [
+      {
+        "text": "技术",
+        "isCorrect": false
+      },
       {
         "text": "失败",
         "isCorrect": true
       },
       {
-        "text": "地理",
+        "text": "保存/拯救",
         "isCorrect": false
       },
       {
-        "text": "理由",
-        "isCorrect": false
-      },
-      {
-        "text": "收据",
+        "text": "责任",
         "isCorrect": false
       }
     ]
@@ -14160,23 +14160,23 @@ module.exports = [
     "meaning": "尝试",
     "example": "Fai un altro tentativo.",
     "example_meaning": "再试一次。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Tentativi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nTentativo -> Tentativi",
     "options": [
       {
-        "text": "承诺/投入",
+        "text": "地理",
+        "isCorrect": false
+      },
+      {
+        "text": "邮件",
+        "isCorrect": false
+      },
+      {
+        "text": "上传/充电",
         "isCorrect": false
       },
       {
         "text": "尝试",
         "isCorrect": true
-      },
-      {
-        "text": "目标",
-        "isCorrect": false
-      },
-      {
-        "text": "理由",
-        "isCorrect": false
       }
     ]
   },
@@ -14189,18 +14189,18 @@ module.exports = [
     "meaning": "努力",
     "example": "Apprezzo il tuo sforzo.",
     "example_meaning": "我很感激你的努力。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Sforzi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nSforzo -> Sforzi",
     "options": [
       {
-        "text": "发生",
+        "text": "过错/罪",
         "isCorrect": false
       },
       {
-        "text": "剪切",
+        "text": "战争",
         "isCorrect": false
       },
       {
-        "text": "商品",
+        "text": "和平",
         "isCorrect": false
       },
       {
@@ -14218,22 +14218,22 @@ module.exports = [
     "meaning": "承诺/投入",
     "example": "Richiede molto impegno.",
     "example_meaning": "这需要很多投入。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Impegni)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nImpegno -> Impegni",
     "options": [
       {
         "text": "承诺/投入",
         "isCorrect": true
       },
       {
-        "text": "链接",
+        "text": "下载/卸载",
         "isCorrect": false
       },
       {
-        "text": "消费者",
+        "text": "项目",
         "isCorrect": false
       },
       {
-        "text": "持续",
+        "text": "保存/拯救",
         "isCorrect": false
       }
     ]
@@ -14247,23 +14247,23 @@ module.exports = [
     "meaning": "结果",
     "example": "Ottimo risultato!",
     "example_meaning": "很好的结果！",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Risultati)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nRisultato -> Risultati",
     "options": [
       {
-        "text": "发票",
+        "text": "羡慕/嫉妒",
+        "isCorrect": false
+      },
+      {
+        "text": "安装",
+        "isCorrect": false
+      },
+      {
+        "text": "自由",
         "isCorrect": false
       },
       {
         "text": "结果",
         "isCorrect": true
-      },
-      {
-        "text": "强迫",
-        "isCorrect": false
-      },
-      {
-        "text": "手段/工具",
-        "isCorrect": false
       }
     ]
   },
@@ -14276,22 +14276,22 @@ module.exports = [
     "meaning": "后果",
     "example": "Accetta le conseguenze.",
     "example_meaning": "承担后果。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Conseguenze)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nConseguenza -> Conseguenze",
     "options": [
-      {
-        "text": "拒绝",
-        "isCorrect": false
-      },
-      {
-        "text": "技术",
-        "isCorrect": false
-      },
       {
         "text": "后果",
         "isCorrect": true
       },
       {
-        "text": "更新",
+        "text": "评论",
+        "isCorrect": false
+      },
+      {
+        "text": "程序/节目",
+        "isCorrect": false
+      },
+      {
+        "text": "科学",
         "isCorrect": false
       }
     ]
@@ -14305,23 +14305,23 @@ module.exports = [
     "meaning": "原因",
     "example": "Qual è la causa?",
     "example_meaning": "原因是什么？",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Cause)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nCausa -> Cause",
     "options": [
-      {
-        "text": "洗衣机",
-        "isCorrect": false
-      },
-      {
-        "text": "功劳",
-        "isCorrect": false
-      },
-      {
-        "text": "税",
-        "isCorrect": false
-      },
       {
         "text": "原因",
         "isCorrect": true
+      },
+      {
+        "text": "烤面包机",
+        "isCorrect": false
+      },
+      {
+        "text": "程序/节目",
+        "isCorrect": false
+      },
+      {
+        "text": "简历",
+        "isCorrect": false
       }
     ]
   },
@@ -14334,23 +14334,23 @@ module.exports = [
     "meaning": "理由",
     "example": "Dammi un motivo.",
     "example_meaning": "给我一个理由。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Motivi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nMotivo -> Motivi",
     "options": [
       {
-        "text": "价格",
-        "isCorrect": false
-      },
-      {
-        "text": "更新",
-        "isCorrect": false
-      },
-      {
-        "text": "注意",
+        "text": "危险",
         "isCorrect": false
       },
       {
         "text": "理由",
         "isCorrect": true
+      },
+      {
+        "text": "电脑",
+        "isCorrect": false
+      },
+      {
+        "text": "威胁",
+        "isCorrect": false
       }
     ]
   },
@@ -14363,22 +14363,22 @@ module.exports = [
     "meaning": "目的",
     "example": "Qual è lo scopo?",
     "example_meaning": "目的是什么？",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Scopi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nScopo -> Scopi",
     "options": [
       {
         "text": "目的",
         "isCorrect": true
       },
       {
-        "text": "商业",
+        "text": "社区",
         "isCorrect": false
       },
       {
-        "text": "商品",
+        "text": "评估",
         "isCorrect": false
       },
       {
-        "text": "报价/供给",
+        "text": "老板/头",
         "isCorrect": false
       }
     ]
@@ -14392,23 +14392,23 @@ module.exports = [
     "meaning": "目标",
     "example": "Il mio obiettivo è imparare.",
     "example_meaning": "我的目标是学习。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Obiettivi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nObiettivo -> Obiettivi",
     "options": [
       {
-        "text": "税",
+        "text": "网站",
         "isCorrect": false
       },
       {
-        "text": "熨斗",
+        "text": "手艺/行当",
+        "isCorrect": false
+      },
+      {
+        "text": "商品",
         "isCorrect": false
       },
       {
         "text": "目标",
         "isCorrect": true
-      },
-      {
-        "text": "网站",
-        "isCorrect": false
       }
     ]
   },
@@ -14421,22 +14421,22 @@ module.exports = [
     "meaning": "目的/结束",
     "example": "Siamo alla fine.",
     "example_meaning": "我们在终点。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Fini)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nFine -> Fini",
     "options": [
-      {
-        "text": "公司",
-        "isCorrect": false
-      },
-      {
-        "text": "钦佩",
-        "isCorrect": false
-      },
       {
         "text": "目的/结束",
         "isCorrect": true
       },
       {
-        "text": "失败",
+        "text": "接受",
+        "isCorrect": false
+      },
+      {
+        "text": "工业",
+        "isCorrect": false
+      },
+      {
+        "text": "点赞",
         "isCorrect": false
       }
     ]
@@ -14450,23 +14450,23 @@ module.exports = [
     "meaning": "手段/工具",
     "example": "Il fine giustifica i mezzi.",
     "example_meaning": "目的证明手段正当。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Mezzi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nMezzo -> Mezzi",
     "options": [
-      {
-        "text": "销售",
-        "isCorrect": false
-      },
-      {
-        "text": "粘贴",
-        "isCorrect": false
-      },
-      {
-        "text": "失败",
-        "isCorrect": false
-      },
       {
         "text": "手段/工具",
         "isCorrect": true
+      },
+      {
+        "text": "商品",
+        "isCorrect": false
+      },
+      {
+        "text": "和平",
+        "isCorrect": false
+      },
+      {
+        "text": "硬币/货币",
+        "isCorrect": false
       }
     ]
   },
@@ -14479,22 +14479,22 @@ module.exports = [
     "meaning": "方式",
     "example": "Trova un modo.",
     "example_meaning": "找个办法。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Modi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nModo -> Modi",
     "options": [
       {
         "text": "方式",
         "isCorrect": true
       },
       {
-        "text": "安全/确信",
+        "text": "尊重",
         "isCorrect": false
       },
       {
-        "text": "打印",
+        "text": "老板/主要的",
         "isCorrect": false
       },
       {
-        "text": "农业",
+        "text": "经理/主任",
         "isCorrect": false
       }
     ]
@@ -14508,22 +14508,22 @@ module.exports = [
     "meaning": "方法",
     "example": "È un buon metodo.",
     "example_meaning": "这是一个好方法。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Metodi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nMetodo -> Metodi",
     "options": [
       {
         "text": "方法",
         "isCorrect": true
       },
       {
-        "text": "度过(时间)",
+        "text": "商店",
         "isCorrect": false
       },
       {
-        "text": "客户",
+        "text": "规则",
         "isCorrect": false
       },
       {
-        "text": "接受",
+        "text": "失败",
         "isCorrect": false
       }
     ]
@@ -14537,23 +14537,23 @@ module.exports = [
     "meaning": "系统",
     "example": "Il sistema funziona.",
     "example_meaning": "系统运行正常。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Sisteme)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nSistema -> Sistemi",
     "options": [
+      {
+        "text": "会议",
+        "isCorrect": false
+      },
+      {
+        "text": "税",
+        "isCorrect": false
+      },
+      {
+        "text": "持续",
+        "isCorrect": false
+      },
       {
         "text": "系统",
         "isCorrect": true
-      },
-      {
-        "text": "手艺/行当",
-        "isCorrect": false
-      },
-      {
-        "text": "屏幕",
-        "isCorrect": false
-      },
-      {
-        "text": "搅拌机",
-        "isCorrect": false
       }
     ]
   },
@@ -14566,22 +14566,22 @@ module.exports = [
     "meaning": "规则",
     "example": "Le regole sono importanti.",
     "example_meaning": "规则很重要。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Regole)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nRegola -> Regole",
     "options": [
+      {
+        "text": "理由",
+        "isCorrect": false
+      },
+      {
+        "text": "留下",
+        "isCorrect": false
+      },
       {
         "text": "规则",
         "isCorrect": true
       },
       {
-        "text": "经理/主任",
-        "isCorrect": false
-      },
-      {
-        "text": "上传/充电",
-        "isCorrect": false
-      },
-      {
-        "text": "尝试",
+        "text": "烤面包机",
         "isCorrect": false
       }
     ]
@@ -14595,23 +14595,23 @@ module.exports = [
     "meaning": "法律",
     "example": "Rispetta la legge.",
     "example_meaning": "遵守法律。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Leggi)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nLegge -> Legge",
     "options": [
-      {
-        "text": "攻击",
-        "isCorrect": false
-      },
-      {
-        "text": "变成",
-        "isCorrect": false
-      },
-      {
-        "text": "烤面包机",
-        "isCorrect": false
-      },
       {
         "text": "法律",
         "isCorrect": true
+      },
+      {
+        "text": "拒绝",
+        "isCorrect": false
+      },
+      {
+        "text": "危险",
+        "isCorrect": false
+      },
+      {
+        "text": "商店",
+        "isCorrect": false
       }
     ]
   },
@@ -14624,10 +14624,14 @@ module.exports = [
     "meaning": "权利/法律",
     "example": "Ho il diritto di parlare.",
     "example_meaning": "我有权说话。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Diritti)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nDiritto -> Diritti",
     "options": [
       {
-        "text": "平等",
+        "text": "偶然发生",
+        "isCorrect": false
+      },
+      {
+        "text": "更喜欢",
         "isCorrect": false
       },
       {
@@ -14635,11 +14639,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "文件夹",
-        "isCorrect": false
-      },
-      {
-        "text": "秤",
+        "text": "手段/工具",
         "isCorrect": false
       }
     ]
@@ -14653,18 +14653,18 @@ module.exports = [
     "meaning": "义务",
     "example": "È il mio dovere.",
     "example_meaning": "这是我的义务。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Doveri)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nDovere -> Doveri",
     "options": [
       {
-        "text": "老板/主要的",
+        "text": "商品",
         "isCorrect": false
       },
       {
-        "text": "评估",
+        "text": "帖子",
         "isCorrect": false
       },
       {
-        "text": "网站",
+        "text": "工作",
         "isCorrect": false
       },
       {
@@ -14682,23 +14682,23 @@ module.exports = [
     "meaning": "责任",
     "example": "Prenditi la responsabilità.",
     "example_meaning": "承担责任。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "重音结尾名词。\n复数形式保持不变 (la Responsabilità -> le Responsabilità)。",
     "options": [
+      {
+        "text": "删除/取消",
+        "isCorrect": false
+      },
+      {
+        "text": "价格",
+        "isCorrect": false
+      },
+      {
+        "text": "防御",
+        "isCorrect": false
+      },
       {
         "text": "责任",
         "isCorrect": true
-      },
-      {
-        "text": "努力",
-        "isCorrect": false
-      },
-      {
-        "text": "博爱",
-        "isCorrect": false
-      },
-      {
-        "text": "发生",
-        "isCorrect": false
       }
     ]
   },
@@ -14711,23 +14711,23 @@ module.exports = [
     "meaning": "过错/罪",
     "example": "Non è colpa mia.",
     "example_meaning": "这不是我的错。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Colpe)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nColpa -> Colpe",
     "options": [
       {
-        "text": "人民",
-        "isCorrect": false
-      },
-      {
-        "text": "商品",
-        "isCorrect": false
-      },
-      {
-        "text": "建议/暗示",
+        "text": "改变",
         "isCorrect": false
       },
       {
         "text": "过错/罪",
         "isCorrect": true
+      },
+      {
+        "text": "规则",
+        "isCorrect": false
+      },
+      {
+        "text": "努力",
+        "isCorrect": false
       }
     ]
   },
@@ -14740,22 +14740,22 @@ module.exports = [
     "meaning": "功劳",
     "example": "È merito tuo.",
     "example_meaning": "这是你的功劳。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Meriti)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nMerito -> Meriti",
     "options": [
       {
         "text": "功劳",
         "isCorrect": true
       },
       {
-        "text": "文件",
+        "text": "转变",
         "isCorrect": false
       },
       {
-        "text": "历史",
+        "text": "下载/卸载",
         "isCorrect": false
       },
       {
-        "text": "想象",
+        "text": "发生",
         "isCorrect": false
       }
     ]
@@ -14769,18 +14769,18 @@ module.exports = [
     "meaning": "奖品",
     "example": "Ha vinto un premio.",
     "example_meaning": "他赢得了一个奖。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Premii)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nPremio -> Premii",
     "options": [
       {
-        "text": "社区",
+        "text": "忍受",
         "isCorrect": false
       },
       {
-        "text": "质量",
+        "text": "文件",
         "isCorrect": false
       },
       {
-        "text": "秘书",
+        "text": "政府",
         "isCorrect": false
       },
       {
@@ -14798,23 +14798,23 @@ module.exports = [
     "meaning": "惩罚",
     "example": "Merita una punizione.",
     "example_meaning": "他应受惩罚。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Punizioni)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nPunizione -> Punizione",
     "options": [
-      {
-        "text": "税",
-        "isCorrect": false
-      },
-      {
-        "text": "点赞",
-        "isCorrect": false
-      },
-      {
-        "text": "接受",
-        "isCorrect": false
-      },
       {
         "text": "惩罚",
         "isCorrect": true
+      },
+      {
+        "text": "秤",
+        "isCorrect": false
+      },
+      {
+        "text": "工人",
+        "isCorrect": false
+      },
+      {
+        "text": "享受",
+        "isCorrect": false
       }
     ]
   },
@@ -14827,18 +14827,18 @@ module.exports = [
     "meaning": "正义",
     "example": "Vogliamo giustizia.",
     "example_meaning": "我们要正义。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Giustizie)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nGiustizia -> Giustizie",
     "options": [
       {
-        "text": "企业",
+        "text": "数量",
         "isCorrect": false
       },
       {
-        "text": "下载/卸载",
+        "text": "销售",
         "isCorrect": false
       },
       {
-        "text": "转变",
+        "text": "更新",
         "isCorrect": false
       },
       {
@@ -14856,22 +14856,22 @@ module.exports = [
     "meaning": "自由",
     "example": "Viva la libertà!",
     "example_meaning": "自由万岁！",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "重音结尾名词。\n复数形式保持不变 (la Libertà -> le Libertà)。",
     "options": [
+      {
+        "text": "更新",
+        "isCorrect": false
+      },
       {
         "text": "自由",
         "isCorrect": true
       },
       {
-        "text": "价值",
+        "text": "转变",
         "isCorrect": false
       },
       {
-        "text": "报价/供给",
-        "isCorrect": false
-      },
-      {
-        "text": "提议",
+        "text": "更喜欢",
         "isCorrect": false
       }
     ]
@@ -14885,23 +14885,23 @@ module.exports = [
     "meaning": "平等",
     "example": "Crediamo nell'uguaglianza.",
     "example_meaning": "我们相信平等。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Uguaglianze)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nUguaglianza -> Uguaglianze",
     "options": [
       {
-        "text": "决定",
+        "text": "键盘",
         "isCorrect": false
       },
       {
-        "text": "农业",
-        "isCorrect": false
-      },
-      {
-        "text": "努力",
+        "text": "目的/结束",
         "isCorrect": false
       },
       {
         "text": "平等",
         "isCorrect": true
+      },
+      {
+        "text": "借记卡/ATM",
+        "isCorrect": false
       }
     ]
   },
@@ -14914,22 +14914,22 @@ module.exports = [
     "meaning": "博爱",
     "example": "Libertà, uguaglianza, fratellanza.",
     "example_meaning": "自由，平等，博爱。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Fratellanze)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nFratellanza -> Fratellanze",
     "options": [
-      {
-        "text": "允许",
-        "isCorrect": false
-      },
-      {
-        "text": "客户",
-        "isCorrect": false
-      },
       {
         "text": "博爱",
         "isCorrect": true
       },
       {
-        "text": "程序/节目",
+        "text": "平等",
+        "isCorrect": false
+      },
+      {
+        "text": "后果",
+        "isCorrect": false
+      },
+      {
+        "text": "梦想/做梦",
         "isCorrect": false
       }
     ]
@@ -14943,23 +14943,23 @@ module.exports = [
     "meaning": "社会/公司",
     "example": "Viviamo in una società.",
     "example_meaning": "我们生活在一个社会里。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "重音结尾名词。\n复数形式保持不变 (la Società -> le Società)。",
     "options": [
-      {
-        "text": "发票",
-        "isCorrect": false
-      },
-      {
-        "text": "键盘",
-        "isCorrect": false
-      },
-      {
-        "text": "改善/提高",
-        "isCorrect": false
-      },
       {
         "text": "社会/公司",
         "isCorrect": true
+      },
+      {
+        "text": "允许",
+        "isCorrect": false
+      },
+      {
+        "text": "经理/主任",
+        "isCorrect": false
+      },
+      {
+        "text": "上传/充电",
+        "isCorrect": false
       }
     ]
   },
@@ -14972,22 +14972,22 @@ module.exports = [
     "meaning": "社区",
     "example": "Aiuta la comunità.",
     "example_meaning": "帮助社区。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "重音结尾名词。\n复数形式保持不变 (la Comunità -> le Comunità)。",
     "options": [
+      {
+        "text": "成功",
+        "isCorrect": false
+      },
       {
         "text": "社区",
         "isCorrect": true
       },
       {
-        "text": "剪切",
+        "text": "权利/法律",
         "isCorrect": false
       },
       {
-        "text": "钦佩",
-        "isCorrect": false
-      },
-      {
-        "text": "复制",
+        "text": "变成",
         "isCorrect": false
       }
     ]
@@ -15001,22 +15001,22 @@ module.exports = [
     "meaning": "人民",
     "example": "Il potere al popolo.",
     "example_meaning": "权力归人民。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Popoli)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nPopolo -> Popoli",
     "options": [
-      {
-        "text": "产品",
-        "isCorrect": false
-      },
       {
         "text": "人民",
         "isCorrect": true
       },
       {
-        "text": "威胁",
+        "text": "工作",
         "isCorrect": false
       },
       {
-        "text": "惩罚",
+        "text": "平等",
+        "isCorrect": false
+      },
+      {
+        "text": "键盘",
         "isCorrect": false
       }
     ]
@@ -15030,23 +15030,23 @@ module.exports = [
     "meaning": "国家/民族",
     "example": "Una grande nazione.",
     "example_meaning": "一个伟大的国家。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Nazioni)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nNazione -> Nazione",
     "options": [
-      {
-        "text": "发生",
-        "isCorrect": false
-      },
-      {
-        "text": "文件",
-        "isCorrect": false
-      },
-      {
-        "text": "商业",
-        "isCorrect": false
-      },
       {
         "text": "国家/民族",
         "isCorrect": true
+      },
+      {
+        "text": "危险",
+        "isCorrect": false
+      },
+      {
+        "text": "吸尘器",
+        "isCorrect": false
+      },
+      {
+        "text": "疑问",
+        "isCorrect": false
       }
     ]
   },
@@ -15059,23 +15059,23 @@ module.exports = [
     "meaning": "政府",
     "example": "Il governo ha deciso.",
     "example_meaning": "政府已经决定。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Governi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nGoverno -> Governi",
     "options": [
-      {
-        "text": "风险",
-        "isCorrect": false
-      },
-      {
-        "text": "接受",
-        "isCorrect": false
-      },
-      {
-        "text": "方法",
-        "isCorrect": false
-      },
       {
         "text": "政府",
         "isCorrect": true
+      },
+      {
+        "text": "承诺/投入",
+        "isCorrect": false
+      },
+      {
+        "text": "职业",
+        "isCorrect": false
+      },
+      {
+        "text": "保护",
+        "isCorrect": false
       }
     ]
   },
@@ -15088,10 +15088,14 @@ module.exports = [
     "meaning": "政治",
     "example": "Non parlo di politica.",
     "example_meaning": "我不谈政治。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Politice)。",
+    "detail": "阴性单数名词 (-ca/-ga)。\n复数形式通常加 h 保持发音：\nPolitica -> Politiche",
     "options": [
       {
-        "text": "手艺/行当",
+        "text": "质量",
+        "isCorrect": false
+      },
+      {
+        "text": "社交网络",
         "isCorrect": false
       },
       {
@@ -15099,11 +15103,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "羡慕/嫉妒",
-        "isCorrect": false
-      },
-      {
-        "text": "客户",
+        "text": "建议/暗示",
         "isCorrect": false
       }
     ]
@@ -15117,14 +15117,10 @@ module.exports = [
     "meaning": "经济",
     "example": "L'economia cresce.",
     "example_meaning": "经济在增长。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Economie)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nEconomia -> Economie",
     "options": [
       {
-        "text": "秘书",
-        "isCorrect": false
-      },
-      {
-        "text": "原因",
+        "text": "粘贴",
         "isCorrect": false
       },
       {
@@ -15132,7 +15128,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "建议",
+        "text": "观察",
+        "isCorrect": false
+      },
+      {
+        "text": "发生",
         "isCorrect": false
       }
     ]
@@ -15146,10 +15146,10 @@ module.exports = [
     "meaning": "文化",
     "example": "La cultura italiana.",
     "example_meaning": "意大利文化。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Culture)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nCultura -> Culture",
     "options": [
       {
-        "text": "防御",
+        "text": "到达/达到",
         "isCorrect": false
       },
       {
@@ -15157,11 +15157,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "国家/民族",
+        "text": "遭受/忍受",
         "isCorrect": false
       },
       {
-        "text": "约会",
+        "text": "保持/停留",
         "isCorrect": false
       }
     ]
@@ -15175,22 +15175,22 @@ module.exports = [
     "meaning": "历史",
     "example": "La storia si ripete.",
     "example_meaning": "历史会重演。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Storie)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nStoria -> Storie",
     "options": [
+      {
+        "text": "失败",
+        "isCorrect": false
+      },
       {
         "text": "历史",
         "isCorrect": true
       },
       {
-        "text": "目标",
+        "text": "接受",
         "isCorrect": false
       },
       {
-        "text": "存在",
-        "isCorrect": false
-      },
-      {
-        "text": "老板/头",
+        "text": "惩罚",
         "isCorrect": false
       }
     ]
@@ -15204,22 +15204,22 @@ module.exports = [
     "meaning": "地理",
     "example": "Studio geografia.",
     "example_meaning": "我学地理。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Geografie)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nGeografia -> Geografie",
     "options": [
+      {
+        "text": "尊重",
+        "isCorrect": false
+      },
+      {
+        "text": "支票",
+        "isCorrect": false
+      },
       {
         "text": "地理",
         "isCorrect": true
       },
       {
-        "text": "工作",
-        "isCorrect": false
-      },
-      {
-        "text": "决定",
-        "isCorrect": false
-      },
-      {
-        "text": "老板/头",
+        "text": "秘书",
         "isCorrect": false
       }
     ]
@@ -15233,22 +15233,22 @@ module.exports = [
     "meaning": "科学",
     "example": "La scienza progredisce.",
     "example_meaning": "科学在进步。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Scienze)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nScienza -> Scienze",
     "options": [
       {
         "text": "科学",
         "isCorrect": true
       },
       {
-        "text": "判断",
+        "text": "删除/取消",
         "isCorrect": false
       },
       {
-        "text": "接受",
+        "text": "安装",
         "isCorrect": false
       },
       {
-        "text": "分享",
+        "text": "链接",
         "isCorrect": false
       }
     ]
@@ -15262,23 +15262,23 @@ module.exports = [
     "meaning": "技术",
     "example": "Amo la tecnologia.",
     "example_meaning": "我爱技术。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Tecnologie)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nTecnologia -> Tecnologie",
     "options": [
+      {
+        "text": "羡慕/嫉妒",
+        "isCorrect": false
+      },
+      {
+        "text": "硬币/货币",
+        "isCorrect": false
+      },
+      {
+        "text": "尝试",
+        "isCorrect": false
+      },
       {
         "text": "技术",
         "isCorrect": true
-      },
-      {
-        "text": "评论",
-        "isCorrect": false
-      },
-      {
-        "text": "改变",
-        "isCorrect": false
-      },
-      {
-        "text": "胜利",
-        "isCorrect": false
       }
     ]
   },
@@ -15291,23 +15291,23 @@ module.exports = [
     "meaning": "工业",
     "example": "L'industria automobilistica.",
     "example_meaning": "汽车工业。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Industrie)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nIndustria -> Industrie",
     "options": [
       {
-        "text": "恶化",
+        "text": "评论",
         "isCorrect": false
       },
       {
-        "text": "项目",
+        "text": "银行",
+        "isCorrect": false
+      },
+      {
+        "text": "提议",
         "isCorrect": false
       },
       {
         "text": "工业",
         "isCorrect": true
-      },
-      {
-        "text": "攻击",
-        "isCorrect": false
       }
     ]
   },
@@ -15320,10 +15320,14 @@ module.exports = [
     "meaning": "农业",
     "example": "L'agricoltura è importante.",
     "example_meaning": "农业很重要。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Agricolture)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nAgricoltura -> Agricolture",
     "options": [
       {
-        "text": "失败",
+        "text": "存在",
+        "isCorrect": false
+      },
+      {
+        "text": "方式",
         "isCorrect": false
       },
       {
@@ -15331,11 +15335,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "科学",
-        "isCorrect": false
-      },
-      {
-        "text": "养老金/旅店",
+        "text": "手艺/行当",
         "isCorrect": false
       }
     ]
@@ -15349,23 +15349,23 @@ module.exports = [
     "meaning": "商业",
     "example": "Il commercio è vitale.",
     "example_meaning": "商业至关重要。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Commercii)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nCommercio -> Commercii",
     "options": [
+      {
+        "text": "原因",
+        "isCorrect": false
+      },
+      {
+        "text": "目标",
+        "isCorrect": false
+      },
+      {
+        "text": "借记卡/ATM",
+        "isCorrect": false
+      },
       {
         "text": "商业",
         "isCorrect": true
-      },
-      {
-        "text": "系统",
-        "isCorrect": false
-      },
-      {
-        "text": "禁止",
-        "isCorrect": false
-      },
-      {
-        "text": "信用卡",
-        "isCorrect": false
       }
     ]
   },
@@ -15378,23 +15378,23 @@ module.exports = [
     "meaning": "金融",
     "example": "Lavora nella finanza.",
     "example_meaning": "他在金融界工作。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Finanze)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nFinanza -> Finanze",
     "options": [
-      {
-        "text": "消失",
-        "isCorrect": false
-      },
-      {
-        "text": "复制",
-        "isCorrect": false
-      },
-      {
-        "text": "老板/主要的",
-        "isCorrect": false
-      },
       {
         "text": "金融",
         "isCorrect": true
+      },
+      {
+        "text": "变成",
+        "isCorrect": false
+      },
+      {
+        "text": "改善/提高",
+        "isCorrect": false
+      },
+      {
+        "text": "理由",
+        "isCorrect": false
       }
     ]
   },
@@ -15407,22 +15407,22 @@ module.exports = [
     "meaning": "银行",
     "example": "Vado in banca.",
     "example_meaning": "我去银行。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Bance)。",
+    "detail": "阴性单数名词 (-ca/-ga)。\n复数形式通常加 h 保持发音：\nBanca -> Banche",
     "options": [
+      {
+        "text": "键盘",
+        "isCorrect": false
+      },
+      {
+        "text": "存在",
+        "isCorrect": false
+      },
       {
         "text": "银行",
         "isCorrect": true
       },
       {
-        "text": "惩罚",
-        "isCorrect": false
-      },
-      {
-        "text": "微波炉",
-        "isCorrect": false
-      },
-      {
-        "text": "胜利",
+        "text": "消失",
         "isCorrect": false
       }
     ]
@@ -15436,18 +15436,18 @@ module.exports = [
     "meaning": "账单/账户",
     "example": "Il conto, per favore.",
     "example_meaning": "请结账。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Conti)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nConto -> Conti",
     "options": [
       {
-        "text": "规则",
+        "text": "正义",
         "isCorrect": false
       },
       {
-        "text": "消失",
+        "text": "战斗",
         "isCorrect": false
       },
       {
-        "text": "分享",
+        "text": "信任",
         "isCorrect": false
       },
       {
@@ -15465,23 +15465,23 @@ module.exports = [
     "meaning": "钱",
     "example": "Il tempo è denaro.",
     "example_meaning": "时间就是金钱。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Denari)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nDenaro -> Denari",
     "options": [
+      {
+        "text": "结果",
+        "isCorrect": false
+      },
+      {
+        "text": "键盘",
+        "isCorrect": false
+      },
+      {
+        "text": "和平",
+        "isCorrect": false
+      },
       {
         "text": "钱",
         "isCorrect": true
-      },
-      {
-        "text": "文件",
-        "isCorrect": false
-      },
-      {
-        "text": "保存/拯救",
-        "isCorrect": false
-      },
-      {
-        "text": "养老金/旅店",
-        "isCorrect": false
       }
     ]
   },
@@ -15494,22 +15494,22 @@ module.exports = [
     "meaning": "硬币/货币",
     "example": "Hai delle monete?",
     "example_meaning": "你有硬币吗？",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Monete)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nMoneta -> Monete",
     "options": [
-      {
-        "text": "计划/层",
-        "isCorrect": false
-      },
-      {
-        "text": "想象",
-        "isCorrect": false
-      },
       {
         "text": "硬币/货币",
         "isCorrect": true
       },
       {
-        "text": "方法",
+        "text": "价值",
+        "isCorrect": false
+      },
+      {
+        "text": "秤",
+        "isCorrect": false
+      },
+      {
+        "text": "考虑",
         "isCorrect": false
       }
     ]
@@ -15523,22 +15523,22 @@ module.exports = [
     "meaning": "钞票",
     "example": "Una banconota da dieci euro.",
     "example_meaning": "一张十欧元的钞票。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Banconote)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nBanconota -> Banconote",
     "options": [
       {
         "text": "钞票",
         "isCorrect": true
       },
       {
-        "text": "国家/民族",
+        "text": "质量",
         "isCorrect": false
       },
       {
-        "text": "更新",
+        "text": "销售",
         "isCorrect": false
       },
       {
-        "text": "社区",
+        "text": "估算/尊敬",
         "isCorrect": false
       }
     ]
@@ -15552,23 +15552,23 @@ module.exports = [
     "meaning": "支票",
     "example": "Posso pagare con assegno?",
     "example_meaning": "我能用支票付吗？",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Assegni)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nAssegno -> Assegni",
     "options": [
       {
-        "text": "保存/拯救",
+        "text": "科学",
+        "isCorrect": false
+      },
+      {
+        "text": "打印机",
+        "isCorrect": false
+      },
+      {
+        "text": "保持/停留",
         "isCorrect": false
       },
       {
         "text": "支票",
         "isCorrect": true
-      },
-      {
-        "text": "账单/账户",
-        "isCorrect": false
-      },
-      {
-        "text": "购买",
-        "isCorrect": false
       }
     ]
   },
@@ -15581,18 +15581,18 @@ module.exports = [
     "meaning": "信用卡",
     "example": "Accettate carte di credito?",
     "example_meaning": "你们收信用卡吗？",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Carta di crediti)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nCarta di credito -> Carta di credite",
     "options": [
       {
-        "text": "度过(时间)",
+        "text": "平等",
         "isCorrect": false
       },
       {
-        "text": "电脑",
+        "text": "持续",
         "isCorrect": false
       },
       {
-        "text": "熨斗",
+        "text": "钞票",
         "isCorrect": false
       },
       {
@@ -15610,22 +15610,22 @@ module.exports = [
     "meaning": "借记卡/ATM",
     "example": "Vado al bancomat.",
     "example_meaning": "我去取款机。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "外来词/辅音结尾名词。\n通常为阳性，复数形式保持不变 (il Bancomat -> i Bancomat)。",
     "options": [
+      {
+        "text": "帖子",
+        "isCorrect": false
+      },
+      {
+        "text": "薪水",
+        "isCorrect": false
+      },
       {
         "text": "借记卡/ATM",
         "isCorrect": true
       },
       {
-        "text": "持续",
-        "isCorrect": false
-      },
-      {
-        "text": "会议",
-        "isCorrect": false
-      },
-      {
-        "text": "结果",
+        "text": "转变",
         "isCorrect": false
       }
     ]
@@ -15639,23 +15639,23 @@ module.exports = [
     "meaning": "发票",
     "example": "Mi serve la fattura.",
     "example_meaning": "我需要发票。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Fatture)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nFattura -> Fatture",
     "options": [
-      {
-        "text": "钞票",
-        "isCorrect": false
-      },
-      {
-        "text": "失败",
-        "isCorrect": false
-      },
-      {
-        "text": "方式",
-        "isCorrect": false
-      },
       {
         "text": "发票",
         "isCorrect": true
+      },
+      {
+        "text": "存在",
+        "isCorrect": false
+      },
+      {
+        "text": "消费者",
+        "isCorrect": false
+      },
+      {
+        "text": "工业",
+        "isCorrect": false
       }
     ]
   },
@@ -15668,22 +15668,22 @@ module.exports = [
     "meaning": "收据",
     "example": "Ecco lo scontrino.",
     "example_meaning": "这是收据。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Scontrini)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nScontrino -> Scontrini",
     "options": [
       {
         "text": "收据",
         "isCorrect": true
       },
       {
-        "text": "承诺/投入",
+        "text": "吸尘器",
         "isCorrect": false
       },
       {
-        "text": "存在",
+        "text": "方式",
         "isCorrect": false
       },
       {
-        "text": "文件夹",
+        "text": "评估",
         "isCorrect": false
       }
     ]
@@ -15697,22 +15697,22 @@ module.exports = [
     "meaning": "税",
     "example": "Le tasse sono alte.",
     "example_meaning": "税很高。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Tasse)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nTassa -> Tasse",
     "options": [
-      {
-        "text": "需求/问题",
-        "isCorrect": false
-      },
-      {
-        "text": "保存/拯救",
-        "isCorrect": false
-      },
       {
         "text": "税",
         "isCorrect": true
       },
       {
-        "text": "邮件",
+        "text": "梦想/做梦",
+        "isCorrect": false
+      },
+      {
+        "text": "安装",
+        "isCorrect": false
+      },
+      {
+        "text": "到达/达到",
         "isCorrect": false
       }
     ]
@@ -15726,22 +15726,22 @@ module.exports = [
     "meaning": "薪水",
     "example": "Ho ricevuto lo stipendio.",
     "example_meaning": "我拿到了薪水。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Stipendii)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nStipendio -> Stipendii",
     "options": [
       {
         "text": "薪水",
         "isCorrect": true
       },
       {
-        "text": "评论",
+        "text": "考虑",
         "isCorrect": false
       },
       {
-        "text": "风险",
+        "text": "粘贴",
         "isCorrect": false
       },
       {
-        "text": "国家/民族",
+        "text": "更新",
         "isCorrect": false
       }
     ]
@@ -15755,23 +15755,23 @@ module.exports = [
     "meaning": "工资",
     "example": "Il salario minimo.",
     "example_meaning": "最低工资。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Salarii)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nSalario -> Salarii",
     "options": [
       {
-        "text": "老板/主要的",
-        "isCorrect": false
-      },
-      {
-        "text": "报价/供给",
-        "isCorrect": false
-      },
-      {
-        "text": "搅拌机",
+        "text": "信任",
         "isCorrect": false
       },
       {
         "text": "工资",
         "isCorrect": true
+      },
+      {
+        "text": "职业",
+        "isCorrect": false
+      },
+      {
+        "text": "帖子",
+        "isCorrect": false
       }
     ]
   },
@@ -15784,22 +15784,22 @@ module.exports = [
     "meaning": "养老金/旅店",
     "example": "È in pensione.",
     "example_meaning": "他退休了。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Pensioni)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nPensione -> Pensione",
     "options": [
-      {
-        "text": "羡慕/嫉妒",
-        "isCorrect": false
-      },
       {
         "text": "养老金/旅店",
         "isCorrect": true
       },
       {
-        "text": "战争",
+        "text": "删除/取消",
         "isCorrect": false
       },
       {
-        "text": "防御",
+        "text": "惩罚",
+        "isCorrect": false
+      },
+      {
+        "text": "目标",
         "isCorrect": false
       }
     ]
@@ -15813,23 +15813,23 @@ module.exports = [
     "meaning": "工作",
     "example": "Cerco lavoro.",
     "example_meaning": "我在找工作。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Lavori)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nLavoro -> Lavori",
     "options": [
       {
-        "text": "信用卡",
+        "text": "考虑",
         "isCorrect": false
       },
       {
-        "text": "职员",
-        "isCorrect": false
-      },
-      {
-        "text": "市场",
+        "text": "粘贴",
         "isCorrect": false
       },
       {
         "text": "工作",
         "isCorrect": true
+      },
+      {
+        "text": "遭受/忍受",
+        "isCorrect": false
       }
     ]
   },
@@ -15842,10 +15842,10 @@ module.exports = [
     "meaning": "职业",
     "example": "Qual è la tua professione?",
     "example_meaning": "你的职业是什么？",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Professioni)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nProfessione -> Professione",
     "options": [
       {
-        "text": "保存/拯救",
+        "text": "购买",
         "isCorrect": false
       },
       {
@@ -15853,11 +15853,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "规则",
+        "text": "政治",
         "isCorrect": false
       },
       {
-        "text": "原因",
+        "text": "同事",
         "isCorrect": false
       }
     ]
@@ -15871,23 +15871,23 @@ module.exports = [
     "meaning": "手艺/行当",
     "example": "Impara un mestiere.",
     "example_meaning": "学门手艺。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Mestieri)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nMestiere -> Mestieri",
     "options": [
-      {
-        "text": "借记卡/ATM",
-        "isCorrect": false
-      },
-      {
-        "text": "方法",
-        "isCorrect": false
-      },
-      {
-        "text": "目标",
-        "isCorrect": false
-      },
       {
         "text": "手艺/行当",
         "isCorrect": true
+      },
+      {
+        "text": "义务",
+        "isCorrect": false
+      },
+      {
+        "text": "决定",
+        "isCorrect": false
+      },
+      {
+        "text": "签名",
+        "isCorrect": false
       }
     ]
   },
@@ -15900,22 +15900,22 @@ module.exports = [
     "meaning": "职业生涯",
     "example": "Ha fatto carriera.",
     "example_meaning": "他事业有成。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Carriere)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nCarriera -> Carriere",
     "options": [
+      {
+        "text": "邮件",
+        "isCorrect": false
+      },
       {
         "text": "职业生涯",
         "isCorrect": true
       },
       {
-        "text": "责任",
+        "text": "接受",
         "isCorrect": false
       },
       {
-        "text": "养老金/旅店",
-        "isCorrect": false
-      },
-      {
-        "text": "想象",
+        "text": "功劳",
         "isCorrect": false
       }
     ]
@@ -15929,22 +15929,22 @@ module.exports = [
     "meaning": "办公室",
     "example": "Vado in ufficio.",
     "example_meaning": "我去办公室。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Ufficii)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nUfficio -> Ufficii",
     "options": [
+      {
+        "text": "账单/账户",
+        "isCorrect": false
+      },
       {
         "text": "办公室",
         "isCorrect": true
       },
       {
-        "text": "结果",
+        "text": "电脑",
         "isCorrect": false
       },
       {
-        "text": "钦佩",
-        "isCorrect": false
-      },
-      {
-        "text": "冰箱",
+        "text": "成功",
         "isCorrect": false
       }
     ]
@@ -15958,23 +15958,23 @@ module.exports = [
     "meaning": "公司",
     "example": "Lavora per una ditta.",
     "example_meaning": "他在一家公司工作。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Ditte)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nDitta -> Ditte",
     "options": [
+      {
+        "text": "义务",
+        "isCorrect": false
+      },
+      {
+        "text": "嫉妒",
+        "isCorrect": false
+      },
+      {
+        "text": "和平",
+        "isCorrect": false
+      },
       {
         "text": "公司",
         "isCorrect": true
-      },
-      {
-        "text": "怀疑",
-        "isCorrect": false
-      },
-      {
-        "text": "客户",
-        "isCorrect": false
-      },
-      {
-        "text": "保存/拯救",
-        "isCorrect": false
       }
     ]
   },
@@ -15987,23 +15987,23 @@ module.exports = [
     "meaning": "企业",
     "example": "Ha una sua azienda.",
     "example_meaning": "他有自己的企业。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Aziende)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nAzienda -> Aziende",
     "options": [
       {
-        "text": "客户",
-        "isCorrect": false
-      },
-      {
-        "text": "保护",
-        "isCorrect": false
-      },
-      {
-        "text": "过错/罪",
+        "text": "政治",
         "isCorrect": false
       },
       {
         "text": "企业",
         "isCorrect": true
+      },
+      {
+        "text": "计划/层",
+        "isCorrect": false
+      },
+      {
+        "text": "办公室",
+        "isCorrect": false
       }
     ]
   },
@@ -16016,22 +16016,22 @@ module.exports = [
     "meaning": "工厂",
     "example": "Lavora in fabbrica.",
     "example_meaning": "他在工厂工作。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Fabbrice)。",
+    "detail": "阴性单数名词 (-ca/-ga)。\n复数形式通常加 h 保持发音：\nFabbrica -> Fabbriche",
     "options": [
       {
         "text": "工厂",
         "isCorrect": true
       },
       {
-        "text": "约会",
+        "text": "点赞",
         "isCorrect": false
       },
       {
-        "text": "确定性",
+        "text": "强迫",
         "isCorrect": false
       },
       {
-        "text": "羡慕/嫉妒",
+        "text": "洗碗机",
         "isCorrect": false
       }
     ]
@@ -16045,22 +16045,22 @@ module.exports = [
     "meaning": "商店",
     "example": "Il negozio è chiuso.",
     "example_meaning": "商店关门了。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Negozii)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nNegozio -> Negozii",
     "options": [
+      {
+        "text": "疑问",
+        "isCorrect": false
+      },
+      {
+        "text": "办公室",
+        "isCorrect": false
+      },
       {
         "text": "商店",
         "isCorrect": true
       },
       {
-        "text": "建议",
-        "isCorrect": false
-      },
-      {
-        "text": "失败",
-        "isCorrect": false
-      },
-      {
-        "text": "硬币/货币",
+        "text": "和平",
         "isCorrect": false
       }
     ]
@@ -16074,22 +16074,22 @@ module.exports = [
     "meaning": "市场",
     "example": "Vado al mercato.",
     "example_meaning": "我去市场。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Mercati)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nMercato -> Mercati",
     "options": [
       {
         "text": "市场",
         "isCorrect": true
       },
       {
-        "text": "工人",
+        "text": "冰箱",
         "isCorrect": false
       },
       {
-        "text": "注意",
+        "text": "目的",
         "isCorrect": false
       },
       {
-        "text": "经济",
+        "text": "科学",
         "isCorrect": false
       }
     ]
@@ -16103,22 +16103,22 @@ module.exports = [
     "meaning": "产品",
     "example": "È un buon prodotto.",
     "example_meaning": "这是一个好产品。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Prodotti)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nProdotto -> Prodotti",
     "options": [
+      {
+        "text": "羡慕/嫉妒",
+        "isCorrect": false
+      },
       {
         "text": "产品",
         "isCorrect": true
       },
       {
-        "text": "信任",
+        "text": "商业",
         "isCorrect": false
       },
       {
-        "text": "失败",
-        "isCorrect": false
-      },
-      {
-        "text": "保护",
+        "text": "更新",
         "isCorrect": false
       }
     ]
@@ -16132,18 +16132,18 @@ module.exports = [
     "meaning": "商品",
     "example": "La merce è arrivata.",
     "example_meaning": "货物到了。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Merci)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nMerce -> Merce",
     "options": [
       {
-        "text": "功劳",
+        "text": "鼠标",
         "isCorrect": false
       },
       {
-        "text": "键盘",
+        "text": "规则",
         "isCorrect": false
       },
       {
-        "text": "文件",
+        "text": "吸尘器",
         "isCorrect": false
       },
       {
@@ -16161,14 +16161,10 @@ module.exports = [
     "meaning": "价格",
     "example": "Il prezzo è giusto.",
     "example_meaning": "价格公道。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Prezzi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nPrezzo -> Prezzi",
     "options": [
       {
-        "text": "过错/罪",
-        "isCorrect": false
-      },
-      {
-        "text": "享受",
+        "text": "更新",
         "isCorrect": false
       },
       {
@@ -16176,7 +16172,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "注意",
+        "text": "消失",
+        "isCorrect": false
+      },
+      {
+        "text": "嫉妒",
         "isCorrect": false
       }
     ]
@@ -16190,22 +16190,22 @@ module.exports = [
     "meaning": "价值",
     "example": "Ha un grande valore.",
     "example_meaning": "它有很大价值。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Valori)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nValore -> Valori",
     "options": [
-      {
-        "text": "吸尘器",
-        "isCorrect": false
-      },
       {
         "text": "价值",
         "isCorrect": true
       },
       {
-        "text": "文件夹",
+        "text": "文化",
         "isCorrect": false
       },
       {
-        "text": "公司",
+        "text": "数量",
+        "isCorrect": false
+      },
+      {
+        "text": "增加",
         "isCorrect": false
       }
     ]
@@ -16219,22 +16219,22 @@ module.exports = [
     "meaning": "质量",
     "example": "Preferisco la qualità.",
     "example_meaning": "我更看重质量。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "重音结尾名词。\n复数形式保持不变 (la Qualità -> le Qualità)。",
     "options": [
       {
         "text": "质量",
         "isCorrect": true
       },
       {
-        "text": "建议",
+        "text": "似乎",
         "isCorrect": false
       },
       {
-        "text": "结果",
+        "text": "人民",
         "isCorrect": false
       },
       {
-        "text": "尊重",
+        "text": "保护",
         "isCorrect": false
       }
     ]
@@ -16248,23 +16248,23 @@ module.exports = [
     "meaning": "数量",
     "example": "La quantità non conta.",
     "example_meaning": "数量不重要。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "重音结尾名词。\n复数形式保持不变 (la Quantità -> le Quantità)。",
     "options": [
+      {
+        "text": "尝试",
+        "isCorrect": false
+      },
+      {
+        "text": "钞票",
+        "isCorrect": false
+      },
+      {
+        "text": "简历",
+        "isCorrect": false
+      },
       {
         "text": "数量",
         "isCorrect": true
-      },
-      {
-        "text": "销售",
-        "isCorrect": false
-      },
-      {
-        "text": "承诺/投入",
-        "isCorrect": false
-      },
-      {
-        "text": "建议/暗示",
-        "isCorrect": false
       }
     ]
   },
@@ -16277,23 +16277,23 @@ module.exports = [
     "meaning": "报价/供给",
     "example": "È un'ottima offerta.",
     "example_meaning": "这是一个极好的报价。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Offerte)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nOfferta -> Offerte",
     "options": [
       {
-        "text": "承诺/投入",
+        "text": "建议",
+        "isCorrect": false
+      },
+      {
+        "text": "社区",
+        "isCorrect": false
+      },
+      {
+        "text": "改变",
         "isCorrect": false
       },
       {
         "text": "报价/供给",
         "isCorrect": true
-      },
-      {
-        "text": "发生",
-        "isCorrect": false
-      },
-      {
-        "text": "政府",
-        "isCorrect": false
       }
     ]
   },
@@ -16306,23 +16306,23 @@ module.exports = [
     "meaning": "需求/问题",
     "example": "La domanda supera l'offerta.",
     "example_meaning": "供不应求。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Domande)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nDomanda -> Domande",
     "options": [
+      {
+        "text": "商品",
+        "isCorrect": false
+      },
+      {
+        "text": "拒绝",
+        "isCorrect": false
+      },
+      {
+        "text": "点赞",
+        "isCorrect": false
+      },
       {
         "text": "需求/问题",
         "isCorrect": true
-      },
-      {
-        "text": "和平",
-        "isCorrect": false
-      },
-      {
-        "text": "报价/供给",
-        "isCorrect": false
-      },
-      {
-        "text": "工厂",
-        "isCorrect": false
       }
     ]
   },
@@ -16335,22 +16335,22 @@ module.exports = [
     "meaning": "销售",
     "example": "In vendita.",
     "example_meaning": "出售。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Vendite)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nVendita -> Vendite",
     "options": [
       {
         "text": "销售",
         "isCorrect": true
       },
       {
-        "text": "国家/民族",
+        "text": "渴望",
         "isCorrect": false
       },
       {
-        "text": "消费者",
+        "text": "秤",
         "isCorrect": false
       },
       {
-        "text": "出现/显得",
+        "text": "接受",
         "isCorrect": false
       }
     ]
@@ -16364,22 +16364,22 @@ module.exports = [
     "meaning": "购买",
     "example": "Un buon acquisto.",
     "example_meaning": "一次好的购买。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Acquisti)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nAcquisto -> Acquisti",
     "options": [
       {
         "text": "购买",
         "isCorrect": true
       },
       {
-        "text": "删除/取消",
+        "text": "持续",
         "isCorrect": false
       },
       {
-        "text": "微波炉",
+        "text": "战争",
         "isCorrect": false
       },
       {
-        "text": "公司",
+        "text": "职业生涯",
         "isCorrect": false
       }
     ]
@@ -16393,10 +16393,14 @@ module.exports = [
     "meaning": "客户",
     "example": "Il cliente ha sempre ragione.",
     "example_meaning": "顾客永远是对的。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Clienti)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nCliente -> Clienti",
     "options": [
       {
         "text": "和平",
+        "isCorrect": false
+      },
+      {
+        "text": "发生",
         "isCorrect": false
       },
       {
@@ -16404,11 +16408,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "技术",
-        "isCorrect": false
-      },
-      {
-        "text": "改变",
+        "text": "禁止",
         "isCorrect": false
       }
     ]
@@ -16422,23 +16422,23 @@ module.exports = [
     "meaning": "消费者",
     "example": "Diritti del consumatore.",
     "example_meaning": "消费者权益。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Consumatori)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nConsumatore -> Consumatori",
     "options": [
-      {
-        "text": "钦佩",
-        "isCorrect": false
-      },
-      {
-        "text": "安装",
-        "isCorrect": false
-      },
-      {
-        "text": "义务",
-        "isCorrect": false
-      },
       {
         "text": "消费者",
         "isCorrect": true
+      },
+      {
+        "text": "后果",
+        "isCorrect": false
+      },
+      {
+        "text": "屏幕",
+        "isCorrect": false
+      },
+      {
+        "text": "更新",
+        "isCorrect": false
       }
     ]
   },
@@ -16451,22 +16451,22 @@ module.exports = [
     "meaning": "售货员",
     "example": "Chiedi al venditore.",
     "example_meaning": "问售货员。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Venditori)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nVenditore -> Venditori",
     "options": [
+      {
+        "text": "邮件",
+        "isCorrect": false
+      },
+      {
+        "text": "嫉妒",
+        "isCorrect": false
+      },
       {
         "text": "售货员",
         "isCorrect": true
       },
       {
-        "text": "政府",
-        "isCorrect": false
-      },
-      {
-        "text": "建议",
-        "isCorrect": false
-      },
-      {
-        "text": "剪切",
+        "text": "享受",
         "isCorrect": false
       }
     ]
@@ -16480,22 +16480,22 @@ module.exports = [
     "meaning": "经理/主任",
     "example": "Parla col direttore.",
     "example_meaning": "跟经理说。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Direttori)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nDirettore -> Direttori",
     "options": [
-      {
-        "text": "政府",
-        "isCorrect": false
-      },
       {
         "text": "经理/主任",
         "isCorrect": true
       },
       {
-        "text": "惩罚",
+        "text": "方式",
         "isCorrect": false
       },
       {
-        "text": "数量",
+        "text": "技术",
+        "isCorrect": false
+      },
+      {
+        "text": "钱",
         "isCorrect": false
       }
     ]
@@ -16509,22 +16509,22 @@ module.exports = [
     "meaning": "职员",
     "example": "Sono un impiegato.",
     "example_meaning": "我是一名职员。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Impiegati)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nImpiegato -> Impiegati",
     "options": [
-      {
-        "text": "洗碗机",
-        "isCorrect": false
-      },
       {
         "text": "职员",
         "isCorrect": true
       },
       {
-        "text": "观察",
+        "text": "偶然发生",
         "isCorrect": false
       },
       {
-        "text": "胜利",
+        "text": "法律",
+        "isCorrect": false
+      },
+      {
+        "text": "功劳",
         "isCorrect": false
       }
     ]
@@ -16538,23 +16538,23 @@ module.exports = [
     "meaning": "工人",
     "example": "Lavora come operaio.",
     "example_meaning": "他是个工人。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Operaii)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nOperaio -> Operaii",
     "options": [
+      {
+        "text": "冰箱",
+        "isCorrect": false
+      },
+      {
+        "text": "约会",
+        "isCorrect": false
+      },
+      {
+        "text": "转变",
+        "isCorrect": false
+      },
       {
         "text": "工人",
         "isCorrect": true
-      },
-      {
-        "text": "国家/民族",
-        "isCorrect": false
-      },
-      {
-        "text": "嫉妒",
-        "isCorrect": false
-      },
-      {
-        "text": "存在",
-        "isCorrect": false
       }
     ]
   },
@@ -16567,23 +16567,23 @@ module.exports = [
     "meaning": "同事",
     "example": "È un mio collega.",
     "example_meaning": "他是我同事。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：College)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nCollega -> Collegi",
     "options": [
+      {
+        "text": "钞票",
+        "isCorrect": false
+      },
+      {
+        "text": "法律",
+        "isCorrect": false
+      },
+      {
+        "text": "判断",
+        "isCorrect": false
+      },
       {
         "text": "同事",
         "isCorrect": true
-      },
-      {
-        "text": "程序/节目",
-        "isCorrect": false
-      },
-      {
-        "text": "羡慕/嫉妒",
-        "isCorrect": false
-      },
-      {
-        "text": "屏幕",
-        "isCorrect": false
       }
     ]
   },
@@ -16596,18 +16596,18 @@ module.exports = [
     "meaning": "老板/头",
     "example": "Il capo è in riunione.",
     "example_meaning": "老板在开会。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Capi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nCapo -> Capi",
     "options": [
       {
-        "text": "社区",
+        "text": "目标",
         "isCorrect": false
       },
       {
-        "text": "平等",
+        "text": "金融",
         "isCorrect": false
       },
       {
-        "text": "鼠标",
+        "text": "工厂",
         "isCorrect": false
       },
       {
@@ -16625,22 +16625,22 @@ module.exports = [
     "meaning": "老板/主要的",
     "example": "Parlo col principale.",
     "example_meaning": "我跟老板谈。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Principali)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nPrincipale -> Principali",
     "options": [
+      {
+        "text": "结果",
+        "isCorrect": false
+      },
+      {
+        "text": "购买",
+        "isCorrect": false
+      },
       {
         "text": "老板/主要的",
         "isCorrect": true
       },
       {
-        "text": "胜利",
-        "isCorrect": false
-      },
-      {
-        "text": "硬币/货币",
-        "isCorrect": false
-      },
-      {
-        "text": "怀疑",
+        "text": "钞票",
         "isCorrect": false
       }
     ]
@@ -16654,23 +16654,23 @@ module.exports = [
     "meaning": "秘书",
     "example": "Chiama la segretaria.",
     "example_meaning": "叫秘书。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Segretarie)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nSegretaria -> Segretarie",
     "options": [
-      {
-        "text": "价格",
-        "isCorrect": false
-      },
-      {
-        "text": "变成",
-        "isCorrect": false
-      },
-      {
-        "text": "允许",
-        "isCorrect": false
-      },
       {
         "text": "秘书",
         "isCorrect": true
+      },
+      {
+        "text": "遭受/忍受",
+        "isCorrect": false
+      },
+      {
+        "text": "工资",
+        "isCorrect": false
+      },
+      {
+        "text": "估算/尊敬",
+        "isCorrect": false
       }
     ]
   },
@@ -16683,22 +16683,22 @@ module.exports = [
     "meaning": "会议",
     "example": "Ho una riunione.",
     "example_meaning": "我有个会。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Riunioni)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nRiunione -> Riunione",
     "options": [
       {
         "text": "会议",
         "isCorrect": true
       },
       {
-        "text": "目的",
+        "text": "攻击",
         "isCorrect": false
       },
       {
-        "text": "企业",
+        "text": "转变",
         "isCorrect": false
       },
       {
-        "text": "工业",
+        "text": "发生",
         "isCorrect": false
       }
     ]
@@ -16712,23 +16712,23 @@ module.exports = [
     "meaning": "约会",
     "example": "Ho un appuntamento.",
     "example_meaning": "我有个约会。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Appuntamenti)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nAppuntamento -> Appuntamenti",
     "options": [
+      {
+        "text": "企业",
+        "isCorrect": false
+      },
+      {
+        "text": "偶然发生",
+        "isCorrect": false
+      },
+      {
+        "text": "权利/法律",
+        "isCorrect": false
+      },
       {
         "text": "约会",
         "isCorrect": true
-      },
-      {
-        "text": "公司",
-        "isCorrect": false
-      },
-      {
-        "text": "法律",
-        "isCorrect": false
-      },
-      {
-        "text": "手艺/行当",
-        "isCorrect": false
       }
     ]
   },
@@ -16741,23 +16741,23 @@ module.exports = [
     "meaning": "采访/面试",
     "example": "Ho un'intervista di lavoro.",
     "example_meaning": "我有个面试。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Interviste)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nIntervista -> Interviste",
     "options": [
       {
-        "text": "办公室",
-        "isCorrect": false
-      },
-      {
-        "text": "键盘",
-        "isCorrect": false
-      },
-      {
-        "text": "想象",
+        "text": "网站",
         "isCorrect": false
       },
       {
         "text": "采访/面试",
         "isCorrect": true
+      },
+      {
+        "text": "同事",
+        "isCorrect": false
+      },
+      {
+        "text": "估算/尊敬",
+        "isCorrect": false
       }
     ]
   },
@@ -16770,23 +16770,23 @@ module.exports = [
     "meaning": "简历",
     "example": "Invia il tuo curriculum.",
     "example_meaning": "发你的简历。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "外来词/辅音结尾名词。\n通常为阳性，复数形式保持不变 (il Curriculum -> i Curriculum)。",
     "options": [
+      {
+        "text": "点赞",
+        "isCorrect": false
+      },
+      {
+        "text": "复制",
+        "isCorrect": false
+      },
+      {
+        "text": "承诺/投入",
+        "isCorrect": false
+      },
       {
         "text": "简历",
         "isCorrect": true
-      },
-      {
-        "text": "存在",
-        "isCorrect": false
-      },
-      {
-        "text": "尊重",
-        "isCorrect": false
-      },
-      {
-        "text": "禁止",
-        "isCorrect": false
       }
     ]
   },
@@ -16799,18 +16799,18 @@ module.exports = [
     "meaning": "合同",
     "example": "Firma il contratto.",
     "example_meaning": "签合同。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Contratti)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nContratto -> Contratti",
     "options": [
       {
-        "text": "防御",
+        "text": "客户",
         "isCorrect": false
       },
       {
-        "text": "帖子",
+        "text": "银行",
         "isCorrect": false
       },
       {
-        "text": "商业",
+        "text": "发生",
         "isCorrect": false
       },
       {
@@ -16828,23 +16828,23 @@ module.exports = [
     "meaning": "签名",
     "example": "Metti la tua firma.",
     "example_meaning": "签上你的名。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Firme)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nFirma -> Firme",
     "options": [
-      {
-        "text": "过错/罪",
-        "isCorrect": false
-      },
-      {
-        "text": "拒绝",
-        "isCorrect": false
-      },
-      {
-        "text": "网站",
-        "isCorrect": false
-      },
       {
         "text": "签名",
         "isCorrect": true
+      },
+      {
+        "text": "产品",
+        "isCorrect": false
+      },
+      {
+        "text": "经理/主任",
+        "isCorrect": false
+      },
+      {
+        "text": "强迫",
+        "isCorrect": false
       }
     ]
   },
@@ -16857,23 +16857,23 @@ module.exports = [
     "meaning": "文件",
     "example": "Mi serve il documento.",
     "example_meaning": "我需要这个文件。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Documenti)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nDocumento -> Documenti",
     "options": [
       {
-        "text": "增加",
+        "text": "文件夹",
+        "isCorrect": false
+      },
+      {
+        "text": "邮件",
+        "isCorrect": false
+      },
+      {
+        "text": "规则",
         "isCorrect": false
       },
       {
         "text": "文件",
         "isCorrect": true
-      },
-      {
-        "text": "忍受",
-        "isCorrect": false
-      },
-      {
-        "text": "尊重",
-        "isCorrect": false
       }
     ]
   },
@@ -16886,23 +16886,23 @@ module.exports = [
     "meaning": "项目",
     "example": "Lavoriamo a un progetto.",
     "example_meaning": "我们在做一个项目。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Progetti)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nProgetto -> Progetti",
     "options": [
       {
-        "text": "政府",
+        "text": "留下",
         "isCorrect": false
       },
       {
-        "text": "尊重",
+        "text": "老板/主要的",
+        "isCorrect": false
+      },
+      {
+        "text": "原因",
         "isCorrect": false
       },
       {
         "text": "项目",
         "isCorrect": true
-      },
-      {
-        "text": "经济",
-        "isCorrect": false
       }
     ]
   },
@@ -16915,14 +16915,14 @@ module.exports = [
     "meaning": "计划/层",
     "example": "Ho un piano.",
     "example_meaning": "我有个计划。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Piani)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nPiano -> Piani",
     "options": [
       {
-        "text": "帖子",
+        "text": "偶然发生",
         "isCorrect": false
       },
       {
-        "text": "出现/显得",
+        "text": "手艺/行当",
         "isCorrect": false
       },
       {
@@ -16930,7 +16930,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "社交网络",
+        "text": "销售",
         "isCorrect": false
       }
     ]
@@ -16944,10 +16944,14 @@ module.exports = [
     "meaning": "程序/节目",
     "example": "Qual è il programma?",
     "example_meaning": "有什么节目？",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Programme)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nProgramma -> Programmi",
     "options": [
       {
-        "text": "公司",
+        "text": "签名",
+        "isCorrect": false
+      },
+      {
+        "text": "同事",
         "isCorrect": false
       },
       {
@@ -16955,11 +16959,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "硬币/货币",
-        "isCorrect": false
-      },
-      {
-        "text": "实现/意识到",
+        "text": "渴望",
         "isCorrect": false
       }
     ]
@@ -16973,22 +16973,22 @@ module.exports = [
     "meaning": "电脑",
     "example": "Accendi il computer.",
     "example_meaning": "打开电脑。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "外来词/辅音结尾名词。\n通常为阳性，复数形式保持不变 (il Computer -> i Computer)。",
     "options": [
+      {
+        "text": "失败",
+        "isCorrect": false
+      },
+      {
+        "text": "发票",
+        "isCorrect": false
+      },
       {
         "text": "电脑",
         "isCorrect": true
       },
       {
-        "text": "减少",
-        "isCorrect": false
-      },
-      {
-        "text": "职业",
-        "isCorrect": false
-      },
-      {
-        "text": "发生",
+        "text": "上传/充电",
         "isCorrect": false
       }
     ]
@@ -17002,22 +17002,22 @@ module.exports = [
     "meaning": "打印机",
     "example": "La stampante non funziona.",
     "example_meaning": "打印机坏了。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Stampanti)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nStampante -> Stampante",
     "options": [
-      {
-        "text": "变成",
-        "isCorrect": false
-      },
       {
         "text": "打印机",
         "isCorrect": true
       },
       {
-        "text": "钱",
+        "text": "烤面包机",
         "isCorrect": false
       },
       {
-        "text": "注意",
+        "text": "下载/卸载",
+        "isCorrect": false
+      },
+      {
+        "text": "秤",
         "isCorrect": false
       }
     ]
@@ -17031,18 +17031,18 @@ module.exports = [
     "meaning": "屏幕",
     "example": "Guarda lo schermo.",
     "example_meaning": "看屏幕。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Schermi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nSchermo -> Schermi",
     "options": [
       {
-        "text": "信用卡",
+        "text": "目的",
         "isCorrect": false
       },
       {
-        "text": "复制",
+        "text": "吸尘器",
         "isCorrect": false
       },
       {
-        "text": "政治",
+        "text": "社区",
         "isCorrect": false
       },
       {
@@ -17060,22 +17060,22 @@ module.exports = [
     "meaning": "键盘",
     "example": "Usa la tastiera.",
     "example_meaning": "用键盘。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Tastiere)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nTastiera -> Tastiere",
     "options": [
+      {
+        "text": "信任",
+        "isCorrect": false
+      },
       {
         "text": "键盘",
         "isCorrect": true
       },
       {
-        "text": "方法",
+        "text": "售货员",
         "isCorrect": false
       },
       {
-        "text": "威胁",
-        "isCorrect": false
-      },
-      {
-        "text": "改善/提高",
+        "text": "国家/民族",
         "isCorrect": false
       }
     ]
@@ -17089,22 +17089,22 @@ module.exports = [
     "meaning": "鼠标",
     "example": "Il mouse è rotto.",
     "example_meaning": "鼠标坏了。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Mousi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nMouse -> Mousi",
     "options": [
+      {
+        "text": "渴望",
+        "isCorrect": false
+      },
+      {
+        "text": "借记卡/ATM",
+        "isCorrect": false
+      },
       {
         "text": "鼠标",
         "isCorrect": true
       },
       {
-        "text": "更喜欢",
-        "isCorrect": false
-      },
-      {
-        "text": "技术",
-        "isCorrect": false
-      },
-      {
-        "text": "似乎",
+        "text": "提议",
         "isCorrect": false
       }
     ]
@@ -17118,23 +17118,23 @@ module.exports = [
     "meaning": "文件",
     "example": "Salva il file.",
     "example_meaning": "保存文件。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Fili)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nFile -> Fili",
     "options": [
+      {
+        "text": "采访/面试",
+        "isCorrect": false
+      },
+      {
+        "text": "奖品",
+        "isCorrect": false
+      },
+      {
+        "text": "微波炉",
+        "isCorrect": false
+      },
       {
         "text": "文件",
         "isCorrect": true
-      },
-      {
-        "text": "剪切",
-        "isCorrect": false
-      },
-      {
-        "text": "保持/停留",
-        "isCorrect": false
-      },
-      {
-        "text": "售货员",
-        "isCorrect": false
       }
     ]
   },
@@ -17147,22 +17147,22 @@ module.exports = [
     "meaning": "文件夹",
     "example": "Apri la cartella.",
     "example_meaning": "打开文件夹。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Cartelle)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nCartella -> Cartelle",
     "options": [
-      {
-        "text": "合同",
-        "isCorrect": false
-      },
-      {
-        "text": "战争",
-        "isCorrect": false
-      },
       {
         "text": "文件夹",
         "isCorrect": true
       },
       {
-        "text": "怀疑",
+        "text": "点赞",
+        "isCorrect": false
+      },
+      {
+        "text": "成功",
+        "isCorrect": false
+      },
+      {
+        "text": "失败",
         "isCorrect": false
       }
     ]
@@ -17176,23 +17176,23 @@ module.exports = [
     "meaning": "邮件",
     "example": "Controlla l'email.",
     "example_meaning": "查邮件。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "外来词/辅音结尾名词。\n通常为阳性，复数形式保持不变 (il Email -> i Email)。",
     "options": [
-      {
-        "text": "屏幕",
-        "isCorrect": false
-      },
-      {
-        "text": "同事",
-        "isCorrect": false
-      },
-      {
-        "text": "社区",
-        "isCorrect": false
-      },
       {
         "text": "邮件",
         "isCorrect": true
+      },
+      {
+        "text": "职业生涯",
+        "isCorrect": false
+      },
+      {
+        "text": "钦佩",
+        "isCorrect": false
+      },
+      {
+        "text": "计划/层",
+        "isCorrect": false
       }
     ]
   },
@@ -17205,23 +17205,23 @@ module.exports = [
     "meaning": "网站",
     "example": "Crea un sito web.",
     "example_meaning": "建一个网站。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "外来词/辅音结尾名词。\n通常为阳性，复数形式保持不变 (il Sito web -> i Sito web)。",
     "options": [
       {
-        "text": "国家/民族",
+        "text": "权利/法律",
         "isCorrect": false
       },
       {
-        "text": "社会/公司",
-        "isCorrect": false
-      },
-      {
-        "text": "失败",
+        "text": "目标",
         "isCorrect": false
       },
       {
         "text": "网站",
         "isCorrect": true
+      },
+      {
+        "text": "留下",
+        "isCorrect": false
       }
     ]
   },
@@ -17234,23 +17234,23 @@ module.exports = [
     "meaning": "链接",
     "example": "Clicca sul link.",
     "example_meaning": "点击链接。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "外来词/辅音结尾名词。\n通常为阳性，复数形式保持不变 (il Link -> i Link)。",
     "options": [
       {
-        "text": "法律",
+        "text": "银行",
+        "isCorrect": false
+      },
+      {
+        "text": "键盘",
+        "isCorrect": false
+      },
+      {
+        "text": "结果",
         "isCorrect": false
       },
       {
         "text": "链接",
         "isCorrect": true
-      },
-      {
-        "text": "购买",
-        "isCorrect": false
-      },
-      {
-        "text": "报价/供给",
-        "isCorrect": false
       }
     ]
   },
@@ -17263,14 +17263,14 @@ module.exports = [
     "meaning": "社交网络",
     "example": "Uso i social network.",
     "example_meaning": "我用社交网络。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "外来词/辅音结尾名词。\n通常为阳性，复数形式保持不变 (il Social network -> i Social network)。",
     "options": [
       {
-        "text": "持续",
+        "text": "规则",
         "isCorrect": false
       },
       {
-        "text": "怀疑",
+        "text": "发生",
         "isCorrect": false
       },
       {
@@ -17278,7 +17278,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "企业",
+        "text": "下载/卸载",
         "isCorrect": false
       }
     ]
@@ -17292,23 +17292,23 @@ module.exports = [
     "meaning": "帖子",
     "example": "Scrivi un post.",
     "example_meaning": "写个帖子。",
-    "detail": "名词。\n请查阅词典确认其性和数的具体变化规则。",
+    "detail": "外来词/辅音结尾名词。\n通常为阳性，复数形式保持不变 (il Post -> i Post)。",
     "options": [
       {
-        "text": "战争",
+        "text": "剪切",
         "isCorrect": false
       },
       {
-        "text": "到达/达到",
+        "text": "电脑",
+        "isCorrect": false
+      },
+      {
+        "text": "地理",
         "isCorrect": false
       },
       {
         "text": "帖子",
         "isCorrect": true
-      },
-      {
-        "text": "羡慕/嫉妒",
-        "isCorrect": false
       }
     ]
   },
@@ -17321,22 +17321,22 @@ module.exports = [
     "meaning": "评论",
     "example": "Lascia un commento.",
     "example_meaning": "留个评论。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Commenti)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nCommento -> Commenti",
     "options": [
+      {
+        "text": "公司",
+        "isCorrect": false
+      },
+      {
+        "text": "银行",
+        "isCorrect": false
+      },
       {
         "text": "评论",
         "isCorrect": true
       },
       {
-        "text": "发票",
-        "isCorrect": false
-      },
-      {
-        "text": "洗碗机",
-        "isCorrect": false
-      },
-      {
-        "text": "出现/显得",
+        "text": "系统",
         "isCorrect": false
       }
     ]
@@ -17350,22 +17350,22 @@ module.exports = [
     "meaning": "点赞",
     "example": "Metti mi piace.",
     "example_meaning": "点赞。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Mi piaci)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nMi piace -> Mi piaci",
     "options": [
       {
         "text": "点赞",
         "isCorrect": true
       },
       {
-        "text": "复制",
+        "text": "增加",
         "isCorrect": false
       },
       {
-        "text": "报价/供给",
+        "text": "度过(时间)",
         "isCorrect": false
       },
       {
-        "text": "威胁",
+        "text": "改变",
         "isCorrect": false
       }
     ]
@@ -17379,18 +17379,18 @@ module.exports = [
     "meaning": "分享",
     "example": "Condividi con gli amici.",
     "example_meaning": "和朋友分享。",
-    "detail": "原型：Condividere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Condividere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nCondivido, Condividi, Condivide, Condividiamo, Condividete, Condividono",
     "options": [
       {
-        "text": "结果",
+        "text": "理由",
         "isCorrect": false
       },
       {
-        "text": "似乎",
+        "text": "目标",
         "isCorrect": false
       },
       {
-        "text": "删除/取消",
+        "text": "提议",
         "isCorrect": false
       },
       {
@@ -17408,22 +17408,22 @@ module.exports = [
     "meaning": "下载/卸载",
     "example": "Scarica l'app.",
     "example_meaning": "下载应用。",
-    "detail": "原型：Scaricare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Scaricare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nScarico, Scarici, Scarica, Scariciamo, Scaricate, Scaricano",
     "options": [
+      {
+        "text": "社交网络",
+        "isCorrect": false
+      },
       {
         "text": "下载/卸载",
         "isCorrect": true
       },
       {
-        "text": "似乎",
+        "text": "工厂",
         "isCorrect": false
       },
       {
-        "text": "屏幕",
-        "isCorrect": false
-      },
-      {
-        "text": "洗碗机",
+        "text": "经理/主任",
         "isCorrect": false
       }
     ]
@@ -17437,23 +17437,23 @@ module.exports = [
     "meaning": "上传/充电",
     "example": "Carica la foto.",
     "example_meaning": "上传照片。",
-    "detail": "原型：Caricare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Caricare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nCarico, Carici, Carica, Cariciamo, Caricate, Caricano",
     "options": [
-      {
-        "text": "发生/举行",
-        "isCorrect": false
-      },
-      {
-        "text": "方式",
-        "isCorrect": false
-      },
-      {
-        "text": "过错/罪",
-        "isCorrect": false
-      },
       {
         "text": "上传/充电",
         "isCorrect": true
+      },
+      {
+        "text": "度过(时间)",
+        "isCorrect": false
+      },
+      {
+        "text": "成功",
+        "isCorrect": false
+      },
+      {
+        "text": "责任",
+        "isCorrect": false
       }
     ]
   },
@@ -17466,18 +17466,18 @@ module.exports = [
     "meaning": "安装",
     "example": "Installa il programma.",
     "example_meaning": "安装程序。",
-    "detail": "原型：Installare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Installare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nInstallo, Installi, Installa, Installiamo, Installate, Installano",
     "options": [
       {
-        "text": "评论",
+        "text": "变成",
         "isCorrect": false
       },
       {
-        "text": "报价/供给",
+        "text": "程序/节目",
         "isCorrect": false
       },
       {
-        "text": "删除/取消",
+        "text": "怀疑",
         "isCorrect": false
       },
       {
@@ -17495,18 +17495,18 @@ module.exports = [
     "meaning": "更新",
     "example": "Aggiorna il software.",
     "example_meaning": "更新软件。",
-    "detail": "原型：Aggiornare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Aggiornare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAggiorno, Aggiorni, Aggiorna, Aggiorniamo, Aggiornate, Aggiornano",
     "options": [
       {
-        "text": "估算/尊敬",
+        "text": "转变",
         "isCorrect": false
       },
       {
-        "text": "持续",
+        "text": "工人",
         "isCorrect": false
       },
       {
-        "text": "评论",
+        "text": "社交网络",
         "isCorrect": false
       },
       {
@@ -17524,22 +17524,22 @@ module.exports = [
     "meaning": "删除/取消",
     "example": "Cancella il file.",
     "example_meaning": "删除文件。",
-    "detail": "原型：Cancellare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Cancellare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nCancello, Cancelli, Cancella, Cancelliamo, Cancellate, Cancellano",
     "options": [
-      {
-        "text": "人民",
-        "isCorrect": false
-      },
       {
         "text": "删除/取消",
         "isCorrect": true
       },
       {
-        "text": "观察",
+        "text": "历史",
         "isCorrect": false
       },
       {
-        "text": "增加",
+        "text": "安全/确信",
+        "isCorrect": false
+      },
+      {
+        "text": "烤面包机",
         "isCorrect": false
       }
     ]
@@ -17553,22 +17553,22 @@ module.exports = [
     "meaning": "保存/拯救",
     "example": "Salva il lavoro.",
     "example_meaning": "保存工作。",
-    "detail": "原型：Salvare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Salvare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSalvo, Salvi, Salva, Salviamo, Salvate, Salvano",
     "options": [
       {
         "text": "保存/拯救",
         "isCorrect": true
       },
       {
-        "text": "战争",
+        "text": "保护",
         "isCorrect": false
       },
       {
-        "text": "变成",
+        "text": "建议",
         "isCorrect": false
       },
       {
-        "text": "支票",
+        "text": "疑问",
         "isCorrect": false
       }
     ]
@@ -17582,22 +17582,22 @@ module.exports = [
     "meaning": "复制",
     "example": "Copia il testo.",
     "example_meaning": "复制文本。",
-    "detail": "原型：Copiare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Copiare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nCopio, Copii, Copia, Copiiamo, Copiate, Copiano",
     "options": [
-      {
-        "text": "产品",
-        "isCorrect": false
-      },
       {
         "text": "复制",
         "isCorrect": true
       },
       {
-        "text": "过错/罪",
+        "text": "出现/显得",
         "isCorrect": false
       },
       {
-        "text": "简历",
+        "text": "历史",
+        "isCorrect": false
+      },
+      {
+        "text": "冰箱",
         "isCorrect": false
       }
     ]
@@ -17611,10 +17611,10 @@ module.exports = [
     "meaning": "粘贴",
     "example": "Incolla qui.",
     "example_meaning": "粘贴在这里。",
-    "detail": "原型：Incollare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Incollare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nIncollo, Incolli, Incolla, Incolliamo, Incollate, Incollano",
     "options": [
       {
-        "text": "经理/主任",
+        "text": "理由",
         "isCorrect": false
       },
       {
@@ -17622,11 +17622,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "发生",
+        "text": "系统",
         "isCorrect": false
       },
       {
-        "text": "删除/取消",
+        "text": "安装",
         "isCorrect": false
       }
     ]
@@ -17640,23 +17640,23 @@ module.exports = [
     "meaning": "剪切",
     "example": "Taglia e incolla.",
     "example_meaning": "剪切并粘贴。",
-    "detail": "原型：Tagliare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Tagliare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nTaglio, Taglii, Taglia, Tagliiamo, Tagliate, Tagliano",
     "options": [
       {
-        "text": "键盘",
-        "isCorrect": false
-      },
-      {
-        "text": "平等",
-        "isCorrect": false
-      },
-      {
-        "text": "打印机",
+        "text": "危险",
         "isCorrect": false
       },
       {
         "text": "剪切",
         "isCorrect": true
+      },
+      {
+        "text": "市场",
+        "isCorrect": false
+      },
+      {
+        "text": "疑问",
+        "isCorrect": false
       }
     ]
   },
@@ -17669,23 +17669,23 @@ module.exports = [
     "meaning": "打印",
     "example": "Stampa il documento.",
     "example_meaning": "打印文件。",
-    "detail": "原型：Stampare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Stampare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nStampo, Stampi, Stampa, Stampiamo, Stampate, Stampano",
     "options": [
       {
-        "text": "打印",
-        "isCorrect": true
-      },
-      {
-        "text": "提议",
+        "text": "遭受/忍受",
         "isCorrect": false
       },
       {
-        "text": "过错/罪",
+        "text": "攻击",
         "isCorrect": false
       },
       {
         "text": "微波炉",
         "isCorrect": false
+      },
+      {
+        "text": "打印",
+        "isCorrect": true
       }
     ]
   },
@@ -17698,23 +17698,23 @@ module.exports = [
     "meaning": "冰箱",
     "example": "Metti il latte nel frigorifero.",
     "example_meaning": "把牛奶放进冰箱。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Frigoriferi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nFrigorifero -> Frigoriferi",
     "options": [
       {
-        "text": "职员",
-        "isCorrect": false
-      },
-      {
-        "text": "和平",
-        "isCorrect": false
-      },
-      {
-        "text": "减少",
+        "text": "渴望",
         "isCorrect": false
       },
       {
         "text": "冰箱",
         "isCorrect": true
+      },
+      {
+        "text": "商店",
+        "isCorrect": false
+      },
+      {
+        "text": "客户",
+        "isCorrect": false
       }
     ]
   },
@@ -17727,22 +17727,22 @@ module.exports = [
     "meaning": "洗衣机",
     "example": "La lavatrice sta lavando.",
     "example_meaning": "洗衣机正在洗。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Lavatrici)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nLavatrice -> Lavatrice",
     "options": [
       {
         "text": "洗衣机",
         "isCorrect": true
       },
       {
-        "text": "工厂",
+        "text": "科学",
         "isCorrect": false
       },
       {
-        "text": "过错/罪",
+        "text": "享受",
         "isCorrect": false
       },
       {
-        "text": "商品",
+        "text": "出现/显得",
         "isCorrect": false
       }
     ]
@@ -17756,18 +17756,18 @@ module.exports = [
     "meaning": "洗碗机",
     "example": "Carica la lavastoviglie.",
     "example_meaning": "装满洗碗机。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Lavastoviglii)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nLavastoviglie -> Lavastoviglie",
     "options": [
       {
-        "text": "冰箱",
+        "text": "秘书",
         "isCorrect": false
       },
       {
-        "text": "烤箱",
+        "text": "保护",
         "isCorrect": false
       },
       {
-        "text": "吸尘器",
+        "text": "估算/尊敬",
         "isCorrect": false
       },
       {
@@ -17785,10 +17785,10 @@ module.exports = [
     "meaning": "吸尘器",
     "example": "Passa l'aspirapolvere.",
     "example_meaning": "吸尘。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Aspirapolveri)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nAspirapolvere -> Aspirapolveri",
     "options": [
       {
-        "text": "估算/尊敬",
+        "text": "观察",
         "isCorrect": false
       },
       {
@@ -17796,11 +17796,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "怀疑",
+        "text": "洗衣机",
         "isCorrect": false
       },
       {
-        "text": "简历",
+        "text": "文件",
         "isCorrect": false
       }
     ]
@@ -17814,10 +17814,10 @@ module.exports = [
     "meaning": "熨斗",
     "example": "Il ferro da stiro è caldo.",
     "example_meaning": "熨斗很热。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Ferro da stiri)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nFerro da stiro -> Ferro da stiri",
     "options": [
       {
-        "text": "战斗",
+        "text": "手段/工具",
         "isCorrect": false
       },
       {
@@ -17825,11 +17825,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "职业生涯",
+        "text": "责任",
         "isCorrect": false
       },
       {
-        "text": "商业",
+        "text": "平等",
         "isCorrect": false
       }
     ]
@@ -17843,14 +17843,10 @@ module.exports = [
     "meaning": "烤箱",
     "example": "Accendi il forno.",
     "example_meaning": "打开烤箱。",
-    "detail": "阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：Forni)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nForno -> Forni",
     "options": [
       {
-        "text": "威胁",
-        "isCorrect": false
-      },
-      {
-        "text": "洗碗机",
+        "text": "税",
         "isCorrect": false
       },
       {
@@ -17858,7 +17854,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "经理/主任",
+        "text": "危险",
+        "isCorrect": false
+      },
+      {
+        "text": "价值",
         "isCorrect": false
       }
     ]
@@ -17872,23 +17872,23 @@ module.exports = [
     "meaning": "微波炉",
     "example": "Scalda nel microonde.",
     "example_meaning": "在微波炉里热一下。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Microondi)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nMicroonde -> Microondi",
     "options": [
       {
-        "text": "过错/罪",
+        "text": "保持/停留",
         "isCorrect": false
       },
       {
-        "text": "忍受",
+        "text": "改变",
+        "isCorrect": false
+      },
+      {
+        "text": "市场",
         "isCorrect": false
       },
       {
         "text": "微波炉",
         "isCorrect": true
-      },
-      {
-        "text": "需求/问题",
-        "isCorrect": false
       }
     ]
   },
@@ -17901,22 +17901,22 @@ module.exports = [
     "meaning": "烤面包机",
     "example": "Il pane è nel tostapane.",
     "example_meaning": "面包在烤面包机里。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Tostapani)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nTostapane -> Tostapani",
     "options": [
       {
         "text": "烤面包机",
         "isCorrect": true
       },
       {
-        "text": "更新",
+        "text": "接受",
         "isCorrect": false
       },
       {
-        "text": "人民",
+        "text": "同事",
         "isCorrect": false
       },
       {
-        "text": "鼠标",
+        "text": "失败",
         "isCorrect": false
       }
     ]
@@ -17930,23 +17930,23 @@ module.exports = [
     "meaning": "搅拌机",
     "example": "Usa il frullatore.",
     "example_meaning": "用搅拌机。",
-    "detail": "单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：Frullatori)。",
+    "detail": "阳性单数名词。\n复数形式通常变成 -i：\nFrullatore -> Frullatori",
     "options": [
-      {
-        "text": "规则",
-        "isCorrect": false
-      },
-      {
-        "text": "战争",
-        "isCorrect": false
-      },
-      {
-        "text": "遭受/忍受",
-        "isCorrect": false
-      },
       {
         "text": "搅拌机",
         "isCorrect": true
+      },
+      {
+        "text": "社区",
+        "isCorrect": false
+      },
+      {
+        "text": "怀疑",
+        "isCorrect": false
+      },
+      {
+        "text": "目的",
+        "isCorrect": false
       }
     ]
   },
@@ -17959,22 +17959,22 @@ module.exports = [
     "meaning": "秤",
     "example": "Sali sulla bilancia.",
     "example_meaning": "站到秤上。",
-    "detail": "阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：Bilancie)。",
+    "detail": "阴性单数名词。\n复数形式通常变成 -e：\nBilancia -> Bilancie",
     "options": [
-      {
-        "text": "度过/经过",
-        "isCorrect": false
-      },
       {
         "text": "秤",
         "isCorrect": true
       },
       {
-        "text": "税",
+        "text": "发生/举行",
         "isCorrect": false
       },
       {
-        "text": "技术",
+        "text": "到达/达到",
+        "isCorrect": false
+      },
+      {
+        "text": "洗碗机",
         "isCorrect": false
       }
     ]
@@ -17988,22 +17988,22 @@ module.exports = [
     "meaning": "分析",
     "example": "Dobbiamo analizzare i dati.",
     "example_meaning": "我们必须分析数据。",
-    "detail": "原型：Analizzare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Analizzare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAnalizzo, Analizzi, Analizza, Analizziamo, Analizzate, Analizzano",
     "options": [
-      {
-        "text": "协调",
-        "isCorrect": false
-      },
       {
         "text": "分析",
         "isCorrect": true
       },
       {
-        "text": "驳回/击退",
+        "text": "解雇",
         "isCorrect": false
       },
       {
-        "text": "练习/行使",
+        "text": "使用/花费(时间)",
+        "isCorrect": false
+      },
+      {
+        "text": "得出结论",
         "isCorrect": false
       }
     ]
@@ -18017,23 +18017,23 @@ module.exports = [
     "meaning": "综合",
     "example": "Cerca di sintetizzare il testo.",
     "example_meaning": "试着综合一下这段文字。",
-    "detail": "原型：Sintetizzare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sintetizzare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSintetizzo, Sintetizzi, Sintetizza, Sintetizziamo, Sintetizzate, Sintetizzano",
     "options": [
+      {
+        "text": "运输",
+        "isCorrect": false
+      },
+      {
+        "text": "克服/超过",
+        "isCorrect": false
+      },
+      {
+        "text": "崇拜/喜爱",
+        "isCorrect": false
+      },
       {
         "text": "综合",
         "isCorrect": true
-      },
-      {
-        "text": "培训/形成",
-        "isCorrect": false
-      },
-      {
-        "text": "批评",
-        "isCorrect": false
-      },
-      {
-        "text": "扔",
-        "isCorrect": false
       }
     ]
   },
@@ -18046,18 +18046,18 @@ module.exports = [
     "meaning": "比较",
     "example": "Confronta i due prodotti.",
     "example_meaning": "比较这两个产品。",
-    "detail": "原型：Confrontare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Confrontare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nConfronto, Confronti, Confronta, Confrontiamo, Confrontate, Confrontano",
     "options": [
       {
-        "text": "和解",
+        "text": "练习/行使",
         "isCorrect": false
       },
       {
-        "text": "听见",
+        "text": "合作",
         "isCorrect": false
       },
       {
-        "text": "挑衅/引起",
+        "text": "辞职",
         "isCorrect": false
       },
       {
@@ -18075,22 +18075,22 @@ module.exports = [
     "meaning": "比作/比较",
     "example": "Non puoi paragonare le due cose.",
     "example_meaning": "你不能比较这两件事。",
-    "detail": "原型：Paragonare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Paragonare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nParagono, Paragoni, Paragona, Paragoniamo, Paragonate, Paragonano",
     "options": [
-      {
-        "text": "建立理论",
-        "isCorrect": false
-      },
       {
         "text": "比作/比较",
         "isCorrect": true
       },
       {
-        "text": "破坏",
+        "text": "参观/拜访",
         "isCorrect": false
       },
       {
-        "text": "收集/捡起",
+        "text": "招待/容纳",
+        "isCorrect": false
+      },
+      {
+        "text": "攻击/粘贴",
         "isCorrect": false
       }
     ]
@@ -18104,22 +18104,22 @@ module.exports = [
     "meaning": "区分",
     "example": "È difficile distinguere i gemelli.",
     "example_meaning": "很难区分这对双胞胎。",
-    "detail": "原型：Distinguere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Distinguere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nDistinguo, Distingui, Distingue, Distinguiamo, Distinguete, Distinguono",
     "options": [
-      {
-        "text": "隐约看见",
-        "isCorrect": false
-      },
-      {
-        "text": "使用/花费(时间)",
-        "isCorrect": false
-      },
       {
         "text": "区分",
         "isCorrect": true
       },
       {
-        "text": "连接",
+        "text": "辞职",
+        "isCorrect": false
+      },
+      {
+        "text": "决定/导致",
+        "isCorrect": false
+      },
+      {
+        "text": "说服",
         "isCorrect": false
       }
     ]
@@ -18133,23 +18133,23 @@ module.exports = [
     "meaning": "区别",
     "example": "Dobbiamo differenziare i rifiuti.",
     "example_meaning": "我们需要将垃圾分类。",
-    "detail": "原型：Differenziare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Differenziare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nDifferenzio, Differenzii, Differenzia, Differenziiamo, Differenziate, Differenziano",
     "options": [
       {
-        "text": "跟随/关注",
-        "isCorrect": false
-      },
-      {
-        "text": "教",
-        "isCorrect": false
-      },
-      {
-        "text": "生产",
+        "text": "计划",
         "isCorrect": false
       },
       {
         "text": "区别",
         "isCorrect": true
+      },
+      {
+        "text": "失败",
+        "isCorrect": false
+      },
+      {
+        "text": "爱",
+        "isCorrect": false
       }
     ]
   },
@@ -18162,18 +18162,18 @@ module.exports = [
     "meaning": "联系/结合",
     "example": "Associo questo profumo all'estate.",
     "example_meaning": "我把这种香味和夏天联系起来。",
-    "detail": "原型：Associare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Associare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAssocio, Associi, Associa, Associiamo, Associate, Associano",
     "options": [
       {
-        "text": "数字化",
+        "text": "转移",
         "isCorrect": false
       },
       {
-        "text": "干预/发言",
+        "text": "输",
         "isCorrect": false
       },
       {
-        "text": "运输",
+        "text": "不赞成",
         "isCorrect": false
       },
       {
@@ -18191,22 +18191,22 @@ module.exports = [
     "meaning": "连接",
     "example": "Collega il computer alla rete.",
     "example_meaning": "把电脑连上网。",
-    "detail": "原型：Collegare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Collegare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nCollego, Collegi, Collega, Collegiamo, Collegate, Collegano",
     "options": [
       {
         "text": "连接",
         "isCorrect": true
       },
       {
-        "text": "介绍/引入",
+        "text": "解释",
         "isCorrect": false
       },
       {
-        "text": "协调",
+        "text": "获得",
         "isCorrect": false
       },
       {
-        "text": "区分",
+        "text": "逃跑",
         "isCorrect": false
       }
     ]
@@ -18220,22 +18220,22 @@ module.exports = [
     "meaning": "分离",
     "example": "Niente ci può separare.",
     "example_meaning": "没有什么能把我们分开。",
-    "detail": "原型：Separare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Separare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSeparo, Separi, Separa, Separiamo, Separate, Separano",
     "options": [
       {
         "text": "分离",
         "isCorrect": true
       },
       {
-        "text": "阐明/插图",
+        "text": "假定",
         "isCorrect": false
       },
       {
-        "text": "观察/遵守",
+        "text": "最小化",
         "isCorrect": false
       },
       {
-        "text": "认识",
+        "text": "解释",
         "isCorrect": false
       }
     ]
@@ -18249,22 +18249,22 @@ module.exports = [
     "meaning": "划分/分享",
     "example": "Dividiamo la torta.",
     "example_meaning": "我们分蛋糕吧。",
-    "detail": "原型：Dividere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Dividere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nDivido, Dividi, Divide, Dividiamo, Dividete, Dividono",
     "options": [
+      {
+        "text": "带",
+        "isCorrect": false
+      },
+      {
+        "text": "信息化",
+        "isCorrect": false
+      },
       {
         "text": "划分/分享",
         "isCorrect": true
       },
       {
-        "text": "假设",
-        "isCorrect": false
-      },
-      {
-        "text": "帮助",
-        "isCorrect": false
-      },
-      {
-        "text": "扔",
+        "text": "打破/违反",
         "isCorrect": false
       }
     ]
@@ -18278,22 +18278,22 @@ module.exports = [
     "meaning": "联合/合并",
     "example": "L'unione fa la forza.",
     "example_meaning": "团结就是力量。",
-    "detail": "原型：Unire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Unire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nUno, Uni, Une, Uniamo, Unite, Unono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
-      {
-        "text": "获得/随之而来",
-        "isCorrect": false
-      },
-      {
-        "text": "工作",
-        "isCorrect": false
-      },
       {
         "text": "联合/合并",
         "isCorrect": true
       },
       {
-        "text": "消除",
+        "text": "招待/容纳",
+        "isCorrect": false
+      },
+      {
+        "text": "带来/造成",
+        "isCorrect": false
+      },
+      {
+        "text": "盯着/固定",
         "isCorrect": false
       }
     ]
@@ -18307,18 +18307,18 @@ module.exports = [
     "meaning": "混合",
     "example": "Mescola bene gli ingredienti.",
     "example_meaning": "把配料混合好。",
-    "detail": "原型：Mescolare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Mescolare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nMescolo, Mescoli, Mescola, Mescoliamo, Mescolate, Mescolano",
     "options": [
       {
-        "text": "分离",
+        "text": "扔",
         "isCorrect": false
       },
       {
-        "text": "删除",
+        "text": "联合/合并",
         "isCorrect": false
       },
       {
-        "text": "批准/赞成",
+        "text": "教育",
         "isCorrect": false
       },
       {
@@ -18336,22 +18336,22 @@ module.exports = [
     "meaning": "混淆",
     "example": "Mi hai confuso.",
     "example_meaning": "你把我搞糊涂了。",
-    "detail": "原型：Confondere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Confondere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nConfondo, Confondi, Confonde, Confondiamo, Confondete, Confondono",
     "options": [
+      {
+        "text": "收集/捡起",
+        "isCorrect": false
+      },
+      {
+        "text": "解释",
+        "isCorrect": false
+      },
       {
         "text": "混淆",
         "isCorrect": true
       },
       {
-        "text": "打破/违反",
-        "isCorrect": false
-      },
-      {
-        "text": "细细品味",
-        "isCorrect": false
-      },
-      {
-        "text": "花费",
+        "text": "管理",
         "isCorrect": false
       }
     ]
@@ -18365,10 +18365,14 @@ module.exports = [
     "meaning": "澄清",
     "example": "Voglio chiarire la situazione.",
     "example_meaning": "我想澄清情况。",
-    "detail": "原型：Chiarire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Chiarire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nChiaro, Chiari, Chiare, Chiariamo, Chiarite, Chiarono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "辩解/证明...正当",
+        "text": "隐约看见",
+        "isCorrect": false
+      },
+      {
+        "text": "撤退/退休",
         "isCorrect": false
       },
       {
@@ -18376,11 +18380,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "打破/违反",
-        "isCorrect": false
-      },
-      {
-        "text": "失去",
+        "text": "避免",
         "isCorrect": false
       }
     ]
@@ -18394,18 +18394,18 @@ module.exports = [
     "meaning": "解释",
     "example": "Spiegami come funziona.",
     "example_meaning": "给我解释一下它是怎么工作的。",
-    "detail": "原型：Spiegare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Spiegare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSpiego, Spiegi, Spiega, Spiegiamo, Spiegate, Spiegano",
     "options": [
       {
-        "text": "解决",
+        "text": "欢迎/接待",
         "isCorrect": false
       },
       {
-        "text": "信息化",
+        "text": "遇见",
         "isCorrect": false
       },
       {
-        "text": "扔",
+        "text": "帮助",
         "isCorrect": false
       },
       {
@@ -18423,23 +18423,23 @@ module.exports = [
     "meaning": "证明/演示",
     "example": "Puoi dimostrarlo?",
     "example_meaning": "你能证明吗？",
-    "detail": "原型：Dimostrare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Dimostrare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nDimostro, Dimostri, Dimostra, Dimostriamo, Dimostrate, Dimostrano",
     "options": [
-      {
-        "text": "逃走",
-        "isCorrect": false
-      },
-      {
-        "text": "训练",
-        "isCorrect": false
-      },
-      {
-        "text": "吵架",
-        "isCorrect": false
-      },
       {
         "text": "证明/演示",
         "isCorrect": true
+      },
+      {
+        "text": "鼓励",
+        "isCorrect": false
+      },
+      {
+        "text": "达成一致",
+        "isCorrect": false
+      },
+      {
+        "text": "推论",
+        "isCorrect": false
       }
     ]
   },
@@ -18452,10 +18452,10 @@ module.exports = [
     "meaning": "阐明/插图",
     "example": "Illustrami il tuo piano.",
     "example_meaning": "给我阐明你的计划。",
-    "detail": "原型：Illustrare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Illustrare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nIllustro, Illustri, Illustra, Illustriamo, Illustrate, Illustrano",
     "options": [
       {
-        "text": "推论",
+        "text": "运输",
         "isCorrect": false
       },
       {
@@ -18463,11 +18463,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "批准/赞成",
+        "text": "连接",
         "isCorrect": false
       },
       {
-        "text": "扔",
+        "text": "细细品味",
         "isCorrect": false
       }
     ]
@@ -18481,10 +18481,14 @@ module.exports = [
     "meaning": "描述",
     "example": "Descrivi ciò che vedi.",
     "example_meaning": "描述你看到的。",
-    "detail": "原型：Descrivere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Descrivere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nDescrivo, Descrivi, Descrive, Descriviamo, Descrivete, Descrivono",
     "options": [
       {
-        "text": "帮助",
+        "text": "分析",
+        "isCorrect": false
+      },
+      {
+        "text": "比较",
         "isCorrect": false
       },
       {
@@ -18492,11 +18496,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "劝说",
-        "isCorrect": false
-      },
-      {
-        "text": "决定/导致",
+        "text": "隐藏",
         "isCorrect": false
       }
     ]
@@ -18510,18 +18510,18 @@ module.exports = [
     "meaning": "讲述",
     "example": "Raccontami una storia.",
     "example_meaning": "给我讲个故事。",
-    "detail": "原型：Raccontare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Raccontare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nRacconto, Racconti, Racconta, Raccontiamo, Raccontate, Raccontano",
     "options": [
       {
-        "text": "阐明/插图",
+        "text": "集合",
         "isCorrect": false
       },
       {
-        "text": "打破/违反",
+        "text": "陈述/展览",
         "isCorrect": false
       },
       {
-        "text": "轻轻掠过",
+        "text": "虚拟化",
         "isCorrect": false
       },
       {
@@ -18539,22 +18539,22 @@ module.exports = [
     "meaning": "叙述",
     "example": "Il libro narra le avventure di un eroe.",
     "example_meaning": "这本书叙述了一位英雄的冒险。",
-    "detail": "原型：Narrare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Narrare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nNarro, Narri, Narra, Narriamo, Narrate, Narrano",
     "options": [
       {
         "text": "叙述",
         "isCorrect": true
       },
       {
-        "text": "综合",
+        "text": "建造",
         "isCorrect": false
       },
       {
-        "text": "行政/管理",
+        "text": "隐约看见",
         "isCorrect": false
       },
       {
-        "text": "带来/造成",
+        "text": "控制/检查",
         "isCorrect": false
       }
     ]
@@ -18568,22 +18568,22 @@ module.exports = [
     "meaning": "总结",
     "example": "Per riassumere, sono d'accordo.",
     "example_meaning": "总而言之，我同意。",
-    "detail": "原型：Riassumere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Riassumere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nRiassumo, Riassumi, Riassume, Riassumiamo, Riassumete, Riassumono",
     "options": [
       {
         "text": "总结",
         "isCorrect": true
       },
       {
-        "text": "退休",
+        "text": "撤退/退休",
         "isCorrect": false
       },
       {
-        "text": "说服",
+        "text": "爱",
         "isCorrect": false
       },
       {
-        "text": "发明",
+        "text": "欣赏",
         "isCorrect": false
       }
     ]
@@ -18597,18 +18597,18 @@ module.exports = [
     "meaning": "总结/结束",
     "example": "Concludendo, è un buon risultato.",
     "example_meaning": "总的来说，这是一个好结果。",
-    "detail": "原型：Concludere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Concludere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nConcludo, Concludi, Conclude, Concludiamo, Concludete, Concludono",
     "options": [
       {
-        "text": "隐藏",
+        "text": "赚取/赢得",
         "isCorrect": false
       },
       {
-        "text": "按/压",
+        "text": "投/发射",
         "isCorrect": false
       },
       {
-        "text": "接受",
+        "text": "劝说",
         "isCorrect": false
       },
       {
@@ -18626,23 +18626,23 @@ module.exports = [
     "meaning": "介绍/引入",
     "example": "Permettimi di introdurre l'argomento.",
     "example_meaning": "允许我介绍这个话题。",
-    "detail": "原型：Introdurre (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Introdurre。\n这是一个缩略形式的不规则动词 (源自拉丁语)，变位通常不规则。",
     "options": [
+      {
+        "text": "综合",
+        "isCorrect": false
+      },
+      {
+        "text": "容忍",
+        "isCorrect": false
+      },
+      {
+        "text": "紧握/挤",
+        "isCorrect": false
+      },
       {
         "text": "介绍/引入",
         "isCorrect": true
-      },
-      {
-        "text": "转移",
-        "isCorrect": false
-      },
-      {
-        "text": "消除",
-        "isCorrect": false
-      },
-      {
-        "text": "引诱/归纳",
-        "isCorrect": false
       }
     ]
   },
@@ -18655,23 +18655,23 @@ module.exports = [
     "meaning": "展示/介绍",
     "example": "Ti presento mia moglie.",
     "example_meaning": "我给你介绍我妻子。",
-    "detail": "原型：Presentare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Presentare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPresento, Presenti, Presenta, Presentiamo, Presentate, Presentano",
     "options": [
+      {
+        "text": "接受",
+        "isCorrect": false
+      },
+      {
+        "text": "打击/劝阻",
+        "isCorrect": false
+      },
+      {
+        "text": "计划",
+        "isCorrect": false
+      },
       {
         "text": "展示/介绍",
         "isCorrect": true
-      },
-      {
-        "text": "品尝/享受",
-        "isCorrect": false
-      },
-      {
-        "text": "拒绝",
-        "isCorrect": false
-      },
-      {
-        "text": "观察/遵守",
-        "isCorrect": false
       }
     ]
   },
@@ -18684,23 +18684,23 @@ module.exports = [
     "meaning": "陈述/展览",
     "example": "Esporrò i fatti.",
     "example_meaning": "我将陈述事实。",
-    "detail": "原型：Esporre (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Esporre。\n这是一个缩略形式的不规则动词 (源自拉丁语)，变位通常不规则。",
     "options": [
-      {
-        "text": "劝说",
-        "isCorrect": false
-      },
-      {
-        "text": "遇见",
-        "isCorrect": false
-      },
-      {
-        "text": "失去",
-        "isCorrect": false
-      },
       {
         "text": "陈述/展览",
         "isCorrect": true
+      },
+      {
+        "text": "创造",
+        "isCorrect": false
+      },
+      {
+        "text": "教",
+        "isCorrect": false
+      },
+      {
+        "text": "讲述",
+        "isCorrect": false
       }
     ]
   },
@@ -18713,23 +18713,23 @@ module.exports = [
     "meaning": "支持/支撑",
     "example": "Sostengo la tua idea.",
     "example_meaning": "我支持你的想法。",
-    "detail": "原型：Sostenere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sostenere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nSosteno, Sosteni, Sostene, Sosteniamo, Sostenete, Sostenono",
     "options": [
       {
-        "text": "输",
+        "text": "辞职",
         "isCorrect": false
       },
       {
-        "text": "听见/感觉",
-        "isCorrect": false
-      },
-      {
-        "text": "浪费",
+        "text": "追赶",
         "isCorrect": false
       },
       {
         "text": "支持/支撑",
         "isCorrect": true
+      },
+      {
+        "text": "删除",
+        "isCorrect": false
       }
     ]
   },
@@ -18742,22 +18742,22 @@ module.exports = [
     "meaning": "辩护/保卫",
     "example": "Difendi i tuoi diritti.",
     "example_meaning": "捍卫你的权利。",
-    "detail": "原型：Difendere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Difendere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nDifendo, Difendi, Difende, Difendiamo, Difendete, Difendono",
     "options": [
-      {
-        "text": "描述",
-        "isCorrect": false
-      },
       {
         "text": "辩护/保卫",
         "isCorrect": true
       },
       {
-        "text": "促进/偏袒",
+        "text": "引诱/归纳",
         "isCorrect": false
       },
       {
-        "text": "假定",
+        "text": "赚取/赢得",
+        "isCorrect": false
+      },
+      {
+        "text": "谈判",
         "isCorrect": false
       }
     ]
@@ -18771,18 +18771,18 @@ module.exports = [
     "meaning": "攻击/粘贴",
     "example": "Non attaccare bottone.",
     "example_meaning": "别搭讪。",
-    "detail": "原型：Attaccare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Attaccare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAttacco, Attacci, Attacca, Attacciamo, Attaccate, Attaccano",
     "options": [
       {
-        "text": "比作/比较",
+        "text": "综合",
         "isCorrect": false
       },
       {
-        "text": "建造",
+        "text": "爱",
         "isCorrect": false
       },
       {
-        "text": "消耗",
+        "text": "推论",
         "isCorrect": false
       },
       {
@@ -18800,22 +18800,22 @@ module.exports = [
     "meaning": "批评",
     "example": "È facile criticare.",
     "example_meaning": "批评很容易。",
-    "detail": "原型：Criticare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Criticare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nCritico, Critici, Critica, Criticiamo, Criticate, Criticano",
     "options": [
+      {
+        "text": "追赶",
+        "isCorrect": false
+      },
       {
         "text": "批评",
         "isCorrect": true
       },
       {
-        "text": "学会",
+        "text": "控制/检查",
         "isCorrect": false
       },
       {
-        "text": "邀请",
-        "isCorrect": false
-      },
-      {
-        "text": "帮助",
+        "text": "听见",
         "isCorrect": false
       }
     ]
@@ -18829,23 +18829,23 @@ module.exports = [
     "meaning": "欣赏",
     "example": "Apprezzo la tua sincerità.",
     "example_meaning": "我很欣赏你的真诚。",
-    "detail": "原型：Apprezzare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Apprezzare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nApprezzo, Apprezzi, Apprezza, Apprezziamo, Apprezzate, Apprezzano",
     "options": [
+      {
+        "text": "介绍/引入",
+        "isCorrect": false
+      },
+      {
+        "text": "轻轻掠过",
+        "isCorrect": false
+      },
+      {
+        "text": "引起",
+        "isCorrect": false
+      },
       {
         "text": "欣赏",
         "isCorrect": true
-      },
-      {
-        "text": "划分/分享",
-        "isCorrect": false
-      },
-      {
-        "text": "协助/出席",
-        "isCorrect": false
-      },
-      {
-        "text": "推测",
-        "isCorrect": false
       }
     ]
   },
@@ -18858,10 +18858,14 @@ module.exports = [
     "meaning": "批准/赞成",
     "example": "Il progetto è stato approvato.",
     "example_meaning": "项目被批准了。",
-    "detail": "原型：Approvare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Approvare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nApprovo, Approvi, Approva, Approviamo, Approvate, Approvano",
     "options": [
       {
-        "text": "陈述/展览",
+        "text": "介绍/引入",
+        "isCorrect": false
+      },
+      {
+        "text": "常去/交往",
         "isCorrect": false
       },
       {
@@ -18869,11 +18873,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "爱",
-        "isCorrect": false
-      },
-      {
-        "text": "紧握/挤",
+        "text": "输",
         "isCorrect": false
       }
     ]
@@ -18887,23 +18887,23 @@ module.exports = [
     "meaning": "不赞成",
     "example": "Disapprovo il tuo comportamento.",
     "example_meaning": "我不赞成你的行为。",
-    "detail": "原型：Disapprovare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Disapprovare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nDisapprovo, Disapprovi, Disapprova, Disapproviamo, Disapprovate, Disapprovano",
     "options": [
       {
-        "text": "不赞成",
-        "isCorrect": true
-      },
-      {
-        "text": "应用",
-        "isCorrect": false
-      },
-      {
-        "text": "节省",
+        "text": "轻轻掠过",
         "isCorrect": false
       },
       {
         "text": "分离",
         "isCorrect": false
+      },
+      {
+        "text": "常去/交往",
+        "isCorrect": false
+      },
+      {
+        "text": "不赞成",
+        "isCorrect": true
       }
     ]
   },
@@ -18916,22 +18916,22 @@ module.exports = [
     "meaning": "谴责/判刑",
     "example": "Condanno la violenza.",
     "example_meaning": "我谴责暴力。",
-    "detail": "原型：Condannare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Condannare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nCondanno, Condanni, Condanna, Condanniamo, Condannate, Condannano",
     "options": [
-      {
-        "text": "训练",
-        "isCorrect": false
-      },
-      {
-        "text": "澄清",
-        "isCorrect": false
-      },
       {
         "text": "谴责/判刑",
         "isCorrect": true
       },
       {
-        "text": "容忍",
+        "text": "优化",
+        "isCorrect": false
+      },
+      {
+        "text": "鼓励",
+        "isCorrect": false
+      },
+      {
+        "text": "撤退/退休",
         "isCorrect": false
       }
     ]
@@ -18945,23 +18945,23 @@ module.exports = [
     "meaning": "赦免",
     "example": "È stato assolto.",
     "example_meaning": "他被无罪释放了。",
-    "detail": "原型：Assolvere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Assolvere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nAssolvo, Assolvi, Assolve, Assolviamo, Assolvete, Assolvono",
     "options": [
+      {
+        "text": "说明理由/激励",
+        "isCorrect": false
+      },
+      {
+        "text": "失败",
+        "isCorrect": false
+      },
+      {
+        "text": "信息化",
+        "isCorrect": false
+      },
       {
         "text": "赦免",
         "isCorrect": true
-      },
-      {
-        "text": "收集/捡起",
-        "isCorrect": false
-      },
-      {
-        "text": "编程/计划",
-        "isCorrect": false
-      },
-      {
-        "text": "论证",
-        "isCorrect": false
       }
     ]
   },
@@ -18974,14 +18974,10 @@ module.exports = [
     "meaning": "原谅",
     "example": "Ti perdono.",
     "example_meaning": "我原谅你。",
-    "detail": "原型：Perdonare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Perdonare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPerdono, Perdoni, Perdona, Perdoniamo, Perdonate, Perdonano",
     "options": [
       {
-        "text": "看",
-        "isCorrect": false
-      },
-      {
-        "text": "得出结论",
+        "text": "使用/花费(时间)",
         "isCorrect": false
       },
       {
@@ -18989,7 +18985,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "逃跑",
+        "text": "陈述/展览",
+        "isCorrect": false
+      },
+      {
+        "text": "阻碍",
         "isCorrect": false
       }
     ]
@@ -19003,22 +19003,22 @@ module.exports = [
     "meaning": "原谅/辩解",
     "example": "Scusami il ritardo.",
     "example_meaning": "原谅我迟到了。",
-    "detail": "原型：Scusare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Scusare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nScuso, Scusi, Scusa, Scusiamo, Scusate, Scusano",
     "options": [
-      {
-        "text": "失败",
-        "isCorrect": false
-      },
       {
         "text": "原谅/辩解",
         "isCorrect": true
       },
       {
-        "text": "联系/结合",
+        "text": "推",
         "isCorrect": false
       },
       {
-        "text": "推论",
+        "text": "输",
+        "isCorrect": false
+      },
+      {
+        "text": "预防",
         "isCorrect": false
       }
     ]
@@ -19032,23 +19032,23 @@ module.exports = [
     "meaning": "辩解/证明...正当",
     "example": "Non cercare di giustificarti.",
     "example_meaning": "别试图辩解。",
-    "detail": "原型：Giustificare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Giustificare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nGiustifico, Giustifici, Giustifica, Giustificiamo, Giustificate, Giustificano",
     "options": [
-      {
-        "text": "干预/发言",
-        "isCorrect": false
-      },
-      {
-        "text": "展示/介绍",
-        "isCorrect": false
-      },
-      {
-        "text": "退休",
-        "isCorrect": false
-      },
       {
         "text": "辩解/证明...正当",
         "isCorrect": true
+      },
+      {
+        "text": "获取",
+        "isCorrect": false
+      },
+      {
+        "text": "崇拜/喜爱",
+        "isCorrect": false
+      },
+      {
+        "text": "欢迎/接待",
+        "isCorrect": false
       }
     ]
   },
@@ -19061,22 +19061,22 @@ module.exports = [
     "meaning": "说明理由/激励",
     "example": "Devi motivare la tua scelta.",
     "example_meaning": "你必须说明你的选择理由。",
-    "detail": "原型：Motivare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Motivare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nMotivo, Motivi, Motiva, Motiviamo, Motivate, Motivano",
     "options": [
       {
         "text": "说明理由/激励",
         "isCorrect": true
       },
       {
-        "text": "撤退/退休",
+        "text": "辩论",
         "isCorrect": false
       },
       {
-        "text": "爱",
+        "text": "看",
         "isCorrect": false
       },
       {
-        "text": "扔",
+        "text": "阐明/插图",
         "isCorrect": false
       }
     ]
@@ -19090,23 +19090,23 @@ module.exports = [
     "meaning": "鼓励",
     "example": "L'insegnante incoraggia gli studenti.",
     "example_meaning": "老师鼓励学生。",
-    "detail": "原型：Incoraggiare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Incoraggiare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nIncoraggio, Incoraggii, Incoraggia, Incoraggiiamo, Incoraggiate, Incoraggiano",
     "options": [
-      {
-        "text": "打破/违反",
-        "isCorrect": false
-      },
-      {
-        "text": "核实",
-        "isCorrect": false
-      },
-      {
-        "text": "联系/结合",
-        "isCorrect": false
-      },
       {
         "text": "鼓励",
         "isCorrect": true
+      },
+      {
+        "text": "删除",
+        "isCorrect": false
+      },
+      {
+        "text": "生产",
+        "isCorrect": false
+      },
+      {
+        "text": "品尝/享受",
+        "isCorrect": false
       }
     ]
   },
@@ -19119,23 +19119,23 @@ module.exports = [
     "meaning": "打击/劝阻",
     "example": "Non ti scoraggiare.",
     "example_meaning": "别灰心。",
-    "detail": "原型：Scoraggiare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Scoraggiare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nScoraggio, Scoraggii, Scoraggia, Scoraggiiamo, Scoraggiate, Scoraggiano",
     "options": [
+      {
+        "text": "鼓励",
+        "isCorrect": false
+      },
+      {
+        "text": "花费",
+        "isCorrect": false
+      },
+      {
+        "text": "联合/合并",
+        "isCorrect": false
+      },
       {
         "text": "打击/劝阻",
         "isCorrect": true
-      },
-      {
-        "text": "帮助",
-        "isCorrect": false
-      },
-      {
-        "text": "学习",
-        "isCorrect": false
-      },
-      {
-        "text": "尝试",
-        "isCorrect": false
       }
     ]
   },
@@ -19148,14 +19148,10 @@ module.exports = [
     "meaning": "说服",
     "example": "Mi hai convinto.",
     "example_meaning": "你说服了我。",
-    "detail": "原型：Convincere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Convincere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nConvinco, Convinci, Convince, Convinciamo, Convincete, Convincono",
     "options": [
       {
-        "text": "操纵",
-        "isCorrect": false
-      },
-      {
-        "text": "管理",
+        "text": "影响",
         "isCorrect": false
       },
       {
@@ -19163,7 +19159,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "分析",
+        "text": "陈述/展览",
+        "isCorrect": false
+      },
+      {
+        "text": "转移",
         "isCorrect": false
       }
     ]
@@ -19177,22 +19177,22 @@ module.exports = [
     "meaning": "劝说",
     "example": "Cerca di persuaderlo.",
     "example_meaning": "试着劝说他。",
-    "detail": "原型：Persuadere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Persuadere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nPersuado, Persuadi, Persuade, Persuadiamo, Persuadete, Persuadono",
     "options": [
-      {
-        "text": "瞥见",
-        "isCorrect": false
-      },
-      {
-        "text": "盯着/固定",
-        "isCorrect": false
-      },
       {
         "text": "劝说",
         "isCorrect": true
       },
       {
-        "text": "删除",
+        "text": "干预/发言",
+        "isCorrect": false
+      },
+      {
+        "text": "阻碍",
+        "isCorrect": false
+      },
+      {
+        "text": "陈述/展览",
         "isCorrect": false
       }
     ]
@@ -19206,22 +19206,22 @@ module.exports = [
     "meaning": "影响",
     "example": "Non farti influenzare.",
     "example_meaning": "别受影响。",
-    "detail": "原型：Influenzare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Influenzare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nInfluenzo, Influenzi, Influenza, Influenziamo, Influenzate, Influenzano",
     "options": [
-      {
-        "text": "预防",
-        "isCorrect": false
-      },
       {
         "text": "影响",
         "isCorrect": true
       },
       {
-        "text": "拒绝",
+        "text": "收集/捡起",
         "isCorrect": false
       },
       {
-        "text": "撤退/退休",
+        "text": "支持/支撑",
+        "isCorrect": false
+      },
+      {
+        "text": "抚摸/探测",
         "isCorrect": false
       }
     ]
@@ -19235,23 +19235,23 @@ module.exports = [
     "meaning": "操纵",
     "example": "Non mi manipolare.",
     "example_meaning": "别操纵我。",
-    "detail": "原型：Manipolare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Manipolare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nManipolo, Manipoli, Manipola, Manipoliamo, Manipolate, Manipolano",
     "options": [
+      {
+        "text": "隐约看见",
+        "isCorrect": false
+      },
+      {
+        "text": "决定/导致",
+        "isCorrect": false
+      },
+      {
+        "text": "面对",
+        "isCorrect": false
+      },
       {
         "text": "操纵",
         "isCorrect": true
-      },
-      {
-        "text": "获得",
-        "isCorrect": false
-      },
-      {
-        "text": "忍受",
-        "isCorrect": false
-      },
-      {
-        "text": "赚取/赢得",
-        "isCorrect": false
       }
     ]
   },
@@ -19264,18 +19264,18 @@ module.exports = [
     "meaning": "控制/检查",
     "example": "Controlla il biglietto.",
     "example_meaning": "检查票。",
-    "detail": "原型：Controllare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Controllare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nControllo, Controlli, Controlla, Controlliamo, Controllate, Controllano",
     "options": [
       {
-        "text": "训练",
+        "text": "和解",
         "isCorrect": false
       },
       {
-        "text": "综合",
+        "text": "成功",
         "isCorrect": false
       },
       {
-        "text": "攻击/粘贴",
+        "text": "得出结论",
         "isCorrect": false
       },
       {
@@ -19293,23 +19293,23 @@ module.exports = [
     "meaning": "核实",
     "example": "Verifica i dati.",
     "example_meaning": "核实数据。",
-    "detail": "原型：Verificare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Verificare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nVerifico, Verifici, Verifica, Verificiamo, Verificate, Verificano",
     "options": [
+      {
+        "text": "组织",
+        "isCorrect": false
+      },
+      {
+        "text": "最大化",
+        "isCorrect": false
+      },
+      {
+        "text": "支持/支撑",
+        "isCorrect": false
+      },
       {
         "text": "核实",
         "isCorrect": true
-      },
-      {
-        "text": "对待/洽谈",
-        "isCorrect": false
-      },
-      {
-        "text": "拌嘴",
-        "isCorrect": false
-      },
-      {
-        "text": "原谅",
-        "isCorrect": false
       }
     ]
   },
@@ -19322,22 +19322,22 @@ module.exports = [
     "meaning": "管理",
     "example": "Sa gestire bene il tempo.",
     "example_meaning": "他很会管理时间。",
-    "detail": "原型：Gestire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Gestire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nGesto, Gesti, Geste, Gestiamo, Gestite, Gestono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
         "text": "管理",
         "isCorrect": true
       },
       {
-        "text": "比较",
+        "text": "容忍",
         "isCorrect": false
       },
       {
-        "text": "辩护/保卫",
+        "text": "追赶",
         "isCorrect": false
       },
       {
-        "text": "招待/容纳",
+        "text": "听见/感觉",
         "isCorrect": false
       }
     ]
@@ -19351,18 +19351,18 @@ module.exports = [
     "meaning": "行政/管理",
     "example": "Amministra l'azienda.",
     "example_meaning": "他管理公司。",
-    "detail": "原型：Amministrare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Amministrare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAmministro, Amministri, Amministra, Amministriamo, Amministrate, Amministrano",
     "options": [
       {
-        "text": "节省",
+        "text": "听见",
         "isCorrect": false
       },
       {
-        "text": "最小化",
+        "text": "违反",
         "isCorrect": false
       },
       {
-        "text": "偷看",
+        "text": "混淆",
         "isCorrect": false
       },
       {
@@ -19380,23 +19380,23 @@ module.exports = [
     "meaning": "组织",
     "example": "Organizziamo una festa.",
     "example_meaning": "我们组织个聚会吧。",
-    "detail": "原型：Organizzare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Organizzare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nOrganizzo, Organizzi, Organizza, Organizziamo, Organizzate, Organizzano",
     "options": [
-      {
-        "text": "创造",
-        "isCorrect": false
-      },
-      {
-        "text": "建造",
-        "isCorrect": false
-      },
-      {
-        "text": "克服/超过",
-        "isCorrect": false
-      },
       {
         "text": "组织",
         "isCorrect": true
+      },
+      {
+        "text": "获得/随之而来",
+        "isCorrect": false
+      },
+      {
+        "text": "比作/比较",
+        "isCorrect": false
+      },
+      {
+        "text": "原谅",
+        "isCorrect": false
       }
     ]
   },
@@ -19409,22 +19409,22 @@ module.exports = [
     "meaning": "计划",
     "example": "Dobbiamo pianificare il viaggio.",
     "example_meaning": "我们必须计划旅行。",
-    "detail": "原型：Pianificare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Pianificare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPianifico, Pianifici, Pianifica, Pianificiamo, Pianificate, Pianificano",
     "options": [
+      {
+        "text": "推测",
+        "isCorrect": false
+      },
+      {
+        "text": "核实",
+        "isCorrect": false
+      },
       {
         "text": "计划",
         "isCorrect": true
       },
       {
-        "text": "最小化",
-        "isCorrect": false
-      },
-      {
-        "text": "分离",
-        "isCorrect": false
-      },
-      {
-        "text": "说服",
+        "text": "赢",
         "isCorrect": false
       }
     ]
@@ -19438,23 +19438,23 @@ module.exports = [
     "meaning": "编程/计划",
     "example": "Ho programmato la sveglia.",
     "example_meaning": "我设好了闹钟。",
-    "detail": "原型：Programmare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Programmare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nProgrammo, Programmi, Programma, Programmiamo, Programmate, Programmano",
     "options": [
       {
-        "text": "协助/出席",
+        "text": "容忍",
         "isCorrect": false
       },
       {
-        "text": "假定",
+        "text": "支持/支撑",
+        "isCorrect": false
+      },
+      {
+        "text": "实验/体验",
         "isCorrect": false
       },
       {
         "text": "编程/计划",
         "isCorrect": true
-      },
-      {
-        "text": "展示/介绍",
-        "isCorrect": false
       }
     ]
   },
@@ -19467,22 +19467,22 @@ module.exports = [
     "meaning": "协调",
     "example": "Coordina il gruppo.",
     "example_meaning": "协调小组。",
-    "detail": "原型：Coordinare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Coordinare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nCoordino, Coordini, Coordina, Coordiniamo, Coordinate, Coordinano",
     "options": [
       {
         "text": "协调",
         "isCorrect": true
       },
       {
-        "text": "辩护/保卫",
+        "text": "建立理论",
         "isCorrect": false
       },
       {
-        "text": "连接",
+        "text": "退休",
         "isCorrect": false
       },
       {
-        "text": "尊重/遵守",
+        "text": "实践",
         "isCorrect": false
       }
     ]
@@ -19496,23 +19496,23 @@ module.exports = [
     "meaning": "合作",
     "example": "Collaboriamo insieme.",
     "example_meaning": "我们合作吧。",
-    "detail": "原型：Collaborare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Collaborare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nCollaboro, Collabori, Collabora, Collaboriamo, Collaborate, Collaborano",
     "options": [
-      {
-        "text": "崇拜/喜爱",
-        "isCorrect": false
-      },
-      {
-        "text": "面对",
-        "isCorrect": false
-      },
-      {
-        "text": "隐藏",
-        "isCorrect": false
-      },
       {
         "text": "合作",
         "isCorrect": true
+      },
+      {
+        "text": "摸",
+        "isCorrect": false
+      },
+      {
+        "text": "消除",
+        "isCorrect": false
+      },
+      {
+        "text": "操纵",
+        "isCorrect": false
       }
     ]
   },
@@ -19525,22 +19525,22 @@ module.exports = [
     "meaning": "参与",
     "example": "Vuoi partecipare?",
     "example_meaning": "你想参与吗？",
-    "detail": "原型：Partecipare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Partecipare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPartecipo, Partecipi, Partecipa, Partecipiamo, Partecipate, Partecipano",
     "options": [
-      {
-        "text": "解决",
-        "isCorrect": false
-      },
-      {
-        "text": "创造",
-        "isCorrect": false
-      },
       {
         "text": "参与",
         "isCorrect": true
       },
       {
-        "text": "推论",
+        "text": "工作",
+        "isCorrect": false
+      },
+      {
+        "text": "有影响",
+        "isCorrect": false
+      },
+      {
+        "text": "协调",
         "isCorrect": false
       }
     ]
@@ -19554,23 +19554,23 @@ module.exports = [
     "meaning": "贡献",
     "example": "Ognuno deve contribuire.",
     "example_meaning": "每个人都必须做贡献。",
-    "detail": "原型：Contribuire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Contribuire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nContribuo, Contribui, Contribue, Contribuiamo, Contribuite, Contribuono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "打破/违反",
-        "isCorrect": false
-      },
-      {
-        "text": "引起",
-        "isCorrect": false
-      },
-      {
-        "text": "赦免",
+        "text": "看",
         "isCorrect": false
       },
       {
         "text": "贡献",
         "isCorrect": true
+      },
+      {
+        "text": "消除",
+        "isCorrect": false
+      },
+      {
+        "text": "转移",
+        "isCorrect": false
       }
     ]
   },
@@ -19583,22 +19583,22 @@ module.exports = [
     "meaning": "干预/发言",
     "example": "Posso intervenire?",
     "example_meaning": "我可以插句话吗？",
-    "detail": "原型：Intervenire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Intervenire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nInterveno, Interveni, Intervene, Interveniamo, Intervenite, Intervenono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
         "text": "干预/发言",
         "isCorrect": true
       },
       {
-        "text": "操纵",
+        "text": "说服",
         "isCorrect": false
       },
       {
-        "text": "解释",
+        "text": "澄清",
         "isCorrect": false
       },
       {
-        "text": "获取",
+        "text": "劝说",
         "isCorrect": false
       }
     ]
@@ -19612,22 +19612,22 @@ module.exports = [
     "meaning": "协助/出席",
     "example": "Ha assistito all'incidente.",
     "example_meaning": "他目击了事故。",
-    "detail": "原型：Assistere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Assistere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nAssisto, Assisti, Assiste, Assistiamo, Assistete, Assistono",
     "options": [
       {
         "text": "协助/出席",
         "isCorrect": true
       },
       {
-        "text": "解雇",
+        "text": "数字化",
         "isCorrect": false
       },
       {
-        "text": "扔",
+        "text": "遇见",
         "isCorrect": false
       },
       {
-        "text": "实践",
+        "text": "阐明/插图",
         "isCorrect": false
       }
     ]
@@ -19641,14 +19641,14 @@ module.exports = [
     "meaning": "帮助",
     "example": "Aiutami, per favore.",
     "example_meaning": "请帮帮我。",
-    "detail": "原型：Aiutare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Aiutare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAiuto, Aiuti, Aiuta, Aiutiamo, Aiutate, Aiutano",
     "options": [
       {
-        "text": "协调",
+        "text": "总结/结束",
         "isCorrect": false
       },
       {
-        "text": "推论",
+        "text": "决定/导致",
         "isCorrect": false
       },
       {
@@ -19656,7 +19656,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "支持/支撑",
+        "text": "影响",
         "isCorrect": false
       }
     ]
@@ -19670,22 +19670,22 @@ module.exports = [
     "meaning": "促进/偏袒",
     "example": "Il vento favorisce la navigazione.",
     "example_meaning": "风有利于航行。",
-    "detail": "原型：Favorire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Favorire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nFavoro, Favori, Favore, Favoriamo, Favorite, Favorono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
-      {
-        "text": "认识",
-        "isCorrect": false
-      },
       {
         "text": "促进/偏袒",
         "isCorrect": true
       },
       {
-        "text": "细细品味",
+        "text": "贡献",
         "isCorrect": false
       },
       {
-        "text": "品尝/享受",
+        "text": "劝说",
+        "isCorrect": false
+      },
+      {
+        "text": "虚拟化",
         "isCorrect": false
       }
     ]
@@ -19699,23 +19699,23 @@ module.exports = [
     "meaning": "阻碍",
     "example": "Non ostacolare il mio lavoro.",
     "example_meaning": "别阻碍我的工作。",
-    "detail": "原型：Ostacolare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Ostacolare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nOstacolo, Ostacoli, Ostacola, Ostacoliamo, Ostacolate, Ostacolano",
     "options": [
       {
-        "text": "欢迎/接待",
+        "text": "崇拜/喜爱",
         "isCorrect": false
       },
       {
-        "text": "教育",
-        "isCorrect": false
-      },
-      {
-        "text": "标准化",
+        "text": "隐藏",
         "isCorrect": false
       },
       {
         "text": "阻碍",
         "isCorrect": true
+      },
+      {
+        "text": "消耗",
+        "isCorrect": false
       }
     ]
   },
@@ -19728,23 +19728,23 @@ module.exports = [
     "meaning": "阻止",
     "example": "La pioggia ha impedito la partita.",
     "example_meaning": "雨阻止了比赛。",
-    "detail": "原型：Impedire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Impedire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nImpedo, Impedi, Impede, Impediamo, Impedite, Impedono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "贡献",
-        "isCorrect": false
-      },
-      {
-        "text": "抚摸/探测",
-        "isCorrect": false
-      },
-      {
-        "text": "创造",
+        "text": "逃走",
         "isCorrect": false
       },
       {
         "text": "阻止",
         "isCorrect": true
+      },
+      {
+        "text": "说服",
+        "isCorrect": false
+      },
+      {
+        "text": "抚摸/探测",
+        "isCorrect": false
       }
     ]
   },
@@ -19757,18 +19757,18 @@ module.exports = [
     "meaning": "避免",
     "example": "Cerca di evitare errori.",
     "example_meaning": "尽量避免错误。",
-    "detail": "原型：Evitare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Evitare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nEvito, Eviti, Evita, Evitiamo, Evitate, Evitano",
     "options": [
       {
-        "text": "阻碍",
+        "text": "破坏",
         "isCorrect": false
       },
       {
-        "text": "常去/交往",
+        "text": "鼓励",
         "isCorrect": false
       },
       {
-        "text": "虚拟化",
+        "text": "拆除",
         "isCorrect": false
       },
       {
@@ -19786,23 +19786,23 @@ module.exports = [
     "meaning": "预防",
     "example": "Prevenire è meglio che curare.",
     "example_meaning": "预防胜于治疗。",
-    "detail": "原型：Prevenire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Prevenire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nPreveno, Preveni, Prevene, Preveniamo, Prevenite, Prevenono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
+      {
+        "text": "连接",
+        "isCorrect": false
+      },
+      {
+        "text": "听见/感觉",
+        "isCorrect": false
+      },
+      {
+        "text": "讨论",
+        "isCorrect": false
+      },
       {
         "text": "预防",
         "isCorrect": true
-      },
-      {
-        "text": "辞职",
-        "isCorrect": false
-      },
-      {
-        "text": "建立理论",
-        "isCorrect": false
-      },
-      {
-        "text": "陈述/展览",
-        "isCorrect": false
       }
     ]
   },
@@ -19815,23 +19815,23 @@ module.exports = [
     "meaning": "解决",
     "example": "Ho risolto il problema.",
     "example_meaning": "我解决了问题。",
-    "detail": "原型：Risolvere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Risolvere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nRisolvo, Risolvi, Risolve, Risolviamo, Risolvete, Risolvono",
     "options": [
-      {
-        "text": "分离",
-        "isCorrect": false
-      },
-      {
-        "text": "收集/捡起",
-        "isCorrect": false
-      },
-      {
-        "text": "预防",
-        "isCorrect": false
-      },
       {
         "text": "解决",
         "isCorrect": true
+      },
+      {
+        "text": "遇见",
+        "isCorrect": false
+      },
+      {
+        "text": "总结/结束",
+        "isCorrect": false
+      },
+      {
+        "text": "决定/导致",
+        "isCorrect": false
       }
     ]
   },
@@ -19844,23 +19844,23 @@ module.exports = [
     "meaning": "面对",
     "example": "Affronta le tue paure.",
     "example_meaning": "面对你的恐惧。",
-    "detail": "原型：Affrontare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Affrontare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAffronto, Affronti, Affronta, Affrontiamo, Affrontate, Affrontano",
     "options": [
+      {
+        "text": "恨",
+        "isCorrect": false
+      },
+      {
+        "text": "阻止",
+        "isCorrect": false
+      },
+      {
+        "text": "联系/结合",
+        "isCorrect": false
+      },
       {
         "text": "面对",
         "isCorrect": true
-      },
-      {
-        "text": "自动化",
-        "isCorrect": false
-      },
-      {
-        "text": "成功",
-        "isCorrect": false
-      },
-      {
-        "text": "拌嘴",
-        "isCorrect": false
       }
     ]
   },
@@ -19873,23 +19873,23 @@ module.exports = [
     "meaning": "克服/超过",
     "example": "Ha superato l'esame.",
     "example_meaning": "他通过了考试。",
-    "detail": "原型：Superare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Superare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSupero, Superi, Supera, Superiamo, Superate, Superano",
     "options": [
       {
-        "text": "论证",
+        "text": "拉/扔",
         "isCorrect": false
       },
       {
-        "text": "总结",
-        "isCorrect": false
-      },
-      {
-        "text": "组织",
+        "text": "陈述/展览",
         "isCorrect": false
       },
       {
         "text": "克服/超过",
         "isCorrect": true
+      },
+      {
+        "text": "成功",
+        "isCorrect": false
       }
     ]
   },
@@ -19902,18 +19902,18 @@ module.exports = [
     "meaning": "赢",
     "example": "L'importante non è vincere.",
     "example_meaning": "重要的不是赢。",
-    "detail": "原型：Vincere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Vincere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nVinco, Vinci, Vince, Vinciamo, Vincete, Vincono",
     "options": [
       {
-        "text": "招待/容纳",
+        "text": "和解",
         "isCorrect": false
       },
       {
-        "text": "学会",
+        "text": "标准化",
         "isCorrect": false
       },
       {
-        "text": "投资/撞",
+        "text": "拆除",
         "isCorrect": false
       },
       {
@@ -19931,23 +19931,23 @@ module.exports = [
     "meaning": "输",
     "example": "Non mi piace perdere.",
     "example_meaning": "我不喜欢输。",
-    "detail": "原型：Perdere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Perdere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nPerdo, Perdi, Perde, Perdiamo, Perdete, Perdono",
     "options": [
       {
-        "text": "批评",
-        "isCorrect": false
-      },
-      {
-        "text": "听",
-        "isCorrect": false
-      },
-      {
-        "text": "决定/导致",
+        "text": "偷看",
         "isCorrect": false
       },
       {
         "text": "输",
         "isCorrect": true
+      },
+      {
+        "text": "证明/演示",
+        "isCorrect": false
+      },
+      {
+        "text": "批评",
+        "isCorrect": false
       }
     ]
   },
@@ -19960,14 +19960,10 @@ module.exports = [
     "meaning": "失败",
     "example": "Il piano è fallito.",
     "example_meaning": "计划失败了。",
-    "detail": "原型：Fallire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Fallire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nFallo, Falli, Falle, Falliamo, Fallite, Fallono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "影响",
-        "isCorrect": false
-      },
-      {
-        "text": "辩解/证明...正当",
+        "text": "看",
         "isCorrect": false
       },
       {
@@ -19975,7 +19971,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "实验/体验",
+        "text": "学习",
+        "isCorrect": false
+      },
+      {
+        "text": "忍受",
         "isCorrect": false
       }
     ]
@@ -19989,23 +19989,23 @@ module.exports = [
     "meaning": "成功",
     "example": "Sono riuscito a finire.",
     "example_meaning": "我成功完成了。",
-    "detail": "原型：Riuscire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Riuscire (不规则动词)。\n\n直陈式现在时变位：\nriesco, riesci, riesce, riusciamo, riuscite, riescono",
     "options": [
+      {
+        "text": "取决于",
+        "isCorrect": false
+      },
+      {
+        "text": "扔",
+        "isCorrect": false
+      },
+      {
+        "text": "听见",
+        "isCorrect": false
+      },
       {
         "text": "成功",
         "isCorrect": true
-      },
-      {
-        "text": "打击/劝阻",
-        "isCorrect": false
-      },
-      {
-        "text": "逃走",
-        "isCorrect": false
-      },
-      {
-        "text": "欢迎/接待",
-        "isCorrect": false
       }
     ]
   },
@@ -20018,22 +20018,22 @@ module.exports = [
     "meaning": "尝试",
     "example": "Tenta la fortuna.",
     "example_meaning": "试试运气。",
-    "detail": "原型：Tentare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Tentare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nTento, Tenti, Tenta, Tentiamo, Tentate, Tentano",
     "options": [
       {
         "text": "尝试",
         "isCorrect": true
       },
       {
-        "text": "赢",
+        "text": "自动化",
         "isCorrect": false
       },
       {
-        "text": "编程/计划",
+        "text": "参观/拜访",
         "isCorrect": false
       },
       {
-        "text": "达成一致",
+        "text": "逃走",
         "isCorrect": false
       }
     ]
@@ -20047,22 +20047,22 @@ module.exports = [
     "meaning": "试/尝试/证明",
     "example": "Prova questo vestito.",
     "example_meaning": "试穿这件衣服。",
-    "detail": "原型：Provare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Provare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nProvo, Provi, Prova, Proviamo, Provate, Provano",
     "options": [
-      {
-        "text": "摸",
-        "isCorrect": false
-      },
-      {
-        "text": "帮助",
-        "isCorrect": false
-      },
       {
         "text": "试/尝试/证明",
         "isCorrect": true
       },
       {
-        "text": "澄清",
+        "text": "节省",
+        "isCorrect": false
+      },
+      {
+        "text": "追赶",
+        "isCorrect": false
+      },
+      {
+        "text": "浪费",
         "isCorrect": false
       }
     ]
@@ -20076,23 +20076,23 @@ module.exports = [
     "meaning": "实验/体验",
     "example": "Sperimentiamo nuove ricette.",
     "example_meaning": "我们在尝试新食谱。",
-    "detail": "原型：Sperimentare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sperimentare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSperimento, Sperimenti, Sperimenta, Sperimentiamo, Sperimentate, Sperimentano",
     "options": [
       {
-        "text": "输",
-        "isCorrect": false
-      },
-      {
-        "text": "影响",
-        "isCorrect": false
-      },
-      {
-        "text": "教育",
+        "text": "混合",
         "isCorrect": false
       },
       {
         "text": "实验/体验",
         "isCorrect": true
+      },
+      {
+        "text": "分析",
+        "isCorrect": false
+      },
+      {
+        "text": "解释",
+        "isCorrect": false
       }
     ]
   },
@@ -20105,23 +20105,23 @@ module.exports = [
     "meaning": "观察/遵守",
     "example": "Osserva il cielo.",
     "example_meaning": "观察天空。",
-    "detail": "原型：Osservare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Osservare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nOsservo, Osservi, Osserva, Osserviamo, Osservate, Osservano",
     "options": [
       {
-        "text": "利用",
+        "text": "建立理论",
         "isCorrect": false
       },
       {
-        "text": "拉/扔",
+        "text": "听见",
+        "isCorrect": false
+      },
+      {
+        "text": "挑衅/引起",
         "isCorrect": false
       },
       {
         "text": "观察/遵守",
         "isCorrect": true
-      },
-      {
-        "text": "总结",
-        "isCorrect": false
       }
     ]
   },
@@ -20134,23 +20134,23 @@ module.exports = [
     "meaning": "尊重/遵守",
     "example": "Rispetta la natura.",
     "example_meaning": "尊重自然。",
-    "detail": "原型：Rispettare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Rispettare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nRispetto, Rispetti, Rispetta, Rispettiamo, Rispettate, Rispettano",
     "options": [
-      {
-        "text": "按/压",
-        "isCorrect": false
-      },
-      {
-        "text": "优化",
-        "isCorrect": false
-      },
-      {
-        "text": "遇见",
-        "isCorrect": false
-      },
       {
         "text": "尊重/遵守",
         "isCorrect": true
+      },
+      {
+        "text": "分析",
+        "isCorrect": false
+      },
+      {
+        "text": "联合/合并",
+        "isCorrect": false
+      },
+      {
+        "text": "干预/发言",
+        "isCorrect": false
       }
     ]
   },
@@ -20163,22 +20163,22 @@ module.exports = [
     "meaning": "违反",
     "example": "Ha violato la legge.",
     "example_meaning": "他违反了法律。",
-    "detail": "原型：Violare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Violare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nViolo, Violi, Viola, Violiamo, Violate, Violano",
     "options": [
+      {
+        "text": "应用",
+        "isCorrect": false
+      },
+      {
+        "text": "爱",
+        "isCorrect": false
+      },
       {
         "text": "违反",
         "isCorrect": true
       },
       {
-        "text": "细细品味",
-        "isCorrect": false
-      },
-      {
-        "text": "寻找",
-        "isCorrect": false
-      },
-      {
-        "text": "利用",
+        "text": "驳回/击退",
         "isCorrect": false
       }
     ]
@@ -20192,23 +20192,23 @@ module.exports = [
     "meaning": "打破/违反",
     "example": "Ha infranto la promessa.",
     "example_meaning": "他打破了诺言。",
-    "detail": "原型：Infrangere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Infrangere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nInfrango, Infrangi, Infrange, Infrangiamo, Infrangete, Infrangono",
     "options": [
-      {
-        "text": "花费",
-        "isCorrect": false
-      },
-      {
-        "text": "劝说",
-        "isCorrect": false
-      },
-      {
-        "text": "陈述/展览",
-        "isCorrect": false
-      },
       {
         "text": "打破/违反",
         "isCorrect": true
+      },
+      {
+        "text": "爱",
+        "isCorrect": false
+      },
+      {
+        "text": "投/发射",
+        "isCorrect": false
+      },
+      {
+        "text": "最大化",
+        "isCorrect": false
       }
     ]
   },
@@ -20221,23 +20221,23 @@ module.exports = [
     "meaning": "跟随/关注",
     "example": "Seguimi.",
     "example_meaning": "跟我来。",
-    "detail": "原型：Seguire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Seguire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nSeguo, Segui, Segue, Seguiamo, Seguite, Seguono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
+      {
+        "text": "收集/捡起",
+        "isCorrect": false
+      },
+      {
+        "text": "失去",
+        "isCorrect": false
+      },
+      {
+        "text": "编程/计划",
+        "isCorrect": false
+      },
       {
         "text": "跟随/关注",
         "isCorrect": true
-      },
-      {
-        "text": "拉/扔",
-        "isCorrect": false
-      },
-      {
-        "text": "推测",
-        "isCorrect": false
-      },
-      {
-        "text": "盯着/固定",
-        "isCorrect": false
       }
     ]
   },
@@ -20250,10 +20250,10 @@ module.exports = [
     "meaning": "追赶",
     "example": "Il cane insegue il gatto.",
     "example_meaning": "狗追猫。",
-    "detail": "原型：Inseguire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Inseguire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nInseguo, Insegui, Insegue, Inseguiamo, Inseguite, Inseguono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "隐约看见",
+        "text": "品尝/享受",
         "isCorrect": false
       },
       {
@@ -20261,11 +20261,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "欣赏",
+        "text": "假定",
         "isCorrect": false
       },
       {
-        "text": "试/尝试/证明",
+        "text": "隐约看见",
         "isCorrect": false
       }
     ]
@@ -20279,23 +20279,23 @@ module.exports = [
     "meaning": "逃跑",
     "example": "Il ladro è scappato.",
     "example_meaning": "小偷逃跑了。",
-    "detail": "原型：Scappare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Scappare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nScappo, Scappi, Scappa, Scappiamo, Scappate, Scappano",
     "options": [
       {
-        "text": "信息化",
+        "text": "区别",
         "isCorrect": false
       },
       {
-        "text": "成功",
-        "isCorrect": false
-      },
-      {
-        "text": "听",
+        "text": "雇佣/承担",
         "isCorrect": false
       },
       {
         "text": "逃跑",
         "isCorrect": true
+      },
+      {
+        "text": "介绍/引入",
+        "isCorrect": false
       }
     ]
   },
@@ -20308,23 +20308,23 @@ module.exports = [
     "meaning": "逃走",
     "example": "Sono fuggiti insieme.",
     "example_meaning": "他们一起私奔了。",
-    "detail": "原型：Fuggire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Fuggire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nFuggo, Fuggi, Fugge, Fuggiamo, Fuggite, Fuggono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "生产",
-        "isCorrect": false
-      },
-      {
-        "text": "解雇",
-        "isCorrect": false
-      },
-      {
-        "text": "崇拜/喜爱",
+        "text": "最小化",
         "isCorrect": false
       },
       {
         "text": "逃走",
         "isCorrect": true
+      },
+      {
+        "text": "偷看",
+        "isCorrect": false
+      },
+      {
+        "text": "品尝/享受",
+        "isCorrect": false
       }
     ]
   },
@@ -20337,23 +20337,23 @@ module.exports = [
     "meaning": "隐藏",
     "example": "Non nascondermi nulla.",
     "example_meaning": "别对我隐瞒什么。",
-    "detail": "原型：Nascondere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Nascondere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nNascondo, Nascondi, Nasconde, Nascondiamo, Nascondete, Nascondono",
     "options": [
-      {
-        "text": "决定/导致",
-        "isCorrect": false
-      },
-      {
-        "text": "观察/遵守",
-        "isCorrect": false
-      },
-      {
-        "text": "拆除",
-        "isCorrect": false
-      },
       {
         "text": "隐藏",
         "isCorrect": true
+      },
+      {
+        "text": "发现",
+        "isCorrect": false
+      },
+      {
+        "text": "面对",
+        "isCorrect": false
+      },
+      {
+        "text": "协调",
+        "isCorrect": false
       }
     ]
   },
@@ -20366,23 +20366,23 @@ module.exports = [
     "meaning": "寻找",
     "example": "Cosa cerchi?",
     "example_meaning": "你在找什么？",
-    "detail": "原型：Cercare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Cercare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nCerco, Cerci, Cerca, Cerciamo, Cercate, Cercano",
     "options": [
       {
-        "text": "成功",
+        "text": "扔",
         "isCorrect": false
       },
       {
-        "text": "贡献",
-        "isCorrect": false
-      },
-      {
-        "text": "认识",
+        "text": "集合",
         "isCorrect": false
       },
       {
         "text": "寻找",
         "isCorrect": true
+      },
+      {
+        "text": "听见/感觉",
+        "isCorrect": false
       }
     ]
   },
@@ -20395,22 +20395,22 @@ module.exports = [
     "meaning": "找到",
     "example": "Ho trovato le chiavi.",
     "example_meaning": "我找到了钥匙。",
-    "detail": "原型：Trovare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Trovare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nTrovo, Trovi, Trova, Troviamo, Trovate, Trovano",
     "options": [
+      {
+        "text": "原谅/辩解",
+        "isCorrect": false
+      },
+      {
+        "text": "论证",
+        "isCorrect": false
+      },
       {
         "text": "找到",
         "isCorrect": true
       },
       {
-        "text": "移动",
-        "isCorrect": false
-      },
-      {
-        "text": "数字化",
-        "isCorrect": false
-      },
-      {
-        "text": "控制/检查",
+        "text": "失去",
         "isCorrect": false
       }
     ]
@@ -20424,23 +20424,23 @@ module.exports = [
     "meaning": "发现",
     "example": "Colombo ha scoperto l'America.",
     "example_meaning": "哥伦布发现了美洲。",
-    "detail": "原型：Scoprire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Scoprire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nScopro, Scopri, Scopre, Scopriamo, Scoprite, Scoprono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
-      {
-        "text": "获得",
-        "isCorrect": false
-      },
-      {
-        "text": "容忍",
-        "isCorrect": false
-      },
-      {
-        "text": "操纵",
-        "isCorrect": false
-      },
       {
         "text": "发现",
         "isCorrect": true
+      },
+      {
+        "text": "按/压",
+        "isCorrect": false
+      },
+      {
+        "text": "找到",
+        "isCorrect": false
+      },
+      {
+        "text": "拆除",
+        "isCorrect": false
       }
     ]
   },
@@ -20453,23 +20453,23 @@ module.exports = [
     "meaning": "发明",
     "example": "Chi ha inventato il telefono?",
     "example_meaning": "谁发明了电话？",
-    "detail": "原型：Inventare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Inventare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nInvento, Inventi, Inventa, Inventiamo, Inventate, Inventano",
     "options": [
-      {
-        "text": "混合",
-        "isCorrect": false
-      },
-      {
-        "text": "逃跑",
-        "isCorrect": false
-      },
-      {
-        "text": "介绍/引入",
-        "isCorrect": false
-      },
       {
         "text": "发明",
         "isCorrect": true
+      },
+      {
+        "text": "合作",
+        "isCorrect": false
+      },
+      {
+        "text": "轻轻掠过",
+        "isCorrect": false
+      },
+      {
+        "text": "成功",
+        "isCorrect": false
       }
     ]
   },
@@ -20482,22 +20482,22 @@ module.exports = [
     "meaning": "创造",
     "example": "Dio creò il mondo.",
     "example_meaning": "上帝创造了世界。",
-    "detail": "原型：Creare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Creare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nCreo, Crei, Crea, Creiamo, Create, Creano",
     "options": [
-      {
-        "text": "控制/检查",
-        "isCorrect": false
-      },
       {
         "text": "创造",
         "isCorrect": true
       },
       {
-        "text": "推",
+        "text": "尊重/遵守",
         "isCorrect": false
       },
       {
-        "text": "假定",
+        "text": "容忍",
+        "isCorrect": false
+      },
+      {
+        "text": "引诱/归纳",
         "isCorrect": false
       }
     ]
@@ -20511,23 +20511,23 @@ module.exports = [
     "meaning": "生产",
     "example": "La fabbrica produce auto.",
     "example_meaning": "工厂生产汽车。",
-    "detail": "原型：Produrre (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Produrre。\n这是一个缩略形式的不规则动词 (源自拉丁语)，变位通常不规则。",
     "options": [
       {
-        "text": "取决于",
+        "text": "辩解/证明...正当",
+        "isCorrect": false
+      },
+      {
+        "text": "找到",
+        "isCorrect": false
+      },
+      {
+        "text": "推测",
         "isCorrect": false
       },
       {
         "text": "生产",
         "isCorrect": true
-      },
-      {
-        "text": "拒绝",
-        "isCorrect": false
-      },
-      {
-        "text": "劝说",
-        "isCorrect": false
       }
     ]
   },
@@ -20540,22 +20540,22 @@ module.exports = [
     "meaning": "建造",
     "example": "Hanno costruito una casa.",
     "example_meaning": "他们建了一所房子。",
-    "detail": "原型：Costruire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Costruire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nCostruo, Costrui, Costrue, Costruiamo, Costruite, Costruono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
         "text": "建造",
         "isCorrect": true
       },
       {
-        "text": "成功",
+        "text": "实践",
         "isCorrect": false
       },
       {
-        "text": "创造",
+        "text": "获取",
         "isCorrect": false
       },
       {
-        "text": "崇拜/喜爱",
+        "text": "澄清",
         "isCorrect": false
       }
     ]
@@ -20569,22 +20569,22 @@ module.exports = [
     "meaning": "破坏",
     "example": "La guerra distrugge tutto.",
     "example_meaning": "战争破坏一切。",
-    "detail": "原型：Distruggere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Distruggere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nDistruggo, Distruggi, Distrugge, Distruggiamo, Distruggete, Distruggono",
     "options": [
+      {
+        "text": "拉/扔",
+        "isCorrect": false
+      },
+      {
+        "text": "偷看",
+        "isCorrect": false
+      },
       {
         "text": "破坏",
         "isCorrect": true
       },
       {
-        "text": "联系/结合",
-        "isCorrect": false
-      },
-      {
-        "text": "说明理由/激励",
-        "isCorrect": false
-      },
-      {
-        "text": "偷看",
+        "text": "赦免",
         "isCorrect": false
       }
     ]
@@ -20598,18 +20598,18 @@ module.exports = [
     "meaning": "拆除",
     "example": "Hanno demolito il vecchio edificio.",
     "example_meaning": "他们拆除了旧建筑。",
-    "detail": "原型：Demolire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Demolire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nDemolo, Demoli, Demole, Demoliamo, Demolite, Demolono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "节省",
+        "text": "观察/遵守",
         "isCorrect": false
       },
       {
-        "text": "容忍",
+        "text": "帮助",
         "isCorrect": false
       },
       {
-        "text": "取决于",
+        "text": "偷看",
         "isCorrect": false
       },
       {
@@ -20627,22 +20627,22 @@ module.exports = [
     "meaning": "消除",
     "example": "Elimina i file inutili.",
     "example_meaning": "删除无用的文件。",
-    "detail": "原型：Eliminare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Eliminare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nElimino, Elimini, Elimina, Eliminiamo, Eliminate, Eliminano",
     "options": [
+      {
+        "text": "批评",
+        "isCorrect": false
+      },
       {
         "text": "消除",
         "isCorrect": true
       },
       {
-        "text": "分离",
+        "text": "行政/管理",
         "isCorrect": false
       },
       {
-        "text": "计划",
-        "isCorrect": false
-      },
-      {
-        "text": "混合",
+        "text": "编程/计划",
         "isCorrect": false
       }
     ]
@@ -20656,23 +20656,23 @@ module.exports = [
     "meaning": "删除",
     "example": "Cancella la lavagna.",
     "example_meaning": "擦黑板。",
-    "detail": "原型：Cancellare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Cancellare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nCancello, Cancelli, Cancella, Cancelliamo, Cancellate, Cancellano",
     "options": [
+      {
+        "text": "投资/撞",
+        "isCorrect": false
+      },
+      {
+        "text": "学习",
+        "isCorrect": false
+      },
+      {
+        "text": "谈判",
+        "isCorrect": false
+      },
       {
         "text": "删除",
         "isCorrect": true
-      },
-      {
-        "text": "培训/形成",
-        "isCorrect": false
-      },
-      {
-        "text": "管理",
-        "isCorrect": false
-      },
-      {
-        "text": "节省",
-        "isCorrect": false
       }
     ]
   },
@@ -20685,22 +20685,22 @@ module.exports = [
     "meaning": "移除",
     "example": "Rimuovi la macchia.",
     "example_meaning": "去除污渍。",
-    "detail": "原型：Rimuovere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Rimuovere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nRimuovo, Rimuovi, Rimuove, Rimuoviamo, Rimuovete, Rimuovono",
     "options": [
-      {
-        "text": "打击/劝阻",
-        "isCorrect": false
-      },
-      {
-        "text": "贡献",
-        "isCorrect": false
-      },
       {
         "text": "移除",
         "isCorrect": true
       },
       {
-        "text": "收集/捡起",
+        "text": "细细品味",
+        "isCorrect": false
+      },
+      {
+        "text": "说明理由/激励",
+        "isCorrect": false
+      },
+      {
+        "text": "退休",
         "isCorrect": false
       }
     ]
@@ -20714,23 +20714,23 @@ module.exports = [
     "meaning": "移动",
     "example": "Sposta la sedia.",
     "example_meaning": "移动椅子。",
-    "detail": "原型：Spostare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Spostare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSposto, Sposti, Sposta, Spostiamo, Spostate, Spostano",
     "options": [
       {
-        "text": "自动化",
-        "isCorrect": false
-      },
-      {
-        "text": "证明/演示",
-        "isCorrect": false
-      },
-      {
-        "text": "贡献",
+        "text": "控制/检查",
         "isCorrect": false
       },
       {
         "text": "移动",
         "isCorrect": true
+      },
+      {
+        "text": "教育",
+        "isCorrect": false
+      },
+      {
+        "text": "有影响",
+        "isCorrect": false
       }
     ]
   },
@@ -20743,23 +20743,23 @@ module.exports = [
     "meaning": "转移",
     "example": "Si è trasferito a Milano.",
     "example_meaning": "他搬到了米兰。",
-    "detail": "原型：Trasferire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Trasferire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nTrasfero, Trasferi, Trasfere, Trasferiamo, Trasferite, Trasferono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "获取",
+        "text": "隐约看见",
         "isCorrect": false
       },
       {
-        "text": "常去/交往",
-        "isCorrect": false
-      },
-      {
-        "text": "描述",
+        "text": "失去",
         "isCorrect": false
       },
       {
         "text": "转移",
         "isCorrect": true
+      },
+      {
+        "text": "尊重/遵守",
+        "isCorrect": false
       }
     ]
   },
@@ -20772,23 +20772,23 @@ module.exports = [
     "meaning": "运输",
     "example": "Il camion trasporta merci.",
     "example_meaning": "卡车运输货物。",
-    "detail": "原型：Trasportare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Trasportare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nTrasporto, Trasporti, Trasporta, Trasportiamo, Trasportate, Trasportano",
     "options": [
       {
-        "text": "听",
+        "text": "混合",
         "isCorrect": false
       },
       {
-        "text": "带",
+        "text": "原谅/辩解",
+        "isCorrect": false
+      },
+      {
+        "text": "谈判",
         "isCorrect": false
       },
       {
         "text": "运输",
         "isCorrect": true
-      },
-      {
-        "text": "创造",
-        "isCorrect": false
       }
     ]
   },
@@ -20801,23 +20801,23 @@ module.exports = [
     "meaning": "带",
     "example": "Porta un amico.",
     "example_meaning": "带个朋友来。",
-    "detail": "原型：Portare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Portare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPorto, Porti, Porta, Portiamo, Portate, Portano",
     "options": [
+      {
+        "text": "挑衅/引起",
+        "isCorrect": false
+      },
+      {
+        "text": "收集/捡起",
+        "isCorrect": false
+      },
+      {
+        "text": "避免",
+        "isCorrect": false
+      },
       {
         "text": "带",
         "isCorrect": true
-      },
-      {
-        "text": "操纵",
-        "isCorrect": false
-      },
-      {
-        "text": "辩护/保卫",
-        "isCorrect": false
-      },
-      {
-        "text": "应用",
-        "isCorrect": false
       }
     ]
   },
@@ -20830,23 +20830,23 @@ module.exports = [
     "meaning": "带来/造成",
     "example": "Ciò può recare danni.",
     "example_meaning": "这可能造成损害。",
-    "detail": "原型：Recare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Recare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nReco, Reci, Reca, Reciamo, Recate, Recano",
     "options": [
+      {
+        "text": "驳回/击退",
+        "isCorrect": false
+      },
+      {
+        "text": "自动化",
+        "isCorrect": false
+      },
+      {
+        "text": "观察/遵守",
+        "isCorrect": false
+      },
       {
         "text": "带来/造成",
         "isCorrect": true
-      },
-      {
-        "text": "违反",
-        "isCorrect": false
-      },
-      {
-        "text": "操纵",
-        "isCorrect": false
-      },
-      {
-        "text": "区别",
-        "isCorrect": false
       }
     ]
   },
@@ -20859,22 +20859,22 @@ module.exports = [
     "meaning": "引起",
     "example": "Il fumo causa malattie.",
     "example_meaning": "吸烟引起疾病。",
-    "detail": "原型：Causare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Causare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nCauso, Causi, Causa, Causiamo, Causate, Causano",
     "options": [
       {
         "text": "引起",
         "isCorrect": true
       },
       {
-        "text": "分析",
+        "text": "澄清",
         "isCorrect": false
       },
       {
-        "text": "获取",
+        "text": "欢迎/接待",
         "isCorrect": false
       },
       {
-        "text": "避免",
+        "text": "帮助",
         "isCorrect": false
       }
     ]
@@ -20888,14 +20888,14 @@ module.exports = [
     "meaning": "挑衅/引起",
     "example": "Non provocarmi.",
     "example_meaning": "别挑衅我。",
-    "detail": "原型：Provocare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Provocare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nProvoco, Provoci, Provoca, Provociamo, Provocate, Provocano",
     "options": [
       {
-        "text": "容忍",
+        "text": "按/压",
         "isCorrect": false
       },
       {
-        "text": "参观/拜访",
+        "text": "发现",
         "isCorrect": false
       },
       {
@@ -20903,7 +20903,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "利用",
+        "text": "观察/遵守",
         "isCorrect": false
       }
     ]
@@ -20917,22 +20917,22 @@ module.exports = [
     "meaning": "决定/导致",
     "example": "Questo fattore determina il risultato.",
     "example_meaning": "这个因素决定结果。",
-    "detail": "原型：Determinare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Determinare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nDetermino, Determini, Determina, Determiniamo, Determinate, Determinano",
     "options": [
+      {
+        "text": "浪费",
+        "isCorrect": false
+      },
+      {
+        "text": "试/尝试/证明",
+        "isCorrect": false
+      },
       {
         "text": "决定/导致",
         "isCorrect": true
       },
       {
-        "text": "最大化",
-        "isCorrect": false
-      },
-      {
-        "text": "总结/结束",
-        "isCorrect": false
-      },
-      {
-        "text": "优化",
+        "text": "讲述",
         "isCorrect": false
       }
     ]
@@ -20946,23 +20946,23 @@ module.exports = [
     "meaning": "有影响",
     "example": "Il tempo influisce sull'umore.",
     "example_meaning": "天气影响情绪。",
-    "detail": "原型：Influire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Influire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nInfluo, Influi, Influe, Influiamo, Influite, Influono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "邀请",
-        "isCorrect": false
-      },
-      {
-        "text": "抚摸/探测",
-        "isCorrect": false
-      },
-      {
-        "text": "打破/违反",
+        "text": "应用",
         "isCorrect": false
       },
       {
         "text": "有影响",
         "isCorrect": true
+      },
+      {
+        "text": "招待/容纳",
+        "isCorrect": false
+      },
+      {
+        "text": "推",
+        "isCorrect": false
       }
     ]
   },
@@ -20975,23 +20975,23 @@ module.exports = [
     "meaning": "取决于",
     "example": "Dipende da te.",
     "example_meaning": "这取决于你。",
-    "detail": "原型：Dipendere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Dipendere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nDipendo, Dipendi, Dipende, Dipendiamo, Dipendete, Dipendono",
     "options": [
       {
-        "text": "移动",
+        "text": "利用",
         "isCorrect": false
       },
       {
-        "text": "获得",
+        "text": "抚摸/探测",
+        "isCorrect": false
+      },
+      {
+        "text": "论证",
         "isCorrect": false
       },
       {
         "text": "取决于",
         "isCorrect": true
-      },
-      {
-        "text": "逃走",
-        "isCorrect": false
       }
     ]
   },
@@ -21004,22 +21004,22 @@ module.exports = [
     "meaning": "获得/随之而来",
     "example": "Ha conseguito la laurea.",
     "example_meaning": "他获得了学位。",
-    "detail": "原型：Conseguire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Conseguire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nConseguo, Consegui, Consegue, Conseguiamo, Conseguite, Conseguono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
+      {
+        "text": "原谅/辩解",
+        "isCorrect": false
+      },
+      {
+        "text": "信息化",
+        "isCorrect": false
+      },
       {
         "text": "获得/随之而来",
         "isCorrect": true
       },
       {
-        "text": "瞥见",
-        "isCorrect": false
-      },
-      {
-        "text": "拒绝",
-        "isCorrect": false
-      },
-      {
-        "text": "阻碍",
+        "text": "不赞成",
         "isCorrect": false
       }
     ]
@@ -21033,23 +21033,23 @@ module.exports = [
     "meaning": "获得",
     "example": "Ha ottenuto un buon voto.",
     "example_meaning": "他得了个好分数。",
-    "detail": "原型：Ottenere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Ottenere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nOtteno, Otteni, Ottene, Otteniamo, Ottenete, Ottenono",
     "options": [
       {
-        "text": "获得",
-        "isCorrect": true
+        "text": "尊重/遵守",
+        "isCorrect": false
       },
       {
         "text": "移动",
         "isCorrect": false
       },
       {
-        "text": "招待/容纳",
+        "text": "拒绝",
         "isCorrect": false
       },
       {
-        "text": "闻",
-        "isCorrect": false
+        "text": "获得",
+        "isCorrect": true
       }
     ]
   },
@@ -21062,18 +21062,18 @@ module.exports = [
     "meaning": "获取",
     "example": "Acquisire nuove competenze.",
     "example_meaning": "获取新技能。",
-    "detail": "原型：Acquisire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Acquisire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nAcquiso, Acquisi, Acquise, Acquisiamo, Acquisite, Acquisono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "挑衅/引起",
+        "text": "带来/造成",
         "isCorrect": false
       },
       {
-        "text": "最大化",
+        "text": "投资/撞",
         "isCorrect": false
       },
       {
-        "text": "展示/介绍",
+        "text": "邀请",
         "isCorrect": false
       },
       {
@@ -21091,22 +21091,22 @@ module.exports = [
     "meaning": "失去",
     "example": "Ho perso il treno.",
     "example_meaning": "我错过了火车。",
-    "detail": "原型：Perdere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Perdere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nPerdo, Perdi, Perde, Perdiamo, Perdete, Perdono",
     "options": [
       {
         "text": "失去",
         "isCorrect": true
       },
       {
-        "text": "抚摸/探测",
+        "text": "分离",
         "isCorrect": false
       },
       {
-        "text": "展示/介绍",
+        "text": "隐约看见",
         "isCorrect": false
       },
       {
-        "text": "输",
+        "text": "浪费",
         "isCorrect": false
       }
     ]
@@ -21120,22 +21120,22 @@ module.exports = [
     "meaning": "赚取/赢得",
     "example": "Guadagna molti soldi.",
     "example_meaning": "他赚很多钱。",
-    "detail": "原型：Guadagnare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Guadagnare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nGuadagno, Guadagni, Guadagna, Guadagniamo, Guadagnate, Guadagnano",
     "options": [
-      {
-        "text": "协调",
-        "isCorrect": false
-      },
-      {
-        "text": "寻找",
-        "isCorrect": false
-      },
       {
         "text": "赚取/赢得",
         "isCorrect": true
       },
       {
-        "text": "实验/体验",
+        "text": "按/压",
+        "isCorrect": false
+      },
+      {
+        "text": "引诱/归纳",
+        "isCorrect": false
+      },
+      {
+        "text": "学习",
         "isCorrect": false
       }
     ]
@@ -21149,22 +21149,22 @@ module.exports = [
     "meaning": "节省",
     "example": "Risparmia energia.",
     "example_meaning": "节约能源。",
-    "detail": "原型：Risparmiare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Risparmiare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nRisparmio, Risparmii, Risparmia, Risparmiiamo, Risparmiate, Risparmiano",
     "options": [
       {
         "text": "节省",
         "isCorrect": true
       },
       {
-        "text": "陈述/展览",
+        "text": "退休",
         "isCorrect": false
       },
       {
-        "text": "论证",
+        "text": "细细品味",
         "isCorrect": false
       },
       {
-        "text": "输",
+        "text": "混合",
         "isCorrect": false
       }
     ]
@@ -21178,22 +21178,22 @@ module.exports = [
     "meaning": "投资/撞",
     "example": "Investire in borsa.",
     "example_meaning": "投资股市。",
-    "detail": "原型：Investire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Investire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nInvesto, Investi, Investe, Investiamo, Investite, Investono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
+      {
+        "text": "阐明/插图",
+        "isCorrect": false
+      },
+      {
+        "text": "消耗",
+        "isCorrect": false
+      },
       {
         "text": "投资/撞",
         "isCorrect": true
       },
       {
-        "text": "挑衅/引起",
-        "isCorrect": false
-      },
-      {
-        "text": "细细品味",
-        "isCorrect": false
-      },
-      {
-        "text": "转移",
+        "text": "发明",
         "isCorrect": false
       }
     ]
@@ -21207,18 +21207,18 @@ module.exports = [
     "meaning": "花费",
     "example": "Non spendere troppo.",
     "example_meaning": "别花太多。",
-    "detail": "原型：Spendere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Spendere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nSpendo, Spendi, Spende, Spendiamo, Spendete, Spendono",
     "options": [
       {
-        "text": "移除",
+        "text": "学习",
         "isCorrect": false
       },
       {
-        "text": "干预/发言",
+        "text": "描述",
         "isCorrect": false
       },
       {
-        "text": "消耗",
+        "text": "打破/违反",
         "isCorrect": false
       },
       {
@@ -21236,22 +21236,22 @@ module.exports = [
     "meaning": "消耗",
     "example": "Questa auto consuma poco.",
     "example_meaning": "这车耗油少。",
-    "detail": "原型：Consumare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Consumare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nConsumo, Consumi, Consuma, Consumiamo, Consumate, Consumano",
     "options": [
       {
         "text": "消耗",
         "isCorrect": true
       },
       {
-        "text": "参与",
+        "text": "获得",
         "isCorrect": false
       },
       {
-        "text": "总结",
+        "text": "闻",
         "isCorrect": false
       },
       {
-        "text": "赚取/赢得",
+        "text": "协助/出席",
         "isCorrect": false
       }
     ]
@@ -21265,22 +21265,22 @@ module.exports = [
     "meaning": "浪费",
     "example": "Non sprecare cibo.",
     "example_meaning": "别浪费食物。",
-    "detail": "原型：Sprecare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sprecare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSpreco, Spreci, Spreca, Spreciamo, Sprecate, Sprecano",
     "options": [
-      {
-        "text": "培训/形成",
-        "isCorrect": false
-      },
-      {
-        "text": "解雇",
-        "isCorrect": false
-      },
       {
         "text": "浪费",
         "isCorrect": true
       },
       {
-        "text": "支持/支撑",
+        "text": "混合",
+        "isCorrect": false
+      },
+      {
+        "text": "看",
+        "isCorrect": false
+      },
+      {
+        "text": "厌恶",
         "isCorrect": false
       }
     ]
@@ -21294,23 +21294,23 @@ module.exports = [
     "meaning": "利用",
     "example": "Utilizza gli strumenti giusti.",
     "example_meaning": "利用正确的工具。",
-    "detail": "原型：Utilizzare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Utilizzare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nUtilizzo, Utilizzi, Utilizza, Utilizziamo, Utilizzate, Utilizzano",
     "options": [
-      {
-        "text": "信息化",
-        "isCorrect": false
-      },
-      {
-        "text": "拒绝",
-        "isCorrect": false
-      },
-      {
-        "text": "获取",
-        "isCorrect": false
-      },
       {
         "text": "利用",
         "isCorrect": true
+      },
+      {
+        "text": "协调",
+        "isCorrect": false
+      },
+      {
+        "text": "总结/结束",
+        "isCorrect": false
+      },
+      {
+        "text": "讨论",
+        "isCorrect": false
       }
     ]
   },
@@ -21323,18 +21323,18 @@ module.exports = [
     "meaning": "使用/花费(时间)",
     "example": "Ho impiegato due ore.",
     "example_meaning": "我花了两个小时。",
-    "detail": "原型：Impiegare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Impiegare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nImpiego, Impiegi, Impiega, Impiegiamo, Impiegate, Impiegano",
     "options": [
       {
-        "text": "打破/违反",
+        "text": "常去/交往",
         "isCorrect": false
       },
       {
-        "text": "听",
+        "text": "跟随/关注",
         "isCorrect": false
       },
       {
-        "text": "创造",
+        "text": "厌恶",
         "isCorrect": false
       },
       {
@@ -21352,23 +21352,23 @@ module.exports = [
     "meaning": "雇佣/承担",
     "example": "Hanno assunto nuovo personale.",
     "example_meaning": "他们雇佣了新员工。",
-    "detail": "原型：Assumere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Assumere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nAssumo, Assumi, Assume, Assumiamo, Assumete, Assumono",
     "options": [
-      {
-        "text": "观察/遵守",
-        "isCorrect": false
-      },
-      {
-        "text": "利用",
-        "isCorrect": false
-      },
-      {
-        "text": "实践",
-        "isCorrect": false
-      },
       {
         "text": "雇佣/承担",
         "isCorrect": true
+      },
+      {
+        "text": "招待/容纳",
+        "isCorrect": false
+      },
+      {
+        "text": "和解",
+        "isCorrect": false
+      },
+      {
+        "text": "预防",
+        "isCorrect": false
       }
     ]
   },
@@ -21381,23 +21381,23 @@ module.exports = [
     "meaning": "解雇",
     "example": "È stato licenziato.",
     "example_meaning": "他被解雇了。",
-    "detail": "原型：Licenziare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Licenziare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nLicenzio, Licenzii, Licenzia, Licenziiamo, Licenziate, Licenziano",
     "options": [
-      {
-        "text": "跟随/关注",
-        "isCorrect": false
-      },
-      {
-        "text": "拉/扔",
-        "isCorrect": false
-      },
-      {
-        "text": "原谅",
-        "isCorrect": false
-      },
       {
         "text": "解雇",
         "isCorrect": true
+      },
+      {
+        "text": "综合",
+        "isCorrect": false
+      },
+      {
+        "text": "参与",
+        "isCorrect": false
+      },
+      {
+        "text": "和解",
+        "isCorrect": false
       }
     ]
   },
@@ -21410,22 +21410,22 @@ module.exports = [
     "meaning": "辞职",
     "example": "Il ministro si è dimesso.",
     "example_meaning": "部长辞职了。",
-    "detail": "原型：Dimettersi (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Dimettersi (动词)。\n请注意根据语境的人称和时态进行变化。",
     "options": [
-      {
-        "text": "展示/介绍",
-        "isCorrect": false
-      },
       {
         "text": "辞职",
         "isCorrect": true
       },
       {
-        "text": "陈述/展览",
+        "text": "利用",
         "isCorrect": false
       },
       {
-        "text": "分离",
+        "text": "推测",
+        "isCorrect": false
+      },
+      {
+        "text": "帮助",
         "isCorrect": false
       }
     ]
@@ -21439,23 +21439,23 @@ module.exports = [
     "meaning": "撤退/退休",
     "example": "Le truppe si ritirano.",
     "example_meaning": "部队撤退。",
-    "detail": "原型：Ritirarsi (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Ritirarsi (动词)。\n请注意根据语境的人称和时态进行变化。",
     "options": [
-      {
-        "text": "获得/随之而来",
-        "isCorrect": false
-      },
-      {
-        "text": "总结",
-        "isCorrect": false
-      },
-      {
-        "text": "干预/发言",
-        "isCorrect": false
-      },
       {
         "text": "撤退/退休",
         "isCorrect": true
+      },
+      {
+        "text": "认识",
+        "isCorrect": false
+      },
+      {
+        "text": "邀请",
+        "isCorrect": false
+      },
+      {
+        "text": "带来/造成",
+        "isCorrect": false
       }
     ]
   },
@@ -21468,23 +21468,23 @@ module.exports = [
     "meaning": "退休",
     "example": "Andrò in pensione presto.",
     "example_meaning": "我很快就要退休了。",
-    "detail": "原型：Pensionare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Pensionare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPensiono, Pensioni, Pensiona, Pensioniamo, Pensionate, Pensionano",
     "options": [
+      {
+        "text": "带来/造成",
+        "isCorrect": false
+      },
+      {
+        "text": "拆除",
+        "isCorrect": false
+      },
+      {
+        "text": "参观/拜访",
+        "isCorrect": false
+      },
       {
         "text": "退休",
         "isCorrect": true
-      },
-      {
-        "text": "摸",
-        "isCorrect": false
-      },
-      {
-        "text": "阻止",
-        "isCorrect": false
-      },
-      {
-        "text": "看见",
-        "isCorrect": false
       }
     ]
   },
@@ -21497,22 +21497,22 @@ module.exports = [
     "meaning": "工作",
     "example": "Lavora sodo.",
     "example_meaning": "他工作努力。",
-    "detail": "原型：Lavorare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Lavorare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nLavoro, Lavori, Lavora, Lavoriamo, Lavorate, Lavorano",
     "options": [
       {
         "text": "工作",
         "isCorrect": true
       },
       {
+        "text": "引诱/归纳",
+        "isCorrect": false
+      },
+      {
+        "text": "克服/超过",
+        "isCorrect": false
+      },
+      {
         "text": "发明",
-        "isCorrect": false
-      },
-      {
-        "text": "抚摸/探测",
-        "isCorrect": false
-      },
-      {
-        "text": "促进/偏袒",
         "isCorrect": false
       }
     ]
@@ -21526,10 +21526,14 @@ module.exports = [
     "meaning": "学习",
     "example": "Studia per l'esame.",
     "example_meaning": "为考试学习。",
-    "detail": "原型：Studiare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Studiare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nStudio, Studii, Studia, Studiiamo, Studiate, Studiano",
     "options": [
       {
         "text": "欢迎/接待",
+        "isCorrect": false
+      },
+      {
+        "text": "协助/出席",
         "isCorrect": false
       },
       {
@@ -21537,11 +21541,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "恨",
-        "isCorrect": false
-      },
-      {
-        "text": "忍受",
+        "text": "撤退/退休",
         "isCorrect": false
       }
     ]
@@ -21555,23 +21555,23 @@ module.exports = [
     "meaning": "学会",
     "example": "Voglio imparare l'inglese.",
     "example_meaning": "我想学英语。",
-    "detail": "原型：Imparare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Imparare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nImparo, Impari, Impara, Impariamo, Imparate, Imparano",
     "options": [
+      {
+        "text": "培训/形成",
+        "isCorrect": false
+      },
+      {
+        "text": "澄清",
+        "isCorrect": false
+      },
+      {
+        "text": "讨论",
+        "isCorrect": false
+      },
       {
         "text": "学会",
         "isCorrect": true
-      },
-      {
-        "text": "得出结论",
-        "isCorrect": false
-      },
-      {
-        "text": "收集/捡起",
-        "isCorrect": false
-      },
-      {
-        "text": "发现",
-        "isCorrect": false
       }
     ]
   },
@@ -21584,22 +21584,22 @@ module.exports = [
     "meaning": "教",
     "example": "Insegna matematica.",
     "example_meaning": "他教数学。",
-    "detail": "原型：Insegnare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Insegnare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nInsegno, Insegni, Insegna, Insegniamo, Insegnate, Insegnano",
     "options": [
-      {
-        "text": "赦免",
-        "isCorrect": false
-      },
-      {
-        "text": "攻击/粘贴",
-        "isCorrect": false
-      },
       {
         "text": "教",
         "isCorrect": true
       },
       {
-        "text": "挑衅/引起",
+        "text": "比作/比较",
+        "isCorrect": false
+      },
+      {
+        "text": "连接",
+        "isCorrect": false
+      },
+      {
+        "text": "推论",
         "isCorrect": false
       }
     ]
@@ -21613,23 +21613,23 @@ module.exports = [
     "meaning": "教育",
     "example": "Educare i figli è difficile.",
     "example_meaning": "教育孩子很难。",
-    "detail": "原型：Educare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Educare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nEduco, Educi, Educa, Educiamo, Educate, Educano",
     "options": [
-      {
-        "text": "培训/形成",
-        "isCorrect": false
-      },
-      {
-        "text": "赦免",
-        "isCorrect": false
-      },
-      {
-        "text": "行政/管理",
-        "isCorrect": false
-      },
       {
         "text": "教育",
         "isCorrect": true
+      },
+      {
+        "text": "投资/撞",
+        "isCorrect": false
+      },
+      {
+        "text": "运输",
+        "isCorrect": false
+      },
+      {
+        "text": "辩论",
+        "isCorrect": false
       }
     ]
   },
@@ -21642,22 +21642,22 @@ module.exports = [
     "meaning": "培训/形成",
     "example": "Formare una squadra.",
     "example_meaning": "组建一个团队。",
-    "detail": "原型：Formare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Formare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nFormo, Formi, Forma, Formiamo, Formate, Formano",
     "options": [
-      {
-        "text": "删除",
-        "isCorrect": false
-      },
-      {
-        "text": "综合",
-        "isCorrect": false
-      },
       {
         "text": "培训/形成",
         "isCorrect": true
       },
       {
-        "text": "得出结论",
+        "text": "陈述/展览",
+        "isCorrect": false
+      },
+      {
+        "text": "节省",
+        "isCorrect": false
+      },
+      {
+        "text": "辩解/证明...正当",
         "isCorrect": false
       }
     ]
@@ -21671,22 +21671,22 @@ module.exports = [
     "meaning": "训练",
     "example": "Allena i muscoli.",
     "example_meaning": "锻炼肌肉。",
-    "detail": "原型：Allenare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Allenare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAlleno, Alleni, Allena, Alleniamo, Allenate, Allenano",
     "options": [
       {
         "text": "训练",
         "isCorrect": true
       },
       {
-        "text": "数字化",
+        "text": "参与",
         "isCorrect": false
       },
       {
-        "text": "转移",
+        "text": "尊重/遵守",
         "isCorrect": false
       },
       {
-        "text": "获取",
+        "text": "原谅",
         "isCorrect": false
       }
     ]
@@ -21700,14 +21700,10 @@ module.exports = [
     "meaning": "练习/行使",
     "example": "Esercita il diritto di voto.",
     "example_meaning": "行使投票权。",
-    "detail": "原型：Esercitare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Esercitare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nEsercito, Eserciti, Esercita, Esercitiamo, Esercitate, Esercitano",
     "options": [
       {
-        "text": "拒绝",
-        "isCorrect": false
-      },
-      {
-        "text": "瞥见",
+        "text": "使用/花费(时间)",
         "isCorrect": false
       },
       {
@@ -21715,7 +21711,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "挑衅/引起",
+        "text": "展示/介绍",
+        "isCorrect": false
+      },
+      {
+        "text": "发现",
         "isCorrect": false
       }
     ]
@@ -21729,23 +21729,23 @@ module.exports = [
     "meaning": "实践",
     "example": "Pratica uno sport.",
     "example_meaning": "从事一项运动。",
-    "detail": "原型：Praticare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Praticare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPratico, Pratici, Pratica, Praticiamo, Praticate, Praticano",
     "options": [
+      {
+        "text": "引起",
+        "isCorrect": false
+      },
+      {
+        "text": "联合/合并",
+        "isCorrect": false
+      },
+      {
+        "text": "隐约看见",
+        "isCorrect": false
+      },
       {
         "text": "实践",
         "isCorrect": true
-      },
-      {
-        "text": "练习/行使",
-        "isCorrect": false
-      },
-      {
-        "text": "应用",
-        "isCorrect": false
-      },
-      {
-        "text": "阻碍",
-        "isCorrect": false
       }
     ]
   },
@@ -21758,18 +21758,18 @@ module.exports = [
     "meaning": "应用",
     "example": "Applica la regola.",
     "example_meaning": "应用规则。",
-    "detail": "原型：Applicare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Applicare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nApplico, Applici, Applica, Appliciamo, Applicate, Applicano",
     "options": [
       {
-        "text": "忍受",
+        "text": "总结",
         "isCorrect": false
       },
       {
-        "text": "获取",
+        "text": "看见",
         "isCorrect": false
       },
       {
-        "text": "失败",
+        "text": "拉/扔",
         "isCorrect": false
       },
       {
@@ -21787,23 +21787,23 @@ module.exports = [
     "meaning": "建立理论",
     "example": "È facile teorizzare.",
     "example_meaning": "建立理论很容易。",
-    "detail": "原型：Teorizzare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Teorizzare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nTeorizzo, Teorizzi, Teorizza, Teorizziamo, Teorizzate, Teorizzano",
     "options": [
       {
-        "text": "联合/合并",
+        "text": "邀请",
+        "isCorrect": false
+      },
+      {
+        "text": "容忍",
+        "isCorrect": false
+      },
+      {
+        "text": "运输",
         "isCorrect": false
       },
       {
         "text": "建立理论",
         "isCorrect": true
-      },
-      {
-        "text": "假设",
-        "isCorrect": false
-      },
-      {
-        "text": "参观/拜访",
-        "isCorrect": false
       }
     ]
   },
@@ -21816,10 +21816,10 @@ module.exports = [
     "meaning": "假设",
     "example": "Possiamo ipotizzare che...",
     "example_meaning": "我们可以假设...",
-    "detail": "原型：Ipotizzare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Ipotizzare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nIpotizzo, Ipotizzi, Ipotizza, Ipotizziamo, Ipotizzate, Ipotizzano",
     "options": [
       {
-        "text": "实验/体验",
+        "text": "花费",
         "isCorrect": false
       },
       {
@@ -21827,11 +21827,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "集合",
+        "text": "推测",
         "isCorrect": false
       },
       {
-        "text": "原谅/辩解",
+        "text": "嗅出",
         "isCorrect": false
       }
     ]
@@ -21845,22 +21845,22 @@ module.exports = [
     "meaning": "假定",
     "example": "Suppongo che sia vero.",
     "example_meaning": "我假定这是真的。",
-    "detail": "原型：Supporre (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Supporre。\n这是一个缩略形式的不规则动词 (源自拉丁语)，变位通常不规则。",
     "options": [
-      {
-        "text": "原谅",
-        "isCorrect": false
-      },
       {
         "text": "假定",
         "isCorrect": true
       },
       {
-        "text": "实验/体验",
+        "text": "避免",
         "isCorrect": false
       },
       {
-        "text": "输",
+        "text": "认识",
+        "isCorrect": false
+      },
+      {
+        "text": "引诱/归纳",
         "isCorrect": false
       }
     ]
@@ -21874,23 +21874,23 @@ module.exports = [
     "meaning": "推测",
     "example": "Il dottor Livingstone, presumo.",
     "example_meaning": "我想是利文斯顿博士吧。",
-    "detail": "原型：Presumere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Presumere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nPresumo, Presumi, Presume, Presumiamo, Presumete, Presumono",
     "options": [
+      {
+        "text": "优化",
+        "isCorrect": false
+      },
+      {
+        "text": "避免",
+        "isCorrect": false
+      },
+      {
+        "text": "隐藏",
+        "isCorrect": false
+      },
       {
         "text": "推测",
         "isCorrect": true
-      },
-      {
-        "text": "教育",
-        "isCorrect": false
-      },
-      {
-        "text": "使用/花费(时间)",
-        "isCorrect": false
-      },
-      {
-        "text": "跟随/关注",
-        "isCorrect": false
       }
     ]
   },
@@ -21903,23 +21903,23 @@ module.exports = [
     "meaning": "推论",
     "example": "Cosa deduci da questo?",
     "example_meaning": "你从中推论出什么？",
-    "detail": "原型：Dedurre (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Dedurre。\n这是一个缩略形式的不规则动词 (源自拉丁语)，变位通常不规则。",
     "options": [
       {
-        "text": "移除",
+        "text": "应用",
         "isCorrect": false
       },
       {
-        "text": "使用/花费(时间)",
+        "text": "控制/检查",
+        "isCorrect": false
+      },
+      {
+        "text": "成功",
         "isCorrect": false
       },
       {
         "text": "推论",
         "isCorrect": true
-      },
-      {
-        "text": "原谅/辩解",
-        "isCorrect": false
       }
     ]
   },
@@ -21932,22 +21932,22 @@ module.exports = [
     "meaning": "引诱/归纳",
     "example": "Non indurmi in tentazione.",
     "example_meaning": "别引诱我。",
-    "detail": "原型：Indurre (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Indurre。\n这是一个缩略形式的不规则动词 (源自拉丁语)，变位通常不规则。",
     "options": [
-      {
-        "text": "决定/导致",
-        "isCorrect": false
-      },
       {
         "text": "引诱/归纳",
         "isCorrect": true
       },
       {
-        "text": "遇见",
+        "text": "区分",
         "isCorrect": false
       },
       {
-        "text": "接受",
+        "text": "说明理由/激励",
+        "isCorrect": false
+      },
+      {
+        "text": "攻击/粘贴",
         "isCorrect": false
       }
     ]
@@ -21961,18 +21961,18 @@ module.exports = [
     "meaning": "得出结论",
     "example": "Possiamo concludere che...",
     "example_meaning": "我们可以得出结论...",
-    "detail": "原型：Concludere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Concludere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nConcludo, Concludi, Conclude, Concludiamo, Concludete, Concludono",
     "options": [
       {
-        "text": "偷看",
+        "text": "招待/容纳",
         "isCorrect": false
       },
       {
-        "text": "发现",
+        "text": "解雇",
         "isCorrect": false
       },
       {
-        "text": "扔",
+        "text": "逃跑",
         "isCorrect": false
       },
       {
@@ -21990,22 +21990,22 @@ module.exports = [
     "meaning": "论证",
     "example": "Argomenta la tua tesi.",
     "example_meaning": "论证你的论文。",
-    "detail": "原型：Argomentare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Argomentare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nArgomento, Argomenti, Argomenta, Argomentiamo, Argomentate, Argomentano",
     "options": [
+      {
+        "text": "总结/结束",
+        "isCorrect": false
+      },
       {
         "text": "论证",
         "isCorrect": true
       },
       {
-        "text": "贡献",
+        "text": "训练",
         "isCorrect": false
       },
       {
-        "text": "组织",
-        "isCorrect": false
-      },
-      {
-        "text": "阐明/插图",
+        "text": "观察/遵守",
         "isCorrect": false
       }
     ]
@@ -22019,22 +22019,22 @@ module.exports = [
     "meaning": "讨论",
     "example": "Discutiamo del problema.",
     "example_meaning": "我们要讨论这个问题。",
-    "detail": "原型：Discutere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Discutere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nDiscuto, Discuti, Discute, Discutiamo, Discutete, Discutono",
     "options": [
-      {
-        "text": "数字化",
-        "isCorrect": false
-      },
       {
         "text": "讨论",
         "isCorrect": true
       },
       {
-        "text": "输",
+        "text": "说服",
         "isCorrect": false
       },
       {
-        "text": "批准/赞成",
+        "text": "建造",
+        "isCorrect": false
+      },
+      {
+        "text": "解释",
         "isCorrect": false
       }
     ]
@@ -22048,10 +22048,14 @@ module.exports = [
     "meaning": "辩论",
     "example": "Hanno dibattuto a lungo.",
     "example_meaning": "他们辩论了很久。",
-    "detail": "原型：Dibattere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Dibattere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nDibatto, Dibatti, Dibatte, Dibattiamo, Dibattete, Dibattono",
     "options": [
       {
-        "text": "攻击/粘贴",
+        "text": "讲述",
+        "isCorrect": false
+      },
+      {
+        "text": "隐藏",
         "isCorrect": false
       },
       {
@@ -22059,11 +22063,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "总结/结束",
-        "isCorrect": false
-      },
-      {
-        "text": "辩解/证明...正当",
+        "text": "认识",
         "isCorrect": false
       }
     ]
@@ -22077,23 +22077,23 @@ module.exports = [
     "meaning": "谈判",
     "example": "Negoziare un accordo.",
     "example_meaning": "谈判达成协议。",
-    "detail": "原型：Negoziare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Negoziare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nNegozio, Negozii, Negozia, Negoziiamo, Negoziate, Negoziano",
     "options": [
+      {
+        "text": "看见",
+        "isCorrect": false
+      },
+      {
+        "text": "虚拟化",
+        "isCorrect": false
+      },
+      {
+        "text": "盯着/固定",
+        "isCorrect": false
+      },
       {
         "text": "谈判",
         "isCorrect": true
-      },
-      {
-        "text": "原谅",
-        "isCorrect": false
-      },
-      {
-        "text": "逃跑",
-        "isCorrect": false
-      },
-      {
-        "text": "对待/洽谈",
-        "isCorrect": false
       }
     ]
   },
@@ -22106,22 +22106,22 @@ module.exports = [
     "meaning": "对待/洽谈",
     "example": "Trattami bene.",
     "example_meaning": "对我好点。",
-    "detail": "原型：Trattare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Trattare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nTratto, Tratti, Tratta, Trattiamo, Trattate, Trattano",
     "options": [
-      {
-        "text": "爱",
-        "isCorrect": false
-      },
-      {
-        "text": "节省",
-        "isCorrect": false
-      },
       {
         "text": "对待/洽谈",
         "isCorrect": true
       },
       {
-        "text": "运输",
+        "text": "跟随/关注",
+        "isCorrect": false
+      },
+      {
+        "text": "带",
+        "isCorrect": false
+      },
+      {
+        "text": "讲述",
         "isCorrect": false
       }
     ]
@@ -22135,18 +22135,18 @@ module.exports = [
     "meaning": "达成一致",
     "example": "Ci siamo accordati sul prezzo.",
     "example_meaning": "我们在价格上达成了一致。",
-    "detail": "原型：Accordarsi (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Accordarsi (动词)。\n请注意根据语境的人称和时态进行变化。",
     "options": [
       {
-        "text": "遇见",
+        "text": "联系/结合",
         "isCorrect": false
       },
       {
-        "text": "联合/合并",
+        "text": "吵架",
         "isCorrect": false
       },
       {
-        "text": "盯着/固定",
+        "text": "总结",
         "isCorrect": false
       },
       {
@@ -22164,22 +22164,22 @@ module.exports = [
     "meaning": "吵架",
     "example": "Smettete di litigare.",
     "example_meaning": "别吵了。",
-    "detail": "原型：Litigare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Litigare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nLitigo, Litigi, Litiga, Litigiamo, Litigate, Litigano",
     "options": [
-      {
-        "text": "驳回/击退",
-        "isCorrect": false
-      },
-      {
-        "text": "不赞成",
-        "isCorrect": false
-      },
       {
         "text": "吵架",
         "isCorrect": true
       },
       {
-        "text": "成功",
+        "text": "邀请",
+        "isCorrect": false
+      },
+      {
+        "text": "带来/造成",
+        "isCorrect": false
+      },
+      {
+        "text": "尊重/遵守",
         "isCorrect": false
       }
     ]
@@ -22193,22 +22193,22 @@ module.exports = [
     "meaning": "拌嘴",
     "example": "Bisticciano sempre.",
     "example_meaning": "他们总是拌嘴。",
-    "detail": "原型：Bisticciare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Bisticciare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nBisticcio, Bisticcii, Bisticcia, Bisticciiamo, Bisticciate, Bisticciano",
     "options": [
+      {
+        "text": "看见",
+        "isCorrect": false
+      },
+      {
+        "text": "讨论",
+        "isCorrect": false
+      },
       {
         "text": "拌嘴",
         "isCorrect": true
       },
       {
-        "text": "轻轻掠过",
-        "isCorrect": false
-      },
-      {
-        "text": "闻",
-        "isCorrect": false
-      },
-      {
-        "text": "紧握/挤",
+        "text": "原谅",
         "isCorrect": false
       }
     ]
@@ -22222,23 +22222,23 @@ module.exports = [
     "meaning": "和解",
     "example": "Si sono rappacificati.",
     "example_meaning": "他们和解了。",
-    "detail": "原型：Rappacificarsi (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Rappacificarsi (动词)。\n请注意根据语境的人称和时态进行变化。",
     "options": [
-      {
-        "text": "赦免",
-        "isCorrect": false
-      },
-      {
-        "text": "使用/花费(时间)",
-        "isCorrect": false
-      },
-      {
-        "text": "节省",
-        "isCorrect": false
-      },
       {
         "text": "和解",
         "isCorrect": true
+      },
+      {
+        "text": "爱",
+        "isCorrect": false
+      },
+      {
+        "text": "偷看",
+        "isCorrect": false
+      },
+      {
+        "text": "撤退/退休",
+        "isCorrect": false
       }
     ]
   },
@@ -22251,23 +22251,23 @@ module.exports = [
     "meaning": "原谅",
     "example": "L'ho perdonato.",
     "example_meaning": "我原谅了他。",
-    "detail": "原型：Perdonare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Perdonare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPerdono, Perdoni, Perdona, Perdoniamo, Perdonate, Perdonano",
     "options": [
       {
-        "text": "撤退/退休",
+        "text": "工作",
         "isCorrect": false
       },
       {
-        "text": "证明/演示",
+        "text": "支持/支撑",
+        "isCorrect": false
+      },
+      {
+        "text": "阻碍",
         "isCorrect": false
       },
       {
         "text": "原谅",
         "isCorrect": true
-      },
-      {
-        "text": "恨",
-        "isCorrect": false
       }
     ]
   },
@@ -22280,23 +22280,23 @@ module.exports = [
     "meaning": "恨",
     "example": "Non odiare nessuno.",
     "example_meaning": "不要恨任何人。",
-    "detail": "原型：Odiar (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Odiar (动词)。\n请注意根据语境的人称和时态进行变化。",
     "options": [
       {
-        "text": "核实",
+        "text": "拆除",
         "isCorrect": false
       },
       {
-        "text": "优化",
+        "text": "常去/交往",
+        "isCorrect": false
+      },
+      {
+        "text": "尊重/遵守",
         "isCorrect": false
       },
       {
         "text": "恨",
         "isCorrect": true
-      },
-      {
-        "text": "预防",
-        "isCorrect": false
       }
     ]
   },
@@ -22309,23 +22309,23 @@ module.exports = [
     "meaning": "爱",
     "example": "Ama il prossimo tuo.",
     "example_meaning": "爱你的邻居。",
-    "detail": "原型：Amare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Amare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAmo, Ami, Ama, Amiamo, Amate, Amano",
     "options": [
       {
-        "text": "雇佣/承担",
+        "text": "摸",
         "isCorrect": false
       },
       {
-        "text": "赦免",
-        "isCorrect": false
-      },
-      {
-        "text": "优化",
+        "text": "认识",
         "isCorrect": false
       },
       {
         "text": "爱",
         "isCorrect": true
+      },
+      {
+        "text": "花费",
+        "isCorrect": false
       }
     ]
   },
@@ -22338,23 +22338,23 @@ module.exports = [
     "meaning": "崇拜/喜爱",
     "example": "Adoro il gelato.",
     "example_meaning": "我喜爱冰淇淋。",
-    "detail": "原型：Adorare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Adorare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAdoro, Adori, Adora, Adoriamo, Adorate, Adorano",
     "options": [
       {
-        "text": "删除",
+        "text": "遇见",
         "isCorrect": false
       },
       {
-        "text": "原谅/辩解",
-        "isCorrect": false
-      },
-      {
-        "text": "决定/导致",
+        "text": "移动",
         "isCorrect": false
       },
       {
         "text": "崇拜/喜爱",
         "isCorrect": true
+      },
+      {
+        "text": "紧握/挤",
+        "isCorrect": false
       }
     ]
   },
@@ -22367,18 +22367,18 @@ module.exports = [
     "meaning": "厌恶",
     "example": "Detesto le bugie.",
     "example_meaning": "我厌恶谎言。",
-    "detail": "原型：Detestare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Detestare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nDetesto, Detesti, Detesta, Detestiamo, Detestate, Detestano",
     "options": [
       {
-        "text": "破坏",
+        "text": "阐明/插图",
         "isCorrect": false
       },
       {
-        "text": "隐藏",
+        "text": "逃走",
         "isCorrect": false
       },
       {
-        "text": "辩护/保卫",
+        "text": "创造",
         "isCorrect": false
       },
       {
@@ -22396,23 +22396,23 @@ module.exports = [
     "meaning": "忍受",
     "example": "Non lo sopporto più.",
     "example_meaning": "我再也受不了他了。",
-    "detail": "原型：Sopportare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sopportare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSopporto, Sopporti, Sopporta, Sopportiamo, Sopportate, Sopportano",
     "options": [
       {
-        "text": "假设",
-        "isCorrect": false
-      },
-      {
-        "text": "获得",
-        "isCorrect": false
+        "text": "忍受",
+        "isCorrect": true
       },
       {
         "text": "细细品味",
         "isCorrect": false
       },
       {
-        "text": "忍受",
-        "isCorrect": true
+        "text": "推",
+        "isCorrect": false
+      },
+      {
+        "text": "说服",
+        "isCorrect": false
       }
     ]
   },
@@ -22425,18 +22425,18 @@ module.exports = [
     "meaning": "容忍",
     "example": "Non tollero ritardi.",
     "example_meaning": "我不容忍迟到。",
-    "detail": "原型：Tollerare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Tollerare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nTollero, Tolleri, Tollera, Tolleriamo, Tollerate, Tollerano",
     "options": [
       {
-        "text": "劝说",
+        "text": "阐明/插图",
         "isCorrect": false
       },
       {
-        "text": "组织",
+        "text": "投资/撞",
         "isCorrect": false
       },
       {
-        "text": "带来/造成",
+        "text": "引诱/归纳",
         "isCorrect": false
       },
       {
@@ -22454,14 +22454,10 @@ module.exports = [
     "meaning": "接受",
     "example": "Accetta la sfida.",
     "example_meaning": "接受挑战。",
-    "detail": "原型：Accettare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Accettare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAccetto, Accetti, Accetta, Accettiamo, Accettate, Accettano",
     "options": [
       {
-        "text": "行政/管理",
-        "isCorrect": false
-      },
-      {
-        "text": "创造",
+        "text": "描述",
         "isCorrect": false
       },
       {
@@ -22469,7 +22465,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "推",
+        "text": "编程/计划",
+        "isCorrect": false
+      },
+      {
+        "text": "按/压",
         "isCorrect": false
       }
     ]
@@ -22483,10 +22483,10 @@ module.exports = [
     "meaning": "拒绝",
     "example": "Rifiuta di mangiare.",
     "example_meaning": "他拒绝进食。",
-    "detail": "原型：Rifiutare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Rifiutare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nRifiuto, Rifiuti, Rifiuta, Rifiutiamo, Rifiutate, Rifiutano",
     "options": [
       {
-        "text": "讲述",
+        "text": "按/压",
         "isCorrect": false
       },
       {
@@ -22494,11 +22494,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "支持/支撑",
+        "text": "参与",
         "isCorrect": false
       },
       {
-        "text": "听见/感觉",
+        "text": "干预/发言",
         "isCorrect": false
       }
     ]
@@ -22512,23 +22512,23 @@ module.exports = [
     "meaning": "驳回/击退",
     "example": "L'attacco è stato respinto.",
     "example_meaning": "进攻被击退了。",
-    "detail": "原型：Respingere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Respingere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nRespingo, Respingi, Respinge, Respingiamo, Respingete, Respingono",
     "options": [
       {
-        "text": "谴责/判刑",
+        "text": "利用",
+        "isCorrect": false
+      },
+      {
+        "text": "标准化",
+        "isCorrect": false
+      },
+      {
+        "text": "获得",
         "isCorrect": false
       },
       {
         "text": "驳回/击退",
         "isCorrect": true
-      },
-      {
-        "text": "有影响",
-        "isCorrect": false
-      },
-      {
-        "text": "协调",
-        "isCorrect": false
       }
     ]
   },
@@ -22541,18 +22541,18 @@ module.exports = [
     "meaning": "欢迎/接待",
     "example": "Accogliere gli ospiti.",
     "example_meaning": "接待客人。",
-    "detail": "原型：Accogliere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Accogliere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nAccoglio, Accoglii, Accoglie, Accogliiamo, Accogliete, Accogliono",
     "options": [
       {
-        "text": "不赞成",
+        "text": "说明理由/激励",
         "isCorrect": false
       },
       {
-        "text": "阻碍",
+        "text": "辩护/保卫",
         "isCorrect": false
       },
       {
-        "text": "比较",
+        "text": "促进/偏袒",
         "isCorrect": false
       },
       {
@@ -22570,22 +22570,22 @@ module.exports = [
     "meaning": "招待/容纳",
     "example": "Posso ospitarti io.",
     "example_meaning": "我可以招待你。",
-    "detail": "原型：Ospitare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Ospitare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nOspito, Ospiti, Ospita, Ospitiamo, Ospitate, Ospitano",
     "options": [
+      {
+        "text": "谈判",
+        "isCorrect": false
+      },
       {
         "text": "招待/容纳",
         "isCorrect": true
       },
       {
-        "text": "盯着/固定",
+        "text": "输",
         "isCorrect": false
       },
       {
-        "text": "认识",
-        "isCorrect": false
-      },
-      {
-        "text": "阻止",
+        "text": "管理",
         "isCorrect": false
       }
     ]
@@ -22599,14 +22599,14 @@ module.exports = [
     "meaning": "邀请",
     "example": "Ti invito a cena.",
     "example_meaning": "我请你吃晚饭。",
-    "detail": "原型：Invitare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Invitare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nInvito, Inviti, Invita, Invitiamo, Invitate, Invitano",
     "options": [
       {
-        "text": "邀请",
-        "isCorrect": true
+        "text": "最大化",
+        "isCorrect": false
       },
       {
-        "text": "比作/比较",
+        "text": "容忍",
         "isCorrect": false
       },
       {
@@ -22614,8 +22614,8 @@ module.exports = [
         "isCorrect": false
       },
       {
-        "text": "花费",
-        "isCorrect": false
+        "text": "邀请",
+        "isCorrect": true
       }
     ]
   },
@@ -22628,10 +22628,10 @@ module.exports = [
     "meaning": "参观/拜访",
     "example": "Visita il museo.",
     "example_meaning": "参观博物馆。",
-    "detail": "原型：Visitare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Visitare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nVisito, Visiti, Visita, Visitiamo, Visitate, Visitano",
     "options": [
       {
-        "text": "爱",
+        "text": "消耗",
         "isCorrect": false
       },
       {
@@ -22639,11 +22639,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "触摸/试探",
+        "text": "投资/撞",
         "isCorrect": false
       },
       {
-        "text": "忍受",
+        "text": "获得/随之而来",
         "isCorrect": false
       }
     ]
@@ -22657,23 +22657,23 @@ module.exports = [
     "meaning": "常去/交往",
     "example": "Frequenta brutte compagnie.",
     "example_meaning": "他和坏人交往。",
-    "detail": "原型：Frequentare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Frequentare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nFrequento, Frequenti, Frequenta, Frequentiamo, Frequentate, Frequentano",
     "options": [
-      {
-        "text": "区分",
-        "isCorrect": false
-      },
-      {
-        "text": "收集/捡起",
-        "isCorrect": false
-      },
-      {
-        "text": "拆除",
-        "isCorrect": false
-      },
       {
         "text": "常去/交往",
         "isCorrect": true
+      },
+      {
+        "text": "协调",
+        "isCorrect": false
+      },
+      {
+        "text": "练习/行使",
+        "isCorrect": false
+      },
+      {
+        "text": "恨",
+        "isCorrect": false
       }
     ]
   },
@@ -22686,10 +22686,14 @@ module.exports = [
     "meaning": "认识",
     "example": "Piacere di conoscerti.",
     "example_meaning": "很高兴认识你。",
-    "detail": "原型：Conoscere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Conoscere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nConosco, Conosci, Conosce, Conosciamo, Conoscete, Conoscono",
     "options": [
       {
-        "text": "退休",
+        "text": "说服",
+        "isCorrect": false
+      },
+      {
+        "text": "自动化",
         "isCorrect": false
       },
       {
@@ -22697,11 +22701,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "参与",
-        "isCorrect": false
-      },
-      {
-        "text": "挑衅/引起",
+        "text": "谈判",
         "isCorrect": false
       }
     ]
@@ -22715,14 +22715,10 @@ module.exports = [
     "meaning": "遇见",
     "example": "Ho incontrato un vecchio amico.",
     "example_meaning": "我遇见了一个老朋友。",
-    "detail": "原型：Incontrare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Incontrare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nIncontro, Incontri, Incontra, Incontriamo, Incontrate, Incontrano",
     "options": [
       {
-        "text": "看",
-        "isCorrect": false
-      },
-      {
-        "text": "辩护/保卫",
+        "text": "组织",
         "isCorrect": false
       },
       {
@@ -22730,7 +22726,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "招待/容纳",
+        "text": "观察/遵守",
+        "isCorrect": false
+      },
+      {
+        "text": "打击/劝阻",
         "isCorrect": false
       }
     ]
@@ -22744,23 +22744,23 @@ module.exports = [
     "meaning": "看见",
     "example": "Non vedo l'ora.",
     "example_meaning": "我迫不及待。",
-    "detail": "原型：Vedere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Vedere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nVedo, Vedi, Vede, Vediamo, Vedete, Vedono",
     "options": [
       {
-        "text": "澄清",
+        "text": "虚拟化",
         "isCorrect": false
       },
       {
-        "text": "分析",
-        "isCorrect": false
-      },
-      {
-        "text": "劝说",
+        "text": "信息化",
         "isCorrect": false
       },
       {
         "text": "看见",
         "isCorrect": true
+      },
+      {
+        "text": "欣赏",
+        "isCorrect": false
       }
     ]
   },
@@ -22773,23 +22773,23 @@ module.exports = [
     "meaning": "看",
     "example": "Guardami negli occhi.",
     "example_meaning": "看着我的眼睛。",
-    "detail": "原型：Guardare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Guardare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nGuardo, Guardi, Guarda, Guardiamo, Guardate, Guardano",
     "options": [
-      {
-        "text": "练习/行使",
-        "isCorrect": false
-      },
-      {
-        "text": "引诱/归纳",
-        "isCorrect": false
-      },
-      {
-        "text": "协调",
-        "isCorrect": false
-      },
       {
         "text": "看",
         "isCorrect": true
+      },
+      {
+        "text": "组织",
+        "isCorrect": false
+      },
+      {
+        "text": "认识",
+        "isCorrect": false
+      },
+      {
+        "text": "盯着/固定",
+        "isCorrect": false
       }
     ]
   },
@@ -22802,22 +22802,22 @@ module.exports = [
     "meaning": "盯着/固定",
     "example": "Perché mi fissi?",
     "example_meaning": "你为什么盯着我？",
-    "detail": "原型：Fissare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Fissare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nFisso, Fissi, Fissa, Fissiamo, Fissate, Fissano",
     "options": [
+      {
+        "text": "混淆",
+        "isCorrect": false
+      },
       {
         "text": "盯着/固定",
         "isCorrect": true
       },
       {
-        "text": "成功",
+        "text": "常去/交往",
         "isCorrect": false
       },
       {
-        "text": "辩护/保卫",
-        "isCorrect": false
-      },
-      {
-        "text": "寻找",
+        "text": "克服/超过",
         "isCorrect": false
       }
     ]
@@ -22831,23 +22831,23 @@ module.exports = [
     "meaning": "偷看",
     "example": "Non sbirciare.",
     "example_meaning": "别偷看。",
-    "detail": "原型：Sbirciare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sbirciare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSbircio, Sbircii, Sbircia, Sbirciiamo, Sbirciate, Sbirciano",
     "options": [
       {
-        "text": "消耗",
+        "text": "实验/体验",
         "isCorrect": false
       },
       {
-        "text": "消除",
+        "text": "最小化",
+        "isCorrect": false
+      },
+      {
+        "text": "生产",
         "isCorrect": false
       },
       {
         "text": "偷看",
         "isCorrect": true
-      },
-      {
-        "text": "辩护/保卫",
-        "isCorrect": false
       }
     ]
   },
@@ -22860,22 +22860,22 @@ module.exports = [
     "meaning": "瞥见",
     "example": "Ho scorto una luce.",
     "example_meaning": "我瞥见了一道光。",
-    "detail": "原型：Scorgere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Scorgere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nScorgo, Scorgi, Scorge, Scorgiamo, Scorgete, Scorgono",
     "options": [
+      {
+        "text": "雇佣/承担",
+        "isCorrect": false
+      },
       {
         "text": "瞥见",
         "isCorrect": true
       },
       {
-        "text": "集合",
+        "text": "虚拟化",
         "isCorrect": false
       },
       {
-        "text": "辩护/保卫",
-        "isCorrect": false
-      },
-      {
-        "text": "寻找",
+        "text": "阻止",
         "isCorrect": false
       }
     ]
@@ -22889,23 +22889,23 @@ module.exports = [
     "meaning": "隐约看见",
     "example": "Intravedo una possibilità.",
     "example_meaning": "我隐约看到一种可能性。",
-    "detail": "原型：Intravedere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Intravedere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nIntravedo, Intravedi, Intravede, Intravediamo, Intravedete, Intravedono",
     "options": [
-      {
-        "text": "消耗",
-        "isCorrect": false
-      },
-      {
-        "text": "盯着/固定",
-        "isCorrect": false
-      },
-      {
-        "text": "浪费",
-        "isCorrect": false
-      },
       {
         "text": "隐约看见",
         "isCorrect": true
+      },
+      {
+        "text": "比作/比较",
+        "isCorrect": false
+      },
+      {
+        "text": "失败",
+        "isCorrect": false
+      },
+      {
+        "text": "分离",
+        "isCorrect": false
       }
     ]
   },
@@ -22918,22 +22918,22 @@ module.exports = [
     "meaning": "听见/感觉",
     "example": "Sento freddo.",
     "example_meaning": "我觉得冷。",
-    "detail": "原型：Sentire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sentire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nSento, Senti, Sente, Sentiamo, Sentite, Sentono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
+      {
+        "text": "证明/演示",
+        "isCorrect": false
+      },
       {
         "text": "听见/感觉",
         "isCorrect": true
       },
       {
-        "text": "虚拟化",
+        "text": "批评",
         "isCorrect": false
       },
       {
-        "text": "比较",
-        "isCorrect": false
-      },
-      {
-        "text": "看见",
+        "text": "分析",
         "isCorrect": false
       }
     ]
@@ -22947,18 +22947,18 @@ module.exports = [
     "meaning": "听",
     "example": "Ascoltami bene.",
     "example_meaning": "好好听我说。",
-    "detail": "原型：Ascoltare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Ascoltare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAscolto, Ascolti, Ascolta, Ascoltiamo, Ascoltate, Ascoltano",
     "options": [
       {
-        "text": "转移",
+        "text": "获得/随之而来",
         "isCorrect": false
       },
       {
-        "text": "控制/检查",
+        "text": "浪费",
         "isCorrect": false
       },
       {
-        "text": "面对",
+        "text": "解释",
         "isCorrect": false
       },
       {
@@ -22976,14 +22976,10 @@ module.exports = [
     "meaning": "听见",
     "example": "Non udii nulla.",
     "example_meaning": "我什么也没听见。",
-    "detail": "原型：Udire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Udire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nUdo, Udi, Ude, Udiamo, Udite, Udono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "寻找",
-        "isCorrect": false
-      },
-      {
-        "text": "协助/出席",
+        "text": "违反",
         "isCorrect": false
       },
       {
@@ -22991,7 +22987,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "发现",
+        "text": "对待/洽谈",
+        "isCorrect": false
+      },
+      {
+        "text": "推",
         "isCorrect": false
       }
     ]
@@ -23005,23 +23005,23 @@ module.exports = [
     "meaning": "闻",
     "example": "Annusa questo profumo.",
     "example_meaning": "闻闻这香水。",
-    "detail": "原型：Annusare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Annusare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAnnuso, Annusi, Annusa, Annusiamo, Annusate, Annusano",
     "options": [
+      {
+        "text": "数字化",
+        "isCorrect": false
+      },
+      {
+        "text": "删除",
+        "isCorrect": false
+      },
+      {
+        "text": "赦免",
+        "isCorrect": false
+      },
       {
         "text": "闻",
         "isCorrect": true
-      },
-      {
-        "text": "最小化",
-        "isCorrect": false
-      },
-      {
-        "text": "攻击/粘贴",
-        "isCorrect": false
-      },
-      {
-        "text": "解释",
-        "isCorrect": false
       }
     ]
   },
@@ -23034,23 +23034,23 @@ module.exports = [
     "meaning": "嗅出",
     "example": "Il cane fiuta la preda.",
     "example_meaning": "狗嗅出了猎物。",
-    "detail": "原型：Fiutare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Fiutare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nFiuto, Fiuti, Fiuta, Fiutiamo, Fiutate, Fiutano",
     "options": [
       {
-        "text": "推论",
+        "text": "容忍",
         "isCorrect": false
       },
       {
-        "text": "优化",
-        "isCorrect": false
-      },
-      {
-        "text": "挑衅/引起",
+        "text": "遇见",
         "isCorrect": false
       },
       {
         "text": "嗅出",
         "isCorrect": true
+      },
+      {
+        "text": "违反",
+        "isCorrect": false
       }
     ]
   },
@@ -23063,23 +23063,23 @@ module.exports = [
     "meaning": "品尝/享受",
     "example": "Gusta il momento.",
     "example_meaning": "享受当下。",
-    "detail": "原型：Gustare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Gustare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nGusto, Gusti, Gusta, Gustiamo, Gustate, Gustano",
     "options": [
-      {
-        "text": "教",
-        "isCorrect": false
-      },
-      {
-        "text": "推",
-        "isCorrect": false
-      },
-      {
-        "text": "有影响",
-        "isCorrect": false
-      },
       {
         "text": "品尝/享受",
         "isCorrect": true
+      },
+      {
+        "text": "贡献",
+        "isCorrect": false
+      },
+      {
+        "text": "失败",
+        "isCorrect": false
+      },
+      {
+        "text": "成功",
+        "isCorrect": false
       }
     ]
   },
@@ -23092,23 +23092,23 @@ module.exports = [
     "meaning": "细细品味",
     "example": "Assapora il vino.",
     "example_meaning": "细细品味这酒。",
-    "detail": "原型：Assaporare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Assaporare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAssaporo, Assapori, Assapora, Assaporiamo, Assaporate, Assaporano",
     "options": [
-      {
-        "text": "最大化",
-        "isCorrect": false
-      },
-      {
-        "text": "偷看",
-        "isCorrect": false
-      },
-      {
-        "text": "工作",
-        "isCorrect": false
-      },
       {
         "text": "细细品味",
         "isCorrect": true
+      },
+      {
+        "text": "挑衅/引起",
+        "isCorrect": false
+      },
+      {
+        "text": "容忍",
+        "isCorrect": false
+      },
+      {
+        "text": "预防",
+        "isCorrect": false
       }
     ]
   },
@@ -23121,22 +23121,22 @@ module.exports = [
     "meaning": "摸",
     "example": "Si prega di non toccare.",
     "example_meaning": "请勿触摸。",
-    "detail": "原型：Toccare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Toccare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nTocco, Tocci, Tocca, Tocciamo, Toccate, Toccano",
     "options": [
       {
         "text": "摸",
         "isCorrect": true
       },
       {
-        "text": "控制/检查",
+        "text": "退休",
         "isCorrect": false
       },
       {
-        "text": "对待/洽谈",
+        "text": "实践",
         "isCorrect": false
       },
       {
-        "text": "和解",
+        "text": "克服/超过",
         "isCorrect": false
       }
     ]
@@ -23150,23 +23150,23 @@ module.exports = [
     "meaning": "轻轻掠过",
     "example": "La palla ha sfiorato il palo.",
     "example_meaning": "球擦过门柱。",
-    "detail": "原型：Sfiorare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sfiorare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSfioro, Sfiori, Sfiora, Sfioriamo, Sfiorate, Sfiorano",
     "options": [
+      {
+        "text": "辩护/保卫",
+        "isCorrect": false
+      },
+      {
+        "text": "生产",
+        "isCorrect": false
+      },
+      {
+        "text": "瞥见",
+        "isCorrect": false
+      },
       {
         "text": "轻轻掠过",
         "isCorrect": true
-      },
-      {
-        "text": "违反",
-        "isCorrect": false
-      },
-      {
-        "text": "看",
-        "isCorrect": false
-      },
-      {
-        "text": "破坏",
-        "isCorrect": false
       }
     ]
   },
@@ -23179,22 +23179,22 @@ module.exports = [
     "meaning": "抚摸/探测",
     "example": "Il medico palpò l'addome.",
     "example_meaning": "医生触诊腹部。",
-    "detail": "原型：Palpare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Palpare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPalpo, Palpi, Palpa, Palpiamo, Palpate, Palpano",
     "options": [
+      {
+        "text": "嗅出",
+        "isCorrect": false
+      },
+      {
+        "text": "吵架",
+        "isCorrect": false
+      },
       {
         "text": "抚摸/探测",
         "isCorrect": true
       },
       {
-        "text": "输",
-        "isCorrect": false
-      },
-      {
-        "text": "恨",
-        "isCorrect": false
-      },
-      {
-        "text": "个性化",
+        "text": "消耗",
         "isCorrect": false
       }
     ]
@@ -23208,23 +23208,23 @@ module.exports = [
     "meaning": "触摸/试探",
     "example": "Tastare il terreno.",
     "example_meaning": "试探情况。",
-    "detail": "原型：Tastare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Tastare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nTasto, Tasti, Tasta, Tastiamo, Tastate, Tastano",
     "options": [
       {
-        "text": "推",
+        "text": "连接",
         "isCorrect": false
       },
       {
-        "text": "节省",
+        "text": "挑衅/引起",
+        "isCorrect": false
+      },
+      {
+        "text": "偷看",
         "isCorrect": false
       },
       {
         "text": "触摸/试探",
         "isCorrect": true
-      },
-      {
-        "text": "干预/发言",
-        "isCorrect": false
       }
     ]
   },
@@ -23237,22 +23237,22 @@ module.exports = [
     "meaning": "紧握/挤",
     "example": "Stringimi forte.",
     "example_meaning": "紧紧抱住我。",
-    "detail": "原型：Stringere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Stringere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nStringo, Stringi, Stringe, Stringiamo, Stringete, Stringono",
     "options": [
       {
         "text": "紧握/挤",
         "isCorrect": true
       },
       {
-        "text": "偷看",
+        "text": "比作/比较",
         "isCorrect": false
       },
       {
-        "text": "比较",
+        "text": "自动化",
         "isCorrect": false
       },
       {
-        "text": "讨论",
+        "text": "看",
         "isCorrect": false
       }
     ]
@@ -23266,22 +23266,22 @@ module.exports = [
     "meaning": "按/压",
     "example": "Premi il pulsante.",
     "example_meaning": "按下按钮。",
-    "detail": "原型：Premere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Premere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nPremo, Premi, Preme, Premiamo, Premete, Premono",
     "options": [
+      {
+        "text": "假设",
+        "isCorrect": false
+      },
       {
         "text": "按/压",
         "isCorrect": true
       },
       {
-        "text": "建造",
+        "text": "赦免",
         "isCorrect": false
       },
       {
-        "text": "数字化",
-        "isCorrect": false
-      },
-      {
-        "text": "阻止",
+        "text": "消耗",
         "isCorrect": false
       }
     ]
@@ -23295,23 +23295,23 @@ module.exports = [
     "meaning": "推",
     "example": "Spingere per aprire.",
     "example_meaning": "推开。",
-    "detail": "原型：Spingere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Spingere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nSpingo, Spingi, Spinge, Spingiamo, Spingete, Spingono",
     "options": [
+      {
+        "text": "协助/出席",
+        "isCorrect": false
+      },
+      {
+        "text": "投资/撞",
+        "isCorrect": false
+      },
+      {
+        "text": "使用/花费(时间)",
+        "isCorrect": false
+      },
       {
         "text": "推",
         "isCorrect": true
-      },
-      {
-        "text": "优化",
-        "isCorrect": false
-      },
-      {
-        "text": "最小化",
-        "isCorrect": false
-      },
-      {
-        "text": "触摸/试探",
-        "isCorrect": false
       }
     ]
   },
@@ -23324,23 +23324,23 @@ module.exports = [
     "meaning": "拉/扔",
     "example": "Tirare per chiudere.",
     "example_meaning": "拉关。",
-    "detail": "原型：Tirare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Tirare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nTiro, Tiri, Tira, Tiriamo, Tirate, Tirano",
     "options": [
-      {
-        "text": "观察/遵守",
-        "isCorrect": false
-      },
-      {
-        "text": "标准化",
-        "isCorrect": false
-      },
-      {
-        "text": "删除",
-        "isCorrect": false
-      },
       {
         "text": "拉/扔",
         "isCorrect": true
+      },
+      {
+        "text": "联系/结合",
+        "isCorrect": false
+      },
+      {
+        "text": "投/发射",
+        "isCorrect": false
+      },
+      {
+        "text": "教育",
+        "isCorrect": false
       }
     ]
   },
@@ -23353,23 +23353,23 @@ module.exports = [
     "meaning": "投/发射",
     "example": "Lancia la palla.",
     "example_meaning": "扔球。",
-    "detail": "原型：Lanciare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Lanciare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nLancio, Lancii, Lancia, Lanciiamo, Lanciate, Lanciano",
     "options": [
+      {
+        "text": "厌恶",
+        "isCorrect": false
+      },
+      {
+        "text": "假设",
+        "isCorrect": false
+      },
+      {
+        "text": "看见",
+        "isCorrect": false
+      },
       {
         "text": "投/发射",
         "isCorrect": true
-      },
-      {
-        "text": "证明/演示",
-        "isCorrect": false
-      },
-      {
-        "text": "区别",
-        "isCorrect": false
-      },
-      {
-        "text": "讲述",
-        "isCorrect": false
       }
     ]
   },
@@ -23382,23 +23382,23 @@ module.exports = [
     "meaning": "扔",
     "example": "Non gettare rifiuti.",
     "example_meaning": "别乱扔垃圾。",
-    "detail": "原型：Gettare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Gettare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nGetto, Getti, Getta, Gettiamo, Gettate, Gettano",
     "options": [
       {
-        "text": "带",
+        "text": "逃跑",
         "isCorrect": false
       },
       {
-        "text": "介绍/引入",
+        "text": "带来/造成",
+        "isCorrect": false
+      },
+      {
+        "text": "干预/发言",
         "isCorrect": false
       },
       {
         "text": "扔",
         "isCorrect": true
-      },
-      {
-        "text": "劝说",
-        "isCorrect": false
       }
     ]
   },
@@ -23411,22 +23411,22 @@ module.exports = [
     "meaning": "扔",
     "example": "Butta la pasta.",
     "example_meaning": "下面条。",
-    "detail": "原型：Buttare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Buttare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nButto, Butti, Butta, Buttiamo, Buttate, Buttano",
     "options": [
       {
         "text": "扔",
         "isCorrect": true
       },
       {
-        "text": "删除",
-        "isCorrect": false
-      },
-      {
         "text": "看",
         "isCorrect": false
       },
       {
-        "text": "培训/形成",
+        "text": "建造",
+        "isCorrect": false
+      },
+      {
+        "text": "带",
         "isCorrect": false
       }
     ]
@@ -23440,23 +23440,23 @@ module.exports = [
     "meaning": "收集/捡起",
     "example": "Raccogli i fiori.",
     "example_meaning": "采花。",
-    "detail": "原型：Raccogliere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Raccogliere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nRaccoglio, Raccoglii, Raccoglie, Raccogliiamo, Raccogliete, Raccogliono",
     "options": [
       {
-        "text": "逃走",
+        "text": "爱",
         "isCorrect": false
       },
       {
-        "text": "招待/容纳",
+        "text": "协助/出席",
+        "isCorrect": false
+      },
+      {
+        "text": "假定",
         "isCorrect": false
       },
       {
         "text": "收集/捡起",
         "isCorrect": true
-      },
-      {
-        "text": "假定",
-        "isCorrect": false
       }
     ]
   },
@@ -23469,23 +23469,23 @@ module.exports = [
     "meaning": "集合",
     "example": "Raduna le tue cose.",
     "example_meaning": "收拾你的东西。",
-    "detail": "原型：Radunare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Radunare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nRaduno, Raduni, Raduna, Raduniamo, Radunate, Radunano",
     "options": [
       {
-        "text": "合作",
+        "text": "和解",
+        "isCorrect": false
+      },
+      {
+        "text": "描述",
+        "isCorrect": false
+      },
+      {
+        "text": "谈判",
         "isCorrect": false
       },
       {
         "text": "集合",
         "isCorrect": true
-      },
-      {
-        "text": "区别",
-        "isCorrect": false
-      },
-      {
-        "text": "解释",
-        "isCorrect": false
       }
     ]
   },
@@ -23498,23 +23498,23 @@ module.exports = [
     "meaning": "优化",
     "example": "Dobbiamo ottimizzare i tempi.",
     "example_meaning": "我们要优化时间。",
-    "detail": "原型：Ottimizzare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Ottimizzare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nOttimizzo, Ottimizzi, Ottimizza, Ottimizziamo, Ottimizzate, Ottimizzano",
     "options": [
       {
-        "text": "总结",
+        "text": "对待/洽谈",
         "isCorrect": false
       },
       {
-        "text": "参与",
-        "isCorrect": false
-      },
-      {
-        "text": "合作",
+        "text": "展示/介绍",
         "isCorrect": false
       },
       {
         "text": "优化",
         "isCorrect": true
+      },
+      {
+        "text": "证明/演示",
+        "isCorrect": false
       }
     ]
   },
@@ -23527,23 +23527,23 @@ module.exports = [
     "meaning": "最大化",
     "example": "Massimizzare i profitti.",
     "example_meaning": "最大化利润。",
-    "detail": "原型：Massimizzare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Massimizzare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nMassimizzo, Massimizzi, Massimizza, Massimizziamo, Massimizzate, Massimizzano",
     "options": [
-      {
-        "text": "逃走",
-        "isCorrect": false
-      },
-      {
-        "text": "有影响",
-        "isCorrect": false
-      },
-      {
-        "text": "驳回/击退",
-        "isCorrect": false
-      },
       {
         "text": "最大化",
         "isCorrect": true
+      },
+      {
+        "text": "花费",
+        "isCorrect": false
+      },
+      {
+        "text": "移动",
+        "isCorrect": false
+      },
+      {
+        "text": "细细品味",
+        "isCorrect": false
       }
     ]
   },
@@ -23556,22 +23556,22 @@ module.exports = [
     "meaning": "最小化",
     "example": "Minimizzare i rischi.",
     "example_meaning": "最小化风险。",
-    "detail": "原型：Minimizzare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Minimizzare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nMinimizzo, Minimizzi, Minimizza, Minimizziamo, Minimizzate, Minimizzano",
     "options": [
-      {
-        "text": "避免",
-        "isCorrect": false
-      },
       {
         "text": "最小化",
         "isCorrect": true
       },
       {
-        "text": "支持/支撑",
+        "text": "找到",
         "isCorrect": false
       },
       {
-        "text": "使用/花费(时间)",
+        "text": "雇佣/承担",
+        "isCorrect": false
+      },
+      {
+        "text": "投/发射",
         "isCorrect": false
       }
     ]
@@ -23585,23 +23585,23 @@ module.exports = [
     "meaning": "标准化",
     "example": "Standardizzare i processi.",
     "example_meaning": "标准化流程。",
-    "detail": "原型：Standardizzare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Standardizzare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nStandardizzo, Standardizzi, Standardizza, Standardizziamo, Standardizzate, Standardizzano",
     "options": [
       {
-        "text": "看见",
-        "isCorrect": false
-      },
-      {
-        "text": "听见",
-        "isCorrect": false
-      },
-      {
-        "text": "讲述",
+        "text": "批评",
         "isCorrect": false
       },
       {
         "text": "标准化",
         "isCorrect": true
+      },
+      {
+        "text": "闻",
+        "isCorrect": false
+      },
+      {
+        "text": "违反",
+        "isCorrect": false
       }
     ]
   },
@@ -23614,23 +23614,23 @@ module.exports = [
     "meaning": "个性化",
     "example": "Personalizza il tuo profilo.",
     "example_meaning": "个性化你的个人资料。",
-    "detail": "原型：Personalizzare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Personalizzare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPersonalizzo, Personalizzi, Personalizza, Personalizziamo, Personalizzate, Personalizzano",
     "options": [
       {
-        "text": "参与",
+        "text": "谈判",
         "isCorrect": false
       },
       {
-        "text": "厌恶",
+        "text": "接受",
+        "isCorrect": false
+      },
+      {
+        "text": "花费",
         "isCorrect": false
       },
       {
         "text": "个性化",
         "isCorrect": true
-      },
-      {
-        "text": "拒绝",
-        "isCorrect": false
       }
     ]
   },
@@ -23643,18 +23643,18 @@ module.exports = [
     "meaning": "自动化",
     "example": "Automatizzare la produzione.",
     "example_meaning": "自动化生产。",
-    "detail": "原型：Automatizzare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Automatizzare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAutomatizzo, Automatizzi, Automatizza, Automatizziamo, Automatizzate, Automatizzano",
     "options": [
       {
-        "text": "解雇",
+        "text": "失败",
         "isCorrect": false
       },
       {
-        "text": "寻找",
+        "text": "观察/遵守",
         "isCorrect": false
       },
       {
-        "text": "看",
+        "text": "达成一致",
         "isCorrect": false
       },
       {
@@ -23672,23 +23672,23 @@ module.exports = [
     "meaning": "信息化",
     "example": "L'ufficio è informatizzato.",
     "example_meaning": "办公室实现了信息化。",
-    "detail": "原型：Informatizzare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Informatizzare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nInformatizzo, Informatizzi, Informatizza, Informatizziamo, Informatizzate, Informatizzano",
     "options": [
       {
-        "text": "比作/比较",
+        "text": "赚取/赢得",
         "isCorrect": false
       },
       {
-        "text": "参与",
-        "isCorrect": false
-      },
-      {
-        "text": "寻找",
+        "text": "听见/感觉",
         "isCorrect": false
       },
       {
         "text": "信息化",
         "isCorrect": true
+      },
+      {
+        "text": "影响",
+        "isCorrect": false
       }
     ]
   },
@@ -23701,22 +23701,22 @@ module.exports = [
     "meaning": "数字化",
     "example": "Digitalizzare i documenti.",
     "example_meaning": "数字化文档。",
-    "detail": "原型：Digitalizzare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Digitalizzare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nDigitalizzo, Digitalizzi, Digitalizza, Digitalizziamo, Digitalizzate, Digitalizzano",
     "options": [
-      {
-        "text": "混淆",
-        "isCorrect": false
-      },
-      {
-        "text": "证明/演示",
-        "isCorrect": false
-      },
       {
         "text": "数字化",
         "isCorrect": true
       },
       {
-        "text": "管理",
+        "text": "全球化",
+        "isCorrect": false
+      },
+      {
+        "text": "标准化",
+        "isCorrect": false
+      },
+      {
+        "text": "尝试",
         "isCorrect": false
       }
     ]
@@ -23730,23 +23730,23 @@ module.exports = [
     "meaning": "虚拟化",
     "example": "Virtualizzare i server.",
     "example_meaning": "虚拟化服务器。",
-    "detail": "原型：Virtualizzare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Virtualizzare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nVirtualizzo, Virtualizzi, Virtualizza, Virtualizziamo, Virtualizzate, Virtualizzano",
     "options": [
-      {
-        "text": "区分",
-        "isCorrect": false
-      },
-      {
-        "text": "建立理论",
-        "isCorrect": false
-      },
-      {
-        "text": "阻碍",
-        "isCorrect": false
-      },
       {
         "text": "虚拟化",
         "isCorrect": true
+      },
+      {
+        "text": "获取",
+        "isCorrect": false
+      },
+      {
+        "text": "细细品味",
+        "isCorrect": false
+      },
+      {
+        "text": "谈判",
+        "isCorrect": false
       }
     ]
   },
@@ -23759,23 +23759,23 @@ module.exports = [
     "meaning": "全球化",
     "example": "Il mercato si sta globalizzando.",
     "example_meaning": "市场正在全球化。",
-    "detail": "原型：Globalizzare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Globalizzare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nGlobalizzo, Globalizzi, Globalizza, Globalizziamo, Globalizzate, Globalizzano",
     "options": [
       {
-        "text": "学会",
-        "isCorrect": false
-      },
-      {
-        "text": "闻",
-        "isCorrect": false
-      },
-      {
-        "text": "描述",
+        "text": "发明",
         "isCorrect": false
       },
       {
         "text": "全球化",
         "isCorrect": true
+      },
+      {
+        "text": "攻击/粘贴",
+        "isCorrect": false
+      },
+      {
+        "text": "应用",
+        "isCorrect": false
       }
     ]
   },
@@ -23788,22 +23788,22 @@ module.exports = [
     "meaning": "假设",
     "example": "Possiamo ipotizzare che sia vero.",
     "example_meaning": "我们可以假设这是真的。",
-    "detail": "原型：Ipotizzare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Ipotizzare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nIpotizzo, Ipotizzi, Ipotizza, Ipotizziamo, Ipotizzate, Ipotizzano",
     "options": [
-      {
-        "text": "修理/安顿",
-        "isCorrect": false
-      },
-      {
-        "text": "撰写",
-        "isCorrect": false
-      },
       {
         "text": "假设",
         "isCorrect": true
       },
       {
-        "text": "屠杀",
+        "text": "到达",
+        "isCorrect": false
+      },
+      {
+        "text": "生长",
+        "isCorrect": false
+      },
+      {
+        "text": "预言",
         "isCorrect": false
       }
     ]
@@ -23817,22 +23817,22 @@ module.exports = [
     "meaning": "推论",
     "example": "Deduco che non sei d'accordo.",
     "example_meaning": "我推断你不同意。",
-    "detail": "原型：Dedurre (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Dedurre。\n这是一个缩略形式的不规则动词 (源自拉丁语)，变位通常不规则。",
     "options": [
-      {
-        "text": "调味",
-        "isCorrect": false
-      },
-      {
-        "text": "出版",
-        "isCorrect": false
-      },
       {
         "text": "推论",
         "isCorrect": true
       },
       {
-        "text": "熔化/合并",
+        "text": "允许",
+        "isCorrect": false
+      },
+      {
+        "text": "返回",
+        "isCorrect": false
+      },
+      {
+        "text": "分类",
         "isCorrect": false
       }
     ]
@@ -23846,23 +23846,23 @@ module.exports = [
     "meaning": "推断",
     "example": "Cosa possiamo inferire da questo?",
     "example_meaning": "我们可以从中推断出什么？",
-    "detail": "原型：Inferire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Inferire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nInfero, Inferi, Infere, Inferiamo, Inferite, Inferono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
-      {
-        "text": "铺开/起草",
-        "isCorrect": false
-      },
-      {
-        "text": "伤害",
-        "isCorrect": false
-      },
-      {
-        "text": "检查/审查",
-        "isCorrect": false
-      },
       {
         "text": "推断",
         "isCorrect": true
+      },
+      {
+        "text": "出版",
+        "isCorrect": false
+      },
+      {
+        "text": "想象",
+        "isCorrect": false
+      },
+      {
+        "text": "使变苦/悲伤",
+        "isCorrect": false
       }
     ]
   },
@@ -23875,22 +23875,22 @@ module.exports = [
     "meaning": "意味着",
     "example": "Ciò implica un cambiamento.",
     "example_meaning": "这意味着改变。",
-    "detail": "原型：Implicare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Implicare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nImplico, Implici, Implica, Impliciamo, Implicate, Implicano",
     "options": [
-      {
-        "text": "组织",
-        "isCorrect": false
-      },
       {
         "text": "意味着",
         "isCorrect": true
       },
       {
-        "text": "交流/通知",
+        "text": "杀",
         "isCorrect": false
       },
       {
-        "text": "指挥/指导",
+        "text": "是",
+        "isCorrect": false
+      },
+      {
+        "text": "打败/敲",
         "isCorrect": false
       }
     ]
@@ -23904,22 +23904,22 @@ module.exports = [
     "meaning": "导致/包含",
     "example": "Questo comporta dei rischi.",
     "example_meaning": "这包含风险。",
-    "detail": "原型：Comportare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Comportare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nComporto, Comporti, Comporta, Comportiamo, Comportate, Comportano",
     "options": [
       {
         "text": "导致/包含",
         "isCorrect": true
       },
       {
-        "text": "管理/施用",
+        "text": "估价/尊敬",
         "isCorrect": false
       },
       {
-        "text": "给予/承认",
+        "text": "推迟",
         "isCorrect": false
       },
       {
-        "text": "妨碍",
+        "text": "修正/整流",
         "isCorrect": false
       }
     ]
@@ -23933,22 +23933,22 @@ module.exports = [
     "meaning": "预设",
     "example": "Ciò presuppone la tua presenza.",
     "example_meaning": "这预设了你的在场。",
-    "detail": "原型：Presupporre (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Presupporre。\n这是一个缩略形式的不规则动词 (源自拉丁语)，变位通常不规则。",
     "options": [
-      {
-        "text": "烤",
-        "isCorrect": false
-      },
-      {
-        "text": "穿过",
-        "isCorrect": false
-      },
       {
         "text": "预设",
         "isCorrect": true
       },
       {
-        "text": "避免",
+        "text": "纠正",
+        "isCorrect": false
+      },
+      {
+        "text": "监督",
+        "isCorrect": false
+      },
+      {
+        "text": "优化",
         "isCorrect": false
       }
     ]
@@ -23962,22 +23962,22 @@ module.exports = [
     "meaning": "假定",
     "example": "Postuliamo che x sia uguale a y.",
     "example_meaning": "我们假定x等于y。",
-    "detail": "原型：Postulare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Postulare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPostulo, Postuli, Postula, Postuliamo, Postulate, Postulano",
     "options": [
       {
         "text": "假定",
         "isCorrect": true
       },
       {
-        "text": "给予/调音",
+        "text": "宣布",
         "isCorrect": false
       },
       {
-        "text": "修理/安顿",
+        "text": "统治/为王",
         "isCorrect": false
       },
       {
-        "text": "推论",
+        "text": "推断",
         "isCorrect": false
       }
     ]
@@ -23991,23 +23991,23 @@ module.exports = [
     "meaning": "断言",
     "example": "Lui asserisce di essere innocente.",
     "example_meaning": "他断言他是无辜的。",
-    "detail": "原型：Asserire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Asserire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nAssero, Asseri, Assere, Asseriamo, Asserite, Asserono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "通告",
+        "text": "使一致",
         "isCorrect": false
       },
       {
-        "text": "毁坏",
-        "isCorrect": false
-      },
-      {
-        "text": "带领/主持",
+        "text": "塑造",
         "isCorrect": false
       },
       {
         "text": "断言",
         "isCorrect": true
+      },
+      {
+        "text": "成熟",
+        "isCorrect": false
       }
     ]
   },
@@ -24020,23 +24020,23 @@ module.exports = [
     "meaning": "声称/肯定",
     "example": "Affermo che è vero.",
     "example_meaning": "我声称这是真的。",
-    "detail": "原型：Affermare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Affermare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAffermo, Affermi, Afferma, Affermiamo, Affermate, Affermano",
     "options": [
       {
-        "text": "雕刻",
+        "text": "探索",
         "isCorrect": false
       },
       {
-        "text": "损坏/变质",
-        "isCorrect": false
-      },
-      {
-        "text": "驳回",
+        "text": "死",
         "isCorrect": false
       },
       {
         "text": "声称/肯定",
         "isCorrect": true
+      },
+      {
+        "text": "经营/管理",
+        "isCorrect": false
       }
     ]
   },
@@ -24049,22 +24049,22 @@ module.exports = [
     "meaning": "宣布",
     "example": "Vi dichiaro marito e moglie.",
     "example_meaning": "我宣布你们结为夫妻。",
-    "detail": "原型：Dichiarare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Dichiarare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nDichiaro, Dichiari, Dichiara, Dichiariamo, Dichiarate, Dichiarano",
     "options": [
-      {
-        "text": "消散",
-        "isCorrect": false
-      },
-      {
-        "text": "检查/审查",
-        "isCorrect": false
-      },
       {
         "text": "宣布",
         "isCorrect": true
       },
       {
-        "text": "躲避",
+        "text": "重做",
+        "isCorrect": false
+      },
+      {
+        "text": "重返/回家",
+        "isCorrect": false
+      },
+      {
+        "text": "给予/承认",
         "isCorrect": false
       }
     ]
@@ -24078,23 +24078,23 @@ module.exports = [
     "meaning": "宣告",
     "example": "Proclamarono la repubblica.",
     "example_meaning": "他们宣告了共和国。",
-    "detail": "原型：Proclamare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Proclamare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nProclamo, Proclami, Proclama, Proclamiamo, Proclamate, Proclamano",
     "options": [
       {
-        "text": "屠杀",
-        "isCorrect": false
-      },
-      {
-        "text": "凝固",
-        "isCorrect": false
-      },
-      {
-        "text": "消散",
+        "text": "创造",
         "isCorrect": false
       },
       {
         "text": "宣告",
         "isCorrect": true
+      },
+      {
+        "text": "印刷",
+        "isCorrect": false
+      },
+      {
+        "text": "消散",
+        "isCorrect": false
       }
     ]
   },
@@ -24107,22 +24107,22 @@ module.exports = [
     "meaning": "通告",
     "example": "Hanno annunciato il loro matrimonio.",
     "example_meaning": "他们通告了婚讯。",
-    "detail": "原型：Annunciare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Annunciare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAnnuncio, Annuncii, Annuncia, Annunciiamo, Annunciate, Annunciano",
     "options": [
+      {
+        "text": "允许",
+        "isCorrect": false
+      },
+      {
+        "text": "指挥/指导",
+        "isCorrect": false
+      },
       {
         "text": "通告",
         "isCorrect": true
       },
       {
-        "text": "引导/驾驶",
-        "isCorrect": false
-      },
-      {
-        "text": "断言",
-        "isCorrect": false
-      },
-      {
-        "text": "生活",
+        "text": "打败/敲",
         "isCorrect": false
       }
     ]
@@ -24136,14 +24136,10 @@ module.exports = [
     "meaning": "交流/通知",
     "example": "Comunicare è importante.",
     "example_meaning": "交流很重要。",
-    "detail": "原型：Comunicare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Comunicare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nComunico, Comunici, Comunica, Comuniciamo, Comunicate, Comunicano",
     "options": [
       {
-        "text": "分类",
-        "isCorrect": false
-      },
-      {
-        "text": "修理/安顿",
+        "text": "回来",
         "isCorrect": false
       },
       {
@@ -24151,7 +24147,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "击败",
+        "text": "禁止",
+        "isCorrect": false
+      },
+      {
+        "text": "自杀",
         "isCorrect": false
       }
     ]
@@ -24165,22 +24165,22 @@ module.exports = [
     "meaning": "传播/传送",
     "example": "Trasmettere un messaggio.",
     "example_meaning": "传送信息。",
-    "detail": "原型：Trasmettere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Trasmettere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nTrasmetto, Trasmetti, Trasmette, Trasmettiamo, Trasmettete, Trasmettono",
     "options": [
+      {
+        "text": "禁止",
+        "isCorrect": false
+      },
       {
         "text": "传播/传送",
         "isCorrect": true
       },
       {
-        "text": "计算",
+        "text": "计划",
         "isCorrect": false
       },
       {
-        "text": "超过",
-        "isCorrect": false
-      },
-      {
-        "text": "歼灭",
+        "text": "加糖",
         "isCorrect": false
       }
     ]
@@ -24194,23 +24194,23 @@ module.exports = [
     "meaning": "散布",
     "example": "Diffondere la notizia.",
     "example_meaning": "散布消息。",
-    "detail": "原型：Diffondere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Diffondere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nDiffondo, Diffondi, Diffonde, Diffondiamo, Diffondete, Diffondono",
     "options": [
       {
-        "text": "散布",
-        "isCorrect": true
+        "text": "避免",
+        "isCorrect": false
+      },
+      {
+        "text": "死",
+        "isCorrect": false
       },
       {
         "text": "引导/驾驶",
         "isCorrect": false
       },
       {
-        "text": "到达",
-        "isCorrect": false
-      },
-      {
-        "text": "使统一",
-        "isCorrect": false
+        "text": "散布",
+        "isCorrect": true
       }
     ]
   },
@@ -24223,10 +24223,10 @@ module.exports = [
     "meaning": "普及/泄露",
     "example": "Non divulgare il segreto.",
     "example_meaning": "别泄露秘密。",
-    "detail": "原型：Divulgare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Divulgare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nDivulgo, Divulgi, Divulga, Divulgiamo, Divulgate, Divulgano",
     "options": [
       {
-        "text": "出版",
+        "text": "戒除/停止",
         "isCorrect": false
       },
       {
@@ -24234,11 +24234,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "超过",
+        "text": "预言",
         "isCorrect": false
       },
       {
-        "text": "列举",
+        "text": "避免",
         "isCorrect": false
       }
     ]
@@ -24252,14 +24252,10 @@ module.exports = [
     "meaning": "出版",
     "example": "Ha pubblicato un libro.",
     "example_meaning": "他出版了一本书。",
-    "detail": "原型：Pubblicare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Pubblicare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPubblico, Pubblici, Pubblica, Pubbliciamo, Pubblicate, Pubblicano",
     "options": [
       {
-        "text": "结束",
-        "isCorrect": false
-      },
-      {
-        "text": "管理/施用",
+        "text": "穿过",
         "isCorrect": false
       },
       {
@@ -24267,7 +24263,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "绘画/油漆",
+        "text": "传播/传送",
+        "isCorrect": false
+      },
+      {
+        "text": "构思",
         "isCorrect": false
       }
     ]
@@ -24281,10 +24281,14 @@ module.exports = [
     "meaning": "印刷",
     "example": "Il libro è stato stampato.",
     "example_meaning": "书印好了。",
-    "detail": "原型：Stampare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Stampare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nStampo, Stampi, Stampa, Stampiamo, Stampate, Stampano",
     "options": [
       {
-        "text": "修理/安顿",
+        "text": "损坏/变质",
+        "isCorrect": false
+      },
+      {
+        "text": "探索",
         "isCorrect": false
       },
       {
@@ -24292,11 +24296,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "组织",
-        "isCorrect": false
-      },
-      {
-        "text": "完成",
+        "text": "纠正",
         "isCorrect": false
       }
     ]
@@ -24310,10 +24310,14 @@ module.exports = [
     "meaning": "撰写",
     "example": "Redigere un contratto.",
     "example_meaning": "起草合同。",
-    "detail": "原型：Redigere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Redigere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nRedigo, Redigi, Redige, Redigiamo, Redigete, Redigono",
     "options": [
       {
-        "text": "出发",
+        "text": "铺开/起草",
+        "isCorrect": false
+      },
+      {
+        "text": "屠杀",
         "isCorrect": false
       },
       {
@@ -24321,11 +24325,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "使一致",
-        "isCorrect": false
-      },
-      {
-        "text": "歼灭",
+        "text": "躲避",
         "isCorrect": false
       }
     ]
@@ -24339,23 +24339,23 @@ module.exports = [
     "meaning": "铺开/起草",
     "example": "Stendere un piano.",
     "example_meaning": "制定计划。",
-    "detail": "原型：Stendere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Stendere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nStendo, Stendi, Stende, Stendiamo, Stendete, Stendono",
     "options": [
       {
-        "text": "使适合",
+        "text": "加盐",
         "isCorrect": false
       },
       {
-        "text": "暂停",
-        "isCorrect": false
-      },
-      {
-        "text": "结冰",
+        "text": "协调",
         "isCorrect": false
       },
       {
         "text": "铺开/起草",
         "isCorrect": true
+      },
+      {
+        "text": "主持(会议)",
+        "isCorrect": false
       }
     ]
   },
@@ -24368,22 +24368,22 @@ module.exports = [
     "meaning": "画草图/草拟",
     "example": "Abbozzare un sorriso.",
     "example_meaning": "勉强一笑。",
-    "detail": "原型：Abbozzare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Abbozzare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAbbozzo, Abbozzi, Abbozza, Abbozziamo, Abbozzate, Abbozzano",
     "options": [
       {
         "text": "画草图/草拟",
         "isCorrect": true
       },
       {
-        "text": "估价/尊敬",
+        "text": "推迟",
         "isCorrect": false
       },
       {
-        "text": "赞成",
+        "text": "安置/解决",
         "isCorrect": false
       },
       {
-        "text": "构思",
+        "text": "设计/规划",
         "isCorrect": false
       }
     ]
@@ -24397,14 +24397,14 @@ module.exports = [
     "meaning": "勾勒",
     "example": "Delineare i contorni.",
     "example_meaning": "勾勒轮廓。",
-    "detail": "原型：Delineare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Delineare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nDelineo, Delinei, Delinea, Delineiamo, Delineate, Delineano",
     "options": [
       {
-        "text": "调整/修理",
+        "text": "避免",
         "isCorrect": false
       },
       {
-        "text": "起飞",
+        "text": "计算",
         "isCorrect": false
       },
       {
@@ -24412,7 +24412,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "消散",
+        "text": "印刷",
         "isCorrect": false
       }
     ]
@@ -24426,23 +24426,23 @@ module.exports = [
     "meaning": "描绘/追踪",
     "example": "Tracciare una linea.",
     "example_meaning": "画一条线。",
-    "detail": "原型：Tracciare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Tracciare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nTraccio, Traccii, Traccia, Tracciiamo, Tracciate, Tracciano",
     "options": [
       {
-        "text": "给予/调音",
+        "text": "想象",
         "isCorrect": false
       },
       {
-        "text": "返回",
+        "text": "使适合",
+        "isCorrect": false
+      },
+      {
+        "text": "调味",
         "isCorrect": false
       },
       {
         "text": "描绘/追踪",
         "isCorrect": true
-      },
-      {
-        "text": "变得",
-        "isCorrect": false
       }
     ]
   },
@@ -24455,10 +24455,14 @@ module.exports = [
     "meaning": "画",
     "example": "Disegna una casa.",
     "example_meaning": "画一座房子。",
-    "detail": "原型：Disegnare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Disegnare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nDisegno, Disegni, Disegna, Disegniamo, Disegnate, Disegnano",
     "options": [
       {
-        "text": "推迟",
+        "text": "生长",
+        "isCorrect": false
+      },
+      {
+        "text": "击败",
         "isCorrect": false
       },
       {
@@ -24466,11 +24470,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "预言",
-        "isCorrect": false
-      },
-      {
-        "text": "使统一",
+        "text": "探索",
         "isCorrect": false
       }
     ]
@@ -24484,23 +24484,23 @@ module.exports = [
     "meaning": "绘画/油漆",
     "example": "Dipingere un quadro.",
     "example_meaning": "画一幅画。",
-    "detail": "原型：Dipingere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Dipingere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nDipingo, Dipingi, Dipinge, Dipingiamo, Dipingete, Dipingono",
     "options": [
       {
-        "text": "打败/敲",
+        "text": "登陆",
         "isCorrect": false
       },
       {
-        "text": "引导/驾驶",
-        "isCorrect": false
-      },
-      {
-        "text": "指挥/指导",
+        "text": "冷冻",
         "isCorrect": false
       },
       {
         "text": "绘画/油漆",
         "isCorrect": true
+      },
+      {
+        "text": "起飞",
+        "isCorrect": false
       }
     ]
   },
@@ -24513,22 +24513,22 @@ module.exports = [
     "meaning": "雕刻",
     "example": "Scolpire la pietra.",
     "example_meaning": "雕刻石头。",
-    "detail": "原型：Scolpire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Scolpire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nScolpo, Scolpi, Scolpe, Scolpiamo, Scolpite, Scolpono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
+      {
+        "text": "变酸",
+        "isCorrect": false
+      },
+      {
+        "text": "经营/管理",
+        "isCorrect": false
+      },
       {
         "text": "雕刻",
         "isCorrect": true
       },
       {
-        "text": "到达",
-        "isCorrect": false
-      },
-      {
-        "text": "使受伤",
-        "isCorrect": false
-      },
-      {
-        "text": "更新/续期",
+        "text": "支配/俯视",
         "isCorrect": false
       }
     ]
@@ -24542,22 +24542,22 @@ module.exports = [
     "meaning": "塑造",
     "example": "Modellare l'argilla.",
     "example_meaning": "塑造粘土。",
-    "detail": "原型：Modellare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Modellare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nModello, Modelli, Modella, Modelliamo, Modellate, Modellano",
     "options": [
-      {
-        "text": "延后",
-        "isCorrect": false
-      },
       {
         "text": "塑造",
         "isCorrect": true
       },
       {
-        "text": "去世",
+        "text": "生活",
         "isCorrect": false
       },
       {
-        "text": "主持(会议)",
+        "text": "修理",
+        "isCorrect": false
+      },
+      {
+        "text": "支配/俯视",
         "isCorrect": false
       }
     ]
@@ -24571,23 +24571,23 @@ module.exports = [
     "meaning": "创造",
     "example": "Creare un'opera d'arte.",
     "example_meaning": "创造艺术品。",
-    "detail": "原型：Creare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Creare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nCreo, Crei, Crea, Creiamo, Create, Creano",
     "options": [
+      {
+        "text": "测量",
+        "isCorrect": false
+      },
+      {
+        "text": "意味着",
+        "isCorrect": false
+      },
+      {
+        "text": "避免",
+        "isCorrect": false
+      },
       {
         "text": "创造",
         "isCorrect": true
-      },
-      {
-        "text": "起飞",
-        "isCorrect": false
-      },
-      {
-        "text": "去世",
-        "isCorrect": false
-      },
-      {
-        "text": "打断",
-        "isCorrect": false
       }
     ]
   },
@@ -24600,22 +24600,22 @@ module.exports = [
     "meaning": "发明",
     "example": "Inventare una scusa.",
     "example_meaning": "编造借口。",
-    "detail": "原型：Inventare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Inventare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nInvento, Inventi, Inventa, Inventiamo, Inventate, Inventano",
     "options": [
       {
         "text": "发明",
         "isCorrect": true
       },
       {
-        "text": "构思",
+        "text": "熔化/合并",
         "isCorrect": false
       },
       {
-        "text": "经营/管理",
+        "text": "批准/认可",
         "isCorrect": false
       },
       {
-        "text": "停止",
+        "text": "终止",
         "isCorrect": false
       }
     ]
@@ -24629,22 +24629,22 @@ module.exports = [
     "meaning": "构思",
     "example": "Ideare un progetto.",
     "example_meaning": "构思一个项目。",
-    "detail": "原型：Ideare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Ideare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nIdeo, Idei, Idea, Ideiamo, Ideate, Ideano",
     "options": [
+      {
+        "text": "探索",
+        "isCorrect": false
+      },
+      {
+        "text": "禁止",
+        "isCorrect": false
+      },
       {
         "text": "构思",
         "isCorrect": true
       },
       {
-        "text": "生存",
-        "isCorrect": false
-      },
-      {
-        "text": "通告",
-        "isCorrect": false
-      },
-      {
-        "text": "旅行",
+        "text": "腐烂",
         "isCorrect": false
       }
     ]
@@ -24658,23 +24658,23 @@ module.exports = [
     "meaning": "设计/规划",
     "example": "Progettare un edificio.",
     "example_meaning": "设计一座建筑。",
-    "detail": "原型：Progettare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Progettare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nProgetto, Progetti, Progetta, Progettiamo, Progettate, Progettano",
     "options": [
       {
-        "text": "油炸",
+        "text": "暗杀",
         "isCorrect": false
       },
       {
-        "text": "逃避",
-        "isCorrect": false
-      },
-      {
-        "text": "死",
+        "text": "改善",
         "isCorrect": false
       },
       {
         "text": "设计/规划",
         "isCorrect": true
+      },
+      {
+        "text": "修复",
+        "isCorrect": false
       }
     ]
   },
@@ -24687,22 +24687,22 @@ module.exports = [
     "meaning": "计划",
     "example": "Pianificare il futuro.",
     "example_meaning": "规划未来。",
-    "detail": "原型：Pianificare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Pianificare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPianifico, Pianifici, Pianifica, Pianificiamo, Pianificate, Pianificano",
     "options": [
-      {
-        "text": "塑造",
-        "isCorrect": false
-      },
       {
         "text": "计划",
         "isCorrect": true
       },
       {
-        "text": "回来",
+        "text": "死",
         "isCorrect": false
       },
       {
-        "text": "逃脱",
+        "text": "修理/安顿",
+        "isCorrect": false
+      },
+      {
+        "text": "量化",
         "isCorrect": false
       }
     ]
@@ -24716,22 +24716,22 @@ module.exports = [
     "meaning": "组织",
     "example": "Organizzare un evento.",
     "example_meaning": "组织活动。",
-    "detail": "原型：Organizzare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Organizzare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nOrganizzo, Organizzi, Organizza, Organizziamo, Organizzate, Organizzano",
     "options": [
+      {
+        "text": "屠杀",
+        "isCorrect": false
+      },
+      {
+        "text": "优化",
+        "isCorrect": false
+      },
       {
         "text": "组织",
         "isCorrect": true
       },
       {
-        "text": "液化",
-        "isCorrect": false
-      },
-      {
-        "text": "计算",
-        "isCorrect": false
-      },
-      {
-        "text": "称重",
+        "text": "加胡椒",
         "isCorrect": false
       }
     ]
@@ -24745,22 +24745,22 @@ module.exports = [
     "meaning": "协调",
     "example": "Coordinare i lavori.",
     "example_meaning": "协调工作。",
-    "detail": "原型：Coordinare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Coordinare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nCoordino, Coordini, Coordina, Coordiniamo, Coordinate, Coordinano",
     "options": [
       {
         "text": "协调",
         "isCorrect": true
       },
       {
-        "text": "允许",
+        "text": "逃脱",
         "isCorrect": false
       },
       {
-        "text": "管理/施用",
+        "text": "计算",
         "isCorrect": false
       },
       {
-        "text": "优化",
+        "text": "普及/泄露",
         "isCorrect": false
       }
     ]
@@ -24774,23 +24774,23 @@ module.exports = [
     "meaning": "经营/管理",
     "example": "Gestire un negozio.",
     "example_meaning": "经营商店。",
-    "detail": "原型：Gestire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Gestire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nGesto, Gesti, Geste, Gestiamo, Gestite, Gestono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "使一致",
+        "text": "印刷",
+        "isCorrect": false
+      },
+      {
+        "text": "勾勒",
+        "isCorrect": false
+      },
+      {
+        "text": "出版",
         "isCorrect": false
       },
       {
         "text": "经营/管理",
         "isCorrect": true
-      },
-      {
-        "text": "超过",
-        "isCorrect": false
-      },
-      {
-        "text": "探索",
-        "isCorrect": false
       }
     ]
   },
@@ -24803,23 +24803,23 @@ module.exports = [
     "meaning": "管理/施用",
     "example": "Amministrare la giustizia.",
     "example_meaning": "执行司法。",
-    "detail": "原型：Amministrare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Amministrare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAmministro, Amministri, Amministra, Amministriamo, Amministrate, Amministrano",
     "options": [
-      {
-        "text": "融化/解开",
-        "isCorrect": false
-      },
-      {
-        "text": "主持(会议)",
-        "isCorrect": false
-      },
-      {
-        "text": "视察",
-        "isCorrect": false
-      },
       {
         "text": "管理/施用",
         "isCorrect": true
+      },
+      {
+        "text": "赞成",
+        "isCorrect": false
+      },
+      {
+        "text": "走过",
+        "isCorrect": false
+      },
+      {
+        "text": "煮沸",
+        "isCorrect": false
       }
     ]
   },
@@ -24832,22 +24832,22 @@ module.exports = [
     "meaning": "指挥/指导",
     "example": "Dirigere un'orchestra.",
     "example_meaning": "指挥乐队。",
-    "detail": "原型：Dirigere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Dirigere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nDirigo, Dirigi, Dirige, Dirigiamo, Dirigete, Dirigono",
     "options": [
+      {
+        "text": "视察",
+        "isCorrect": false
+      },
       {
         "text": "指挥/指导",
         "isCorrect": true
       },
       {
-        "text": "熔化/合并",
+        "text": "抑制",
         "isCorrect": false
       },
       {
-        "text": "加糖",
-        "isCorrect": false
-      },
-      {
-        "text": "登陆",
+        "text": "假定",
         "isCorrect": false
       }
     ]
@@ -24861,22 +24861,22 @@ module.exports = [
     "meaning": "引导/驾驶",
     "example": "Guidare un gruppo.",
     "example_meaning": "领导一个团队。",
-    "detail": "原型：Guidare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Guidare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nGuido, Guidi, Guida, Guidiamo, Guidate, Guidano",
     "options": [
+      {
+        "text": "预设",
+        "isCorrect": false
+      },
+      {
+        "text": "视察",
+        "isCorrect": false
+      },
       {
         "text": "引导/驾驶",
         "isCorrect": true
       },
       {
-        "text": "带领/主持",
-        "isCorrect": false
-      },
-      {
-        "text": "传播/传送",
-        "isCorrect": false
-      },
-      {
-        "text": "腐烂",
+        "text": "测量",
         "isCorrect": false
       }
     ]
@@ -24890,23 +24890,23 @@ module.exports = [
     "meaning": "带领/主持",
     "example": "Condurre un programma TV.",
     "example_meaning": "主持电视节目。",
-    "detail": "原型：Condurre (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Condurre。\n这是一个缩略形式的不规则动词 (源自拉丁语)，变位通常不规则。",
     "options": [
-      {
-        "text": "重新开始",
-        "isCorrect": false
-      },
-      {
-        "text": "处决",
-        "isCorrect": false
-      },
-      {
-        "text": "禁止",
-        "isCorrect": false
-      },
       {
         "text": "带领/主持",
         "isCorrect": true
+      },
+      {
+        "text": "推迟",
+        "isCorrect": false
+      },
+      {
+        "text": "测量",
+        "isCorrect": false
+      },
+      {
+        "text": "预言",
+        "isCorrect": false
       }
     ]
   },
@@ -24919,23 +24919,23 @@ module.exports = [
     "meaning": "主持(会议)",
     "example": "Presiedere una riunione.",
     "example_meaning": "主持会议。",
-    "detail": "原型：Presiedere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Presiedere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nPresiedo, Presiedi, Presiede, Presiediamo, Presiedete, Presiedono",
     "options": [
-      {
-        "text": "逃避",
-        "isCorrect": false
-      },
-      {
-        "text": "处决",
-        "isCorrect": false
-      },
-      {
-        "text": "登陆",
-        "isCorrect": false
-      },
       {
         "text": "主持(会议)",
         "isCorrect": true
+      },
+      {
+        "text": "使统一",
+        "isCorrect": false
+      },
+      {
+        "text": "暗杀",
+        "isCorrect": false
+      },
+      {
+        "text": "杀",
+        "isCorrect": false
       }
     ]
   },
@@ -24948,23 +24948,23 @@ module.exports = [
     "meaning": "统治",
     "example": "Governare un paese.",
     "example_meaning": "统治一个国家。",
-    "detail": "原型：Governare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Governare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nGoverno, Governi, Governa, Governiamo, Governate, Governano",
     "options": [
       {
-        "text": "生存",
+        "text": "使一致",
+        "isCorrect": false
+      },
+      {
+        "text": "阻碍",
+        "isCorrect": false
+      },
+      {
+        "text": "撰写",
         "isCorrect": false
       },
       {
         "text": "统治",
         "isCorrect": true
-      },
-      {
-        "text": "绘画/油漆",
-        "isCorrect": false
-      },
-      {
-        "text": "塑造",
-        "isCorrect": false
       }
     ]
   },
@@ -24977,23 +24977,23 @@ module.exports = [
     "meaning": "统治/为王",
     "example": "La pace regna qui.",
     "example_meaning": "这里充满和平。",
-    "detail": "原型：Regnare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Regnare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nRegno, Regni, Regna, Regniamo, Regnate, Regnano",
     "options": [
       {
-        "text": "生存",
+        "text": "修复",
+        "isCorrect": false
+      },
+      {
+        "text": "调味",
+        "isCorrect": false
+      },
+      {
+        "text": "评估",
         "isCorrect": false
       },
       {
         "text": "统治/为王",
         "isCorrect": true
-      },
-      {
-        "text": "探索",
-        "isCorrect": false
-      },
-      {
-        "text": "出版",
-        "isCorrect": false
       }
     ]
   },
@@ -25006,22 +25006,22 @@ module.exports = [
     "meaning": "支配/俯视",
     "example": "Dominare la paura.",
     "example_meaning": "克服恐惧。",
-    "detail": "原型：Dominare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Dominare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nDomino, Domini, Domina, Dominiamo, Dominate, Dominano",
     "options": [
       {
         "text": "支配/俯视",
         "isCorrect": true
       },
       {
-        "text": "调味",
+        "text": "修理",
         "isCorrect": false
       },
       {
-        "text": "凝固",
+        "text": "加糖",
         "isCorrect": false
       },
       {
-        "text": "纠正",
+        "text": "假设",
         "isCorrect": false
       }
     ]
@@ -25035,22 +25035,22 @@ module.exports = [
     "meaning": "控制",
     "example": "Tutto sotto controllo.",
     "example_meaning": "一切尽在掌握。",
-    "detail": "原型：Controllare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Controllare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nControllo, Controlli, Controlla, Controlliamo, Controllate, Controllano",
     "options": [
+      {
+        "text": "停止",
+        "isCorrect": false
+      },
       {
         "text": "控制",
         "isCorrect": true
       },
       {
-        "text": "冷却",
+        "text": "预言",
         "isCorrect": false
       },
       {
-        "text": "妨碍",
-        "isCorrect": false
-      },
-      {
-        "text": "画草图/草拟",
+        "text": "变得",
         "isCorrect": false
       }
     ]
@@ -25064,22 +25064,22 @@ module.exports = [
     "meaning": "监督",
     "example": "Supervisionare il lavoro.",
     "example_meaning": "监督工作。",
-    "detail": "原型：Supervisionare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Supervisionare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSupervisiono, Supervisioni, Supervisiona, Supervisioniamo, Supervisionate, Supervisionano",
     "options": [
-      {
-        "text": "出版",
-        "isCorrect": false
-      },
-      {
-        "text": "歼灭",
-        "isCorrect": false
-      },
       {
         "text": "监督",
         "isCorrect": true
       },
       {
-        "text": "给予/承认",
+        "text": "打败/敲",
+        "isCorrect": false
+      },
+      {
+        "text": "加糖",
+        "isCorrect": false
+      },
+      {
+        "text": "调整/修理",
         "isCorrect": false
       }
     ]
@@ -25093,22 +25093,22 @@ module.exports = [
     "meaning": "视察",
     "example": "Ispezionare i locali.",
     "example_meaning": "视察场所。",
-    "detail": "原型：Ispezionare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Ispezionare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nIspeziono, Ispezioni, Ispeziona, Ispezioniamo, Ispezionate, Ispezionano",
     "options": [
-      {
-        "text": "死",
-        "isCorrect": false
-      },
       {
         "text": "视察",
         "isCorrect": true
       },
       {
-        "text": "妨碍",
+        "text": "打败/敲",
         "isCorrect": false
       },
       {
-        "text": "允许",
+        "text": "监督",
+        "isCorrect": false
+      },
+      {
+        "text": "量化",
         "isCorrect": false
       }
     ]
@@ -25122,23 +25122,23 @@ module.exports = [
     "meaning": "检查/审查",
     "example": "Esaminare il paziente.",
     "example_meaning": "检查病人。",
-    "detail": "原型：Esaminare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Esaminare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nEsamino, Esamini, Esamina, Esaminiamo, Esaminate, Esaminano",
     "options": [
+      {
+        "text": "冷却",
+        "isCorrect": false
+      },
+      {
+        "text": "赞成",
+        "isCorrect": false
+      },
+      {
+        "text": "重新开始",
+        "isCorrect": false
+      },
       {
         "text": "检查/审查",
         "isCorrect": true
-      },
-      {
-        "text": "声称/肯定",
-        "isCorrect": false
-      },
-      {
-        "text": "导致/包含",
-        "isCorrect": false
-      },
-      {
-        "text": "猜中",
-        "isCorrect": false
       }
     ]
   },
@@ -25151,22 +25151,22 @@ module.exports = [
     "meaning": "评估",
     "example": "Valutare i danni.",
     "example_meaning": "评估损失。",
-    "detail": "原型：Valutare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Valutare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nValuto, Valuti, Valuta, Valutiamo, Valutate, Valutano",
     "options": [
+      {
+        "text": "伤害",
+        "isCorrect": false
+      },
+      {
+        "text": "使适合",
+        "isCorrect": false
+      },
       {
         "text": "评估",
         "isCorrect": true
       },
       {
-        "text": "计划",
-        "isCorrect": false
-      },
-      {
-        "text": "自杀",
-        "isCorrect": false
-      },
-      {
-        "text": "发明",
+        "text": "允许",
         "isCorrect": false
       }
     ]
@@ -25180,23 +25180,23 @@ module.exports = [
     "meaning": "估价/尊敬",
     "example": "Stimare il valore.",
     "example_meaning": "估算价值。",
-    "detail": "原型：Stimare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Stimare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nStimo, Stimi, Stima, Stimiamo, Stimate, Stimano",
     "options": [
       {
-        "text": "冷却",
+        "text": "雕刻",
+        "isCorrect": false
+      },
+      {
+        "text": "变得",
+        "isCorrect": false
+      },
+      {
+        "text": "假定",
         "isCorrect": false
       },
       {
         "text": "估价/尊敬",
         "isCorrect": true
-      },
-      {
-        "text": "撰写",
-        "isCorrect": false
-      },
-      {
-        "text": "优化",
-        "isCorrect": false
       }
     ]
   },
@@ -25209,10 +25209,10 @@ module.exports = [
     "meaning": "计算",
     "example": "Calcolare la distanza.",
     "example_meaning": "计算距离。",
-    "detail": "原型：Calcolare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Calcolare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nCalcolo, Calcoli, Calcola, Calcoliamo, Calcolate, Calcolano",
     "options": [
       {
-        "text": "完善",
+        "text": "探索",
         "isCorrect": false
       },
       {
@@ -25220,11 +25220,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "撰写",
+        "text": "熔化/合并",
         "isCorrect": false
       },
       {
-        "text": "印刷",
+        "text": "设计/规划",
         "isCorrect": false
       }
     ]
@@ -25238,23 +25238,23 @@ module.exports = [
     "meaning": "测量",
     "example": "Misurare la temperatura.",
     "example_meaning": "测量温度。",
-    "detail": "原型：Misurare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Misurare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nMisuro, Misuri, Misura, Misuriamo, Misurate, Misurano",
     "options": [
+      {
+        "text": "返回",
+        "isCorrect": false
+      },
+      {
+        "text": "歼灭",
+        "isCorrect": false
+      },
+      {
+        "text": "登陆",
+        "isCorrect": false
+      },
       {
         "text": "测量",
         "isCorrect": true
-      },
-      {
-        "text": "列出",
-        "isCorrect": false
-      },
-      {
-        "text": "消散",
-        "isCorrect": false
-      },
-      {
-        "text": "灭绝",
-        "isCorrect": false
       }
     ]
   },
@@ -25267,22 +25267,22 @@ module.exports = [
     "meaning": "称重",
     "example": "Pesare le parole.",
     "example_meaning": "斟酌字句。",
-    "detail": "原型：Pesare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Pesare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPeso, Pesi, Pesa, Pesiamo, Pesate, Pesano",
     "options": [
-      {
-        "text": "自杀",
-        "isCorrect": false
-      },
       {
         "text": "称重",
         "isCorrect": true
       },
       {
-        "text": "统治",
+        "text": "统治/为王",
         "isCorrect": false
       },
       {
-        "text": "宣布",
+        "text": "预见",
+        "isCorrect": false
+      },
+      {
+        "text": "去世",
         "isCorrect": false
       }
     ]
@@ -25296,23 +25296,23 @@ module.exports = [
     "meaning": "量化",
     "example": "Quantificare i risultati.",
     "example_meaning": "量化结果。",
-    "detail": "原型：Quantificare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Quantificare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nQuantifico, Quantifici, Quantifica, Quantificiamo, Quantificate, Quantificano",
     "options": [
       {
-        "text": "自杀",
+        "text": "预设",
         "isCorrect": false
       },
       {
-        "text": "超过",
-        "isCorrect": false
-      },
-      {
-        "text": "暗杀",
+        "text": "溶解",
         "isCorrect": false
       },
       {
         "text": "量化",
         "isCorrect": true
+      },
+      {
+        "text": "抑制",
+        "isCorrect": false
       }
     ]
   },
@@ -25325,22 +25325,22 @@ module.exports = [
     "meaning": "列举",
     "example": "Enumerare i vantaggi.",
     "example_meaning": "列举优点。",
-    "detail": "原型：Enumerare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Enumerare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nEnumero, Enumeri, Enumera, Enumeriamo, Enumerate, Enumerano",
     "options": [
+      {
+        "text": "构思",
+        "isCorrect": false
+      },
       {
         "text": "列举",
         "isCorrect": true
       },
       {
-        "text": "灭绝",
+        "text": "越过",
         "isCorrect": false
       },
       {
-        "text": "散布",
-        "isCorrect": false
-      },
-      {
-        "text": "使变苦/悲伤",
+        "text": "导致/包含",
         "isCorrect": false
       }
     ]
@@ -25354,23 +25354,23 @@ module.exports = [
     "meaning": "列出",
     "example": "Elencare i nomi.",
     "example_meaning": "列出名字。",
-    "detail": "原型：Elencare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Elencare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nElenco, Elenci, Elenca, Elenciamo, Elencate, Elencano",
     "options": [
       {
-        "text": "主持(会议)",
+        "text": "暂停",
         "isCorrect": false
       },
       {
-        "text": "创造",
+        "text": "杀",
+        "isCorrect": false
+      },
+      {
+        "text": "生长",
         "isCorrect": false
       },
       {
         "text": "列出",
         "isCorrect": true
-      },
-      {
-        "text": "凝固",
-        "isCorrect": false
       }
     ]
   },
@@ -25383,23 +25383,23 @@ module.exports = [
     "meaning": "分类",
     "example": "Classificare i documenti.",
     "example_meaning": "分类文件。",
-    "detail": "原型：Classificare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Classificare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nClassifico, Classifici, Classifica, Classificiamo, Classificate, Classificano",
     "options": [
       {
-        "text": "视察",
+        "text": "协调",
         "isCorrect": false
       },
       {
-        "text": "描绘/追踪",
+        "text": "推迟",
+        "isCorrect": false
+      },
+      {
+        "text": "调整/修理",
         "isCorrect": false
       },
       {
         "text": "分类",
         "isCorrect": true
-      },
-      {
-        "text": "冷却",
-        "isCorrect": false
       }
     ]
   },
@@ -25412,22 +25412,22 @@ module.exports = [
     "meaning": "命令/整理",
     "example": "Metti in ordine.",
     "example_meaning": "整理好。",
-    "detail": "原型：Ordinare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Ordinare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nOrdino, Ordini, Ordina, Ordiniamo, Ordinate, Ordinano",
     "options": [
       {
         "text": "命令/整理",
         "isCorrect": true
       },
       {
-        "text": "变成",
+        "text": "带领/主持",
         "isCorrect": false
       },
       {
-        "text": "断言",
+        "text": "预言",
         "isCorrect": false
       },
       {
-        "text": "变老",
+        "text": "允许",
         "isCorrect": false
       }
     ]
@@ -25441,23 +25441,23 @@ module.exports = [
     "meaning": "安置/解决",
     "example": "Sistemare la questione.",
     "example_meaning": "解决问题。",
-    "detail": "原型：Sistemare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sistemare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSistemo, Sistemi, Sistema, Sistemiamo, Sistemate, Sistemano",
     "options": [
+      {
+        "text": "妨碍",
+        "isCorrect": false
+      },
+      {
+        "text": "估价/尊敬",
+        "isCorrect": false
+      },
+      {
+        "text": "绘画/油漆",
+        "isCorrect": false
+      },
       {
         "text": "安置/解决",
         "isCorrect": true
-      },
-      {
-        "text": "塑造",
-        "isCorrect": false
-      },
-      {
-        "text": "使统一",
-        "isCorrect": false
-      },
-      {
-        "text": "设计/规划",
-        "isCorrect": false
       }
     ]
   },
@@ -25470,10 +25470,10 @@ module.exports = [
     "meaning": "修理/安顿",
     "example": "Accomodati, prego.",
     "example_meaning": "请坐。",
-    "detail": "原型：Accomodare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Accomodare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAccomodo, Accomodi, Accomoda, Accomodiamo, Accomodate, Accomodano",
     "options": [
       {
-        "text": "失踪",
+        "text": "计算",
         "isCorrect": false
       },
       {
@@ -25481,11 +25481,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "起飞",
+        "text": "修正/整流",
         "isCorrect": false
       },
       {
-        "text": "死",
+        "text": "变酸",
         "isCorrect": false
       }
     ]
@@ -25499,10 +25499,14 @@ module.exports = [
     "meaning": "适应/改编",
     "example": "Adattarsi all'ambiente.",
     "example_meaning": "适应环境。",
-    "detail": "原型：Adattare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Adattare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAdatto, Adatti, Adatta, Adattiamo, Adattate, Adattano",
     "options": [
       {
-        "text": "熔化/合并",
+        "text": "变老",
+        "isCorrect": false
+      },
+      {
+        "text": "普及/泄露",
         "isCorrect": false
       },
       {
@@ -25510,11 +25514,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "歼灭",
-        "isCorrect": false
-      },
-      {
-        "text": "避免",
+        "text": "否认/拒绝",
         "isCorrect": false
       }
     ]
@@ -25528,14 +25528,14 @@ module.exports = [
     "meaning": "使适合",
     "example": "Adeguare lo stipendio.",
     "example_meaning": "调整薪水。",
-    "detail": "原型：Adeguare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Adeguare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAdeguo, Adegui, Adegua, Adeguiamo, Adeguate, Adeguano",
     "options": [
       {
-        "text": "水煮",
+        "text": "统治/为王",
         "isCorrect": false
       },
       {
-        "text": "导致/包含",
+        "text": "创造",
         "isCorrect": false
       },
       {
@@ -25543,7 +25543,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "传播/传送",
+        "text": "歼灭",
         "isCorrect": false
       }
     ]
@@ -25557,23 +25557,23 @@ module.exports = [
     "meaning": "使一致",
     "example": "Conformarsi alle regole.",
     "example_meaning": "遵守规则。",
-    "detail": "原型：Conformare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Conformare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nConformo, Conformi, Conforma, Conformiamo, Conformate, Conformano",
     "options": [
       {
-        "text": "引导/驾驶",
-        "isCorrect": false
-      },
-      {
-        "text": "使适合",
-        "isCorrect": false
-      },
-      {
-        "text": "自杀",
+        "text": "飞",
         "isCorrect": false
       },
       {
         "text": "使一致",
         "isCorrect": true
+      },
+      {
+        "text": "暗杀",
+        "isCorrect": false
+      },
+      {
+        "text": "登陆",
+        "isCorrect": false
       }
     ]
   },
@@ -25586,22 +25586,22 @@ module.exports = [
     "meaning": "使统一",
     "example": "Uniformare i metodi.",
     "example_meaning": "统一方法。",
-    "detail": "原型：Uniformare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Uniformare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nUniformo, Uniformi, Uniforma, Uniformiamo, Uniformate, Uniformano",
     "options": [
-      {
-        "text": "穿过",
-        "isCorrect": false
-      },
       {
         "text": "使统一",
         "isCorrect": true
       },
       {
-        "text": "赞成",
+        "text": "散布",
         "isCorrect": false
       },
       {
-        "text": "通告",
+        "text": "发明",
+        "isCorrect": false
+      },
+      {
+        "text": "撰写",
         "isCorrect": false
       }
     ]
@@ -25615,23 +25615,23 @@ module.exports = [
     "meaning": "批准/认可",
     "example": "Omologare un record.",
     "example_meaning": "认可记录。",
-    "detail": "原型：Omologare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Omologare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nOmologo, Omologi, Omologa, Omologiamo, Omologate, Omologano",
     "options": [
-      {
-        "text": "杀",
-        "isCorrect": false
-      },
-      {
-        "text": "允许",
-        "isCorrect": false
-      },
-      {
-        "text": "去世",
-        "isCorrect": false
-      },
       {
         "text": "批准/认可",
         "isCorrect": true
+      },
+      {
+        "text": "生存",
+        "isCorrect": false
+      },
+      {
+        "text": "死",
+        "isCorrect": false
+      },
+      {
+        "text": "使一致",
+        "isCorrect": false
       }
     ]
   },
@@ -25644,23 +25644,23 @@ module.exports = [
     "meaning": "赞成",
     "example": "Non approvo.",
     "example_meaning": "我不赞成。",
-    "detail": "原型：Approvare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Approvare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nApprovo, Approvi, Approva, Approviamo, Approvate, Approvano",
     "options": [
-      {
-        "text": "毁坏",
-        "isCorrect": false
-      },
-      {
-        "text": "分类",
-        "isCorrect": false
-      },
-      {
-        "text": "完善",
-        "isCorrect": false
-      },
       {
         "text": "赞成",
         "isCorrect": true
+      },
+      {
+        "text": "到达",
+        "isCorrect": false
+      },
+      {
+        "text": "重新开始",
+        "isCorrect": false
+      },
+      {
+        "text": "生活",
+        "isCorrect": false
       }
     ]
   },
@@ -25673,14 +25673,10 @@ module.exports = [
     "meaning": "允许",
     "example": "Non è consentito.",
     "example_meaning": "是不允许的。",
-    "detail": "原型：Consentire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Consentire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nConsento, Consenti, Consente, Consentiamo, Consentite, Consentono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "意味着",
-        "isCorrect": false
-      },
-      {
-        "text": "生活",
+        "text": "画草图/草拟",
         "isCorrect": false
       },
       {
@@ -25688,7 +25684,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "猜中",
+        "text": "描绘/追踪",
+        "isCorrect": false
+      },
+      {
+        "text": "使一致",
         "isCorrect": false
       }
     ]
@@ -25702,22 +25702,22 @@ module.exports = [
     "meaning": "允许",
     "example": "Mi permetta.",
     "example_meaning": "请允许我。",
-    "detail": "原型：Permettere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Permettere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nPermetto, Permetti, Permette, Permettiamo, Permettete, Permettono",
     "options": [
+      {
+        "text": "存在",
+        "isCorrect": false
+      },
       {
         "text": "允许",
         "isCorrect": true
       },
       {
-        "text": "完成",
+        "text": "设计/规划",
         "isCorrect": false
       },
       {
-        "text": "带领/主持",
-        "isCorrect": false
-      },
-      {
-        "text": "更新/续期",
+        "text": "绘画/油漆",
         "isCorrect": false
       }
     ]
@@ -25731,22 +25731,22 @@ module.exports = [
     "meaning": "授权",
     "example": "Sei autorizzato?",
     "example_meaning": "你被授权了吗？",
-    "detail": "原型：Autorizzare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Autorizzare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAutorizzo, Autorizzi, Autorizza, Autorizziamo, Autorizzate, Autorizzano",
     "options": [
       {
         "text": "授权",
         "isCorrect": true
       },
       {
-        "text": "腐烂",
+        "text": "幸免",
         "isCorrect": false
       },
       {
-        "text": "预设",
+        "text": "戒除/停止",
         "isCorrect": false
       },
       {
-        "text": "变酸",
+        "text": "散布",
         "isCorrect": false
       }
     ]
@@ -25760,22 +25760,22 @@ module.exports = [
     "meaning": "给予/承认",
     "example": "Concedimi un minuto.",
     "example_meaning": "给我一分钟。",
-    "detail": "原型：Concedere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Concedere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nConcedo, Concedi, Concede, Concediamo, Concedete, Concedono",
     "options": [
       {
         "text": "给予/承认",
         "isCorrect": true
       },
       {
-        "text": "飞",
+        "text": "加盐",
         "isCorrect": false
       },
       {
-        "text": "走过",
+        "text": "加糖",
         "isCorrect": false
       },
       {
-        "text": "量化",
+        "text": "拒绝",
         "isCorrect": false
       }
     ]
@@ -25789,23 +25789,23 @@ module.exports = [
     "meaning": "给予/调音",
     "example": "Accordare il pianoforte.",
     "example_meaning": "给钢琴调音。",
-    "detail": "原型：Accordare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Accordare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAccordo, Accordi, Accorda, Accordiamo, Accordate, Accordano",
     "options": [
       {
-        "text": "消失/逝世",
+        "text": "推论",
         "isCorrect": false
       },
       {
-        "text": "逃避",
+        "text": "统治/为王",
+        "isCorrect": false
+      },
+      {
+        "text": "构思",
         "isCorrect": false
       },
       {
         "text": "给予/调音",
         "isCorrect": true
-      },
-      {
-        "text": "变成",
-        "isCorrect": false
       }
     ]
   },
@@ -25818,10 +25818,14 @@ module.exports = [
     "meaning": "否认/拒绝",
     "example": "Nego tutto.",
     "example_meaning": "我否认一切。",
-    "detail": "原型：Negare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Negare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nNego, Negi, Nega, Negiamo, Negate, Negano",
     "options": [
       {
-        "text": "起飞",
+        "text": "去世",
+        "isCorrect": false
+      },
+      {
+        "text": "推迟",
         "isCorrect": false
       },
       {
@@ -25829,11 +25833,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "出版",
-        "isCorrect": false
-      },
-      {
-        "text": "妨碍",
+        "text": "逃脱",
         "isCorrect": false
       }
     ]
@@ -25847,23 +25847,23 @@ module.exports = [
     "meaning": "拒绝",
     "example": "Ha rifiutato l'invito.",
     "example_meaning": "他拒绝了邀请。",
-    "detail": "原型：Rifiutare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Rifiutare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nRifiuto, Rifiuti, Rifiuta, Rifiutiamo, Rifiutate, Rifiutano",
     "options": [
       {
-        "text": "禁止",
+        "text": "传播/传送",
         "isCorrect": false
       },
       {
-        "text": "宣布",
-        "isCorrect": false
-      },
-      {
-        "text": "提前",
+        "text": "完善",
         "isCorrect": false
       },
       {
         "text": "拒绝",
         "isCorrect": true
+      },
+      {
+        "text": "重复",
+        "isCorrect": false
       }
     ]
   },
@@ -25876,23 +25876,23 @@ module.exports = [
     "meaning": "驳回",
     "example": "Respingere al mittente.",
     "example_meaning": "退回发件人。",
-    "detail": "原型：Respingere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Respingere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nRespingo, Respingi, Respinge, Respingiamo, Respingete, Respingono",
     "options": [
-      {
-        "text": "打败/敲",
-        "isCorrect": false
-      },
-      {
-        "text": "腐烂",
-        "isCorrect": false
-      },
-      {
-        "text": "纠正",
-        "isCorrect": false
-      },
       {
         "text": "驳回",
         "isCorrect": true
+      },
+      {
+        "text": "调整/修理",
+        "isCorrect": false
+      },
+      {
+        "text": "到达",
+        "isCorrect": false
+      },
+      {
+        "text": "授权",
+        "isCorrect": false
       }
     ]
   },
@@ -25905,23 +25905,23 @@ module.exports = [
     "meaning": "禁止",
     "example": "Vietato l'accesso.",
     "example_meaning": "禁止入内。",
-    "detail": "原型：Vietare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Vietare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nVieto, Vieti, Vieta, Vietiamo, Vietate, Vietano",
     "options": [
-      {
-        "text": "超过",
-        "isCorrect": false
-      },
-      {
-        "text": "铺开/起草",
-        "isCorrect": false
-      },
-      {
-        "text": "击败",
-        "isCorrect": false
-      },
       {
         "text": "禁止",
         "isCorrect": true
+      },
+      {
+        "text": "溶解",
+        "isCorrect": false
+      },
+      {
+        "text": "通告",
+        "isCorrect": false
+      },
+      {
+        "text": "走过",
+        "isCorrect": false
       }
     ]
   },
@@ -25934,14 +25934,10 @@ module.exports = [
     "meaning": "禁止",
     "example": "È proibito fumare.",
     "example_meaning": "严禁吸烟。",
-    "detail": "原型：Proibire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Proibire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nProibo, Proibi, Proibe, Proibiamo, Proibite, Proibono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "授权",
-        "isCorrect": false
-      },
-      {
-        "text": "计划",
+        "text": "视察",
         "isCorrect": false
       },
       {
@@ -25949,7 +25945,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "调味",
+        "text": "调整/修理",
+        "isCorrect": false
+      },
+      {
+        "text": "烹饪",
         "isCorrect": false
       }
     ]
@@ -25963,22 +25963,22 @@ module.exports = [
     "meaning": "抑制",
     "example": "Inibire la crescita.",
     "example_meaning": "抑制生长。",
-    "detail": "原型：Inibire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Inibire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nInibo, Inibi, Inibe, Inibiamo, Inibite, Inibono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
-      {
-        "text": "经营/管理",
-        "isCorrect": false
-      },
       {
         "text": "抑制",
         "isCorrect": true
       },
       {
-        "text": "加胡椒",
+        "text": "通告",
         "isCorrect": false
       },
       {
-        "text": "指挥/指导",
+        "text": "调味",
+        "isCorrect": false
+      },
+      {
+        "text": "使统一",
         "isCorrect": false
       }
     ]
@@ -25992,23 +25992,23 @@ module.exports = [
     "meaning": "阻碍",
     "example": "Non ostacolarmi.",
     "example_meaning": "别挡我的路。",
-    "detail": "原型：Ostacolare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Ostacolare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nOstacolo, Ostacoli, Ostacola, Ostacoliamo, Ostacolate, Ostacolano",
     "options": [
+      {
+        "text": "完成",
+        "isCorrect": false
+      },
+      {
+        "text": "水煮",
+        "isCorrect": false
+      },
+      {
+        "text": "逃避",
+        "isCorrect": false
+      },
       {
         "text": "阻碍",
         "isCorrect": true
-      },
-      {
-        "text": "组织",
-        "isCorrect": false
-      },
-      {
-        "text": "猜中",
-        "isCorrect": false
-      },
-      {
-        "text": "阻止",
-        "isCorrect": false
       }
     ]
   },
@@ -26021,22 +26021,22 @@ module.exports = [
     "meaning": "妨碍",
     "example": "Intralciare il traffico.",
     "example_meaning": "妨碍交通。",
-    "detail": "原型：Intralciare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Intralciare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nIntralcio, Intralcii, Intralcia, Intralciiamo, Intralciate, Intralciano",
     "options": [
+      {
+        "text": "推断",
+        "isCorrect": false
+      },
+      {
+        "text": "允许",
+        "isCorrect": false
+      },
       {
         "text": "妨碍",
         "isCorrect": true
       },
       {
-        "text": "调整/修理",
-        "isCorrect": false
-      },
-      {
-        "text": "组织",
-        "isCorrect": false
-      },
-      {
-        "text": "纠正",
+        "text": "评估",
         "isCorrect": false
       }
     ]
@@ -26050,23 +26050,23 @@ module.exports = [
     "meaning": "阻止",
     "example": "Niente potrà impedirlo.",
     "example_meaning": "什么也阻止不了它。",
-    "detail": "原型：Impedire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Impedire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nImpedo, Impedi, Impede, Impediamo, Impedite, Impedono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
-      {
-        "text": "暂停",
-        "isCorrect": false
-      },
-      {
-        "text": "推论",
-        "isCorrect": false
-      },
-      {
-        "text": "评估",
-        "isCorrect": false
-      },
       {
         "text": "阻止",
         "isCorrect": true
+      },
+      {
+        "text": "修理/安顿",
+        "isCorrect": false
+      },
+      {
+        "text": "测量",
+        "isCorrect": false
+      },
+      {
+        "text": "主持(会议)",
+        "isCorrect": false
       }
     ]
   },
@@ -26079,10 +26079,10 @@ module.exports = [
     "meaning": "预防",
     "example": "Prevenire gli incendi.",
     "example_meaning": "防火。",
-    "detail": "原型：Prevenire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Prevenire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nPreveno, Preveni, Prevene, Preveniamo, Prevenite, Prevenono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "是",
+        "text": "毁坏",
         "isCorrect": false
       },
       {
@@ -26090,11 +26090,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "登船/机",
+        "text": "灭绝",
         "isCorrect": false
       },
       {
-        "text": "损害",
+        "text": "损坏/变质",
         "isCorrect": false
       }
     ]
@@ -26108,22 +26108,22 @@ module.exports = [
     "meaning": "避免",
     "example": "Evita i guai.",
     "example_meaning": "避免麻烦。",
-    "detail": "原型：Evitare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Evitare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nEvito, Eviti, Evita, Evitiamo, Evitate, Evitano",
     "options": [
-      {
-        "text": "暗杀",
-        "isCorrect": false
-      },
       {
         "text": "避免",
         "isCorrect": true
       },
       {
-        "text": "阻碍",
+        "text": "驳回",
         "isCorrect": false
       },
       {
-        "text": "加胡椒",
+        "text": "延后",
+        "isCorrect": false
+      },
+      {
+        "text": "雕刻",
         "isCorrect": false
       }
     ]
@@ -26137,23 +26137,23 @@ module.exports = [
     "meaning": "躲避",
     "example": "Schivare un colpo.",
     "example_meaning": "躲避一击。",
-    "detail": "原型：Schivare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Schivare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSchivo, Schivi, Schiva, Schiviamo, Schivate, Schivano",
     "options": [
-      {
-        "text": "使受伤",
-        "isCorrect": false
-      },
-      {
-        "text": "量化",
-        "isCorrect": false
-      },
-      {
-        "text": "暂停",
-        "isCorrect": false
-      },
       {
         "text": "躲避",
         "isCorrect": true
+      },
+      {
+        "text": "修正/整流",
+        "isCorrect": false
+      },
+      {
+        "text": "返回",
+        "isCorrect": false
+      },
+      {
+        "text": "指挥/指导",
+        "isCorrect": false
       }
     ]
   },
@@ -26166,22 +26166,22 @@ module.exports = [
     "meaning": "逃避",
     "example": "Eludere le tasse.",
     "example_meaning": "逃税。",
-    "detail": "原型：Eludere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Eludere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nEludo, Eludi, Elude, Eludiamo, Eludete, Eludono",
     "options": [
       {
         "text": "逃避",
         "isCorrect": true
       },
       {
-        "text": "预见",
+        "text": "推迟",
         "isCorrect": false
       },
       {
-        "text": "构思",
+        "text": "结束",
         "isCorrect": false
       },
       {
-        "text": "想象",
+        "text": "修复",
         "isCorrect": false
       }
     ]
@@ -26195,18 +26195,18 @@ module.exports = [
     "meaning": "逃脱",
     "example": "Mi è sfuggito di mano.",
     "example_meaning": "它从我手中滑落了。",
-    "detail": "原型：Sfuggire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sfuggire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nSfuggo, Sfuggi, Sfugge, Sfuggiamo, Sfuggite, Sfuggono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "批准/认可",
+        "text": "通告",
         "isCorrect": false
       },
       {
-        "text": "加盐",
+        "text": "存在",
         "isCorrect": false
       },
       {
-        "text": "普及/泄露",
+        "text": "腐烂",
         "isCorrect": false
       },
       {
@@ -26224,18 +26224,18 @@ module.exports = [
     "meaning": "幸免",
     "example": "Scampare al pericolo.",
     "example_meaning": "逃脱危险。",
-    "detail": "原型：Scampare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Scampare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nScampo, Scampi, Scampa, Scampiamo, Scampate, Scampano",
     "options": [
       {
-        "text": "安置/解决",
-        "isCorrect": false
-      },
-      {
-        "text": "消散",
-        "isCorrect": false
-      },
-      {
         "text": "终止",
+        "isCorrect": false
+      },
+      {
+        "text": "消失/逝世",
+        "isCorrect": false
+      },
+      {
+        "text": "修理/安顿",
         "isCorrect": false
       },
       {
@@ -26253,22 +26253,22 @@ module.exports = [
     "meaning": "生存",
     "example": "Sopravvivere nel deserto.",
     "example_meaning": "在沙漠中生存。",
-    "detail": "原型：Sopravvivere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sopravvivere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nSopravvivo, Sopravvivi, Sopravvive, Sopravviviamo, Sopravvivete, Sopravvivono",
     "options": [
       {
         "text": "生存",
         "isCorrect": true
       },
       {
-        "text": "批准/认可",
+        "text": "修正/整流",
         "isCorrect": false
       },
       {
-        "text": "设计/规划",
+        "text": "测量",
         "isCorrect": false
       },
       {
-        "text": "抑制",
+        "text": "修理",
         "isCorrect": false
       }
     ]
@@ -26282,18 +26282,18 @@ module.exports = [
     "meaning": "生活",
     "example": "Vivere alla grande.",
     "example_meaning": "活得精彩。",
-    "detail": "原型：Vivere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Vivere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nVivo, Vivi, Vive, Viviamo, Vivete, Vivono",
     "options": [
       {
-        "text": "分类",
+        "text": "预见",
         "isCorrect": false
       },
       {
-        "text": "消散",
+        "text": "假定",
         "isCorrect": false
       },
       {
-        "text": "灭绝",
+        "text": "自杀",
         "isCorrect": false
       },
       {
@@ -26311,23 +26311,23 @@ module.exports = [
     "meaning": "存在",
     "example": "Penso dunque esisto.",
     "example_meaning": "我思故我在。",
-    "detail": "原型：Esistere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Esistere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nEsisto, Esisti, Esiste, Esistiamo, Esistete, Esistono",
     "options": [
+      {
+        "text": "推断",
+        "isCorrect": false
+      },
+      {
+        "text": "液化",
+        "isCorrect": false
+      },
+      {
+        "text": "到达",
+        "isCorrect": false
+      },
       {
         "text": "存在",
         "isCorrect": true
-      },
-      {
-        "text": "构思",
-        "isCorrect": false
-      },
-      {
-        "text": "提前",
-        "isCorrect": false
-      },
-      {
-        "text": "是",
-        "isCorrect": false
       }
     ]
   },
@@ -26340,23 +26340,23 @@ module.exports = [
     "meaning": "是",
     "example": "Essere o non essere.",
     "example_meaning": "生存还是毁灭。",
-    "detail": "原型：Essere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Essere (不规则动词)。\n\n直陈式现在时变位：\nsono, sei, è, siamo, siete, sono",
     "options": [
-      {
-        "text": "消散",
-        "isCorrect": false
-      },
-      {
-        "text": "到达",
-        "isCorrect": false
-      },
-      {
-        "text": "传播/传送",
-        "isCorrect": false
-      },
       {
         "text": "是",
         "isCorrect": true
+      },
+      {
+        "text": "授权",
+        "isCorrect": false
+      },
+      {
+        "text": "给予/承认",
+        "isCorrect": false
+      },
+      {
+        "text": "通告",
+        "isCorrect": false
       }
     ]
   },
@@ -26369,14 +26369,14 @@ module.exports = [
     "meaning": "变得",
     "example": "Divenire famoso.",
     "example_meaning": "变得出名。",
-    "detail": "原型：Divenire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Divenire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nDiveno, Diveni, Divene, Diveniamo, Divenite, Divenono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "推论",
+        "text": "修正/整流",
         "isCorrect": false
       },
       {
-        "text": "创造",
+        "text": "完善",
         "isCorrect": false
       },
       {
@@ -26384,7 +26384,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "指挥/指导",
+        "text": "使变苦/悲伤",
         "isCorrect": false
       }
     ]
@@ -26398,22 +26398,22 @@ module.exports = [
     "meaning": "变成",
     "example": "Diventare grandi.",
     "example_meaning": "长大。",
-    "detail": "原型：Diventare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Diventare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nDivento, Diventi, Diventa, Diventiamo, Diventate, Diventano",
     "options": [
       {
         "text": "变成",
         "isCorrect": true
       },
       {
-        "text": "变甜",
+        "text": "授权",
         "isCorrect": false
       },
       {
-        "text": "画草图/草拟",
+        "text": "损害",
         "isCorrect": false
       },
       {
-        "text": "支配/俯视",
+        "text": "存在",
         "isCorrect": false
       }
     ]
@@ -26427,22 +26427,22 @@ module.exports = [
     "meaning": "生长",
     "example": "I bambini crescono in fretta.",
     "example_meaning": "孩子们长得很快。",
-    "detail": "原型：Crescere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Crescere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nCresco, Cresci, Cresce, Cresciamo, Crescete, Crescono",
     "options": [
-      {
-        "text": "赞成",
-        "isCorrect": false
-      },
       {
         "text": "生长",
         "isCorrect": true
       },
       {
-        "text": "推论",
+        "text": "阻止",
         "isCorrect": false
       },
       {
-        "text": "使适合",
+        "text": "腐烂",
+        "isCorrect": false
+      },
+      {
+        "text": "预言",
         "isCorrect": false
       }
     ]
@@ -26456,23 +26456,23 @@ module.exports = [
     "meaning": "成熟",
     "example": "Hai bisogno di maturare.",
     "example_meaning": "你需要成熟点。",
-    "detail": "原型：Maturare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Maturare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nMaturo, Maturi, Matura, Maturiamo, Maturate, Maturano",
     "options": [
       {
-        "text": "消散",
+        "text": "妨碍",
+        "isCorrect": false
+      },
+      {
+        "text": "腐烂",
+        "isCorrect": false
+      },
+      {
+        "text": "加盐",
         "isCorrect": false
       },
       {
         "text": "成熟",
         "isCorrect": true
-      },
-      {
-        "text": "冷却",
-        "isCorrect": false
-      },
-      {
-        "text": "水煮",
-        "isCorrect": false
       }
     ]
   },
@@ -26485,23 +26485,23 @@ module.exports = [
     "meaning": "变老",
     "example": "Invecchiare bene.",
     "example_meaning": "优雅地老去。",
-    "detail": "原型：Invecchiare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Invecchiare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nInvecchio, Invecchii, Invecchia, Invecchiiamo, Invecchiate, Invecchiano",
     "options": [
-      {
-        "text": "预设",
-        "isCorrect": false
-      },
-      {
-        "text": "逃避",
-        "isCorrect": false
-      },
-      {
-        "text": "出发",
-        "isCorrect": false
-      },
       {
         "text": "变老",
         "isCorrect": true
+      },
+      {
+        "text": "加热",
+        "isCorrect": false
+      },
+      {
+        "text": "协调",
+        "isCorrect": false
+      },
+      {
+        "text": "使适合",
+        "isCorrect": false
       }
     ]
   },
@@ -26514,22 +26514,22 @@ module.exports = [
     "meaning": "死",
     "example": "Morire dal ridere.",
     "example_meaning": "笑死。",
-    "detail": "原型：Morire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Morire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nMoro, Mori, More, Moriamo, Morite, Morono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
-      {
-        "text": "幸免",
-        "isCorrect": false
-      },
-      {
-        "text": "逃避",
-        "isCorrect": false
-      },
       {
         "text": "死",
         "isCorrect": true
       },
       {
-        "text": "重复",
+        "text": "损害",
+        "isCorrect": false
+      },
+      {
+        "text": "登船/机",
+        "isCorrect": false
+      },
+      {
+        "text": "暗杀",
         "isCorrect": false
       }
     ]
@@ -26543,23 +26543,23 @@ module.exports = [
     "meaning": "去世",
     "example": "È deceduto ieri.",
     "example_meaning": "他昨天去世了。",
-    "detail": "原型：Decedere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Decedere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nDecedo, Decedi, Decede, Decediamo, Decedete, Decedono",
     "options": [
+      {
+        "text": "想象",
+        "isCorrect": false
+      },
+      {
+        "text": "妨碍",
+        "isCorrect": false
+      },
+      {
+        "text": "交流/通知",
+        "isCorrect": false
+      },
       {
         "text": "去世",
         "isCorrect": true
-      },
-      {
-        "text": "创造",
-        "isCorrect": false
-      },
-      {
-        "text": "煮沸",
-        "isCorrect": false
-      },
-      {
-        "text": "灭绝",
-        "isCorrect": false
       }
     ]
   },
@@ -26572,22 +26572,22 @@ module.exports = [
     "meaning": "消失/逝世",
     "example": "Il mago è scomparso.",
     "example_meaning": "魔术师消失了。",
-    "detail": "原型：Scomparire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Scomparire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nScomparo, Scompari, Scompare, Scompariamo, Scomparite, Scomparono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
         "text": "消失/逝世",
         "isCorrect": true
       },
       {
-        "text": "禁止",
+        "text": "损坏/变质",
         "isCorrect": false
       },
       {
-        "text": "生存",
+        "text": "支配/俯视",
         "isCorrect": false
       },
       {
-        "text": "旅行",
+        "text": "击败",
         "isCorrect": false
       }
     ]
@@ -26601,22 +26601,22 @@ module.exports = [
     "meaning": "失踪",
     "example": "Sparire nel nulla.",
     "example_meaning": "消失得无影无踪。",
-    "detail": "原型：Sparire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sparire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nSparo, Spari, Spare, Spariamo, Sparite, Sparono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
-      {
-        "text": "预防",
-        "isCorrect": false
-      },
-      {
-        "text": "检查/审查",
-        "isCorrect": false
-      },
       {
         "text": "失踪",
         "isCorrect": true
       },
       {
-        "text": "授权",
+        "text": "重返/回家",
+        "isCorrect": false
+      },
+      {
+        "text": "走过",
+        "isCorrect": false
+      },
+      {
+        "text": "塑造",
         "isCorrect": false
       }
     ]
@@ -26630,18 +26630,18 @@ module.exports = [
     "meaning": "消散",
     "example": "Il sogno è svanito.",
     "example_meaning": "梦想破灭了。",
-    "detail": "原型：Svanire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Svanire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nSvano, Svani, Svane, Svaniamo, Svanite, Svanono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "烹饪",
+        "text": "允许",
         "isCorrect": false
       },
       {
-        "text": "给予/调音",
+        "text": "协调",
         "isCorrect": false
       },
       {
-        "text": "拒绝",
+        "text": "估价/尊敬",
         "isCorrect": false
       },
       {
@@ -26659,22 +26659,22 @@ module.exports = [
     "meaning": "溶解",
     "example": "La nebbia si dissolve.",
     "example_meaning": "雾散了。",
-    "detail": "原型：Dissolvere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Dissolvere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nDissolvo, Dissolvi, Dissolve, Dissolviamo, Dissolvete, Dissolvono",
     "options": [
-      {
-        "text": "改善",
-        "isCorrect": false
-      },
       {
         "text": "溶解",
         "isCorrect": true
       },
       {
-        "text": "禁止",
+        "text": "使变苦/悲伤",
         "isCorrect": false
       },
       {
-        "text": "预言",
+        "text": "使统一",
+        "isCorrect": false
+      },
+      {
+        "text": "传播/传送",
         "isCorrect": false
       }
     ]
@@ -26688,22 +26688,22 @@ module.exports = [
     "meaning": "融化/解开",
     "example": "Il ghiaccio si scioglie.",
     "example_meaning": "冰融化了。",
-    "detail": "原型：Sciogliere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sciogliere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nScioglio, Scioglii, Scioglie, Sciogliiamo, Sciogliete, Sciogliono",
     "options": [
       {
         "text": "融化/解开",
         "isCorrect": true
       },
       {
-        "text": "抑制",
+        "text": "阻碍",
         "isCorrect": false
       },
       {
-        "text": "重复",
+        "text": "预言",
         "isCorrect": false
       },
       {
-        "text": "妨碍",
+        "text": "冷却",
         "isCorrect": false
       }
     ]
@@ -26717,14 +26717,10 @@ module.exports = [
     "meaning": "熔化/合并",
     "example": "Fondere il metallo.",
     "example_meaning": "熔化金属。",
-    "detail": "原型：Fondere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Fondere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nFondo, Fondi, Fonde, Fondiamo, Fondete, Fondono",
     "options": [
       {
-        "text": "旅行",
-        "isCorrect": false
-      },
-      {
-        "text": "猜中",
+        "text": "给予/承认",
         "isCorrect": false
       },
       {
@@ -26732,7 +26728,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "交流/通知",
+        "text": "宣布",
+        "isCorrect": false
+      },
+      {
+        "text": "走过",
         "isCorrect": false
       }
     ]
@@ -26746,22 +26746,22 @@ module.exports = [
     "meaning": "液化",
     "example": "Il gas si liquefa.",
     "example_meaning": "气体液化。",
-    "detail": "原型：Liquefare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Liquefare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nLiquefo, Liquefi, Liquefa, Liquefiamo, Liquefate, Liquefano",
     "options": [
+      {
+        "text": "列举",
+        "isCorrect": false
+      },
+      {
+        "text": "构思",
+        "isCorrect": false
+      },
       {
         "text": "液化",
         "isCorrect": true
       },
       {
-        "text": "评估",
-        "isCorrect": false
-      },
-      {
-        "text": "调整/修理",
-        "isCorrect": false
-      },
-      {
-        "text": "印刷",
+        "text": "结束",
         "isCorrect": false
       }
     ]
@@ -26775,22 +26775,22 @@ module.exports = [
     "meaning": "凝固",
     "example": "La lava solidifica.",
     "example_meaning": "熔岩凝固。",
-    "detail": "原型：Solidificare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Solidificare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSolidifico, Solidifici, Solidifica, Solidificiamo, Solidificate, Solidificano",
     "options": [
+      {
+        "text": "猜中",
+        "isCorrect": false
+      },
       {
         "text": "凝固",
         "isCorrect": true
       },
       {
-        "text": "去世",
+        "text": "生活",
         "isCorrect": false
       },
       {
-        "text": "液化",
-        "isCorrect": false
-      },
-      {
-        "text": "修理/安顿",
+        "text": "越过",
         "isCorrect": false
       }
     ]
@@ -26804,23 +26804,23 @@ module.exports = [
     "meaning": "冷冻",
     "example": "Congelare il cibo.",
     "example_meaning": "冷冻食物。",
-    "detail": "原型：Congelare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Congelare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nCongelo, Congeli, Congela, Congeliamo, Congelate, Congelano",
     "options": [
-      {
-        "text": "授权",
-        "isCorrect": false
-      },
-      {
-        "text": "到达",
-        "isCorrect": false
-      },
-      {
-        "text": "返回",
-        "isCorrect": false
-      },
       {
         "text": "冷冻",
         "isCorrect": true
+      },
+      {
+        "text": "修正/整流",
+        "isCorrect": false
+      },
+      {
+        "text": "暂停",
+        "isCorrect": false
+      },
+      {
+        "text": "修复",
+        "isCorrect": false
       }
     ]
   },
@@ -26833,22 +26833,22 @@ module.exports = [
     "meaning": "结冰",
     "example": "L'acqua ghiaccia a zero gradi.",
     "example_meaning": "水在零度结冰。",
-    "detail": "原型：Ghiacciare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Ghiacciare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nGhiaccio, Ghiaccii, Ghiaccia, Ghiacciiamo, Ghiacciate, Ghiacciano",
     "options": [
-      {
-        "text": "想象",
-        "isCorrect": false
-      },
       {
         "text": "结冰",
         "isCorrect": true
       },
       {
-        "text": "穿过",
+        "text": "击败",
         "isCorrect": false
       },
       {
-        "text": "控制",
+        "text": "更新/续期",
+        "isCorrect": false
+      },
+      {
+        "text": "构思",
         "isCorrect": false
       }
     ]
@@ -26862,22 +26862,22 @@ module.exports = [
     "meaning": "冷却",
     "example": "Lascia raffreddare.",
     "example_meaning": "让它凉一凉。",
-    "detail": "原型：Raffreddare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Raffreddare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nRaffreddo, Raffreddi, Raffredda, Raffreddiamo, Raffreddate, Raffreddano",
     "options": [
       {
         "text": "冷却",
         "isCorrect": true
       },
       {
-        "text": "列出",
+        "text": "预防",
         "isCorrect": false
       },
       {
-        "text": "阻碍",
+        "text": "油炸",
         "isCorrect": false
       },
       {
-        "text": "计算",
+        "text": "出版",
         "isCorrect": false
       }
     ]
@@ -26891,22 +26891,22 @@ module.exports = [
     "meaning": "加热",
     "example": "Riscalda il latte.",
     "example_meaning": "热牛奶。",
-    "detail": "原型：Riscaldare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Riscaldare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nRiscaldo, Riscaldi, Riscalda, Riscaldiamo, Riscaldate, Riscaldano",
     "options": [
+      {
+        "text": "修理",
+        "isCorrect": false
+      },
       {
         "text": "加热",
         "isCorrect": true
       },
       {
-        "text": "打败/敲",
+        "text": "推断",
         "isCorrect": false
       },
       {
-        "text": "指挥/指导",
-        "isCorrect": false
-      },
-      {
-        "text": "称重",
+        "text": "戒除/停止",
         "isCorrect": false
       }
     ]
@@ -26920,14 +26920,14 @@ module.exports = [
     "meaning": "煮沸",
     "example": "L'acqua bolle.",
     "example_meaning": "水开了。",
-    "detail": "原型：Bollire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Bollire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nBollo, Bolli, Bolle, Bolliamo, Bollite, Bollono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "成熟",
+        "text": "经营/管理",
         "isCorrect": false
       },
       {
-        "text": "声称/肯定",
+        "text": "加热",
         "isCorrect": false
       },
       {
@@ -26949,23 +26949,23 @@ module.exports = [
     "meaning": "烹饪",
     "example": "Cuocere a fuoco lento.",
     "example_meaning": "慢火煮。",
-    "detail": "原型：Cuocere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Cuocere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nCuoco, Cuoci, Cuoce, Cuociamo, Cuocete, Cuocono",
     "options": [
-      {
-        "text": "经营/管理",
-        "isCorrect": false
-      },
-      {
-        "text": "起飞",
-        "isCorrect": false
-      },
-      {
-        "text": "绘画/油漆",
-        "isCorrect": false
-      },
       {
         "text": "烹饪",
         "isCorrect": true
+      },
+      {
+        "text": "戒除/停止",
+        "isCorrect": false
+      },
+      {
+        "text": "安置/解决",
+        "isCorrect": false
+      },
+      {
+        "text": "生存",
+        "isCorrect": false
       }
     ]
   },
@@ -26978,23 +26978,23 @@ module.exports = [
     "meaning": "烤",
     "example": "Arrostire il pollo.",
     "example_meaning": "烤鸡。",
-    "detail": "原型：Arrostire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Arrostire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nArrosto, Arrosti, Arroste, Arrostiamo, Arrostite, Arrostono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "打败/敲",
+        "text": "允许",
+        "isCorrect": false
+      },
+      {
+        "text": "改善",
+        "isCorrect": false
+      },
+      {
+        "text": "逃避",
         "isCorrect": false
       },
       {
         "text": "烤",
         "isCorrect": true
-      },
-      {
-        "text": "组织",
-        "isCorrect": false
-      },
-      {
-        "text": "授权",
-        "isCorrect": false
       }
     ]
   },
@@ -27007,22 +27007,22 @@ module.exports = [
     "meaning": "油炸",
     "example": "Friggere le patate.",
     "example_meaning": "炸土豆。",
-    "detail": "原型：Friggere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Friggere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nFriggo, Friggi, Frigge, Friggiamo, Friggete, Friggono",
     "options": [
-      {
-        "text": "修正/整流",
-        "isCorrect": false
-      },
-      {
-        "text": "禁止",
-        "isCorrect": false
-      },
       {
         "text": "油炸",
         "isCorrect": true
       },
       {
-        "text": "生长",
+        "text": "打败/敲",
+        "isCorrect": false
+      },
+      {
+        "text": "水煮",
+        "isCorrect": false
+      },
+      {
+        "text": "断言",
         "isCorrect": false
       }
     ]
@@ -27036,23 +27036,23 @@ module.exports = [
     "meaning": "水煮",
     "example": "Lessare le verdure.",
     "example_meaning": "煮蔬菜。",
-    "detail": "原型：Lessare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Lessare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nLesso, Lessi, Lessa, Lessiamo, Lessate, Lessano",
     "options": [
+      {
+        "text": "修理",
+        "isCorrect": false
+      },
+      {
+        "text": "打断",
+        "isCorrect": false
+      },
+      {
+        "text": "到达",
+        "isCorrect": false
+      },
       {
         "text": "水煮",
         "isCorrect": true
-      },
-      {
-        "text": "传播/传送",
-        "isCorrect": false
-      },
-      {
-        "text": "使一致",
-        "isCorrect": false
-      },
-      {
-        "text": "推迟",
-        "isCorrect": false
       }
     ]
   },
@@ -27065,22 +27065,22 @@ module.exports = [
     "meaning": "调味",
     "example": "Condire l'insalata.",
     "example_meaning": "拌沙拉。",
-    "detail": "原型：Condire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Condire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nCondo, Condi, Conde, Condiamo, Condite, Condono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
+      {
+        "text": "发明",
+        "isCorrect": false
+      },
+      {
+        "text": "构思",
+        "isCorrect": false
+      },
       {
         "text": "调味",
         "isCorrect": true
       },
       {
-        "text": "损坏/变质",
-        "isCorrect": false
-      },
-      {
-        "text": "统治/为王",
-        "isCorrect": false
-      },
-      {
-        "text": "去世",
+        "text": "监督",
         "isCorrect": false
       }
     ]
@@ -27094,23 +27094,23 @@ module.exports = [
     "meaning": "加盐",
     "example": "Salare l'acqua.",
     "example_meaning": "给水加盐。",
-    "detail": "原型：Salare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Salare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSalo, Sali, Sala, Saliamo, Salate, Salano",
     "options": [
-      {
-        "text": "检查/审查",
-        "isCorrect": false
-      },
-      {
-        "text": "探索",
-        "isCorrect": false
-      },
-      {
-        "text": "变得",
-        "isCorrect": false
-      },
       {
         "text": "加盐",
         "isCorrect": true
+      },
+      {
+        "text": "消散",
+        "isCorrect": false
+      },
+      {
+        "text": "适应/改编",
+        "isCorrect": false
+      },
+      {
+        "text": "纠正",
+        "isCorrect": false
       }
     ]
   },
@@ -27123,23 +27123,23 @@ module.exports = [
     "meaning": "加胡椒",
     "example": "Pepare la carne.",
     "example_meaning": "给肉加胡椒。",
-    "detail": "原型：Pepare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Pepare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPepo, Pepi, Pepa, Pepiamo, Pepate, Pepano",
     "options": [
       {
-        "text": "假定",
+        "text": "宣告",
+        "isCorrect": false
+      },
+      {
+        "text": "变酸",
+        "isCorrect": false
+      },
+      {
+        "text": "视察",
         "isCorrect": false
       },
       {
         "text": "加胡椒",
         "isCorrect": true
-      },
-      {
-        "text": "航行/上网",
-        "isCorrect": false
-      },
-      {
-        "text": "到达",
-        "isCorrect": false
       }
     ]
   },
@@ -27152,23 +27152,23 @@ module.exports = [
     "meaning": "加糖",
     "example": "Zuccherare il caffè.",
     "example_meaning": "给咖啡加糖。",
-    "detail": "原型：Zuccherare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Zuccherare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nZucchero, Zuccheri, Zucchera, Zuccheriamo, Zuccherate, Zuccherano",
     "options": [
       {
-        "text": "修理/安顿",
+        "text": "描绘/追踪",
         "isCorrect": false
       },
       {
-        "text": "使适合",
-        "isCorrect": false
-      },
-      {
-        "text": "给予/承认",
+        "text": "禁止",
         "isCorrect": false
       },
       {
         "text": "加糖",
         "isCorrect": true
+      },
+      {
+        "text": "授权",
+        "isCorrect": false
       }
     ]
   },
@@ -27181,23 +27181,23 @@ module.exports = [
     "meaning": "变甜",
     "example": "Dolcificare con miele.",
     "example_meaning": "用蜂蜜增甜。",
-    "detail": "原型：Dolcificare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Dolcificare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nDolcifico, Dolcifici, Dolcifica, Dolcificiamo, Dolcificate, Dolcificano",
     "options": [
+      {
+        "text": "冷冻",
+        "isCorrect": false
+      },
+      {
+        "text": "导致/包含",
+        "isCorrect": false
+      },
+      {
+        "text": "猜中",
+        "isCorrect": false
+      },
       {
         "text": "变甜",
         "isCorrect": true
-      },
-      {
-        "text": "监督",
-        "isCorrect": false
-      },
-      {
-        "text": "抑制",
-        "isCorrect": false
-      },
-      {
-        "text": "越过",
-        "isCorrect": false
       }
     ]
   },
@@ -27210,23 +27210,23 @@ module.exports = [
     "meaning": "使变苦/悲伤",
     "example": "Questa notizia mi amareggia.",
     "example_meaning": "这消息让我伤心。",
-    "detail": "原型：Amarreggiare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Amarreggiare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAmarreggio, Amarreggii, Amarreggia, Amarreggiiamo, Amarreggiate, Amarreggiano",
     "options": [
+      {
+        "text": "预设",
+        "isCorrect": false
+      },
+      {
+        "text": "想象",
+        "isCorrect": false
+      },
+      {
+        "text": "变甜",
+        "isCorrect": false
+      },
       {
         "text": "使变苦/悲伤",
         "isCorrect": true
-      },
-      {
-        "text": "暂停",
-        "isCorrect": false
-      },
-      {
-        "text": "指挥/指导",
-        "isCorrect": false
-      },
-      {
-        "text": "调味",
-        "isCorrect": false
       }
     ]
   },
@@ -27239,23 +27239,23 @@ module.exports = [
     "meaning": "变酸",
     "example": "Il latte è inacidito.",
     "example_meaning": "牛奶变酸了。",
-    "detail": "原型：Inacidire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Inacidire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nInacido, Inacidi, Inacide, Inacidiamo, Inacidite, Inacidono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "处决",
-        "isCorrect": false
-      },
-      {
-        "text": "重返/回家",
-        "isCorrect": false
-      },
-      {
-        "text": "阻碍",
+        "text": "毁坏",
         "isCorrect": false
       },
       {
         "text": "变酸",
         "isCorrect": true
+      },
+      {
+        "text": "撰写",
+        "isCorrect": false
+      },
+      {
+        "text": "允许",
+        "isCorrect": false
       }
     ]
   },
@@ -27268,23 +27268,23 @@ module.exports = [
     "meaning": "腐烂",
     "example": "La mela marcisce.",
     "example_meaning": "苹果腐烂。",
-    "detail": "原型：Marcire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Marcire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nMarco, Marci, Marce, Marciamo, Marcite, Marcono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
+      {
+        "text": "逃脱",
+        "isCorrect": false
+      },
+      {
+        "text": "起飞",
+        "isCorrect": false
+      },
+      {
+        "text": "液化",
+        "isCorrect": false
+      },
       {
         "text": "腐烂",
         "isCorrect": true
-      },
-      {
-        "text": "失踪",
-        "isCorrect": false
-      },
-      {
-        "text": "存在",
-        "isCorrect": false
-      },
-      {
-        "text": "打败/敲",
-        "isCorrect": false
       }
     ]
   },
@@ -27297,22 +27297,22 @@ module.exports = [
     "meaning": "损坏/变质",
     "example": "Il tempo si guasta.",
     "example_meaning": "天气变坏了。",
-    "detail": "原型：Guastare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Guastare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nGuasto, Guasti, Guasta, Guastiamo, Guastate, Guastano",
     "options": [
+      {
+        "text": "允许",
+        "isCorrect": false
+      },
+      {
+        "text": "返回",
+        "isCorrect": false
+      },
       {
         "text": "损坏/变质",
         "isCorrect": true
       },
       {
-        "text": "调味",
-        "isCorrect": false
-      },
-      {
-        "text": "阻碍",
-        "isCorrect": false
-      },
-      {
-        "text": "优化",
+        "text": "失踪",
         "isCorrect": false
       }
     ]
@@ -27326,14 +27326,14 @@ module.exports = [
     "meaning": "毁坏",
     "example": "Hai rovinato la sorpresa.",
     "example_meaning": "你毁了惊喜。",
-    "detail": "原型：Rovinare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Rovinare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nRovino, Rovini, Rovina, Roviniamo, Rovinate, Rovinano",
     "options": [
       {
-        "text": "妨碍",
+        "text": "推论",
         "isCorrect": false
       },
       {
-        "text": "统治",
+        "text": "烤",
         "isCorrect": false
       },
       {
@@ -27341,7 +27341,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "允许",
+        "text": "修复",
         "isCorrect": false
       }
     ]
@@ -27355,23 +27355,23 @@ module.exports = [
     "meaning": "损害",
     "example": "Il fumo danneggia la salute.",
     "example_meaning": "吸烟损害健康。",
-    "detail": "原型：Danneggiare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Danneggiare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nDanneggio, Danneggii, Danneggia, Danneggiiamo, Danneggiate, Danneggiano",
     "options": [
-      {
-        "text": "设计/规划",
-        "isCorrect": false
-      },
-      {
-        "text": "使适合",
-        "isCorrect": false
-      },
-      {
-        "text": "熔化/合并",
-        "isCorrect": false
-      },
       {
         "text": "损害",
         "isCorrect": true
+      },
+      {
+        "text": "带领/主持",
+        "isCorrect": false
+      },
+      {
+        "text": "预见",
+        "isCorrect": false
+      },
+      {
+        "text": "变成",
+        "isCorrect": false
       }
     ]
   },
@@ -27384,22 +27384,22 @@ module.exports = [
     "meaning": "伤害",
     "example": "Non nuocere a nessuno.",
     "example_meaning": "不要伤害任何人。",
-    "detail": "原型：Nuocere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Nuocere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nNuoco, Nuoci, Nuoce, Nuociamo, Nuocete, Nuocono",
     "options": [
+      {
+        "text": "去世",
+        "isCorrect": false
+      },
+      {
+        "text": "回来",
+        "isCorrect": false
+      },
       {
         "text": "伤害",
         "isCorrect": true
       },
       {
-        "text": "加糖",
-        "isCorrect": false
-      },
-      {
-        "text": "停止",
-        "isCorrect": false
-      },
-      {
-        "text": "使一致",
+        "text": "赞成",
         "isCorrect": false
       }
     ]
@@ -27413,22 +27413,22 @@ module.exports = [
     "meaning": "使受伤",
     "example": "Mi hai ferito.",
     "example_meaning": "你伤害了我。",
-    "detail": "原型：Ferire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Ferire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nFero, Feri, Fere, Feriamo, Ferite, Ferono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
         "text": "使受伤",
         "isCorrect": true
       },
       {
-        "text": "降落",
+        "text": "烹饪",
         "isCorrect": false
       },
       {
-        "text": "登船/机",
+        "text": "到达",
         "isCorrect": false
       },
       {
-        "text": "加糖",
+        "text": "计划",
         "isCorrect": false
       }
     ]
@@ -27442,18 +27442,18 @@ module.exports = [
     "meaning": "杀",
     "example": "Il fumo uccide.",
     "example_meaning": "吸烟致死。",
-    "detail": "原型：Uccidere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Uccidere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nUccido, Uccidi, Uccide, Uccidiamo, Uccidete, Uccidono",
     "options": [
       {
-        "text": "加热",
+        "text": "雕刻",
         "isCorrect": false
       },
       {
-        "text": "飞",
+        "text": "打败/敲",
         "isCorrect": false
       },
       {
-        "text": "描绘/追踪",
+        "text": "测量",
         "isCorrect": false
       },
       {
@@ -27471,18 +27471,18 @@ module.exports = [
     "meaning": "暗杀",
     "example": "Assassinare un re.",
     "example_meaning": "刺杀国王。",
-    "detail": "原型：Assassinare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Assassinare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAssassino, Assassini, Assassina, Assassiniamo, Assassinate, Assassinano",
     "options": [
       {
-        "text": "降落",
+        "text": "统治",
         "isCorrect": false
       },
       {
-        "text": "生存",
+        "text": "杀",
         "isCorrect": false
       },
       {
-        "text": "生活",
+        "text": "安置/解决",
         "isCorrect": false
       },
       {
@@ -27500,18 +27500,18 @@ module.exports = [
     "meaning": "处决",
     "example": "Giustiziare un prigioniero.",
     "example_meaning": "处决囚犯。",
-    "detail": "原型：Giustiziare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Giustiziare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nGiustizio, Giustizii, Giustizia, Giustiziiamo, Giustiziate, Giustiziano",
     "options": [
       {
-        "text": "称重",
+        "text": "冷冻",
         "isCorrect": false
       },
       {
-        "text": "调味",
+        "text": "出版",
         "isCorrect": false
       },
       {
-        "text": "完善",
+        "text": "视察",
         "isCorrect": false
       },
       {
@@ -27529,23 +27529,23 @@ module.exports = [
     "meaning": "自杀",
     "example": "Si è suicidato.",
     "example_meaning": "他自杀了。",
-    "detail": "原型：Suicidarsi (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Suicidarsi (动词)。\n请注意根据语境的人称和时态进行变化。",
     "options": [
+      {
+        "text": "生活",
+        "isCorrect": false
+      },
+      {
+        "text": "安置/解决",
+        "isCorrect": false
+      },
+      {
+        "text": "通告",
+        "isCorrect": false
+      },
       {
         "text": "自杀",
         "isCorrect": true
-      },
-      {
-        "text": "宣告",
-        "isCorrect": false
-      },
-      {
-        "text": "损坏/变质",
-        "isCorrect": false
-      },
-      {
-        "text": "给予/承认",
-        "isCorrect": false
       }
     ]
   },
@@ -27558,23 +27558,23 @@ module.exports = [
     "meaning": "屠杀",
     "example": "Massacrare innocenti.",
     "example_meaning": "屠杀无辜者。",
-    "detail": "原型：Massacrare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Massacrare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nMassacro, Massacri, Massacra, Massacriamo, Massacrate, Massacrano",
     "options": [
-      {
-        "text": "安置/解决",
-        "isCorrect": false
-      },
-      {
-        "text": "列出",
-        "isCorrect": false
-      },
-      {
-        "text": "假定",
-        "isCorrect": false
-      },
       {
         "text": "屠杀",
         "isCorrect": true
+      },
+      {
+        "text": "优化",
+        "isCorrect": false
+      },
+      {
+        "text": "消散",
+        "isCorrect": false
+      },
+      {
+        "text": "宣告",
+        "isCorrect": false
       }
     ]
   },
@@ -27587,22 +27587,22 @@ module.exports = [
     "meaning": "灭绝",
     "example": "Sterminare i parassiti.",
     "example_meaning": "消灭害虫。",
-    "detail": "原型：Sterminare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sterminare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nStermino, Stermini, Stermina, Sterminiamo, Sterminate, Sterminano",
     "options": [
-      {
-        "text": "预防",
-        "isCorrect": false
-      },
       {
         "text": "灭绝",
         "isCorrect": true
       },
       {
-        "text": "阻碍",
+        "text": "死",
         "isCorrect": false
       },
       {
-        "text": "损坏/变质",
+        "text": "屠杀",
+        "isCorrect": false
+      },
+      {
+        "text": "冷冻",
         "isCorrect": false
       }
     ]
@@ -27616,23 +27616,23 @@ module.exports = [
     "meaning": "歼灭",
     "example": "Annientare il nemico.",
     "example_meaning": "歼灭敌人。",
-    "detail": "原型：Annientare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Annientare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAnniento, Annienti, Annienta, Annientiamo, Annientate, Annientano",
     "options": [
       {
-        "text": "重复",
+        "text": "重做",
         "isCorrect": false
       },
       {
-        "text": "勾勒",
+        "text": "加胡椒",
+        "isCorrect": false
+      },
+      {
+        "text": "主持(会议)",
         "isCorrect": false
       },
       {
         "text": "歼灭",
         "isCorrect": true
-      },
-      {
-        "text": "变成",
-        "isCorrect": false
       }
     ]
   },
@@ -27645,23 +27645,23 @@ module.exports = [
     "meaning": "击败",
     "example": "Sconfiggere la malattia.",
     "example_meaning": "战胜疾病。",
-    "detail": "原型：Sconfiggere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sconfiggere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nSconfiggo, Sconfiggi, Sconfigge, Sconfiggiamo, Sconfiggete, Sconfiggono",
     "options": [
+      {
+        "text": "列举",
+        "isCorrect": false
+      },
+      {
+        "text": "回来",
+        "isCorrect": false
+      },
+      {
+        "text": "使一致",
+        "isCorrect": false
+      },
       {
         "text": "击败",
         "isCorrect": true
-      },
-      {
-        "text": "消散",
-        "isCorrect": false
-      },
-      {
-        "text": "普及/泄露",
-        "isCorrect": false
-      },
-      {
-        "text": "推断",
-        "isCorrect": false
       }
     ]
   },
@@ -27674,23 +27674,23 @@ module.exports = [
     "meaning": "打败/敲",
     "example": "Battere le mani.",
     "example_meaning": "鼓掌。",
-    "detail": "原型：Battere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Battere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nBatto, Batti, Batte, Battiamo, Battete, Battono",
     "options": [
-      {
-        "text": "更新/续期",
-        "isCorrect": false
-      },
-      {
-        "text": "水煮",
-        "isCorrect": false
-      },
-      {
-        "text": "使统一",
-        "isCorrect": false
-      },
       {
         "text": "打败/敲",
         "isCorrect": true
+      },
+      {
+        "text": "灭绝",
+        "isCorrect": false
+      },
+      {
+        "text": "加胡椒",
+        "isCorrect": false
+      },
+      {
+        "text": "使一致",
+        "isCorrect": false
       }
     ]
   },
@@ -27703,23 +27703,23 @@ module.exports = [
     "meaning": "超过",
     "example": "Superare il limite.",
     "example_meaning": "超过限度。",
-    "detail": "原型：Superare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Superare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSupero, Superi, Supera, Superiamo, Superate, Superano",
     "options": [
       {
-        "text": "油炸",
+        "text": "凝固",
         "isCorrect": false
       },
       {
-        "text": "终止",
+        "text": "消散",
+        "isCorrect": false
+      },
+      {
+        "text": "散布",
         "isCorrect": false
       },
       {
         "text": "超过",
         "isCorrect": true
-      },
-      {
-        "text": "暗杀",
-        "isCorrect": false
       }
     ]
   },
@@ -27732,22 +27732,22 @@ module.exports = [
     "meaning": "超车/超越",
     "example": "Non sorpassare in curva.",
     "example_meaning": "弯道勿超车。",
-    "detail": "原型：Sorpassare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sorpassare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSorpasso, Sorpassi, Sorpassa, Sorpassiamo, Sorpassate, Sorpassano",
     "options": [
       {
         "text": "超车/超越",
         "isCorrect": true
       },
       {
-        "text": "降落",
+        "text": "更新/续期",
         "isCorrect": false
       },
       {
-        "text": "是",
+        "text": "推断",
         "isCorrect": false
       },
       {
-        "text": "变成",
+        "text": "铺开/起草",
         "isCorrect": false
       }
     ]
@@ -27761,10 +27761,10 @@ module.exports = [
     "meaning": "越过",
     "example": "Oltrepassare il confine.",
     "example_meaning": "越过边界。",
-    "detail": "原型：Oltrepassare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Oltrepassare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nOltrepasso, Oltrepassi, Oltrepassa, Oltrepassiamo, Oltrepassate, Oltrepassano",
     "options": [
       {
-        "text": "熔化/合并",
+        "text": "宣布",
         "isCorrect": false
       },
       {
@@ -27772,11 +27772,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "处决",
+        "text": "否认/拒绝",
         "isCorrect": false
       },
       {
-        "text": "逃避",
+        "text": "冷却",
         "isCorrect": false
       }
     ]
@@ -27790,22 +27790,22 @@ module.exports = [
     "meaning": "穿过",
     "example": "Attraversare la strada.",
     "example_meaning": "过马路。",
-    "detail": "原型：Attraversare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Attraversare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAttraverso, Attraversi, Attraversa, Attraversiamo, Attraversate, Attraversano",
     "options": [
-      {
-        "text": "抑制",
-        "isCorrect": false
-      },
       {
         "text": "穿过",
         "isCorrect": true
       },
       {
-        "text": "逃脱",
+        "text": "重做",
         "isCorrect": false
       },
       {
-        "text": "煮沸",
+        "text": "自杀",
+        "isCorrect": false
+      },
+      {
+        "text": "打断",
         "isCorrect": false
       }
     ]
@@ -27819,18 +27819,18 @@ module.exports = [
     "meaning": "走过",
     "example": "Percorrere un sentiero.",
     "example_meaning": "走一条小路。",
-    "detail": "原型：Percorrere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Percorrere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nPercorro, Percorri, Percorre, Percorriamo, Percorrete, Percorrono",
     "options": [
       {
-        "text": "损害",
+        "text": "允许",
         "isCorrect": false
       },
       {
-        "text": "绘画/油漆",
+        "text": "量化",
         "isCorrect": false
       },
       {
-        "text": "修理",
+        "text": "修正/整流",
         "isCorrect": false
       },
       {
@@ -27848,23 +27848,23 @@ module.exports = [
     "meaning": "旅行",
     "example": "Viaggiare per il mondo.",
     "example_meaning": "周游世界。",
-    "detail": "原型：Viaggiare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Viaggiare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nViaggio, Viaggii, Viaggia, Viaggiiamo, Viaggiate, Viaggiano",
     "options": [
       {
-        "text": "重返/回家",
-        "isCorrect": false
-      },
-      {
-        "text": "使一致",
-        "isCorrect": false
-      },
-      {
-        "text": "起飞",
+        "text": "禁止",
         "isCorrect": false
       },
       {
         "text": "旅行",
         "isCorrect": true
+      },
+      {
+        "text": "变成",
+        "isCorrect": false
+      },
+      {
+        "text": "引导/驾驶",
+        "isCorrect": false
       }
     ]
   },
@@ -27877,23 +27877,23 @@ module.exports = [
     "meaning": "探索",
     "example": "Esplorare nuove terre.",
     "example_meaning": "探索新大陆。",
-    "detail": "原型：Esplorare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Esplorare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nEsploro, Esplori, Esplora, Esploriamo, Esplorate, Esplorano",
     "options": [
       {
-        "text": "结冰",
-        "isCorrect": false
-      },
-      {
-        "text": "水煮",
-        "isCorrect": false
-      },
-      {
-        "text": "宣告",
+        "text": "调味",
         "isCorrect": false
       },
       {
         "text": "探索",
         "isCorrect": true
+      },
+      {
+        "text": "统治/为王",
+        "isCorrect": false
+      },
+      {
+        "text": "生存",
+        "isCorrect": false
       }
     ]
   },
@@ -27906,14 +27906,10 @@ module.exports = [
     "meaning": "航行/上网",
     "example": "Navigare in internet.",
     "example_meaning": "上网冲浪。",
-    "detail": "原型：Navigare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Navigare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nNavigo, Navigi, Naviga, Navigiamo, Navigate, Navigano",
     "options": [
       {
-        "text": "返回",
-        "isCorrect": false
-      },
-      {
-        "text": "屠杀",
+        "text": "适应/改编",
         "isCorrect": false
       },
       {
@@ -27921,7 +27917,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "超过",
+        "text": "溶解",
+        "isCorrect": false
+      },
+      {
+        "text": "发明",
         "isCorrect": false
       }
     ]
@@ -27935,23 +27935,23 @@ module.exports = [
     "meaning": "飞",
     "example": "Volare alto.",
     "example_meaning": "飞得高。",
-    "detail": "原型：Volare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Volare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nVolo, Voli, Vola, Voliamo, Volate, Volano",
     "options": [
+      {
+        "text": "完善",
+        "isCorrect": false
+      },
+      {
+        "text": "到达",
+        "isCorrect": false
+      },
+      {
+        "text": "击败",
+        "isCorrect": false
+      },
       {
         "text": "飞",
         "isCorrect": true
-      },
-      {
-        "text": "计算",
-        "isCorrect": false
-      },
-      {
-        "text": "完成",
-        "isCorrect": false
-      },
-      {
-        "text": "重新开始",
-        "isCorrect": false
       }
     ]
   },
@@ -27964,23 +27964,23 @@ module.exports = [
     "meaning": "降落",
     "example": "L'aereo atterra.",
     "example_meaning": "飞机降落。",
-    "detail": "原型：Atterrare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Atterrare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAtterro, Atterri, Atterra, Atterriamo, Atterrate, Atterrano",
     "options": [
       {
-        "text": "控制",
+        "text": "生存",
+        "isCorrect": false
+      },
+      {
+        "text": "逃脱",
+        "isCorrect": false
+      },
+      {
+        "text": "引导/驾驶",
         "isCorrect": false
       },
       {
         "text": "降落",
         "isCorrect": true
-      },
-      {
-        "text": "统治",
-        "isCorrect": false
-      },
-      {
-        "text": "给予/承认",
-        "isCorrect": false
       }
     ]
   },
@@ -27993,22 +27993,22 @@ module.exports = [
     "meaning": "起飞",
     "example": "L'aereo decolla.",
     "example_meaning": "飞机起飞。",
-    "detail": "原型：Decollare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Decollare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nDecollo, Decolli, Decolla, Decolliamo, Decollate, Decollano",
     "options": [
+      {
+        "text": "击败",
+        "isCorrect": false
+      },
       {
         "text": "起飞",
         "isCorrect": true
       },
       {
-        "text": "勾勒",
+        "text": "通告",
         "isCorrect": false
       },
       {
-        "text": "修正/整流",
-        "isCorrect": false
-      },
-      {
-        "text": "煮沸",
+        "text": "量化",
         "isCorrect": false
       }
     ]
@@ -28022,22 +28022,22 @@ module.exports = [
     "meaning": "登船/机",
     "example": "Imbarcarsi per l'America.",
     "example_meaning": "登船去美洲。",
-    "detail": "原型：Imbarcarsi (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Imbarcarsi (动词)。\n请注意根据语境的人称和时态进行变化。",
     "options": [
+      {
+        "text": "印刷",
+        "isCorrect": false
+      },
+      {
+        "text": "评估",
+        "isCorrect": false
+      },
       {
         "text": "登船/机",
         "isCorrect": true
       },
       {
-        "text": "绘画/油漆",
-        "isCorrect": false
-      },
-      {
-        "text": "声称/肯定",
-        "isCorrect": false
-      },
-      {
-        "text": "分类",
+        "text": "幸免",
         "isCorrect": false
       }
     ]
@@ -28051,23 +28051,23 @@ module.exports = [
     "meaning": "登陆",
     "example": "Sbarcare il lunario.",
     "example_meaning": "勉强维持生计。",
-    "detail": "原型：Sbarcare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sbarcare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSbarco, Sbarci, Sbarca, Sbarciamo, Sbarcate, Sbarcano",
     "options": [
       {
-        "text": "灭绝",
+        "text": "变甜",
+        "isCorrect": false
+      },
+      {
+        "text": "出版",
+        "isCorrect": false
+      },
+      {
+        "text": "熔化/合并",
         "isCorrect": false
       },
       {
         "text": "登陆",
         "isCorrect": true
-      },
-      {
-        "text": "加热",
-        "isCorrect": false
-      },
-      {
-        "text": "融化/解开",
-        "isCorrect": false
       }
     ]
   },
@@ -28080,14 +28080,14 @@ module.exports = [
     "meaning": "出发",
     "example": "Partire è un po' morire.",
     "example_meaning": "离别如小死。",
-    "detail": "原型：Partire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Partire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nParto, Parti, Parte, Partiamo, Partite, Partono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "损坏/变质",
+        "text": "经营/管理",
         "isCorrect": false
       },
       {
-        "text": "飞",
+        "text": "损坏/变质",
         "isCorrect": false
       },
       {
@@ -28095,7 +28095,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "适应/改编",
+        "text": "毁坏",
         "isCorrect": false
       }
     ]
@@ -28109,23 +28109,23 @@ module.exports = [
     "meaning": "到达",
     "example": "Arrivare in orario.",
     "example_meaning": "准时到达。",
-    "detail": "原型：Arrivare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Arrivare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nArrivo, Arrivi, Arriva, Arriviamo, Arrivate, Arrivano",
     "options": [
-      {
-        "text": "提前",
-        "isCorrect": false
-      },
-      {
-        "text": "使统一",
-        "isCorrect": false
-      },
-      {
-        "text": "登船/机",
-        "isCorrect": false
-      },
       {
         "text": "到达",
         "isCorrect": true
+      },
+      {
+        "text": "阻碍",
+        "isCorrect": false
+      },
+      {
+        "text": "走过",
+        "isCorrect": false
+      },
+      {
+        "text": "铺开/起草",
+        "isCorrect": false
       }
     ]
   },
@@ -28138,10 +28138,10 @@ module.exports = [
     "meaning": "回来",
     "example": "Torno subito.",
     "example_meaning": "我马上回来。",
-    "detail": "原型：Tornare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Tornare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nTorno, Torni, Torna, Torniamo, Tornate, Tornano",
     "options": [
       {
-        "text": "视察",
+        "text": "推迟",
         "isCorrect": false
       },
       {
@@ -28149,11 +28149,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "歼灭",
+        "text": "消失/逝世",
         "isCorrect": false
       },
       {
-        "text": "超车/超越",
+        "text": "推论",
         "isCorrect": false
       }
     ]
@@ -28167,22 +28167,22 @@ module.exports = [
     "meaning": "重返/回家",
     "example": "Rientrare a casa.",
     "example_meaning": "回家。",
-    "detail": "原型：Rientrare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Rientrare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nRientro, Rientri, Rientra, Rientriamo, Rientrate, Rientrano",
     "options": [
       {
         "text": "重返/回家",
         "isCorrect": true
       },
       {
-        "text": "通告",
+        "text": "预见",
         "isCorrect": false
       },
       {
-        "text": "烹饪",
+        "text": "主持(会议)",
         "isCorrect": false
       },
       {
-        "text": "消散",
+        "text": "到达",
         "isCorrect": false
       }
     ]
@@ -28196,18 +28196,18 @@ module.exports = [
     "meaning": "返回",
     "example": "Ritornare al passato.",
     "example_meaning": "回到过去。",
-    "detail": "原型：Ritornare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Ritornare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nRitorno, Ritorni, Ritorna, Ritorniamo, Ritornate, Ritornano",
     "options": [
       {
-        "text": "想象",
+        "text": "完成",
         "isCorrect": false
       },
       {
-        "text": "安置/解决",
+        "text": "授权",
         "isCorrect": false
       },
       {
-        "text": "修理/安顿",
+        "text": "幸免",
         "isCorrect": false
       },
       {
@@ -28225,22 +28225,22 @@ module.exports = [
     "meaning": "重复",
     "example": "Ripeti dopo di me.",
     "example_meaning": "跟我读。",
-    "detail": "原型：Ripetere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Ripetere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nRipeto, Ripeti, Ripete, Ripetiamo, Ripetete, Ripetono",
     "options": [
-      {
-        "text": "预见",
-        "isCorrect": false
-      },
-      {
-        "text": "探索",
-        "isCorrect": false
-      },
       {
         "text": "重复",
         "isCorrect": true
       },
       {
-        "text": "授权",
+        "text": "完成",
+        "isCorrect": false
+      },
+      {
+        "text": "控制",
+        "isCorrect": false
+      },
+      {
+        "text": "变老",
         "isCorrect": false
       }
     ]
@@ -28254,22 +28254,22 @@ module.exports = [
     "meaning": "重做",
     "example": "Rifare il letto.",
     "example_meaning": "铺床。",
-    "detail": "原型：Rifare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Rifare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nRifo, Rifi, Rifa, Rifiamo, Rifate, Rifano",
     "options": [
       {
         "text": "重做",
         "isCorrect": true
       },
       {
-        "text": "修正/整流",
+        "text": "测量",
         "isCorrect": false
       },
       {
-        "text": "印刷",
+        "text": "引导/驾驶",
         "isCorrect": false
       },
       {
-        "text": "去世",
+        "text": "批准/认可",
         "isCorrect": false
       }
     ]
@@ -28283,22 +28283,22 @@ module.exports = [
     "meaning": "重新开始",
     "example": "Ricominciare da capo.",
     "example_meaning": "从头开始。",
-    "detail": "原型：Ricominciare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Ricominciare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nRicomincio, Ricomincii, Ricomincia, Ricominciiamo, Ricominciate, Ricominciano",
     "options": [
-      {
-        "text": "调味",
-        "isCorrect": false
-      },
       {
         "text": "重新开始",
         "isCorrect": true
       },
       {
-        "text": "到达",
+        "text": "损害",
         "isCorrect": false
       },
       {
-        "text": "溶解",
+        "text": "油炸",
+        "isCorrect": false
+      },
+      {
+        "text": "指挥/指导",
         "isCorrect": false
       }
     ]
@@ -28312,10 +28312,14 @@ module.exports = [
     "meaning": "更新/续期",
     "example": "Rinnovare il passaporto.",
     "example_meaning": "更新护照。",
-    "detail": "原型：Rinnovare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Rinnovare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nRinnovo, Rinnovi, Rinnova, Rinnoviamo, Rinnovate, Rinnovano",
     "options": [
       {
-        "text": "躲避",
+        "text": "变甜",
+        "isCorrect": false
+      },
+      {
+        "text": "控制",
         "isCorrect": false
       },
       {
@@ -28323,11 +28327,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "预言",
-        "isCorrect": false
-      },
-      {
-        "text": "重新开始",
+        "text": "创造",
         "isCorrect": false
       }
     ]
@@ -28341,23 +28341,23 @@ module.exports = [
     "meaning": "修复",
     "example": "Restaurare un quadro.",
     "example_meaning": "修复画作。",
-    "detail": "原型：Restaurare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Restaurare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nRestauro, Restauri, Restaura, Restauriamo, Restaurate, Restaurano",
     "options": [
+      {
+        "text": "宣布",
+        "isCorrect": false
+      },
+      {
+        "text": "量化",
+        "isCorrect": false
+      },
+      {
+        "text": "塑造",
+        "isCorrect": false
+      },
       {
         "text": "修复",
         "isCorrect": true
-      },
-      {
-        "text": "完成",
-        "isCorrect": false
-      },
-      {
-        "text": "计划",
-        "isCorrect": false
-      },
-      {
-        "text": "画草图/草拟",
-        "isCorrect": false
       }
     ]
   },
@@ -28370,10 +28370,10 @@ module.exports = [
     "meaning": "修理",
     "example": "Riparare l'auto.",
     "example_meaning": "修车。",
-    "detail": "原型：Riparare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Riparare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nRiparo, Ripari, Ripara, Ripariamo, Riparate, Riparano",
     "options": [
       {
-        "text": "消散",
+        "text": "安置/解决",
         "isCorrect": false
       },
       {
@@ -28381,11 +28381,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "驳回",
+        "text": "生长",
         "isCorrect": false
       },
       {
-        "text": "损害",
+        "text": "油炸",
         "isCorrect": false
       }
     ]
@@ -28399,23 +28399,23 @@ module.exports = [
     "meaning": "调整/修理",
     "example": "Aggiustare il tiro.",
     "example_meaning": "调整射击/方向。",
-    "detail": "原型：Aggiustare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Aggiustare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAggiusto, Aggiusti, Aggiusta, Aggiustiamo, Aggiustate, Aggiustano",
     "options": [
       {
-        "text": "画草图/草拟",
+        "text": "腐烂",
+        "isCorrect": false
+      },
+      {
+        "text": "水煮",
+        "isCorrect": false
+      },
+      {
+        "text": "走过",
         "isCorrect": false
       },
       {
         "text": "调整/修理",
         "isCorrect": true
-      },
-      {
-        "text": "纠正",
-        "isCorrect": false
-      },
-      {
-        "text": "失踪",
-        "isCorrect": false
       }
     ]
   },
@@ -28428,22 +28428,22 @@ module.exports = [
     "meaning": "纠正",
     "example": "Correggere gli errori.",
     "example_meaning": "纠正错误。",
-    "detail": "原型：Correggere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Correggere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nCorreggo, Correggi, Corregge, Correggiamo, Correggete, Correggono",
     "options": [
-      {
-        "text": "重复",
-        "isCorrect": false
-      },
-      {
-        "text": "绘画/油漆",
-        "isCorrect": false
-      },
       {
         "text": "纠正",
         "isCorrect": true
       },
       {
-        "text": "出发",
+        "text": "铺开/起草",
+        "isCorrect": false
+      },
+      {
+        "text": "拒绝",
+        "isCorrect": false
+      },
+      {
+        "text": "变老",
         "isCorrect": false
       }
     ]
@@ -28457,14 +28457,10 @@ module.exports = [
     "meaning": "修正/整流",
     "example": "Rettificare una notizia.",
     "example_meaning": "更正消息。",
-    "detail": "原型：Rettificare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Rettificare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nRettifico, Rettifici, Rettifica, Rettificiamo, Rettificate, Rettificano",
     "options": [
       {
-        "text": "死",
-        "isCorrect": false
-      },
-      {
-        "text": "绘画/油漆",
+        "text": "声称/肯定",
         "isCorrect": false
       },
       {
@@ -28472,7 +28468,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "加糖",
+        "text": "塑造",
+        "isCorrect": false
+      },
+      {
+        "text": "损害",
         "isCorrect": false
       }
     ]
@@ -28486,23 +28486,23 @@ module.exports = [
     "meaning": "改善",
     "example": "Migliorare le prestazioni.",
     "example_meaning": "提高性能。",
-    "detail": "原型：Migliorare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Migliorare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nMiglioro, Migliori, Migliora, Miglioriamo, Migliorate, Migliorano",
     "options": [
       {
-        "text": "导致/包含",
+        "text": "水煮",
+        "isCorrect": false
+      },
+      {
+        "text": "声称/肯定",
+        "isCorrect": false
+      },
+      {
+        "text": "使变苦/悲伤",
         "isCorrect": false
       },
       {
         "text": "改善",
         "isCorrect": true
-      },
-      {
-        "text": "越过",
-        "isCorrect": false
-      },
-      {
-        "text": "列举",
-        "isCorrect": false
       }
     ]
   },
@@ -28515,22 +28515,22 @@ module.exports = [
     "meaning": "优化",
     "example": "Ottimizzare le risorse.",
     "example_meaning": "优化资源。",
-    "detail": "原型：Ottimizzare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Ottimizzare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nOttimizzo, Ottimizzi, Ottimizza, Ottimizziamo, Ottimizzate, Ottimizzano",
     "options": [
-      {
-        "text": "加胡椒",
-        "isCorrect": false
-      },
-      {
-        "text": "结冰",
-        "isCorrect": false
-      },
       {
         "text": "优化",
         "isCorrect": true
       },
       {
-        "text": "出发",
+        "text": "起飞",
+        "isCorrect": false
+      },
+      {
+        "text": "拒绝",
+        "isCorrect": false
+      },
+      {
+        "text": "假定",
         "isCorrect": false
       }
     ]
@@ -28544,23 +28544,23 @@ module.exports = [
     "meaning": "完善",
     "example": "Perfezionare la tecnica.",
     "example_meaning": "完善技术。",
-    "detail": "原型：Perfezionare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Perfezionare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPerfeziono, Perfezioni, Perfeziona, Perfezioniamo, Perfezionate, Perfezionano",
     "options": [
+      {
+        "text": "改善",
+        "isCorrect": false
+      },
       {
         "text": "打败/敲",
         "isCorrect": false
       },
       {
-        "text": "使变苦/悲伤",
-        "isCorrect": false
-      },
-      {
-        "text": "修复",
-        "isCorrect": false
-      },
-      {
         "text": "完善",
         "isCorrect": true
+      },
+      {
+        "text": "预言",
+        "isCorrect": false
       }
     ]
   },
@@ -28573,10 +28573,10 @@ module.exports = [
     "meaning": "完成",
     "example": "Completare il modulo.",
     "example_meaning": "填写表格。",
-    "detail": "原型：Completare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Completare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nCompleto, Completi, Completa, Completiamo, Completate, Completano",
     "options": [
       {
-        "text": "重做",
+        "text": "想象",
         "isCorrect": false
       },
       {
@@ -28584,11 +28584,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "使变苦/悲伤",
+        "text": "腐烂",
         "isCorrect": false
       },
       {
-        "text": "检查/审查",
+        "text": "杀",
         "isCorrect": false
       }
     ]
@@ -28602,23 +28602,23 @@ module.exports = [
     "meaning": "结束",
     "example": "Finire i compiti.",
     "example_meaning": "做完作业。",
-    "detail": "原型：Finire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Finire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nFino, Fini, Fine, Finiamo, Finite, Finono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "超车/超越",
-        "isCorrect": false
-      },
-      {
-        "text": "烤",
-        "isCorrect": false
+        "text": "结束",
+        "isCorrect": true
       },
       {
         "text": "到达",
         "isCorrect": false
       },
       {
-        "text": "结束",
-        "isCorrect": true
+        "text": "妨碍",
+        "isCorrect": false
+      },
+      {
+        "text": "指挥/指导",
+        "isCorrect": false
       }
     ]
   },
@@ -28631,23 +28631,23 @@ module.exports = [
     "meaning": "终止",
     "example": "La strada termina qui.",
     "example_meaning": "路到此为止。",
-    "detail": "原型：Terminare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Terminare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nTermino, Termini, Termina, Terminiamo, Terminate, Terminano",
     "options": [
-      {
-        "text": "计算",
-        "isCorrect": false
-      },
-      {
-        "text": "返回",
-        "isCorrect": false
-      },
-      {
-        "text": "适应/改编",
-        "isCorrect": false
-      },
       {
         "text": "终止",
         "isCorrect": true
+      },
+      {
+        "text": "出发",
+        "isCorrect": false
+      },
+      {
+        "text": "印刷",
+        "isCorrect": false
+      },
+      {
+        "text": "使适合",
+        "isCorrect": false
       }
     ]
   },
@@ -28660,23 +28660,23 @@ module.exports = [
     "meaning": "停止",
     "example": "Cessare il fuoco.",
     "example_meaning": "停火。",
-    "detail": "原型：Cessare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Cessare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nCesso, Cessi, Cessa, Cessiamo, Cessate, Cessano",
     "options": [
+      {
+        "text": "煮沸",
+        "isCorrect": false
+      },
+      {
+        "text": "分类",
+        "isCorrect": false
+      },
+      {
+        "text": "主持(会议)",
+        "isCorrect": false
+      },
       {
         "text": "停止",
         "isCorrect": true
-      },
-      {
-        "text": "逃避",
-        "isCorrect": false
-      },
-      {
-        "text": "意味着",
-        "isCorrect": false
-      },
-      {
-        "text": "指挥/指导",
-        "isCorrect": false
       }
     ]
   },
@@ -28689,22 +28689,22 @@ module.exports = [
     "meaning": "戒除/停止",
     "example": "Smettere di fumare.",
     "example_meaning": "戒烟。",
-    "detail": "原型：Smettere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Smettere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nSmetto, Smetti, Smette, Smettiamo, Smettete, Smettono",
     "options": [
-      {
-        "text": "灭绝",
-        "isCorrect": false
-      },
       {
         "text": "戒除/停止",
         "isCorrect": true
       },
       {
-        "text": "修理",
+        "text": "普及/泄露",
         "isCorrect": false
       },
       {
-        "text": "预防",
+        "text": "屠杀",
+        "isCorrect": false
+      },
+      {
+        "text": "带领/主持",
         "isCorrect": false
       }
     ]
@@ -28718,23 +28718,23 @@ module.exports = [
     "meaning": "打断",
     "example": "Non interrompermi.",
     "example_meaning": "别打断我。",
-    "detail": "原型：Interrompere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Interrompere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nInterrompo, Interrompi, Interrompe, Interrompiamo, Interrompete, Interrompono",
     "options": [
       {
-        "text": "宣告",
+        "text": "出发",
         "isCorrect": false
       },
       {
-        "text": "评估",
-        "isCorrect": false
-      },
-      {
-        "text": "逃脱",
+        "text": "塑造",
         "isCorrect": false
       },
       {
         "text": "打断",
         "isCorrect": true
+      },
+      {
+        "text": "出版",
+        "isCorrect": false
       }
     ]
   },
@@ -28747,23 +28747,23 @@ module.exports = [
     "meaning": "暂停",
     "example": "La partita è sospesa.",
     "example_meaning": "比赛暂停。",
-    "detail": "原型：Sospendere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sospendere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nSospendo, Sospendi, Sospende, Sospendiamo, Sospendete, Sospendono",
     "options": [
       {
-        "text": "杀",
-        "isCorrect": false
-      },
-      {
-        "text": "加热",
-        "isCorrect": false
-      },
-      {
-        "text": "纠正",
+        "text": "生长",
         "isCorrect": false
       },
       {
         "text": "暂停",
         "isCorrect": true
+      },
+      {
+        "text": "铺开/起草",
+        "isCorrect": false
+      },
+      {
+        "text": "烤",
+        "isCorrect": false
       }
     ]
   },
@@ -28776,23 +28776,23 @@ module.exports = [
     "meaning": "推迟",
     "example": "Rimandare a domani.",
     "example_meaning": "推迟到明天。",
-    "detail": "原型：Rimandare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Rimandare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nRimando, Rimandi, Rimanda, Rimandiamo, Rimandate, Rimandano",
     "options": [
       {
-        "text": "毁坏",
+        "text": "允许",
+        "isCorrect": false
+      },
+      {
+        "text": "协调",
+        "isCorrect": false
+      },
+      {
+        "text": "走过",
         "isCorrect": false
       },
       {
         "text": "推迟",
         "isCorrect": true
-      },
-      {
-        "text": "禁止",
-        "isCorrect": false
-      },
-      {
-        "text": "给予/调音",
-        "isCorrect": false
       }
     ]
   },
@@ -28805,18 +28805,18 @@ module.exports = [
     "meaning": "延后",
     "example": "Posticipare la riunione.",
     "example_meaning": "推迟会议。",
-    "detail": "原型：Posticipare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Posticipare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPosticipo, Posticipi, Posticipa, Posticipiamo, Posticipate, Posticipano",
     "options": [
       {
-        "text": "重返/回家",
+        "text": "经营/管理",
         "isCorrect": false
       },
       {
-        "text": "分类",
+        "text": "更新/续期",
         "isCorrect": false
       },
       {
-        "text": "变酸",
+        "text": "探索",
         "isCorrect": false
       },
       {
@@ -28834,14 +28834,10 @@ module.exports = [
     "meaning": "提前",
     "example": "Anticipare la partenza.",
     "example_meaning": "提前出发。",
-    "detail": "原型：Anticipare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Anticipare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAnticipo, Anticipi, Anticipa, Anticipiamo, Anticipate, Anticipano",
     "options": [
       {
-        "text": "提前",
-        "isCorrect": true
-      },
-      {
-        "text": "烤",
+        "text": "阻止",
         "isCorrect": false
       },
       {
@@ -28849,8 +28845,12 @@ module.exports = [
         "isCorrect": false
       },
       {
-        "text": "导致/包含",
+        "text": "给予/调音",
         "isCorrect": false
+      },
+      {
+        "text": "提前",
+        "isCorrect": true
       }
     ]
   },
@@ -28863,22 +28863,22 @@ module.exports = [
     "meaning": "预见",
     "example": "Prevedere il futuro.",
     "example_meaning": "预见未来。",
-    "detail": "原型：Prevedere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Prevedere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nPrevedo, Prevedi, Prevede, Prevediamo, Prevedete, Prevedono",
     "options": [
+      {
+        "text": "印刷",
+        "isCorrect": false
+      },
       {
         "text": "预见",
         "isCorrect": true
       },
       {
-        "text": "腐烂",
+        "text": "允许",
         "isCorrect": false
       },
       {
-        "text": "油炸",
-        "isCorrect": false
-      },
-      {
-        "text": "视察",
+        "text": "评估",
         "isCorrect": false
       }
     ]
@@ -28892,10 +28892,10 @@ module.exports = [
     "meaning": "预言",
     "example": "Predire la sorte.",
     "example_meaning": "算命。",
-    "detail": "原型：Predire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Predire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nPredo, Predi, Prede, Prediamo, Predite, Predono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "重做",
+        "text": "称重",
         "isCorrect": false
       },
       {
@@ -28903,11 +28903,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "消失/逝世",
+        "text": "熔化/合并",
         "isCorrect": false
       },
       {
-        "text": "存在",
+        "text": "创造",
         "isCorrect": false
       }
     ]
@@ -28921,18 +28921,18 @@ module.exports = [
     "meaning": "预言",
     "example": "Profetizzare sventure.",
     "example_meaning": "预言灾难。",
-    "detail": "原型：Profetizzare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Profetizzare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nProfetizzo, Profetizzi, Profetizza, Profetizziamo, Profetizzate, Profetizzano",
     "options": [
-      {
-        "text": "穿过",
-        "isCorrect": false
-      },
       {
         "text": "否认/拒绝",
         "isCorrect": false
       },
       {
-        "text": "给予/承认",
+        "text": "消失/逝世",
+        "isCorrect": false
+      },
+      {
+        "text": "印刷",
         "isCorrect": false
       },
       {
@@ -28950,22 +28950,22 @@ module.exports = [
     "meaning": "猜中",
     "example": "Indovina chi è?",
     "example_meaning": "猜猜是谁？",
-    "detail": "原型：Indovinare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Indovinare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nIndovino, Indovini, Indovina, Indoviniamo, Indovinate, Indovinano",
     "options": [
       {
         "text": "猜中",
         "isCorrect": true
       },
       {
-        "text": "列举",
+        "text": "加盐",
         "isCorrect": false
       },
       {
-        "text": "给予/承认",
+        "text": "消散",
         "isCorrect": false
       },
       {
-        "text": "指挥/指导",
+        "text": "拒绝",
         "isCorrect": false
       }
     ]
@@ -28979,23 +28979,23 @@ module.exports = [
     "meaning": "想象",
     "example": "Immagina puoi.",
     "example_meaning": "想象你可以。",
-    "detail": "原型：Immaginare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Immaginare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nImmagino, Immagini, Immagina, Immaginiamo, Immaginate, Immaginano",
     "options": [
-      {
-        "text": "猜中",
-        "isCorrect": false
-      },
-      {
-        "text": "加热",
-        "isCorrect": false
-      },
-      {
-        "text": "勾勒",
-        "isCorrect": false
-      },
       {
         "text": "想象",
         "isCorrect": true
+      },
+      {
+        "text": "阻碍",
+        "isCorrect": false
+      },
+      {
+        "text": "禁止",
+        "isCorrect": false
+      },
+      {
+        "text": "量化",
+        "isCorrect": false
       }
     ]
   },
@@ -29008,18 +29008,18 @@ module.exports = [
     "meaning": "外推/推断",
     "example": "Estrapolare i dati dal contesto.",
     "example_meaning": "从语境中推断数据。",
-    "detail": "原型：Estrapolare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Estrapolare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nEstrapolo, Estrapoli, Estrapola, Estrapoliamo, Estrapolate, Estrapolano",
     "options": [
       {
-        "text": "使厌烦/焖",
+        "text": "振动",
         "isCorrect": false
       },
       {
-        "text": "渴望/吸入",
+        "text": "滥用职权/欺压",
         "isCorrect": false
       },
       {
-        "text": "摇摆/起伏",
+        "text": "磨损/消费",
         "isCorrect": false
       },
       {
@@ -29037,22 +29037,22 @@ module.exports = [
     "meaning": "详论",
     "example": "Amano disquisire di filosofia.",
     "example_meaning": "他们喜欢详论哲学。",
-    "detail": "原型：Disquisire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Disquisire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nDisquiso, Disquisi, Disquise, Disquisiamo, Disquisite, Disquisono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
         "text": "详论",
         "isCorrect": true
       },
       {
-        "text": "驱散/遗失",
+        "text": "篡夺",
         "isCorrect": false
       },
       {
-        "text": "织补",
+        "text": "使幻灭",
         "isCorrect": false
       },
       {
-        "text": "传播",
+        "text": "泼水/死记硬背",
         "isCorrect": false
       }
     ]
@@ -29066,22 +29066,22 @@ module.exports = [
     "meaning": "苦思冥想",
     "example": "Smetti di elucubrare!",
     "example_meaning": "别再苦思冥想了！",
-    "detail": "原型：Elucubrare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Elucubrare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nElucubro, Elucubri, Elucubra, Elucubriamo, Elucubrate, Elucubrano",
     "options": [
+      {
+        "text": "击碎",
+        "isCorrect": false
+      },
+      {
+        "text": "移植",
+        "isCorrect": false
+      },
       {
         "text": "苦思冥想",
         "isCorrect": true
       },
       {
-        "text": "追求",
-        "isCorrect": false
-      },
-      {
-        "text": "驱散/遗失",
-        "isCorrect": false
-      },
-      {
-        "text": "压迫",
+        "text": "前进/剩余",
         "isCorrect": false
       }
     ]
@@ -29095,23 +29095,23 @@ module.exports = [
     "meaning": "武断地发表意见",
     "example": "Non sopporto chi pontifica su tutto.",
     "example_meaning": "我受不了对一切都指手画脚的人。",
-    "detail": "原型：Pontificare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Pontificare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPontifico, Pontifici, Pontifica, Pontificiamo, Pontificate, Pontificano",
     "options": [
-      {
-        "text": "连根拔起",
-        "isCorrect": false
-      },
-      {
-        "text": "追求/检控",
-        "isCorrect": false
-      },
-      {
-        "text": "生锈",
-        "isCorrect": false
-      },
       {
         "text": "武断地发表意见",
         "isCorrect": true
+      },
+      {
+        "text": "跳水/潜入",
+        "isCorrect": false
+      },
+      {
+        "text": "氧化",
+        "isCorrect": false
+      },
+      {
+        "text": "欺骗/搞乱",
+        "isCorrect": false
       }
     ]
   },
@@ -29124,23 +29124,23 @@ module.exports = [
     "meaning": "预言",
     "example": "Vaticinare il futuro.",
     "example_meaning": "预言未来。",
-    "detail": "原型：Vaticinare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Vaticinare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nVaticino, Vaticini, Vaticina, Vaticiniamo, Vaticinate, Vaticinano",
     "options": [
       {
-        "text": "吓唬",
+        "text": "使担忧",
         "isCorrect": false
       },
       {
-        "text": "发抖",
-        "isCorrect": false
-      },
-      {
-        "text": "垄断",
+        "text": "弄干/烦扰",
         "isCorrect": false
       },
       {
         "text": "预言",
         "isCorrect": true
+      },
+      {
+        "text": "遭遇/招致",
+        "isCorrect": false
       }
     ]
   },
@@ -29153,14 +29153,10 @@ module.exports = [
     "meaning": "期望/预示",
     "example": "Auspichiamo una pronta guarigione.",
     "example_meaning": "我们期望早日康复。",
-    "detail": "原型：Auspicare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Auspicare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAuspico, Auspici, Auspica, Auspiciamo, Auspicate, Auspicano",
     "options": [
       {
         "text": "犯(罪)",
-        "isCorrect": false
-      },
-      {
-        "text": "渴望/吸入",
         "isCorrect": false
       },
       {
@@ -29168,7 +29164,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "磨损/消耗",
+        "text": "使毛骨悚然",
+        "isCorrect": false
+      },
+      {
+        "text": "脱水",
         "isCorrect": false
       }
     ]
@@ -29182,23 +29182,23 @@ module.exports = [
     "meaning": "渴望",
     "example": "Anelare alla libertà.",
     "example_meaning": "渴望自由。",
-    "detail": "原型：Anelare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Anelare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAnelo, Aneli, Anela, Aneliamo, Anelate, Anelano",
     "options": [
       {
-        "text": "侵蚀",
+        "text": "迫在眉睫",
         "isCorrect": false
       },
       {
-        "text": "发麻/群集",
-        "isCorrect": false
-      },
-      {
-        "text": "沉没",
+        "text": "编织/策划",
         "isCorrect": false
       },
       {
         "text": "渴望",
         "isCorrect": true
+      },
+      {
+        "text": "发抖",
+        "isCorrect": false
       }
     ]
   },
@@ -29211,23 +29211,23 @@ module.exports = [
     "meaning": "贪图/渴望",
     "example": "Bramare il potere.",
     "example_meaning": "贪图权力。",
-    "detail": "原型：Bramare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Bramare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nBramo, Brami, Brama, Bramiamo, Bramate, Bramano",
     "options": [
+      {
+        "text": "渴望/吸入",
+        "isCorrect": false
+      },
+      {
+        "text": "漂浮",
+        "isCorrect": false
+      },
+      {
+        "text": "剥夺/脱衣",
+        "isCorrect": false
+      },
       {
         "text": "贪图/渴望",
         "isCorrect": true
-      },
-      {
-        "text": "净化",
-        "isCorrect": false
-      },
-      {
-        "text": "包入/牵连",
-        "isCorrect": false
-      },
-      {
-        "text": "收获/集合",
-        "isCorrect": false
       }
     ]
   },
@@ -29240,23 +29240,23 @@ module.exports = [
     "meaning": "热望",
     "example": "Agognare il successo.",
     "example_meaning": "热望成功。",
-    "detail": "原型：Agognare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Agognare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAgogno, Agogni, Agogna, Agogniamo, Agognate, Agognano",
     "options": [
-      {
-        "text": "浸湿",
-        "isCorrect": false
-      },
-      {
-        "text": "外推/推断",
-        "isCorrect": false
-      },
-      {
-        "text": "展开/进行",
-        "isCorrect": false
-      },
       {
         "text": "热望",
         "isCorrect": true
+      },
+      {
+        "text": "回响",
+        "isCorrect": false
+      },
+      {
+        "text": "传染",
+        "isCorrect": false
+      },
+      {
+        "text": "嫁接/接合",
+        "isCorrect": false
       }
     ]
   },
@@ -29269,23 +29269,23 @@ module.exports = [
     "meaning": "追求",
     "example": "Ambire a una promozione.",
     "example_meaning": "追求晋升。",
-    "detail": "原型：Ambire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Ambire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nAmbo, Ambi, Ambe, Ambiamo, Ambite, Ambono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "捆绑/联系",
+        "text": "篡夺",
+        "isCorrect": false
+      },
+      {
+        "text": "暴虐统治",
+        "isCorrect": false
+      },
+      {
+        "text": "打破",
         "isCorrect": false
       },
       {
         "text": "追求",
         "isCorrect": true
-      },
-      {
-        "text": "扭曲/打乱",
-        "isCorrect": false
-      },
-      {
-        "text": "苦思冥想",
-        "isCorrect": false
       }
     ]
   },
@@ -29298,10 +29298,14 @@ module.exports = [
     "meaning": "渴望/吸入",
     "example": "Aspirare alla grandezza.",
     "example_meaning": "渴望伟大。",
-    "detail": "原型：Aspirare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Aspirare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAspiro, Aspiri, Aspira, Aspiriamo, Aspirate, Aspirano",
     "options": [
       {
-        "text": "发麻/群集",
+        "text": "迷惑/给...幻想",
+        "isCorrect": false
+      },
+      {
+        "text": "侵蚀",
         "isCorrect": false
       },
       {
@@ -29309,11 +29313,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "折磨",
-        "isCorrect": false
-      },
-      {
-        "text": "使幻灭",
+        "text": "欺骗",
         "isCorrect": false
       }
     ]
@@ -29327,23 +29327,23 @@ module.exports = [
     "meaning": "追求/检控",
     "example": "Perseguire i propri obiettivi.",
     "example_meaning": "追求自己的目标。",
-    "detail": "原型：Perseguire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Perseguire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nPerseguo, Persegui, Persegue, Perseguiamo, Perseguite, Perseguono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
+      {
+        "text": "传染",
+        "isCorrect": false
+      },
+      {
+        "text": "浸入",
+        "isCorrect": false
+      },
+      {
+        "text": "分解/腐烂",
+        "isCorrect": false
+      },
       {
         "text": "追求/检控",
         "isCorrect": true
-      },
-      {
-        "text": "消灭/使惊恐",
-        "isCorrect": false
-      },
-      {
-        "text": "捆绑/联系",
-        "isCorrect": false
-      },
-      {
-        "text": "压迫",
-        "isCorrect": false
       }
     ]
   },
@@ -29356,18 +29356,18 @@ module.exports = [
     "meaning": "犯(罪)",
     "example": "Perpetrare un crimine.",
     "example_meaning": "犯罪。",
-    "detail": "原型：Perpetrare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Perpetrare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPerpetro, Perpetri, Perpetra, Perpetriamo, Perpetrate, Perpetrano",
     "options": [
+      {
+        "text": "垄断",
+        "isCorrect": false
+      },
       {
         "text": "降级/后退",
         "isCorrect": false
       },
       {
-        "text": "使悲痛",
-        "isCorrect": false
-      },
-      {
-        "text": "隆隆作响",
+        "text": "烦扰",
         "isCorrect": false
       },
       {
@@ -29385,23 +29385,23 @@ module.exports = [
     "meaning": "犯(错)",
     "example": "Commettere un errore.",
     "example_meaning": "犯错。",
-    "detail": "原型：Commettere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Commettere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nCommetto, Commetti, Commette, Commettiamo, Commettete, Commettono",
     "options": [
+      {
+        "text": "氧化",
+        "isCorrect": false
+      },
+      {
+        "text": "传播",
+        "isCorrect": false
+      },
+      {
+        "text": "撕扯/夺走",
+        "isCorrect": false
+      },
       {
         "text": "犯(错)",
         "isCorrect": true
-      },
-      {
-        "text": "使悲痛",
-        "isCorrect": false
-      },
-      {
-        "text": "征用",
-        "isCorrect": false
-      },
-      {
-        "text": "折磨/困扰",
-        "isCorrect": false
       }
     ]
   },
@@ -29414,10 +29414,10 @@ module.exports = [
     "meaning": "遭遇/招致",
     "example": "Incorrere in sanzioni.",
     "example_meaning": "招致制裁。",
-    "detail": "原型：Incorrere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Incorrere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nIncorro, Incorri, Incorre, Incorriamo, Incorrete, Incorrono",
     "options": [
       {
-        "text": "作呕/厌烦",
+        "text": "编织/策划",
         "isCorrect": false
       },
       {
@@ -29425,11 +29425,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "武断地发表意见",
+        "text": "倒退",
         "isCorrect": false
       },
       {
-        "text": "使悲痛",
+        "text": "拆线/掏钱",
         "isCorrect": false
       }
     ]
@@ -29443,18 +29443,18 @@ module.exports = [
     "meaning": "迫在眉睫",
     "example": "La minaccia incombe.",
     "example_meaning": "威胁迫在眉睫。",
-    "detail": "原型：Incombere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Incombere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nIncombo, Incombi, Incombe, Incombiamo, Incombete, Incombono",
     "options": [
       {
-        "text": "回响",
+        "text": "蹒跚",
         "isCorrect": false
       },
       {
-        "text": "征用",
+        "text": "捆绑/联系",
         "isCorrect": false
       },
       {
-        "text": "颤抖/激动",
+        "text": "腐烂",
         "isCorrect": false
       },
       {
@@ -29472,23 +29472,23 @@ module.exports = [
     "meaning": "压倒/俯视",
     "example": "La montagna sovrasta la valle.",
     "example_meaning": "高山俯视山谷。",
-    "detail": "原型：Sovrastare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sovrastare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSovrasto, Sovrasti, Sovrasta, Sovrastiamo, Sovrastate, Sovrastano",
     "options": [
+      {
+        "text": "扣押/绑架",
+        "isCorrect": false
+      },
+      {
+        "text": "发抖",
+        "isCorrect": false
+      },
+      {
+        "text": "垄断",
+        "isCorrect": false
+      },
       {
         "text": "压倒/俯视",
         "isCorrect": true
-      },
-      {
-        "text": "展开/进行",
-        "isCorrect": false
-      },
-      {
-        "text": "折磨",
-        "isCorrect": false
-      },
-      {
-        "text": "扭曲/打乱",
-        "isCorrect": false
       }
     ]
   },
@@ -29501,22 +29501,22 @@ module.exports = [
     "meaning": "滥用职权/欺压",
     "example": "Prevaricare sui deboli.",
     "example_meaning": "欺压弱者。",
-    "detail": "原型：Prevaricare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Prevaricare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPrevarico, Prevarici, Prevarica, Prevariciamo, Prevaricate, Prevaricano",
     "options": [
+      {
+        "text": "打扰/使不安",
+        "isCorrect": false
+      },
+      {
+        "text": "否决/留级",
+        "isCorrect": false
+      },
       {
         "text": "滥用职权/欺压",
         "isCorrect": true
       },
       {
-        "text": "剥夺/脱衣",
-        "isCorrect": false
-      },
-      {
-        "text": "压迫",
-        "isCorrect": false
-      },
-      {
-        "text": "播种/甩掉",
+        "text": "前进/剩余",
         "isCorrect": false
       }
     ]
@@ -29530,22 +29530,22 @@ module.exports = [
     "meaning": "征服",
     "example": "Soggiogare un popolo.",
     "example_meaning": "征服一个民族。",
-    "detail": "原型：Soggiogare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Soggiogare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSoggiogo, Soggiogi, Soggioga, Soggiogiamo, Soggiogate, Soggiogano",
     "options": [
-      {
-        "text": "弄干/烦扰",
-        "isCorrect": false
-      },
-      {
-        "text": "摇摆/起伏",
-        "isCorrect": false
-      },
       {
         "text": "征服",
         "isCorrect": true
       },
       {
-        "text": "滑倒",
+        "text": "使贫穷",
+        "isCorrect": false
+      },
+      {
+        "text": "织补",
+        "isCorrect": false
+      },
+      {
+        "text": "解绑",
         "isCorrect": false
       }
     ]
@@ -29559,18 +29559,18 @@ module.exports = [
     "meaning": "使受奴役",
     "example": "La tecnologia ci asservisce.",
     "example_meaning": "技术让我们受奴役。",
-    "detail": "原型：Asservire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Asservire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nAsservo, Asservi, Asserve, Asserviamo, Asservite, Asservono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "泼水/死记硬背",
+        "text": "犯(错)",
         "isCorrect": false
       },
       {
-        "text": "分解/腐烂",
+        "text": "扭曲/打乱",
         "isCorrect": false
       },
       {
-        "text": "编结/交织",
+        "text": "滥用职权/欺压",
         "isCorrect": false
       },
       {
@@ -29588,23 +29588,23 @@ module.exports = [
     "meaning": "压迫",
     "example": "Opprimere le minoranze.",
     "example_meaning": "压迫少数群体。",
-    "detail": "原型：Opprimere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Opprimere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nOpprimo, Opprimi, Opprime, Opprimiamo, Opprimete, Opprimono",
     "options": [
-      {
-        "text": "惊跳",
-        "isCorrect": false
-      },
-      {
-        "text": "后退",
-        "isCorrect": false
-      },
-      {
-        "text": "烦扰",
-        "isCorrect": false
-      },
       {
         "text": "压迫",
         "isCorrect": true
+      },
+      {
+        "text": "耗尽",
+        "isCorrect": false
+      },
+      {
+        "text": "坠落/沉淀",
+        "isCorrect": false
+      },
+      {
+        "text": "征用",
+        "isCorrect": false
       }
     ]
   },
@@ -29617,18 +29617,18 @@ module.exports = [
     "meaning": "暴虐统治",
     "example": "Tiranneggiare i sudditi.",
     "example_meaning": "暴虐统治臣民。",
-    "detail": "原型：Tiranneggiare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Tiranneggiare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nTiranneggio, Tiranneggii, Tiranneggia, Tiranneggiiamo, Tiranneggiate, Tiranneggiano",
     "options": [
       {
-        "text": "颠簸/跳起来",
+        "text": "蠕动/充满",
         "isCorrect": false
       },
       {
-        "text": "解开",
+        "text": "窒息/压制",
         "isCorrect": false
       },
       {
-        "text": "欺骗",
+        "text": "渴望/吸入",
         "isCorrect": false
       },
       {
@@ -29646,18 +29646,18 @@ module.exports = [
     "meaning": "横行霸道",
     "example": "Spadroneggiare in ufficio.",
     "example_meaning": "在办公室横行霸道。",
-    "detail": "原型：Spadroneggiare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Spadroneggiare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSpadroneggio, Spadroneggii, Spadroneggia, Spadroneggiiamo, Spadroneggiate, Spadroneggiano",
     "options": [
       {
-        "text": "回响",
+        "text": "遭遇/招致",
         "isCorrect": false
       },
       {
-        "text": "使悲痛",
+        "text": "详论",
         "isCorrect": false
       },
       {
-        "text": "征服",
+        "text": "移植",
         "isCorrect": false
       },
       {
@@ -29675,22 +29675,22 @@ module.exports = [
     "meaning": "称霸",
     "example": "Egemonizzare il mercato.",
     "example_meaning": "称霸市场。",
-    "detail": "原型：Egemonizzare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Egemonizzare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nEgemonizzo, Egemonizzi, Egemonizza, Egemonizziamo, Egemonizzate, Egemonizzano",
     "options": [
-      {
-        "text": "没收/归并",
-        "isCorrect": false
-      },
-      {
-        "text": "刺绣/添油加醋",
-        "isCorrect": false
-      },
       {
         "text": "称霸",
         "isCorrect": true
       },
       {
-        "text": "解绑",
+        "text": "诈骗",
+        "isCorrect": false
+      },
+      {
+        "text": "恐吓",
+        "isCorrect": false
+      },
+      {
+        "text": "发抖",
         "isCorrect": false
       }
     ]
@@ -29704,23 +29704,23 @@ module.exports = [
     "meaning": "垄断",
     "example": "Monopolizzare la conversazione.",
     "example_meaning": "垄断谈话。",
-    "detail": "原型：Monopolizzare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Monopolizzare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nMonopolizzo, Monopolizzi, Monopolizza, Monopolizziamo, Monopolizzate, Monopolizzano",
     "options": [
       {
-        "text": "烦扰",
+        "text": "摆动",
+        "isCorrect": false
+      },
+      {
+        "text": "传播",
+        "isCorrect": false
+      },
+      {
+        "text": "折断",
         "isCorrect": false
       },
       {
         "text": "垄断",
         "isCorrect": true
-      },
-      {
-        "text": "热望",
-        "isCorrect": false
-      },
-      {
-        "text": "捆绑/联系",
-        "isCorrect": false
       }
     ]
   },
@@ -29733,18 +29733,18 @@ module.exports = [
     "meaning": "抢占/囤积",
     "example": "Accaparrarsi i biglietti.",
     "example_meaning": "抢占门票。",
-    "detail": "原型：Accaparrarsi (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Accaparrarsi (动词)。\n请注意根据语境的人称和时态进行变化。",
     "options": [
       {
-        "text": "播种/甩掉",
+        "text": "粉碎/发出巨响",
         "isCorrect": false
       },
       {
-        "text": "游泳",
+        "text": "浸入",
         "isCorrect": false
       },
       {
-        "text": "腐蚀",
+        "text": "移植",
         "isCorrect": false
       },
       {
@@ -29762,23 +29762,23 @@ module.exports = [
     "meaning": "没收/归并",
     "example": "Incamerare i beni.",
     "example_meaning": "没收财产。",
-    "detail": "原型：Incamerare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Incamerare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nIncamero, Incameri, Incamera, Incameriamo, Incamerate, Incamerano",
     "options": [
-      {
-        "text": "吓唬",
-        "isCorrect": false
-      },
-      {
-        "text": "晋升/推销",
-        "isCorrect": false
-      },
-      {
-        "text": "迫在眉睫",
-        "isCorrect": false
-      },
       {
         "text": "没收/归并",
         "isCorrect": true
+      },
+      {
+        "text": "滥用职权/欺压",
+        "isCorrect": false
+      },
+      {
+        "text": "根除",
+        "isCorrect": false
+      },
+      {
+        "text": "摇摆/起伏",
+        "isCorrect": false
       }
     ]
   },
@@ -29791,22 +29791,22 @@ module.exports = [
     "meaning": "充公",
     "example": "Confiscare la droga.",
     "example_meaning": "充公毒品。",
-    "detail": "原型：Confiscare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Confiscare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nConfisco, Confisci, Confisca, Confisciamo, Confiscate, Confiscano",
     "options": [
-      {
-        "text": "征服",
-        "isCorrect": false
-      },
       {
         "text": "充公",
         "isCorrect": true
       },
       {
-        "text": "粉碎/喷雾",
+        "text": "撕扯/夺走",
         "isCorrect": false
       },
       {
-        "text": "折断",
+        "text": "播种/甩掉",
+        "isCorrect": false
+      },
+      {
+        "text": "使悲痛",
         "isCorrect": false
       }
     ]
@@ -29820,10 +29820,14 @@ module.exports = [
     "meaning": "扣押/绑架",
     "example": "Sequestrare un immobile.",
     "example_meaning": "查封房产。",
-    "detail": "原型：Sequestrare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sequestrare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSequestro, Sequestri, Sequestra, Sequestriamo, Sequestrate, Sequestrano",
     "options": [
       {
-        "text": "折磨/困扰",
+        "text": "清洁",
+        "isCorrect": false
+      },
+      {
+        "text": "倒退",
         "isCorrect": false
       },
       {
@@ -29831,11 +29835,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "解绑",
-        "isCorrect": false
-      },
-      {
-        "text": "翻转/颠倒",
+        "text": "追求",
         "isCorrect": false
       }
     ]
@@ -29849,23 +29849,23 @@ module.exports = [
     "meaning": "征收",
     "example": "Espropriare un terreno.",
     "example_meaning": "征收土地。",
-    "detail": "原型：Espropriare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Espropriare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nEsproprio, Esproprii, Espropria, Espropriiamo, Espropriate, Espropriano",
     "options": [
+      {
+        "text": "驱散/遗失",
+        "isCorrect": false
+      },
+      {
+        "text": "使焦虑",
+        "isCorrect": false
+      },
+      {
+        "text": "消灭/使惊恐",
+        "isCorrect": false
+      },
       {
         "text": "征收",
         "isCorrect": true
-      },
-      {
-        "text": "渴望",
-        "isCorrect": false
-      },
-      {
-        "text": "振动",
-        "isCorrect": false
-      },
-      {
-        "text": "抽干/枯竭",
-        "isCorrect": false
       }
     ]
   },
@@ -29878,14 +29878,10 @@ module.exports = [
     "meaning": "征用",
     "example": "Requisire un veicolo.",
     "example_meaning": "征用车辆。",
-    "detail": "原型：Requisire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Requisire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nRequiso, Requisi, Requise, Requisiamo, Requisite, Requisono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "侵蚀",
-        "isCorrect": false
-      },
-      {
-        "text": "压倒/俯视",
+        "text": "修剪",
         "isCorrect": false
       },
       {
@@ -29893,7 +29889,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "犯(错)",
+        "text": "折磨/困扰",
+        "isCorrect": false
+      },
+      {
+        "text": "打扰/使不安",
         "isCorrect": false
       }
     ]
@@ -29907,22 +29907,22 @@ module.exports = [
     "meaning": "占为己有",
     "example": "Appropriarsi di fondi pubblici.",
     "example_meaning": "挪用公款。",
-    "detail": "原型：Appropriarsi (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Appropriarsi (动词)。\n请注意根据语境的人称和时态进行变化。",
     "options": [
-      {
-        "text": "晋升/推销",
-        "isCorrect": false
-      },
-      {
-        "text": "吓唬",
-        "isCorrect": false
-      },
       {
         "text": "占为己有",
         "isCorrect": true
       },
       {
-        "text": "称霸",
+        "text": "净化",
+        "isCorrect": false
+      },
+      {
+        "text": "摇晃/犹豫",
+        "isCorrect": false
+      },
+      {
+        "text": "否决/留级",
         "isCorrect": false
       }
     ]
@@ -29936,22 +29936,22 @@ module.exports = [
     "meaning": "篡夺",
     "example": "Usurpare il trono.",
     "example_meaning": "篡夺王位。",
-    "detail": "原型：Usurpare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Usurpare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nUsurpo, Usurpi, Usurpa, Usurpiamo, Usurpate, Usurpano",
     "options": [
+      {
+        "text": "详论",
+        "isCorrect": false
+      },
       {
         "text": "篡夺",
         "isCorrect": true
       },
       {
-        "text": "回响",
+        "text": "包入/牵连",
         "isCorrect": false
       },
       {
-        "text": "抢占/囤积",
-        "isCorrect": false
-      },
-      {
-        "text": "后退",
+        "text": "使悲痛",
         "isCorrect": false
       }
     ]
@@ -29965,23 +29965,23 @@ module.exports = [
     "meaning": "欺诈",
     "example": "Defraudare i creditori.",
     "example_meaning": "欺诈债权人。",
-    "detail": "原型：Defraudare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Defraudare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nDefraudo, Defraudi, Defrauda, Defraudiamo, Defraudate, Defraudano",
     "options": [
       {
-        "text": "波动/飘动",
+        "text": "追求",
         "isCorrect": false
       },
       {
-        "text": "使毛骨悚然",
+        "text": "剥夺/脱衣",
+        "isCorrect": false
+      },
+      {
+        "text": "解绑",
         "isCorrect": false
       },
       {
         "text": "欺诈",
         "isCorrect": true
-      },
-      {
-        "text": "期望/预示",
-        "isCorrect": false
       }
     ]
   },
@@ -29994,23 +29994,23 @@ module.exports = [
     "meaning": "欺骗",
     "example": "Raggirare un anziano.",
     "example_meaning": "欺骗老人。",
-    "detail": "原型：Raggirare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Raggirare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nRaggiro, Raggiri, Raggira, Raggiriamo, Raggirate, Raggirano",
     "options": [
+      {
+        "text": "拆线/掏钱",
+        "isCorrect": false
+      },
+      {
+        "text": "剥夺",
+        "isCorrect": false
+      },
+      {
+        "text": "征收",
+        "isCorrect": false
+      },
       {
         "text": "欺骗",
         "isCorrect": true
-      },
-      {
-        "text": "消灭/使惊恐",
-        "isCorrect": false
-      },
-      {
-        "text": "征服",
-        "isCorrect": false
-      },
-      {
-        "text": "颤抖/激动",
-        "isCorrect": false
       }
     ]
   },
@@ -30023,23 +30023,23 @@ module.exports = [
     "meaning": "诈骗",
     "example": "Truffare l'assicurazione.",
     "example_meaning": "诈骗保险。",
-    "detail": "原型：Truffare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Truffare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nTruffo, Truffi, Truffa, Truffiamo, Truffate, Truffano",
     "options": [
+      {
+        "text": "压倒/俯视",
+        "isCorrect": false
+      },
+      {
+        "text": "打扰/使不安",
+        "isCorrect": false
+      },
+      {
+        "text": "播种/甩掉",
+        "isCorrect": false
+      },
       {
         "text": "诈骗",
         "isCorrect": true
-      },
-      {
-        "text": "繁殖",
-        "isCorrect": false
-      },
-      {
-        "text": "使受奴役",
-        "isCorrect": false
-      },
-      {
-        "text": "使悲痛",
-        "isCorrect": false
       }
     ]
   },
@@ -30052,14 +30052,14 @@ module.exports = [
     "meaning": "欺骗/搞乱",
     "example": "Non mi imbrogli.",
     "example_meaning": "你骗不了我。",
-    "detail": "原型：Imbrogliare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Imbrogliare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nImbroglio, Imbroglii, Imbroglia, Imbrogliiamo, Imbrogliate, Imbrogliano",
     "options": [
       {
-        "text": "解绑",
+        "text": "包入/牵连",
         "isCorrect": false
       },
       {
-        "text": "犯(错)",
+        "text": "织补",
         "isCorrect": false
       },
       {
@@ -30067,7 +30067,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "浸入",
+        "text": "沉没",
         "isCorrect": false
       }
     ]
@@ -30081,23 +30081,23 @@ module.exports = [
     "meaning": "欺骗",
     "example": "L'apparenza inganna.",
     "example_meaning": "外表是会骗人的。",
-    "detail": "原型：Ingannare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Ingannare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nInganno, Inganni, Inganna, Inganniamo, Ingannate, Ingannano",
     "options": [
       {
-        "text": "回响",
+        "text": "剥夺/脱衣",
         "isCorrect": false
       },
       {
-        "text": "刺绣/添油加醋",
+        "text": "掠夺",
+        "isCorrect": false
+      },
+      {
+        "text": "横行霸道",
         "isCorrect": false
       },
       {
         "text": "欺骗",
         "isCorrect": true
-      },
-      {
-        "text": "移植",
-        "isCorrect": false
       }
     ]
   },
@@ -30110,23 +30110,23 @@ module.exports = [
     "meaning": "迷惑/给...幻想",
     "example": "Non illuderti.",
     "example_meaning": "别抱幻想。",
-    "detail": "原型：Illudere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Illudere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nIlludo, Illudi, Illude, Illudiamo, Illudete, Illudono",
     "options": [
-      {
-        "text": "跳水/潜入",
-        "isCorrect": false
-      },
-      {
-        "text": "感染",
-        "isCorrect": false
-      },
-      {
-        "text": "征用",
-        "isCorrect": false
-      },
       {
         "text": "迷惑/给...幻想",
         "isCorrect": true
+      },
+      {
+        "text": "繁荣",
+        "isCorrect": false
+      },
+      {
+        "text": "使丰富/致富",
+        "isCorrect": false
+      },
+      {
+        "text": "使惊恐",
+        "isCorrect": false
       }
     ]
   },
@@ -30139,22 +30139,22 @@ module.exports = [
     "meaning": "使失望",
     "example": "Non deludermi.",
     "example_meaning": "别让我失望。",
-    "detail": "原型：Deludere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Deludere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nDeludo, Deludi, Delude, Deludiamo, Deludete, Deludono",
     "options": [
-      {
-        "text": "欺诈",
-        "isCorrect": false
-      },
       {
         "text": "使失望",
         "isCorrect": true
       },
       {
-        "text": "令人作呕",
+        "text": "称霸",
         "isCorrect": false
       },
       {
-        "text": "移植",
+        "text": "渴望",
+        "isCorrect": false
+      },
+      {
+        "text": "惊跳",
         "isCorrect": false
       }
     ]
@@ -30168,14 +30168,10 @@ module.exports = [
     "meaning": "使幻灭",
     "example": "La realtà lo ha disilluso.",
     "example_meaning": "现实让他幻灭。",
-    "detail": "原型：Disilludere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Disilludere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nDisilludo, Disilludi, Disillude, Disilludiamo, Disilludete, Disilludono",
     "options": [
       {
-        "text": "使悲痛",
-        "isCorrect": false
-      },
-      {
-        "text": "污染",
+        "text": "生锈",
         "isCorrect": false
       },
       {
@@ -30183,7 +30179,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "期望/预示",
+        "text": "窒息/压制",
+        "isCorrect": false
+      },
+      {
+        "text": "吓唬",
         "isCorrect": false
       }
     ]
@@ -30197,23 +30197,23 @@ module.exports = [
     "meaning": "使痛苦",
     "example": "La vita lo ha amareggiato.",
     "example_meaning": "生活让他痛苦。",
-    "detail": "原型：Amareggiare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Amareggiare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAmareggio, Amareggii, Amareggia, Amareggiiamo, Amareggiate, Amareggiano",
     "options": [
       {
-        "text": "遭遇/招致",
-        "isCorrect": false
-      },
-      {
-        "text": "发抖",
-        "isCorrect": false
-      },
-      {
-        "text": "发霉",
+        "text": "折磨",
         "isCorrect": false
       },
       {
         "text": "使痛苦",
         "isCorrect": true
+      },
+      {
+        "text": "侵蚀",
+        "isCorrect": false
+      },
+      {
+        "text": "摇摆/起伏",
+        "isCorrect": false
       }
     ]
   },
@@ -30226,22 +30226,22 @@ module.exports = [
     "meaning": "使悲痛",
     "example": "La notizia ci addolora.",
     "example_meaning": "这消息让我们悲痛。",
-    "detail": "原型：Addolorare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Addolorare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAddoloro, Addolori, Addolora, Addoloriamo, Addolorate, Addolorano",
     "options": [
-      {
-        "text": "发抖",
-        "isCorrect": false
-      },
-      {
-        "text": "扣押/绑架",
-        "isCorrect": false
-      },
       {
         "text": "使悲痛",
         "isCorrect": true
       },
       {
-        "text": "欺骗",
+        "text": "绊倒",
+        "isCorrect": false
+      },
+      {
+        "text": "使焦虑",
+        "isCorrect": false
+      },
+      {
+        "text": "打扰/使不安",
         "isCorrect": false
       }
     ]
@@ -30255,10 +30255,14 @@ module.exports = [
     "meaning": "折磨/困扰",
     "example": "Afflitto dai debiti.",
     "example_meaning": "深受债务困扰。",
-    "detail": "原型：Affliggere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Affliggere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nAffliggo, Affliggi, Affligge, Affliggiamo, Affliggete, Affliggono",
     "options": [
       {
-        "text": "降级/后退",
+        "text": "播种/甩掉",
+        "isCorrect": false
+      },
+      {
+        "text": "刺绣/添油加醋",
         "isCorrect": false
       },
       {
@@ -30266,11 +30270,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "使痛苦",
-        "isCorrect": false
-      },
-      {
-        "text": "修剪",
+        "text": "蠕动/充满",
         "isCorrect": false
       }
     ]
@@ -30284,23 +30284,23 @@ module.exports = [
     "meaning": "使焦虑",
     "example": "Il futuro mi angoscia.",
     "example_meaning": "未来让我焦虑。",
-    "detail": "原型：Angosciare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Angosciare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAngoscio, Angoscii, Angoscia, Angosciiamo, Angosciate, Angosciano",
     "options": [
-      {
-        "text": "称霸",
-        "isCorrect": false
-      },
-      {
-        "text": "捆绑/联系",
-        "isCorrect": false
-      },
-      {
-        "text": "占为己有",
-        "isCorrect": false
-      },
       {
         "text": "使焦虑",
         "isCorrect": true
+      },
+      {
+        "text": "传播",
+        "isCorrect": false
+      },
+      {
+        "text": "惊跳",
+        "isCorrect": false
+      },
+      {
+        "text": "暴虐统治",
+        "isCorrect": false
       }
     ]
   },
@@ -30313,22 +30313,22 @@ module.exports = [
     "meaning": "折磨",
     "example": "Tormentato dai dubbi.",
     "example_meaning": "被疑虑折磨。",
-    "detail": "原型：Tormentare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Tormentare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nTormento, Tormenti, Tormenta, Tormentiamo, Tormentate, Tormentano",
     "options": [
-      {
-        "text": "击碎",
-        "isCorrect": false
-      },
-      {
-        "text": "回响",
-        "isCorrect": false
-      },
       {
         "text": "折磨",
         "isCorrect": true
       },
       {
-        "text": "繁荣",
+        "text": "外推/推断",
+        "isCorrect": false
+      },
+      {
+        "text": "刺绣/添油加醋",
+        "isCorrect": false
+      },
+      {
+        "text": "暴虐统治",
         "isCorrect": false
       }
     ]
@@ -30342,10 +30342,10 @@ module.exports = [
     "meaning": "迫害/纠缠",
     "example": "Perseguitato dalla sfortuna.",
     "example_meaning": "被厄运纠缠。",
-    "detail": "原型：Perseguitare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Perseguitare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPerseguito, Perseguiti, Perseguita, Perseguitiamo, Perseguitate, Perseguitano",
     "options": [
       {
-        "text": "使丰富/致富",
+        "text": "恐吓",
         "isCorrect": false
       },
       {
@@ -30353,11 +30353,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "割/扫射",
+        "text": "惊跳",
         "isCorrect": false
       },
       {
-        "text": "使悲痛",
+        "text": "抢占/囤积",
         "isCorrect": false
       }
     ]
@@ -30371,22 +30371,22 @@ module.exports = [
     "meaning": "压抑",
     "example": "Il caldo opprime.",
     "example_meaning": "酷热难耐。",
-    "detail": "原型：Opprimere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Opprimere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nOpprimo, Opprimi, Opprime, Opprimiamo, Opprimete, Opprimono",
     "options": [
+      {
+        "text": "连根拔起",
+        "isCorrect": false
+      },
       {
         "text": "压抑",
         "isCorrect": true
       },
       {
-        "text": "外推/推断",
+        "text": "篡夺",
         "isCorrect": false
       },
       {
-        "text": "令人作呕",
-        "isCorrect": false
-      },
-      {
-        "text": "摆动",
+        "text": "粉碎/发出巨响",
         "isCorrect": false
       }
     ]
@@ -30400,23 +30400,23 @@ module.exports = [
     "meaning": "窒息/压制",
     "example": "Soffocare una risata.",
     "example_meaning": "忍住笑。",
-    "detail": "原型：Soffocare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Soffocare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSoffoco, Soffoci, Soffoca, Soffociamo, Soffocate, Soffocano",
     "options": [
       {
-        "text": "没收/归并",
+        "text": "发抖",
+        "isCorrect": false
+      },
+      {
+        "text": "剥夺",
+        "isCorrect": false
+      },
+      {
+        "text": "波动/飘动",
         "isCorrect": false
       },
       {
         "text": "窒息/压制",
         "isCorrect": true
-      },
-      {
-        "text": "感染",
-        "isCorrect": false
-      },
-      {
-        "text": "倒空",
-        "isCorrect": false
       }
     ]
   },
@@ -30429,23 +30429,23 @@ module.exports = [
     "meaning": "勒死",
     "example": "L'economia è strangolata.",
     "example_meaning": "经济被扼杀。",
-    "detail": "原型：Strangolare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Strangolare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nStrangolo, Strangoli, Strangola, Strangoliamo, Strangolate, Strangolano",
     "options": [
       {
-        "text": "解绑",
+        "text": "腐烂",
         "isCorrect": false
       },
       {
-        "text": "使焦虑",
-        "isCorrect": false
-      },
-      {
-        "text": "使丰富/致富",
+        "text": "征用",
         "isCorrect": false
       },
       {
         "text": "勒死",
         "isCorrect": true
+      },
+      {
+        "text": "充公",
+        "isCorrect": false
       }
     ]
   },
@@ -30458,22 +30458,22 @@ module.exports = [
     "meaning": "消灭/使惊恐",
     "example": "Sguardo che annichilisce.",
     "example_meaning": "令人惊恐的眼神。",
-    "detail": "原型：Annichilire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Annichilire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nAnnichilo, Annichili, Annichile, Annichiliamo, Annichilite, Annichilono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
         "text": "消灭/使惊恐",
         "isCorrect": true
       },
       {
-        "text": "垄断",
+        "text": "修剪",
         "isCorrect": false
       },
       {
-        "text": "迫害/纠缠",
+        "text": "传染",
         "isCorrect": false
       },
       {
-        "text": "压迫",
+        "text": "使贫穷",
         "isCorrect": false
       }
     ]
@@ -30487,23 +30487,23 @@ module.exports = [
     "meaning": "蹂躏/荒废",
     "example": "La guerra devasta il paese.",
     "example_meaning": "战争蹂躏国家。",
-    "detail": "原型：Devastare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Devastare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nDevasto, Devasti, Devasta, Devastiamo, Devastate, Devastano",
     "options": [
+      {
+        "text": "发抖",
+        "isCorrect": false
+      },
+      {
+        "text": "渴望",
+        "isCorrect": false
+      },
+      {
+        "text": "摆动",
+        "isCorrect": false
+      },
       {
         "text": "蹂躏/荒废",
         "isCorrect": true
-      },
-      {
-        "text": "压倒/俯视",
-        "isCorrect": false
-      },
-      {
-        "text": "散播",
-        "isCorrect": false
-      },
-      {
-        "text": "净化",
-        "isCorrect": false
       }
     ]
   },
@@ -30516,22 +30516,22 @@ module.exports = [
     "meaning": "洗劫",
     "example": "Saccheggiare una città.",
     "example_meaning": "洗劫城市。",
-    "detail": "原型：Saccheggiare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Saccheggiare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSaccheggio, Saccheggii, Saccheggia, Saccheggiiamo, Saccheggiate, Saccheggiano",
     "options": [
-      {
-        "text": "传播",
-        "isCorrect": false
-      },
       {
         "text": "洗劫",
         "isCorrect": true
       },
       {
-        "text": "腐烂",
+        "text": "浸入",
         "isCorrect": false
       },
       {
-        "text": "诈骗",
+        "text": "犯(罪)",
+        "isCorrect": false
+      },
+      {
+        "text": "耗尽",
         "isCorrect": false
       }
     ]
@@ -30545,23 +30545,23 @@ module.exports = [
     "meaning": "掠夺",
     "example": "Depredare i tesori.",
     "example_meaning": "掠夺宝藏。",
-    "detail": "原型：Depredare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Depredare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nDepredo, Depredi, Depreda, Deprediamo, Depredate, Depredano",
     "options": [
       {
-        "text": "迫在眉睫",
+        "text": "洗涤/净化",
         "isCorrect": false
       },
       {
-        "text": "武断地发表意见",
-        "isCorrect": false
-      },
-      {
-        "text": "剥夺",
+        "text": "蹂躏/荒废",
         "isCorrect": false
       },
       {
         "text": "掠夺",
         "isCorrect": true
+      },
+      {
+        "text": "嫁接/接合",
+        "isCorrect": false
       }
     ]
   },
@@ -30574,22 +30574,22 @@ module.exports = [
     "meaning": "剥夺/脱衣",
     "example": "Spogliare i ricchi.",
     "example_meaning": "剥夺富人。",
-    "detail": "原型：Spogliare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Spogliare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSpoglio, Spoglii, Spoglia, Spogliiamo, Spogliate, Spogliano",
     "options": [
-      {
-        "text": "瓦解",
-        "isCorrect": false
-      },
       {
         "text": "剥夺/脱衣",
         "isCorrect": true
       },
       {
-        "text": "使痛苦",
+        "text": "粉碎/发出巨响",
         "isCorrect": false
       },
       {
-        "text": "作呕/厌烦",
+        "text": "磨损/消费",
+        "isCorrect": false
+      },
+      {
+        "text": "否决/留级",
         "isCorrect": false
       }
     ]
@@ -30603,23 +30603,23 @@ module.exports = [
     "meaning": "剥夺",
     "example": "Privare della libertà.",
     "example_meaning": "剥夺自由。",
-    "detail": "原型：Privare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Privare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPrivo, Privi, Priva, Priviamo, Private, Privano",
     "options": [
+      {
+        "text": "游泳",
+        "isCorrect": false
+      },
+      {
+        "text": "回荡",
+        "isCorrect": false
+      },
+      {
+        "text": "没收/归并",
+        "isCorrect": false
+      },
       {
         "text": "剥夺",
         "isCorrect": true
-      },
-      {
-        "text": "展开/进行",
-        "isCorrect": false
-      },
-      {
-        "text": "使失望",
-        "isCorrect": false
-      },
-      {
-        "text": "泼水/死记硬背",
-        "isCorrect": false
       }
     ]
   },
@@ -30632,14 +30632,14 @@ module.exports = [
     "meaning": "使贫穷/耗尽",
     "example": "Depauperare le risorse.",
     "example_meaning": "耗尽资源。",
-    "detail": "原型：Depauperare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Depauperare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nDepaupero, Depauperi, Depaupera, Depauperiamo, Depauperate, Depauperano",
     "options": [
       {
-        "text": "捆绑/联系",
+        "text": "抢占/囤积",
         "isCorrect": false
       },
       {
-        "text": "摇晃/犹豫",
+        "text": "外推/推断",
         "isCorrect": false
       },
       {
@@ -30647,7 +30647,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "称霸",
+        "text": "窒息/压制",
         "isCorrect": false
       }
     ]
@@ -30661,22 +30661,22 @@ module.exports = [
     "meaning": "使贫穷",
     "example": "La crisi impoverisce tutti.",
     "example_meaning": "危机使大家变穷。",
-    "detail": "原型：Impoverire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Impoverire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nImpovero, Impoveri, Impovere, Impoveriamo, Impoverite, Impoverono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
-      {
-        "text": "使干枯",
-        "isCorrect": false
-      },
-      {
-        "text": "剥夺",
-        "isCorrect": false
-      },
       {
         "text": "使贫穷",
         "isCorrect": true
       },
       {
-        "text": "折磨/困扰",
+        "text": "沉没",
+        "isCorrect": false
+      },
+      {
+        "text": "否决/留级",
+        "isCorrect": false
+      },
+      {
+        "text": "扭曲/打乱",
         "isCorrect": false
       }
     ]
@@ -30690,22 +30690,22 @@ module.exports = [
     "meaning": "使丰富/致富",
     "example": "Leggere arricchisce.",
     "example_meaning": "阅读丰富人生。",
-    "detail": "原型：Arricchire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Arricchire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nArriccho, Arricchi, Arricche, Arricchiamo, Arricchite, Arricchono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
-      {
-        "text": "污染",
-        "isCorrect": false
-      },
-      {
-        "text": "连根拔起",
-        "isCorrect": false
-      },
       {
         "text": "使丰富/致富",
         "isCorrect": true
       },
       {
-        "text": "迫在眉睫",
+        "text": "使厌烦/焖",
+        "isCorrect": false
+      },
+      {
+        "text": "倒空",
+        "isCorrect": false
+      },
+      {
+        "text": "使贫穷/耗尽",
         "isCorrect": false
       }
     ]
@@ -30719,22 +30719,22 @@ module.exports = [
     "meaning": "繁荣",
     "example": "L'azienda prospera.",
     "example_meaning": "公司繁荣。",
-    "detail": "原型：Prosperare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Prosperare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nProspero, Prosperi, Prospera, Prosperiamo, Prosperate, Prosperano",
     "options": [
+      {
+        "text": "撕碎",
+        "isCorrect": false
+      },
       {
         "text": "繁荣",
         "isCorrect": true
       },
       {
-        "text": "洗劫",
+        "text": "游泳",
         "isCorrect": false
       },
       {
-        "text": "瓦解",
-        "isCorrect": false
-      },
-      {
-        "text": "连根拔起",
+        "text": "污染",
         "isCorrect": false
       }
     ]
@@ -30748,14 +30748,14 @@ module.exports = [
     "meaning": "开花/兴旺",
     "example": "Le arti fioriscono.",
     "example_meaning": "艺术兴旺。",
-    "detail": "原型：Fiorire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Fiorire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nFioro, Fiori, Fiore, Fioriamo, Fiorite, Fiorono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "恐吓",
+        "text": "腐蚀",
         "isCorrect": false
       },
       {
-        "text": "打破",
+        "text": "坠落/沉淀",
         "isCorrect": false
       },
       {
@@ -30763,7 +30763,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "洗涤/净化",
+        "text": "发霉",
         "isCorrect": false
       }
     ]
@@ -30777,22 +30777,22 @@ module.exports = [
     "meaning": "发芽",
     "example": "L'idea germoglia.",
     "example_meaning": "想法萌芽。",
-    "detail": "原型：Germogliare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Germogliare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nGermoglio, Germoglii, Germoglia, Germogliiamo, Germogliate, Germogliano",
     "options": [
-      {
-        "text": "详论",
-        "isCorrect": false
-      },
-      {
-        "text": "欺骗",
-        "isCorrect": false
-      },
       {
         "text": "发芽",
         "isCorrect": true
       },
       {
-        "text": "浸入",
+        "text": "没收/归并",
+        "isCorrect": false
+      },
+      {
+        "text": "刺绣/添油加醋",
+        "isCorrect": false
+      },
+      {
+        "text": "折磨",
         "isCorrect": false
       }
     ]
@@ -30806,23 +30806,23 @@ module.exports = [
     "meaning": "繁殖",
     "example": "I conigli prolificano.",
     "example_meaning": "兔子繁殖。",
-    "detail": "原型：Prolificare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Prolificare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nProlifico, Prolifici, Prolifica, Prolificiamo, Prolificate, Prolificano",
     "options": [
       {
-        "text": "作呕/厌烦",
+        "text": "弄湿",
         "isCorrect": false
       },
       {
-        "text": "涌现/到处是",
-        "isCorrect": false
-      },
-      {
-        "text": "打破",
+        "text": "折断",
         "isCorrect": false
       },
       {
         "text": "繁殖",
         "isCorrect": true
+      },
+      {
+        "text": "散播",
+        "isCorrect": false
       }
     ]
   },
@@ -30835,22 +30835,22 @@ module.exports = [
     "meaning": "涌现/到处是",
     "example": "La piazza pullula di gente.",
     "example_meaning": "广场上到处是人。",
-    "detail": "原型：Pullulare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Pullulare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPullulo, Pulluli, Pullula, Pulluliamo, Pullulate, Pullulano",
     "options": [
+      {
+        "text": "隆隆作响",
+        "isCorrect": false
+      },
+      {
+        "text": "繁荣",
+        "isCorrect": false
+      },
       {
         "text": "涌现/到处是",
         "isCorrect": true
       },
       {
-        "text": "开花/兴旺",
-        "isCorrect": false
-      },
-      {
-        "text": "撕扯/夺走",
-        "isCorrect": false
-      },
-      {
-        "text": "浸湿",
+        "text": "解绑",
         "isCorrect": false
       }
     ]
@@ -30864,23 +30864,23 @@ module.exports = [
     "meaning": "蠕动/充满",
     "example": "Brulicare di vita.",
     "example_meaning": "充满生机。",
-    "detail": "原型：Brulicare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Brulicare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nBrulico, Brulici, Brulica, Bruliciamo, Brulicate, Brulicano",
     "options": [
       {
-        "text": "撕扯/夺走",
+        "text": "洗劫",
+        "isCorrect": false
+      },
+      {
+        "text": "涌现/到处是",
+        "isCorrect": false
+      },
+      {
+        "text": "开花/兴旺",
         "isCorrect": false
       },
       {
         "text": "蠕动/充满",
         "isCorrect": true
-      },
-      {
-        "text": "掠夺",
-        "isCorrect": false
-      },
-      {
-        "text": "迷惑/给...幻想",
-        "isCorrect": false
       }
     ]
   },
@@ -30893,10 +30893,10 @@ module.exports = [
     "meaning": "发麻/群集",
     "example": "Il braccio formicola.",
     "example_meaning": "手臂发麻。",
-    "detail": "原型：Formicolare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Formicolare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nFormicolo, Formicoli, Formicola, Formicoliamo, Formicolate, Formicolano",
     "options": [
       {
-        "text": "征服",
+        "text": "吓唬",
         "isCorrect": false
       },
       {
@@ -30904,11 +30904,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "蠕动/充满",
+        "text": "摆动",
         "isCorrect": false
       },
       {
-        "text": "扭曲/打乱",
+        "text": "遭遇/招致",
         "isCorrect": false
       }
     ]
@@ -30922,23 +30922,23 @@ module.exports = [
     "meaning": "颤抖/激动",
     "example": "Fremere di rabbia.",
     "example_meaning": "气得发抖。",
-    "detail": "原型：Fremere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Fremere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nFremo, Fremi, Freme, Fremiamo, Fremete, Fremono",
     "options": [
       {
-        "text": "隆隆作响",
+        "text": "使幻灭",
+        "isCorrect": false
+      },
+      {
+        "text": "打扰/使不安",
+        "isCorrect": false
+      },
+      {
+        "text": "作呕/厌烦",
         "isCorrect": false
       },
       {
         "text": "颤抖/激动",
         "isCorrect": true
-      },
-      {
-        "text": "压抑",
-        "isCorrect": false
-      },
-      {
-        "text": "窒息/压制",
-        "isCorrect": false
       }
     ]
   },
@@ -30951,22 +30951,22 @@ module.exports = [
     "meaning": "发抖",
     "example": "Tremare dal freddo.",
     "example_meaning": "冷得发抖。",
-    "detail": "原型：Tremare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Tremare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nTremo, Tremi, Trema, Tremiamo, Tremate, Tremano",
     "options": [
+      {
+        "text": "弄干/烦扰",
+        "isCorrect": false
+      },
       {
         "text": "发抖",
         "isCorrect": true
       },
       {
-        "text": "征收",
+        "text": "预言",
         "isCorrect": false
       },
       {
-        "text": "没收/归并",
-        "isCorrect": false
-      },
-      {
-        "text": "使失望",
+        "text": "分解/腐烂",
         "isCorrect": false
       }
     ]
@@ -30980,22 +30980,22 @@ module.exports = [
     "meaning": "惊跳",
     "example": "Sussultare per lo spavento.",
     "example_meaning": "吓了一跳。",
-    "detail": "原型：Sussultare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sussultare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSussulto, Sussulti, Sussulta, Sussultiamo, Sussultate, Sussultano",
     "options": [
-      {
-        "text": "编结/交织",
-        "isCorrect": false
-      },
       {
         "text": "惊跳",
         "isCorrect": true
       },
       {
-        "text": "振动",
+        "text": "编织/策划",
         "isCorrect": false
       },
       {
-        "text": "压倒/俯视",
+        "text": "使贫穷/耗尽",
+        "isCorrect": false
+      },
+      {
+        "text": "使惊恐",
         "isCorrect": false
       }
     ]
@@ -31009,23 +31009,23 @@ module.exports = [
     "meaning": "颠簸/跳起来",
     "example": "Sobbalzare sulla sedia.",
     "example_meaning": "在椅子上跳起来。",
-    "detail": "原型：Sobbalzare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sobbalzare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSobbalzo, Sobbalzi, Sobbalza, Sobbalziamo, Sobbalzate, Sobbalzano",
     "options": [
       {
-        "text": "掠夺",
-        "isCorrect": false
-      },
-      {
-        "text": "编织/策划",
-        "isCorrect": false
-      },
-      {
-        "text": "耗尽",
+        "text": "游泳",
         "isCorrect": false
       },
       {
         "text": "颠簸/跳起来",
         "isCorrect": true
+      },
+      {
+        "text": "使痛苦",
+        "isCorrect": false
+      },
+      {
+        "text": "割/扫射",
+        "isCorrect": false
       }
     ]
   },
@@ -31038,22 +31038,22 @@ module.exports = [
     "meaning": "摇晃/犹豫",
     "example": "La sua fede vacilla.",
     "example_meaning": "他的信仰动摇了。",
-    "detail": "原型：Vacillare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Vacillare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nVacillo, Vacilli, Vacilla, Vacilliamo, Vacillate, Vacillano",
     "options": [
-      {
-        "text": "浸湿",
-        "isCorrect": false
-      },
-      {
-        "text": "垄断",
-        "isCorrect": false
-      },
       {
         "text": "摇晃/犹豫",
         "isCorrect": true
       },
       {
-        "text": "吓唬",
+        "text": "拔出/扯掉",
+        "isCorrect": false
+      },
+      {
+        "text": "清洁",
+        "isCorrect": false
+      },
+      {
+        "text": "折磨/困扰",
         "isCorrect": false
       }
     ]
@@ -31067,23 +31067,23 @@ module.exports = [
     "meaning": "蹒跚",
     "example": "Barcollare nel buio.",
     "example_meaning": "在黑暗中蹒跚。",
-    "detail": "原型：Barcollare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Barcollare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nBarcollo, Barcolli, Barcolla, Barcolliamo, Barcollate, Barcollano",
     "options": [
+      {
+        "text": "使惊恐",
+        "isCorrect": false
+      },
+      {
+        "text": "勒死",
+        "isCorrect": false
+      },
+      {
+        "text": "使厌恶",
+        "isCorrect": false
+      },
       {
         "text": "蹒跚",
         "isCorrect": true
-      },
-      {
-        "text": "磨损/消费",
-        "isCorrect": false
-      },
-      {
-        "text": "浸入",
-        "isCorrect": false
-      },
-      {
-        "text": "根除",
-        "isCorrect": false
       }
     ]
   },
@@ -31096,22 +31096,22 @@ module.exports = [
     "meaning": "绊倒",
     "example": "Inciampare in un gradino.",
     "example_meaning": "在台阶上绊倒。",
-    "detail": "原型：Inciampare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Inciampare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nInciampo, Inciampi, Inciampa, Inciampiamo, Inciampate, Inciampano",
     "options": [
-      {
-        "text": "蠕动/充满",
-        "isCorrect": false
-      },
-      {
-        "text": "击碎",
-        "isCorrect": false
-      },
       {
         "text": "绊倒",
         "isCorrect": true
       },
       {
-        "text": "吓唬",
+        "text": "迫在眉睫",
+        "isCorrect": false
+      },
+      {
+        "text": "下沉/塌陷",
+        "isCorrect": false
+      },
+      {
+        "text": "预言",
         "isCorrect": false
       }
     ]
@@ -31125,22 +31125,22 @@ module.exports = [
     "meaning": "滑倒",
     "example": "Scivolare sul ghiaccio.",
     "example_meaning": "在冰上滑倒。",
-    "detail": "原型：Scivolare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Scivolare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nScivolo, Scivoli, Scivola, Scivoliamo, Scivolate, Scivolano",
     "options": [
+      {
+        "text": "污染",
+        "isCorrect": false
+      },
+      {
+        "text": "磨损/消耗",
+        "isCorrect": false
+      },
       {
         "text": "滑倒",
         "isCorrect": true
       },
       {
-        "text": "传染",
-        "isCorrect": false
-      },
-      {
-        "text": "苦思冥想",
-        "isCorrect": false
-      },
-      {
-        "text": "解绑",
+        "text": "洗劫",
         "isCorrect": false
       }
     ]
@@ -31154,23 +31154,23 @@ module.exports = [
     "meaning": "跌倒",
     "example": "Cadere dalle nuvole.",
     "example_meaning": "大吃一惊/从云端跌落。",
-    "detail": "原型：Cadere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Cadere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nCado, Cadi, Cade, Cadiamo, Cadete, Cadono",
     "options": [
       {
-        "text": "绊倒",
+        "text": "粉碎/发出巨响",
         "isCorrect": false
       },
       {
-        "text": "连根拔起",
+        "text": "游泳",
+        "isCorrect": false
+      },
+      {
+        "text": "开花/兴旺",
         "isCorrect": false
       },
       {
         "text": "跌倒",
         "isCorrect": true
-      },
-      {
-        "text": "窒息/压制",
-        "isCorrect": false
       }
     ]
   },
@@ -31183,22 +31183,22 @@ module.exports = [
     "meaning": "坠落/沉淀",
     "example": "Le cose precipitano.",
     "example_meaning": "情况急转直下。",
-    "detail": "原型：Precipitare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Precipitare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPrecipito, Precipiti, Precipita, Precipitiamo, Precipitate, Precipitano",
     "options": [
-      {
-        "text": "粉碎/喷雾",
-        "isCorrect": false
-      },
-      {
-        "text": "滥用职权/欺压",
-        "isCorrect": false
-      },
       {
         "text": "坠落/沉淀",
         "isCorrect": true
       },
       {
-        "text": "压迫",
+        "text": "热望",
+        "isCorrect": false
+      },
+      {
+        "text": "欺骗",
+        "isCorrect": false
+      },
+      {
+        "text": "弄碎",
         "isCorrect": false
       }
     ]
@@ -31212,18 +31212,18 @@ module.exports = [
     "meaning": "下沉/塌陷",
     "example": "Sprofondare nella vergogna.",
     "example_meaning": "羞愧难当。",
-    "detail": "原型：Sprofondare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sprofondare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSprofondo, Sprofondi, Sprofonda, Sprofondiamo, Sprofondate, Sprofondano",
     "options": [
       {
-        "text": "欺诈",
+        "text": "折磨/困扰",
         "isCorrect": false
       },
       {
-        "text": "扭曲/打乱",
+        "text": "抽干/枯竭",
         "isCorrect": false
       },
       {
-        "text": "犯(错)",
+        "text": "根除",
         "isCorrect": false
       },
       {
@@ -31241,23 +31241,23 @@ module.exports = [
     "meaning": "沉没",
     "example": "La nave affonda.",
     "example_meaning": "船沉了。",
-    "detail": "原型：Affondare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Affondare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAffondo, Affondi, Affonda, Affondiamo, Affondate, Affondano",
     "options": [
       {
-        "text": "包裹/卷绕",
+        "text": "使失望",
         "isCorrect": false
       },
       {
-        "text": "欺骗/搞乱",
-        "isCorrect": false
-      },
-      {
-        "text": "生锈",
+        "text": "播种/甩掉",
         "isCorrect": false
       },
       {
         "text": "沉没",
         "isCorrect": true
+      },
+      {
+        "text": "连根拔起",
+        "isCorrect": false
       }
     ]
   },
@@ -31270,23 +31270,23 @@ module.exports = [
     "meaning": "浸入",
     "example": "Immergere nell'acqua.",
     "example_meaning": "浸入水中。",
-    "detail": "原型：Immergere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Immergere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nImmergo, Immergi, Immerge, Immergiamo, Immergete, Immergono",
     "options": [
-      {
-        "text": "解绑",
-        "isCorrect": false
-      },
-      {
-        "text": "迷惑/给...幻想",
-        "isCorrect": false
-      },
-      {
-        "text": "渴望",
-        "isCorrect": false
-      },
       {
         "text": "浸入",
         "isCorrect": true
+      },
+      {
+        "text": "使焦虑",
+        "isCorrect": false
+      },
+      {
+        "text": "使厌烦/焖",
+        "isCorrect": false
+      },
+      {
+        "text": "充公",
+        "isCorrect": false
       }
     ]
   },
@@ -31299,23 +31299,23 @@ module.exports = [
     "meaning": "跳水/潜入",
     "example": "Tuffarsi nel lavoro.",
     "example_meaning": "埋头工作。",
-    "detail": "原型：Tuffarsi (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Tuffarsi (动词)。\n请注意根据语境的人称和时态进行变化。",
     "options": [
+      {
+        "text": "欺诈",
+        "isCorrect": false
+      },
+      {
+        "text": "称霸",
+        "isCorrect": false
+      },
+      {
+        "text": "污染",
+        "isCorrect": false
+      },
       {
         "text": "跳水/潜入",
         "isCorrect": true
-      },
-      {
-        "text": "跌倒",
-        "isCorrect": false
-      },
-      {
-        "text": "撕碎",
-        "isCorrect": false
-      },
-      {
-        "text": "没收/归并",
-        "isCorrect": false
       }
     ]
   },
@@ -31328,23 +31328,23 @@ module.exports = [
     "meaning": "游泳",
     "example": "Nuotare controcorrente.",
     "example_meaning": "逆流而上。",
-    "detail": "原型：Nuotare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Nuotare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nNuoto, Nuoti, Nuota, Nuotiamo, Nuotate, Nuotano",
     "options": [
-      {
-        "text": "拆线/掏钱",
-        "isCorrect": false
-      },
-      {
-        "text": "洗涤/净化",
-        "isCorrect": false
-      },
-      {
-        "text": "倒退",
-        "isCorrect": false
-      },
       {
         "text": "游泳",
         "isCorrect": true
+      },
+      {
+        "text": "没收/归并",
+        "isCorrect": false
+      },
+      {
+        "text": "腐烂",
+        "isCorrect": false
+      },
+      {
+        "text": "武断地发表意见",
+        "isCorrect": false
       }
     ]
   },
@@ -31357,14 +31357,10 @@ module.exports = [
     "meaning": "漂浮",
     "example": "Il legno galleggia.",
     "example_meaning": "木头漂浮。",
-    "detail": "原型：Galleggiare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Galleggiare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nGalleggio, Galleggii, Galleggia, Galleggiiamo, Galleggiate, Galleggiano",
     "options": [
       {
-        "text": "脱水",
-        "isCorrect": false
-      },
-      {
-        "text": "欺骗",
+        "text": "打破",
         "isCorrect": false
       },
       {
@@ -31372,7 +31368,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "使干枯",
+        "text": "波动/飘动",
+        "isCorrect": false
+      },
+      {
+        "text": "滑倒",
         "isCorrect": false
       }
     ]
@@ -31386,22 +31386,22 @@ module.exports = [
     "meaning": "波动/飘动",
     "example": "I prezzi fluttuano.",
     "example_meaning": "价格波动。",
-    "detail": "原型：Fluttuare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Fluttuare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nFluttuo, Fluttui, Fluttua, Fluttuiamo, Fluttuate, Fluttuano",
     "options": [
       {
         "text": "波动/飘动",
         "isCorrect": true
       },
       {
-        "text": "作呕/厌烦",
+        "text": "迫害/纠缠",
         "isCorrect": false
       },
       {
-        "text": "开花/兴旺",
+        "text": "收获/集合",
         "isCorrect": false
       },
       {
-        "text": "追求",
+        "text": "前进/剩余",
         "isCorrect": false
       }
     ]
@@ -31415,23 +31415,23 @@ module.exports = [
     "meaning": "摇摆/起伏",
     "example": "Il grano ondeggia.",
     "example_meaning": "麦浪起伏。",
-    "detail": "原型：Ondeggiare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Ondeggiare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nOndeggio, Ondeggii, Ondeggia, Ondeggiiamo, Ondeggiate, Ondeggiano",
     "options": [
+      {
+        "text": "撕碎",
+        "isCorrect": false
+      },
+      {
+        "text": "游泳",
+        "isCorrect": false
+      },
+      {
+        "text": "征用",
+        "isCorrect": false
+      },
       {
         "text": "摇摆/起伏",
         "isCorrect": true
-      },
-      {
-        "text": "发霉",
-        "isCorrect": false
-      },
-      {
-        "text": "绊倒",
-        "isCorrect": false
-      },
-      {
-        "text": "扣押/绑架",
-        "isCorrect": false
       }
     ]
   },
@@ -31444,23 +31444,23 @@ module.exports = [
     "meaning": "摆动",
     "example": "Il pendolo oscilla.",
     "example_meaning": "钟摆摆动。",
-    "detail": "原型：Oscillare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Oscillare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nOscillo, Oscilli, Oscilla, Oscilliamo, Oscillate, Oscillano",
     "options": [
-      {
-        "text": "发麻/群集",
-        "isCorrect": false
-      },
-      {
-        "text": "绊倒",
-        "isCorrect": false
-      },
-      {
-        "text": "嫁接/接合",
-        "isCorrect": false
-      },
       {
         "text": "摆动",
         "isCorrect": true
+      },
+      {
+        "text": "洗劫",
+        "isCorrect": false
+      },
+      {
+        "text": "氧化",
+        "isCorrect": false
+      },
+      {
+        "text": "翻转/颠倒",
+        "isCorrect": false
       }
     ]
   },
@@ -31473,22 +31473,22 @@ module.exports = [
     "meaning": "振动",
     "example": "Il cellulare vibra.",
     "example_meaning": "手机振动。",
-    "detail": "原型：Vibrare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Vibrare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nVibro, Vibri, Vibra, Vibriamo, Vibrate, Vibrano",
     "options": [
+      {
+        "text": "洗劫",
+        "isCorrect": false
+      },
       {
         "text": "振动",
         "isCorrect": true
       },
       {
-        "text": "前进/剩余",
+        "text": "打扰/使不安",
         "isCorrect": false
       },
       {
-        "text": "回响",
-        "isCorrect": false
-      },
-      {
-        "text": "窒息/压制",
+        "text": "蹂躏/荒废",
         "isCorrect": false
       }
     ]
@@ -31502,18 +31502,18 @@ module.exports = [
     "meaning": "回响",
     "example": "La voce risuona.",
     "example_meaning": "声音回响。",
-    "detail": "原型：Risuonare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Risuonare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nRisuono, Risuoni, Risuona, Risuoniamo, Risuonate, Risuonano",
     "options": [
       {
-        "text": "清洁",
+        "text": "勒死",
         "isCorrect": false
       },
       {
-        "text": "编织/策划",
+        "text": "分解/腐烂",
         "isCorrect": false
       },
       {
-        "text": "否决/留级",
+        "text": "撕扯/夺走",
         "isCorrect": false
       },
       {
@@ -31531,10 +31531,14 @@ module.exports = [
     "meaning": "回荡",
     "example": "Le urla echeggiano.",
     "example_meaning": "尖叫声回荡。",
-    "detail": "原型：Echeggiare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Echeggiare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nEcheggio, Echeggii, Echeggia, Echeggiiamo, Echeggiate, Echeggiano",
     "options": [
       {
-        "text": "捆绑/联系",
+        "text": "清洁",
+        "isCorrect": false
+      },
+      {
+        "text": "武断地发表意见",
         "isCorrect": false
       },
       {
@@ -31542,11 +31546,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "占为己有",
-        "isCorrect": false
-      },
-      {
-        "text": "抢占/囤积",
+        "text": "勒死",
         "isCorrect": false
       }
     ]
@@ -31560,18 +31560,18 @@ module.exports = [
     "meaning": "隆隆作响",
     "example": "Il tuono rimbomba.",
     "example_meaning": "雷声隆隆。",
-    "detail": "原型：Rimbombare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Rimbombare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nRimbombo, Rimbombi, Rimbomba, Rimbombiamo, Rimbombate, Rimbombano",
     "options": [
       {
-        "text": "滑倒",
+        "text": "污染",
         "isCorrect": false
       },
       {
-        "text": "生锈",
+        "text": "没收/归并",
         "isCorrect": false
       },
       {
-        "text": "脱水",
+        "text": "泼水/死记硬背",
         "isCorrect": false
       },
       {
@@ -31589,23 +31589,23 @@ module.exports = [
     "meaning": "粉碎/发出巨响",
     "example": "Fracassare un vetro.",
     "example_meaning": "打碎玻璃。",
-    "detail": "原型：Fracassare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Fracassare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nFracasso, Fracassi, Fracassa, Fracassiamo, Fracassate, Fracassano",
     "options": [
-      {
-        "text": "振动",
-        "isCorrect": false
-      },
-      {
-        "text": "包入/牵连",
-        "isCorrect": false
-      },
-      {
-        "text": "打扰/使不安",
-        "isCorrect": false
-      },
       {
         "text": "粉碎/发出巨响",
         "isCorrect": true
+      },
+      {
+        "text": "使失望",
+        "isCorrect": false
+      },
+      {
+        "text": "跌倒",
+        "isCorrect": false
+      },
+      {
+        "text": "下沉/塌陷",
+        "isCorrect": false
       }
     ]
   },
@@ -31618,23 +31618,23 @@ module.exports = [
     "meaning": "打破",
     "example": "Infrangere il muro del suono.",
     "example_meaning": "突破音障。",
-    "detail": "原型：Infrangere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Infrangere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nInfrango, Infrangi, Infrange, Infrangiamo, Infrangete, Infrangono",
     "options": [
       {
-        "text": "压倒/俯视",
+        "text": "前进/剩余",
         "isCorrect": false
       },
       {
-        "text": "折断",
-        "isCorrect": false
-      },
-      {
-        "text": "征用",
+        "text": "消灭/使惊恐",
         "isCorrect": false
       },
       {
         "text": "打破",
         "isCorrect": true
+      },
+      {
+        "text": "颤抖/激动",
+        "isCorrect": false
       }
     ]
   },
@@ -31647,23 +31647,23 @@ module.exports = [
     "meaning": "折断",
     "example": "Spezzare il pane.",
     "example_meaning": "掰开面包。",
-    "detail": "原型：Spezzare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Spezzare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSpezzo, Spezzi, Spezza, Spezziamo, Spezzate, Spezzano",
     "options": [
+      {
+        "text": "发麻/群集",
+        "isCorrect": false
+      },
+      {
+        "text": "振动",
+        "isCorrect": false
+      },
+      {
+        "text": "洗涤/净化",
+        "isCorrect": false
+      },
       {
         "text": "折断",
         "isCorrect": true
-      },
-      {
-        "text": "使焦虑",
-        "isCorrect": false
-      },
-      {
-        "text": "使失望",
-        "isCorrect": false
-      },
-      {
-        "text": "清洁",
-        "isCorrect": false
       }
     ]
   },
@@ -31676,23 +31676,23 @@ module.exports = [
     "meaning": "击碎",
     "example": "Frantumare le ossa.",
     "example_meaning": "粉碎骨头。",
-    "detail": "原型：Frantumare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Frantumare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nFrantumo, Frantumi, Frantuma, Frantumiamo, Frantumate, Frantumano",
     "options": [
       {
-        "text": "犯(罪)",
+        "text": "拆线/掏钱",
         "isCorrect": false
       },
       {
-        "text": "振动",
-        "isCorrect": false
-      },
-      {
-        "text": "使贫穷/耗尽",
+        "text": "波动/飘动",
         "isCorrect": false
       },
       {
         "text": "击碎",
         "isCorrect": true
+      },
+      {
+        "text": "吓唬",
+        "isCorrect": false
       }
     ]
   },
@@ -31705,18 +31705,18 @@ module.exports = [
     "meaning": "弄碎",
     "example": "Sbriciolare un biscotto.",
     "example_meaning": "弄碎饼干。",
-    "detail": "原型：Sbriciolare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sbriciolare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSbriciolo, Sbricioli, Sbriciola, Sbricioliamo, Sbriciolate, Sbriciolano",
     "options": [
       {
-        "text": "粉碎/喷雾",
+        "text": "扣押/绑架",
         "isCorrect": false
       },
       {
-        "text": "回荡",
+        "text": "占为己有",
         "isCorrect": false
       },
       {
-        "text": "感染",
+        "text": "修剪",
         "isCorrect": false
       },
       {
@@ -31734,22 +31734,22 @@ module.exports = [
     "meaning": "粉碎/喷雾",
     "example": "Polverizzare un record.",
     "example_meaning": "粉碎记录。",
-    "detail": "原型：Polverizzare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Polverizzare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPolverizzo, Polverizzi, Polverizza, Polverizziamo, Polverizzate, Polverizzano",
     "options": [
+      {
+        "text": "使毛骨悚然",
+        "isCorrect": false
+      },
+      {
+        "text": "暴虐统治",
+        "isCorrect": false
+      },
       {
         "text": "粉碎/喷雾",
         "isCorrect": true
       },
       {
-        "text": "捆绑/联系",
-        "isCorrect": false
-      },
-      {
-        "text": "倒空",
-        "isCorrect": false
-      },
-      {
-        "text": "蹒跚",
+        "text": "修剪",
         "isCorrect": false
       }
     ]
@@ -31763,23 +31763,23 @@ module.exports = [
     "meaning": "雾化/原子化",
     "example": "Società atomizzata.",
     "example_meaning": "原子化社会。",
-    "detail": "原型：Atomizzare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Atomizzare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAtomizzo, Atomizzi, Atomizza, Atomizziamo, Atomizzate, Atomizzano",
     "options": [
       {
-        "text": "使厌烦/焖",
-        "isCorrect": false
-      },
-      {
-        "text": "压倒/俯视",
-        "isCorrect": false
-      },
-      {
-        "text": "倒空",
+        "text": "弄碎",
         "isCorrect": false
       },
       {
         "text": "雾化/原子化",
         "isCorrect": true
+      },
+      {
+        "text": "拔出/扯掉",
+        "isCorrect": false
+      },
+      {
+        "text": "令人作呕",
+        "isCorrect": false
       }
     ]
   },
@@ -31792,23 +31792,23 @@ module.exports = [
     "meaning": "瓦解",
     "example": "L'atomo si disintegra.",
     "example_meaning": "原子瓦解。",
-    "detail": "原型：Disintegrare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Disintegrare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nDisintegro, Disintegri, Disintegra, Disintegriamo, Disintegrate, Disintegrano",
     "options": [
-      {
-        "text": "净化",
-        "isCorrect": false
-      },
-      {
-        "text": "发芽",
-        "isCorrect": false
-      },
-      {
-        "text": "抢占/囤积",
-        "isCorrect": false
-      },
       {
         "text": "瓦解",
         "isCorrect": true
+      },
+      {
+        "text": "摇晃/犹豫",
+        "isCorrect": false
+      },
+      {
+        "text": "滥用职权/欺压",
+        "isCorrect": false
+      },
+      {
+        "text": "使幻灭",
+        "isCorrect": false
       }
     ]
   },
@@ -31821,18 +31821,18 @@ module.exports = [
     "meaning": "分解/腐烂",
     "example": "Decomporre un numero.",
     "example_meaning": "分解数字。",
-    "detail": "原型：Decomporre (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Decomporre。\n这是一个缩略形式的不规则动词 (源自拉丁语)，变位通常不规则。",
     "options": [
+      {
+        "text": "磨损/消耗",
+        "isCorrect": false
+      },
       {
         "text": "详论",
         "isCorrect": false
       },
       {
-        "text": "折断",
-        "isCorrect": false
-      },
-      {
-        "text": "波动/飘动",
+        "text": "腐蚀",
         "isCorrect": false
       },
       {
@@ -31850,23 +31850,23 @@ module.exports = [
     "meaning": "腐烂",
     "example": "Lasciare marcire.",
     "example_meaning": "任其腐烂。",
-    "detail": "原型：Marcire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Marcire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nMarco, Marci, Marce, Marciamo, Marcite, Marcono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "打扰/使不安",
-        "isCorrect": false
-      },
-      {
-        "text": "剥夺",
-        "isCorrect": false
-      },
-      {
-        "text": "充公",
+        "text": "压倒/俯视",
         "isCorrect": false
       },
       {
         "text": "腐烂",
         "isCorrect": true
+      },
+      {
+        "text": "发霉",
+        "isCorrect": false
+      },
+      {
+        "text": "拆线/掏钱",
+        "isCorrect": false
       }
     ]
   },
@@ -31879,23 +31879,23 @@ module.exports = [
     "meaning": "腐败",
     "example": "Carne putrefatta.",
     "example_meaning": "腐肉。",
-    "detail": "原型：Putrefare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Putrefare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPutrefo, Putrefi, Putrefa, Putrefiamo, Putrefate, Putrefano",
     "options": [
       {
-        "text": "粉碎/发出巨响",
-        "isCorrect": false
-      },
-      {
-        "text": "征收",
-        "isCorrect": false
-      },
-      {
-        "text": "传染",
+        "text": "开花/兴旺",
         "isCorrect": false
       },
       {
         "text": "腐败",
         "isCorrect": true
+      },
+      {
+        "text": "驱散/遗失",
+        "isCorrect": false
+      },
+      {
+        "text": "绊倒",
+        "isCorrect": false
       }
     ]
   },
@@ -31908,22 +31908,22 @@ module.exports = [
     "meaning": "发霉",
     "example": "Il pane ammuffisce.",
     "example_meaning": "面包发霉。",
-    "detail": "原型：Ammuffire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Ammuffire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nAmmuffo, Ammuffi, Ammuffe, Ammuffiamo, Ammuffite, Ammuffono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
         "text": "发霉",
         "isCorrect": true
       },
       {
-        "text": "追求",
+        "text": "渴望/吸入",
         "isCorrect": false
       },
       {
-        "text": "倒退",
+        "text": "洗涤/净化",
         "isCorrect": false
       },
       {
-        "text": "使贫穷",
+        "text": "分解/腐烂",
         "isCorrect": false
       }
     ]
@@ -31937,14 +31937,14 @@ module.exports = [
     "meaning": "生锈",
     "example": "Il ferro arrugginisce.",
     "example_meaning": "铁生锈。",
-    "detail": "原型：Arrugginire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Arrugginire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nArruggino, Arruggini, Arruggine, Arrugginiamo, Arrugginite, Arrugginono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "令人作呕",
+        "text": "摆动",
         "isCorrect": false
       },
       {
-        "text": "迫在眉睫",
+        "text": "详论",
         "isCorrect": false
       },
       {
@@ -31952,7 +31952,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "扭曲/打乱",
+        "text": "磨损/消费",
         "isCorrect": false
       }
     ]
@@ -31966,23 +31966,23 @@ module.exports = [
     "meaning": "氧化",
     "example": "Il rame si ossida.",
     "example_meaning": "铜氧化。",
-    "detail": "原型：Ossider (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Ossider (动词)。\n请注意根据语境的人称和时态进行变化。",
     "options": [
       {
-        "text": "振动",
+        "text": "滥用职权/欺压",
         "isCorrect": false
       },
       {
-        "text": "欺骗/搞乱",
-        "isCorrect": false
-      },
-      {
-        "text": "浸湿",
+        "text": "坠落/沉淀",
         "isCorrect": false
       },
       {
         "text": "氧化",
         "isCorrect": true
+      },
+      {
+        "text": "渴望",
+        "isCorrect": false
       }
     ]
   },
@@ -31995,22 +31995,22 @@ module.exports = [
     "meaning": "腐蚀",
     "example": "L'acido corrode.",
     "example_meaning": "酸腐蚀。",
-    "detail": "原型：Corrodere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Corrodere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nCorrodo, Corrodi, Corrode, Corrodiamo, Corrodete, Corrodono",
     "options": [
       {
         "text": "腐蚀",
         "isCorrect": true
       },
       {
-        "text": "拆线/掏钱",
+        "text": "使厌烦/焖",
         "isCorrect": false
       },
       {
-        "text": "污染",
+        "text": "追求/检控",
         "isCorrect": false
       },
       {
-        "text": "保湿",
+        "text": "扭曲/打乱",
         "isCorrect": false
       }
     ]
@@ -32024,22 +32024,22 @@ module.exports = [
     "meaning": "侵蚀",
     "example": "Il mare erode la costa.",
     "example_meaning": "大海侵蚀海岸。",
-    "detail": "原型：Erodere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Erodere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nErodo, Erodi, Erode, Erodiamo, Erodete, Erodono",
     "options": [
+      {
+        "text": "剥夺/脱衣",
+        "isCorrect": false
+      },
       {
         "text": "侵蚀",
         "isCorrect": true
       },
       {
-        "text": "发霉",
+        "text": "耗尽",
         "isCorrect": false
       },
       {
-        "text": "坠落/沉淀",
-        "isCorrect": false
-      },
-      {
-        "text": "拆线/掏钱",
+        "text": "扰乱/震惊",
         "isCorrect": false
       }
     ]
@@ -32053,23 +32053,23 @@ module.exports = [
     "meaning": "磨损/消耗",
     "example": "Logorare i nervi.",
     "example_meaning": "磨损神经。",
-    "detail": "原型：Logorare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Logorare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nLogoro, Logori, Logora, Logoriamo, Logorate, Logorano",
     "options": [
       {
-        "text": "欺骗/搞乱",
+        "text": "发抖",
         "isCorrect": false
       },
       {
-        "text": "使惊恐",
+        "text": "渴望",
+        "isCorrect": false
+      },
+      {
+        "text": "渴望/吸入",
         "isCorrect": false
       },
       {
         "text": "磨损/消耗",
         "isCorrect": true
-      },
-      {
-        "text": "繁殖",
-        "isCorrect": false
       }
     ]
   },
@@ -32082,22 +32082,22 @@ module.exports = [
     "meaning": "磨损/消费",
     "example": "Consumare le scarpe.",
     "example_meaning": "磨破鞋子。",
-    "detail": "原型：Consumare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Consumare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nConsumo, Consumi, Consuma, Consumiamo, Consumate, Consumano",
     "options": [
+      {
+        "text": "征用",
+        "isCorrect": false
+      },
+      {
+        "text": "热望",
+        "isCorrect": false
+      },
       {
         "text": "磨损/消费",
         "isCorrect": true
       },
       {
-        "text": "外推/推断",
-        "isCorrect": false
-      },
-      {
-        "text": "追求",
-        "isCorrect": false
-      },
-      {
-        "text": "振动",
+        "text": "使厌烦/焖",
         "isCorrect": false
       }
     ]
@@ -32111,23 +32111,23 @@ module.exports = [
     "meaning": "耗尽",
     "example": "Esaurire le scorte.",
     "example_meaning": "耗尽库存。",
-    "detail": "原型：Esaurire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Esaurire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nEsauro, Esauri, Esaure, Esauriamo, Esaurite, Esaurono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "倒退",
+        "text": "摇摆/起伏",
         "isCorrect": false
       },
       {
-        "text": "勒死",
+        "text": "期望/预示",
+        "isCorrect": false
+      },
+      {
+        "text": "遭遇/招致",
         "isCorrect": false
       },
       {
         "text": "耗尽",
         "isCorrect": true
-      },
-      {
-        "text": "前进/剩余",
-        "isCorrect": false
       }
     ]
   },
@@ -32140,23 +32140,23 @@ module.exports = [
     "meaning": "倒空",
     "example": "Svuotare il sacco.",
     "example_meaning": "和盘托出/倒空袋子。",
-    "detail": "原型：Svuotare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Svuotare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSvuoto, Svuoti, Svuota, Svuotiamo, Svuotate, Svuotano",
     "options": [
       {
-        "text": "称霸",
+        "text": "传播",
         "isCorrect": false
       },
       {
-        "text": "窒息/压制",
-        "isCorrect": false
-      },
-      {
-        "text": "嫁接/接合",
+        "text": "扰乱/震惊",
         "isCorrect": false
       },
       {
         "text": "倒空",
         "isCorrect": true
+      },
+      {
+        "text": "剥夺/脱衣",
+        "isCorrect": false
       }
     ]
   },
@@ -32169,22 +32169,22 @@ module.exports = [
     "meaning": "抽干/枯竭",
     "example": "Prosciugare un conto.",
     "example_meaning": "榨干账户。",
-    "detail": "原型：Prosciugare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Prosciugare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nProsciugo, Prosciugi, Prosciuga, Prosciugiamo, Prosciugate, Prosciugano",
     "options": [
+      {
+        "text": "贪图/渴望",
+        "isCorrect": false
+      },
+      {
+        "text": "跌倒",
+        "isCorrect": false
+      },
       {
         "text": "抽干/枯竭",
         "isCorrect": true
       },
       {
-        "text": "嫁接/接合",
-        "isCorrect": false
-      },
-      {
-        "text": "后退",
-        "isCorrect": false
-      },
-      {
-        "text": "解开",
+        "text": "追求/检控",
         "isCorrect": false
       }
     ]
@@ -32198,23 +32198,23 @@ module.exports = [
     "meaning": "使干枯",
     "example": "Il sole inaridisce la terra.",
     "example_meaning": "太阳晒干土地。",
-    "detail": "原型：Inaridire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Inaridire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nInarido, Inaridi, Inaride, Inaridiamo, Inaridite, Inaridono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "作呕/厌烦",
+        "text": "下沉/塌陷",
+        "isCorrect": false
+      },
+      {
+        "text": "收割",
+        "isCorrect": false
+      },
+      {
+        "text": "摇摆/起伏",
         "isCorrect": false
       },
       {
         "text": "使干枯",
         "isCorrect": true
-      },
-      {
-        "text": "游泳",
-        "isCorrect": false
-      },
-      {
-        "text": "使厌恶",
-        "isCorrect": false
       }
     ]
   },
@@ -32227,23 +32227,23 @@ module.exports = [
     "meaning": "弄干/烦扰",
     "example": "Mi stai seccando.",
     "example_meaning": "你让我烦了。",
-    "detail": "原型：Seccare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Seccare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSecco, Secci, Secca, Secciamo, Seccate, Seccano",
     "options": [
-      {
-        "text": "晋升/推销",
-        "isCorrect": false
-      },
-      {
-        "text": "捆绑/联系",
-        "isCorrect": false
-      },
-      {
-        "text": "倒退",
-        "isCorrect": false
-      },
       {
         "text": "弄干/烦扰",
         "isCorrect": true
+      },
+      {
+        "text": "追求",
+        "isCorrect": false
+      },
+      {
+        "text": "期望/预示",
+        "isCorrect": false
+      },
+      {
+        "text": "展开/进行",
+        "isCorrect": false
       }
     ]
   },
@@ -32256,16 +32256,8 @@ module.exports = [
     "meaning": "脱水",
     "example": "L'alcol disidrata.",
     "example_meaning": "酒精使人脱水。",
-    "detail": "原型：Disidratare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Disidratare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nDisidrato, Disidrati, Disidrata, Disidratiamo, Disidratate, Disidratano",
     "options": [
-      {
-        "text": "弄碎",
-        "isCorrect": false
-      },
-      {
-        "text": "窒息/压制",
-        "isCorrect": false
-      },
       {
         "text": "连根拔起",
         "isCorrect": false
@@ -32273,6 +32265,14 @@ module.exports = [
       {
         "text": "脱水",
         "isCorrect": true
+      },
+      {
+        "text": "渴望",
+        "isCorrect": false
+      },
+      {
+        "text": "分解/腐烂",
+        "isCorrect": false
       }
     ]
   },
@@ -32285,23 +32285,23 @@ module.exports = [
     "meaning": "保湿",
     "example": "Idratare la pelle.",
     "example_meaning": "给皮肤保湿。",
-    "detail": "原型：Idratare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Idratare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nIdrato, Idrati, Idrata, Idratiamo, Idratate, Idratano",
     "options": [
+      {
+        "text": "折磨/困扰",
+        "isCorrect": false
+      },
+      {
+        "text": "惊跳",
+        "isCorrect": false
+      },
+      {
+        "text": "没收/归并",
+        "isCorrect": false
+      },
       {
         "text": "保湿",
         "isCorrect": true
-      },
-      {
-        "text": "分解/腐烂",
-        "isCorrect": false
-      },
-      {
-        "text": "拔出/扯掉",
-        "isCorrect": false
-      },
-      {
-        "text": "贪图/渴望",
-        "isCorrect": false
       }
     ]
   },
@@ -32314,23 +32314,23 @@ module.exports = [
     "meaning": "浸湿",
     "example": "Inzuppare il biscotto.",
     "example_meaning": "泡饼干。",
-    "detail": "原型：Inzuppare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Inzuppare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nInzuppo, Inzuppi, Inzuppa, Inzuppiamo, Inzuppate, Inzuppano",
     "options": [
       {
-        "text": "使悲痛",
+        "text": "追求",
         "isCorrect": false
       },
       {
-        "text": "征用",
-        "isCorrect": false
-      },
-      {
-        "text": "征收",
+        "text": "涌现/到处是",
         "isCorrect": false
       },
       {
         "text": "浸湿",
         "isCorrect": true
+      },
+      {
+        "text": "翻转/颠倒",
+        "isCorrect": false
       }
     ]
   },
@@ -32343,22 +32343,22 @@ module.exports = [
     "meaning": "弄湿",
     "example": "Bagnare le piante.",
     "example_meaning": "给植物浇水。",
-    "detail": "原型：Bagnare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Bagnare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nBagno, Bagni, Bagna, Bagniamo, Bagnate, Bagnano",
     "options": [
       {
         "text": "弄湿",
         "isCorrect": true
       },
       {
-        "text": "欺骗",
+        "text": "折断",
         "isCorrect": false
       },
       {
-        "text": "翻转/颠倒",
+        "text": "抢占/囤积",
         "isCorrect": false
       },
       {
-        "text": "散播",
+        "text": "窒息/压制",
         "isCorrect": false
       }
     ]
@@ -32372,7 +32372,7 @@ module.exports = [
     "meaning": "洗涤/净化",
     "example": "Lavare la coscienza.",
     "example_meaning": "洗涤良心。",
-    "detail": "原型：Lavare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Lavare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nLavo, Lavi, Lava, Laviamo, Lavate, Lavano",
     "options": [
       {
         "text": "脱水",
@@ -32383,11 +32383,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "氧化",
+        "text": "收割",
         "isCorrect": false
       },
       {
-        "text": "漂浮",
+        "text": "恐吓",
         "isCorrect": false
       }
     ]
@@ -32401,22 +32401,22 @@ module.exports = [
     "meaning": "清洁",
     "example": "Detergere la ferita.",
     "example_meaning": "清洗伤口。",
-    "detail": "原型：Detergere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Detergere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nDetergo, Detergi, Deterge, Detergiamo, Detergete, Detergono",
     "options": [
-      {
-        "text": "预言",
-        "isCorrect": false
-      },
       {
         "text": "清洁",
         "isCorrect": true
       },
       {
-        "text": "拔出/扯掉",
+        "text": "作呕/厌烦",
         "isCorrect": false
       },
       {
-        "text": "腐烂",
+        "text": "振动",
+        "isCorrect": false
+      },
+      {
+        "text": "波动/飘动",
         "isCorrect": false
       }
     ]
@@ -32430,22 +32430,22 @@ module.exports = [
     "meaning": "净化",
     "example": "Purificare l'aria.",
     "example_meaning": "净化空气。",
-    "detail": "原型：Purificare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Purificare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPurifico, Purifici, Purifica, Purificiamo, Purificate, Purificano",
     "options": [
+      {
+        "text": "恐吓",
+        "isCorrect": false
+      },
       {
         "text": "净化",
         "isCorrect": true
       },
       {
-        "text": "作呕/厌烦",
+        "text": "传播",
         "isCorrect": false
       },
       {
-        "text": "回荡",
-        "isCorrect": false
-      },
-      {
-        "text": "降级/后退",
+        "text": "摇摆/起伏",
         "isCorrect": false
       }
     ]
@@ -32459,23 +32459,23 @@ module.exports = [
     "meaning": "污染",
     "example": "Contaminare le prove.",
     "example_meaning": "污染证据。",
-    "detail": "原型：Contaminare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Contaminare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nContamino, Contamini, Contamina, Contaminiamo, Contaminate, Contaminano",
     "options": [
+      {
+        "text": "使失望",
+        "isCorrect": false
+      },
+      {
+        "text": "吓唬",
+        "isCorrect": false
+      },
+      {
+        "text": "使丰富/致富",
+        "isCorrect": false
+      },
       {
         "text": "污染",
         "isCorrect": true
-      },
-      {
-        "text": "弄碎",
-        "isCorrect": false
-      },
-      {
-        "text": "迫害/纠缠",
-        "isCorrect": false
-      },
-      {
-        "text": "击碎",
-        "isCorrect": false
       }
     ]
   },
@@ -32488,23 +32488,23 @@ module.exports = [
     "meaning": "污染",
     "example": "Inquinare l'ambiente.",
     "example_meaning": "污染环境。",
-    "detail": "原型：Inquinare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Inquinare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nInquino, Inquini, Inquina, Inquiniamo, Inquinate, Inquinano",
     "options": [
-      {
-        "text": "使焦虑",
-        "isCorrect": false
-      },
-      {
-        "text": "雾化/原子化",
-        "isCorrect": false
-      },
-      {
-        "text": "作呕/厌烦",
-        "isCorrect": false
-      },
       {
         "text": "污染",
         "isCorrect": true
+      },
+      {
+        "text": "充公",
+        "isCorrect": false
+      },
+      {
+        "text": "抽干/枯竭",
+        "isCorrect": false
+      },
+      {
+        "text": "迷惑/给...幻想",
+        "isCorrect": false
       }
     ]
   },
@@ -32517,23 +32517,23 @@ module.exports = [
     "meaning": "感染",
     "example": "Infettare il computer.",
     "example_meaning": "感染电脑。",
-    "detail": "原型：Infettare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Infettare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nInfetto, Infetti, Infetta, Infettiamo, Infettate, Infettano",
     "options": [
       {
-        "text": "使干枯",
+        "text": "恐吓",
         "isCorrect": false
       },
       {
-        "text": "弄干/烦扰",
-        "isCorrect": false
-      },
-      {
-        "text": "征收",
+        "text": "降级/后退",
         "isCorrect": false
       },
       {
         "text": "感染",
         "isCorrect": true
+      },
+      {
+        "text": "使丰富/致富",
+        "isCorrect": false
       }
     ]
   },
@@ -32546,22 +32546,22 @@ module.exports = [
     "meaning": "传染",
     "example": "La sua risata contagia.",
     "example_meaning": "他的笑声有感染力。",
-    "detail": "原型：Contagiare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Contagiare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nContagio, Contagii, Contagia, Contagiiamo, Contagiate, Contagiano",
     "options": [
-      {
-        "text": "传染",
-        "isCorrect": true
-      },
-      {
-        "text": "征收",
-        "isCorrect": false
-      },
       {
         "text": "跳水/潜入",
         "isCorrect": false
       },
       {
-        "text": "修剪",
+        "text": "连根拔起",
+        "isCorrect": false
+      },
+      {
+        "text": "传染",
+        "isCorrect": true
+      },
+      {
+        "text": "使痛苦",
         "isCorrect": false
       }
     ]
@@ -32575,22 +32575,22 @@ module.exports = [
     "meaning": "传播",
     "example": "Propagare la fede.",
     "example_meaning": "传播信仰。",
-    "detail": "原型：Propagare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Propagare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPropago, Propagi, Propaga, Propagiamo, Propagate, Propagano",
     "options": [
-      {
-        "text": "刺绣/添油加醋",
-        "isCorrect": false
-      },
-      {
-        "text": "倒空",
-        "isCorrect": false
-      },
       {
         "text": "传播",
         "isCorrect": true
       },
       {
-        "text": "分解/腐烂",
+        "text": "扭曲/打乱",
+        "isCorrect": false
+      },
+      {
+        "text": "打结",
+        "isCorrect": false
+      },
+      {
+        "text": "展开/进行",
         "isCorrect": false
       }
     ]
@@ -32604,23 +32604,23 @@ module.exports = [
     "meaning": "散播",
     "example": "Diffondere il panico.",
     "example_meaning": "散播恐慌。",
-    "detail": "原型：Diffondere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Diffondere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nDiffondo, Diffondi, Diffonde, Diffondiamo, Diffondete, Diffondono",
     "options": [
+      {
+        "text": "腐烂",
+        "isCorrect": false
+      },
+      {
+        "text": "折磨",
+        "isCorrect": false
+      },
+      {
+        "text": "腐败",
+        "isCorrect": false
+      },
       {
         "text": "散播",
         "isCorrect": true
-      },
-      {
-        "text": "使贫穷/耗尽",
-        "isCorrect": false
-      },
-      {
-        "text": "漂浮",
-        "isCorrect": false
-      },
-      {
-        "text": "传染",
-        "isCorrect": false
       }
     ]
   },
@@ -32633,23 +32633,23 @@ module.exports = [
     "meaning": "驱散/遗失",
     "example": "Disperdere le energie.",
     "example_meaning": "分散精力。",
-    "detail": "原型：Disperdere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Disperdere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nDisperdo, Disperdi, Disperde, Disperdiamo, Disperdete, Disperdono",
     "options": [
       {
-        "text": "腐蚀",
-        "isCorrect": false
-      },
-      {
-        "text": "预言",
-        "isCorrect": false
-      },
-      {
-        "text": "撕扯/夺走",
+        "text": "压倒/俯视",
         "isCorrect": false
       },
       {
         "text": "驱散/遗失",
         "isCorrect": true
+      },
+      {
+        "text": "勒死",
+        "isCorrect": false
+      },
+      {
+        "text": "繁荣",
+        "isCorrect": false
       }
     ]
   },
@@ -32662,22 +32662,22 @@ module.exports = [
     "meaning": "播种/甩掉",
     "example": "Seminare zizzania.",
     "example_meaning": "挑拨离间/播种杂草。",
-    "detail": "原型：Seminare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Seminare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSemino, Semini, Semina, Seminiamo, Seminate, Seminano",
     "options": [
-      {
-        "text": "粉碎/喷雾",
-        "isCorrect": false
-      },
       {
         "text": "播种/甩掉",
         "isCorrect": true
       },
       {
-        "text": "净化",
+        "text": "雾化/原子化",
         "isCorrect": false
       },
       {
-        "text": "收获/集合",
+        "text": "污染",
+        "isCorrect": false
+      },
+      {
+        "text": "迷惑/给...幻想",
         "isCorrect": false
       }
     ]
@@ -32691,22 +32691,22 @@ module.exports = [
     "meaning": "收获/集合",
     "example": "Chi semina raccoglie.",
     "example_meaning": "种瓜得瓜。",
-    "detail": "原型：Raccogliere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Raccogliere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nRaccoglio, Raccoglii, Raccoglie, Raccogliiamo, Raccogliete, Raccogliono",
     "options": [
+      {
+        "text": "回响",
+        "isCorrect": false
+      },
       {
         "text": "收获/集合",
         "isCorrect": true
       },
       {
-        "text": "欺骗/搞乱",
+        "text": "追求/检控",
         "isCorrect": false
       },
       {
-        "text": "跌倒",
-        "isCorrect": false
-      },
-      {
-        "text": "发麻/群集",
+        "text": "滥用职权/欺压",
         "isCorrect": false
       }
     ]
@@ -32720,22 +32720,22 @@ module.exports = [
     "meaning": "收割",
     "example": "Mietere vittime.",
     "example_meaning": "造成伤亡。",
-    "detail": "原型：Mietere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Mietere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nMieto, Mieti, Miete, Mietiamo, Mietete, Mietono",
     "options": [
       {
         "text": "收割",
         "isCorrect": true
       },
       {
-        "text": "波动/飘动",
+        "text": "发霉",
         "isCorrect": false
       },
       {
-        "text": "净化",
+        "text": "欺骗/搞乱",
         "isCorrect": false
       },
       {
-        "text": "击碎",
+        "text": "压抑",
         "isCorrect": false
       }
     ]
@@ -32749,22 +32749,22 @@ module.exports = [
     "meaning": "割/扫射",
     "example": "Falciare l'erba.",
     "example_meaning": "割草。",
-    "detail": "原型：Falciare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Falciare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nFalcio, Falcii, Falcia, Falciiamo, Falciate, Falciano",
     "options": [
+      {
+        "text": "使干枯",
+        "isCorrect": false
+      },
       {
         "text": "割/扫射",
         "isCorrect": true
       },
       {
-        "text": "压迫",
+        "text": "征收",
         "isCorrect": false
       },
       {
-        "text": "脱水",
-        "isCorrect": false
-      },
-      {
-        "text": "剥夺/脱衣",
+        "text": "倒空",
         "isCorrect": false
       }
     ]
@@ -32778,23 +32778,23 @@ module.exports = [
     "meaning": "修剪",
     "example": "Potare gli alberi.",
     "example_meaning": "修剪树木。",
-    "detail": "原型：Potare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Potare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nPoto, Poti, Pota, Potiamo, Potate, Potano",
     "options": [
-      {
-        "text": "晋升/推销",
-        "isCorrect": false
-      },
-      {
-        "text": "作呕/厌烦",
-        "isCorrect": false
-      },
-      {
-        "text": "织补",
-        "isCorrect": false
-      },
       {
         "text": "修剪",
         "isCorrect": true
+      },
+      {
+        "text": "沉没",
+        "isCorrect": false
+      },
+      {
+        "text": "生锈",
+        "isCorrect": false
+      },
+      {
+        "text": "占为己有",
+        "isCorrect": false
       }
     ]
   },
@@ -32807,23 +32807,23 @@ module.exports = [
     "meaning": "嫁接/接合",
     "example": "Innestare la marcia.",
     "example_meaning": "挂挡。",
-    "detail": "原型：Innestare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Innestare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nInnesto, Innesti, Innesta, Innestiamo, Innestate, Innestano",
     "options": [
       {
-        "text": "占为己有",
+        "text": "征用",
         "isCorrect": false
       },
       {
-        "text": "脱水",
+        "text": "繁荣",
+        "isCorrect": false
+      },
+      {
+        "text": "摆动",
         "isCorrect": false
       },
       {
         "text": "嫁接/接合",
         "isCorrect": true
-      },
-      {
-        "text": "生锈",
-        "isCorrect": false
       }
     ]
   },
@@ -32836,14 +32836,10 @@ module.exports = [
     "meaning": "移植",
     "example": "Trapiantare un organo.",
     "example_meaning": "移植器官。",
-    "detail": "原型：Trapiantare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Trapiantare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nTrapianto, Trapianti, Trapianta, Trapiantiamo, Trapiantate, Trapiantano",
     "options": [
       {
-        "text": "蠕动/充满",
-        "isCorrect": false
-      },
-      {
-        "text": "打扰/使不安",
+        "text": "传染",
         "isCorrect": false
       },
       {
@@ -32851,7 +32847,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "隆隆作响",
+        "text": "抽干/枯竭",
+        "isCorrect": false
+      },
+      {
+        "text": "坠落/沉淀",
         "isCorrect": false
       }
     ]
@@ -32865,23 +32865,23 @@ module.exports = [
     "meaning": "根除",
     "example": "Estirpare il male.",
     "example_meaning": "铲除邪恶。",
-    "detail": "原型：Estirpare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Estirpare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nEstirpo, Estirpi, Estirpa, Estirpiamo, Estirpate, Estirpano",
     "options": [
       {
-        "text": "使痛苦",
-        "isCorrect": false
-      },
-      {
-        "text": "烦扰",
-        "isCorrect": false
-      },
-      {
-        "text": "滥用职权/欺压",
+        "text": "横行霸道",
         "isCorrect": false
       },
       {
         "text": "根除",
         "isCorrect": true
+      },
+      {
+        "text": "令人作呕",
+        "isCorrect": false
+      },
+      {
+        "text": "使担忧",
+        "isCorrect": false
       }
     ]
   },
@@ -32894,23 +32894,23 @@ module.exports = [
     "meaning": "连根拔起",
     "example": "Sradicare un albero.",
     "example_meaning": "拔起一棵树。",
-    "detail": "原型：Sradicare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sradicare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSradico, Sradici, Sradica, Sradiciamo, Sradicate, Sradicano",
     "options": [
-      {
-        "text": "使毛骨悚然",
-        "isCorrect": false
-      },
-      {
-        "text": "嫁接/接合",
-        "isCorrect": false
-      },
-      {
-        "text": "保湿",
-        "isCorrect": false
-      },
       {
         "text": "连根拔起",
         "isCorrect": true
+      },
+      {
+        "text": "解绑",
+        "isCorrect": false
+      },
+      {
+        "text": "摆动",
+        "isCorrect": false
+      },
+      {
+        "text": "令人作呕",
+        "isCorrect": false
       }
     ]
   },
@@ -32923,22 +32923,22 @@ module.exports = [
     "meaning": "拔出/扯掉",
     "example": "Divellere un chiodo.",
     "example_meaning": "拔出钉子。",
-    "detail": "原型：Divellere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Divellere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nDivello, Divelli, Divelle, Divelliamo, Divellete, Divellono",
     "options": [
-      {
-        "text": "滑倒",
-        "isCorrect": false
-      },
-      {
-        "text": "嫁接/接合",
-        "isCorrect": false
-      },
       {
         "text": "拔出/扯掉",
         "isCorrect": true
       },
       {
-        "text": "解绑",
+        "text": "折磨",
+        "isCorrect": false
+      },
+      {
+        "text": "捆绑/联系",
+        "isCorrect": false
+      },
+      {
+        "text": "波动/飘动",
         "isCorrect": false
       }
     ]
@@ -32952,22 +32952,22 @@ module.exports = [
     "meaning": "撕扯/夺走",
     "example": "Strappare una promessa.",
     "example_meaning": "强求承诺。",
-    "detail": "原型：Strappare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Strappare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nStrappo, Strappi, Strappa, Strappiamo, Strappate, Strappano",
     "options": [
       {
         "text": "撕扯/夺走",
         "isCorrect": true
       },
       {
-        "text": "前进/剩余",
+        "text": "欺骗/搞乱",
         "isCorrect": false
       },
       {
-        "text": "割/扫射",
+        "text": "滥用职权/欺压",
         "isCorrect": false
       },
       {
-        "text": "氧化",
+        "text": "污染",
         "isCorrect": false
       }
     ]
@@ -32981,23 +32981,23 @@ module.exports = [
     "meaning": "撕碎",
     "example": "Lacerare il silenzio.",
     "example_meaning": "打破沉默。",
-    "detail": "原型：Lacerare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Lacerare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nLacero, Laceri, Lacera, Laceriamo, Lacerate, Lacerano",
     "options": [
       {
-        "text": "欺骗",
+        "text": "游泳",
         "isCorrect": false
       },
       {
-        "text": "使贫穷/耗尽",
-        "isCorrect": false
-      },
-      {
-        "text": "渴望",
+        "text": "使幻灭",
         "isCorrect": false
       },
       {
         "text": "撕碎",
         "isCorrect": true
+      },
+      {
+        "text": "割/扫射",
+        "isCorrect": false
       }
     ]
   },
@@ -33010,23 +33010,23 @@ module.exports = [
     "meaning": "拆线/掏钱",
     "example": "Mi ha scucito 100 euro.",
     "example_meaning": "他敲了我100欧元。",
-    "detail": "原型：Scucire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Scucire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nScuco, Scuci, Scuce, Scuciamo, Scucite, Scucono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
       {
-        "text": "没收/归并",
-        "isCorrect": false
-      },
-      {
-        "text": "摇晃/犹豫",
-        "isCorrect": false
-      },
-      {
-        "text": "充公",
+        "text": "发抖",
         "isCorrect": false
       },
       {
         "text": "拆线/掏钱",
         "isCorrect": true
+      },
+      {
+        "text": "勒死",
+        "isCorrect": false
+      },
+      {
+        "text": "犯(错)",
+        "isCorrect": false
       }
     ]
   },
@@ -33039,22 +33039,22 @@ module.exports = [
     "meaning": "织补",
     "example": "Rammendare i calzini.",
     "example_meaning": "补袜子。",
-    "detail": "原型：Rammendare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Rammendare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nRammendo, Rammendi, Rammenda, Rammendiamo, Rammendate, Rammendano",
     "options": [
-      {
-        "text": "压抑",
-        "isCorrect": false
-      },
       {
         "text": "织补",
         "isCorrect": true
       },
       {
-        "text": "折磨",
+        "text": "打破",
         "isCorrect": false
       },
       {
-        "text": "污染",
+        "text": "涌现/到处是",
+        "isCorrect": false
+      },
+      {
+        "text": "割/扫射",
         "isCorrect": false
       }
     ]
@@ -33068,23 +33068,23 @@ module.exports = [
     "meaning": "刺绣/添油加醋",
     "example": "Non ricamarci sopra.",
     "example_meaning": "别添油加醋。",
-    "detail": "原型：Ricamare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Ricamare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nRicamo, Ricami, Ricama, Ricamiamo, Ricamate, Ricamano",
     "options": [
       {
-        "text": "发芽",
+        "text": "称霸",
         "isCorrect": false
       },
       {
-        "text": "雾化/原子化",
+        "text": "篡夺",
+        "isCorrect": false
+      },
+      {
+        "text": "使毛骨悚然",
         "isCorrect": false
       },
       {
         "text": "刺绣/添油加醋",
         "isCorrect": true
-      },
-      {
-        "text": "称霸",
-        "isCorrect": false
       }
     ]
   },
@@ -33097,22 +33097,22 @@ module.exports = [
     "meaning": "编织/策划",
     "example": "Tessere le lodi.",
     "example_meaning": "赞扬。",
-    "detail": "原型：Tessere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Tessere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nTesso, Tessi, Tesse, Tessiamo, Tessete, Tessono",
     "options": [
+      {
+        "text": "隆隆作响",
+        "isCorrect": false
+      },
+      {
+        "text": "腐蚀",
+        "isCorrect": false
+      },
       {
         "text": "编织/策划",
         "isCorrect": true
       },
       {
-        "text": "犯(错)",
-        "isCorrect": false
-      },
-      {
-        "text": "遭遇/招致",
-        "isCorrect": false
-      },
-      {
-        "text": "漂浮",
+        "text": "粉碎/喷雾",
         "isCorrect": false
       }
     ]
@@ -33126,23 +33126,23 @@ module.exports = [
     "meaning": "编结/交织",
     "example": "Intrecciare relazioni.",
     "example_meaning": "建立关系。",
-    "detail": "原型：Intrecciare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Intrecciare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nIntreccio, Intreccii, Intreccia, Intrecciiamo, Intrecciate, Intrecciano",
     "options": [
+      {
+        "text": "降级/后退",
+        "isCorrect": false
+      },
+      {
+        "text": "剥夺",
+        "isCorrect": false
+      },
+      {
+        "text": "感染",
+        "isCorrect": false
+      },
       {
         "text": "编结/交织",
         "isCorrect": true
-      },
-      {
-        "text": "拔出/扯掉",
-        "isCorrect": false
-      },
-      {
-        "text": "腐烂",
-        "isCorrect": false
-      },
-      {
-        "text": "撕碎",
-        "isCorrect": false
       }
     ]
   },
@@ -33155,14 +33155,14 @@ module.exports = [
     "meaning": "打结",
     "example": "Annodare la cravatta.",
     "example_meaning": "打领带。",
-    "detail": "原型：Annodare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Annodare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAnnodo, Annodi, Annoda, Annodiamo, Annodate, Annodano",
     "options": [
       {
-        "text": "磨损/消费",
+        "text": "割/扫射",
         "isCorrect": false
       },
       {
-        "text": "使失望",
+        "text": "犯(罪)",
         "isCorrect": false
       },
       {
@@ -33170,7 +33170,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "征收",
+        "text": "使干枯",
         "isCorrect": false
       }
     ]
@@ -33184,22 +33184,22 @@ module.exports = [
     "meaning": "解开",
     "example": "Sciogliere un nodo.",
     "example_meaning": "解开结。",
-    "detail": "原型：Sciogliere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sciogliere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nScioglio, Scioglii, Scioglie, Sciogliiamo, Sciogliete, Sciogliono",
     "options": [
-      {
-        "text": "欺骗/搞乱",
-        "isCorrect": false
-      },
-      {
-        "text": "波动/飘动",
-        "isCorrect": false
-      },
       {
         "text": "解开",
         "isCorrect": true
       },
       {
-        "text": "折磨/困扰",
+        "text": "发霉",
+        "isCorrect": false
+      },
+      {
+        "text": "编结/交织",
+        "isCorrect": false
+      },
+      {
+        "text": "解绑",
         "isCorrect": false
       }
     ]
@@ -33213,23 +33213,23 @@ module.exports = [
     "meaning": "解绑",
     "example": "Slegare il cane.",
     "example_meaning": "解开狗绳。",
-    "detail": "原型：Slegare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Slegare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSlego, Slegi, Slega, Slegiamo, Slegate, Slegano",
     "options": [
       {
-        "text": "振动",
+        "text": "使悲痛",
+        "isCorrect": false
+      },
+      {
+        "text": "压迫",
+        "isCorrect": false
+      },
+      {
+        "text": "脱水",
         "isCorrect": false
       },
       {
         "text": "解绑",
         "isCorrect": true
-      },
-      {
-        "text": "扣押/绑架",
-        "isCorrect": false
-      },
-      {
-        "text": "发麻/群集",
-        "isCorrect": false
       }
     ]
   },
@@ -33242,23 +33242,23 @@ module.exports = [
     "meaning": "捆绑/联系",
     "example": "Legare i capelli.",
     "example_meaning": "扎头发。",
-    "detail": "原型：Legare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Legare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nLego, Legi, Lega, Legiamo, Legate, Legano",
     "options": [
       {
-        "text": "跌倒",
+        "text": "使毛骨悚然",
         "isCorrect": false
       },
       {
-        "text": "刺绣/添油加醋",
-        "isCorrect": false
-      },
-      {
-        "text": "保湿",
+        "text": "使厌恶",
         "isCorrect": false
       },
       {
         "text": "捆绑/联系",
         "isCorrect": true
+      },
+      {
+        "text": "嫁接/接合",
+        "isCorrect": false
       }
     ]
   },
@@ -33271,22 +33271,22 @@ module.exports = [
     "meaning": "包裹/卷绕",
     "example": "Avvolgere un regalo.",
     "example_meaning": "包装礼物。",
-    "detail": "原型：Avvolgere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Avvolgere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nAvvolgo, Avvolgi, Avvolge, Avvolgiamo, Avvolgete, Avvolgono",
     "options": [
       {
         "text": "包裹/卷绕",
         "isCorrect": true
       },
       {
-        "text": "使悲痛",
+        "text": "渴望",
         "isCorrect": false
       },
       {
-        "text": "波动/飘动",
+        "text": "污染",
         "isCorrect": false
       },
       {
-        "text": "热望",
+        "text": "传播",
         "isCorrect": false
       }
     ]
@@ -33300,22 +33300,22 @@ module.exports = [
     "meaning": "展开/进行",
     "example": "Svolgere un compito.",
     "example_meaning": "执行任务。",
-    "detail": "原型：Svolgere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Svolgere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nSvolgo, Svolgi, Svolge, Svolgiamo, Svolgete, Svolgono",
     "options": [
       {
         "text": "展开/进行",
         "isCorrect": true
       },
       {
-        "text": "欺骗",
+        "text": "包入/牵连",
         "isCorrect": false
       },
       {
-        "text": "欺骗/搞乱",
+        "text": "驱散/遗失",
         "isCorrect": false
       },
       {
-        "text": "使悲痛",
+        "text": "追求/检控",
         "isCorrect": false
       }
     ]
@@ -33329,10 +33329,14 @@ module.exports = [
     "meaning": "包入/牵连",
     "example": "Involto nella nebbia.",
     "example_meaning": "被雾笼罩。",
-    "detail": "原型：Involgere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Involgere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nInvolgo, Involgi, Involge, Involgiamo, Involgete, Involgono",
     "options": [
       {
-        "text": "期望/预示",
+        "text": "征用",
+        "isCorrect": false
+      },
+      {
+        "text": "追求/检控",
         "isCorrect": false
       },
       {
@@ -33340,11 +33344,7 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "征用",
-        "isCorrect": false
-      },
-      {
-        "text": "发抖",
+        "text": "占为己有",
         "isCorrect": false
       }
     ]
@@ -33358,23 +33358,23 @@ module.exports = [
     "meaning": "翻转/颠倒",
     "example": "Capovolgere la situazione.",
     "example_meaning": "扭转局势。",
-    "detail": "原型：Capovolgere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Capovolgere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nCapovolgo, Capovolgi, Capovolge, Capovolgiamo, Capovolgete, Capovolgono",
     "options": [
-      {
-        "text": "渴望/吸入",
-        "isCorrect": false
-      },
-      {
-        "text": "贪图/渴望",
-        "isCorrect": false
-      },
-      {
-        "text": "拆线/掏钱",
-        "isCorrect": false
-      },
       {
         "text": "翻转/颠倒",
         "isCorrect": true
+      },
+      {
+        "text": "犯(错)",
+        "isCorrect": false
+      },
+      {
+        "text": "洗涤/净化",
+        "isCorrect": false
+      },
+      {
+        "text": "折磨/困扰",
+        "isCorrect": false
       }
     ]
   },
@@ -33387,14 +33387,10 @@ module.exports = [
     "meaning": "扭曲/打乱",
     "example": "Stravolgere i piani.",
     "example_meaning": "打乱计划。",
-    "detail": "原型：Stravolgere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Stravolgere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nStravolgo, Stravolgi, Stravolge, Stravolgiamo, Stravolgete, Stravolgono",
     "options": [
       {
-        "text": "压抑",
-        "isCorrect": false
-      },
-      {
-        "text": "连根拔起",
+        "text": "移植",
         "isCorrect": false
       },
       {
@@ -33402,7 +33398,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "抢占/囤积",
+        "text": "压倒/俯视",
+        "isCorrect": false
+      },
+      {
+        "text": "扣押/绑架",
         "isCorrect": false
       }
     ]
@@ -33416,22 +33416,22 @@ module.exports = [
     "meaning": "扰乱/震惊",
     "example": "La notizia mi ha sconvolto.",
     "example_meaning": "这消息让我震惊。",
-    "detail": "原型：Sconvolgere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Sconvolgere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nSconvolgo, Sconvolgi, Sconvolge, Sconvolgiamo, Sconvolgete, Sconvolgono",
     "options": [
-      {
-        "text": "追求",
-        "isCorrect": false
-      },
-      {
-        "text": "扭曲/打乱",
-        "isCorrect": false
-      },
       {
         "text": "扰乱/震惊",
         "isCorrect": true
       },
       {
-        "text": "粉碎/喷雾",
+        "text": "拆线/掏钱",
+        "isCorrect": false
+      },
+      {
+        "text": "使幻灭",
+        "isCorrect": false
+      },
+      {
+        "text": "弄湿",
         "isCorrect": false
       }
     ]
@@ -33445,23 +33445,23 @@ module.exports = [
     "meaning": "打扰/使不安",
     "example": "Turbare la quiete pubblica.",
     "example_meaning": "扰乱公共安宁。",
-    "detail": "原型：Turbare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Turbare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nTurbo, Turbi, Turba, Turbiamo, Turbate, Turbano",
     "options": [
       {
-        "text": "感染",
-        "isCorrect": false
-      },
-      {
-        "text": "传播",
-        "isCorrect": false
-      },
-      {
-        "text": "否决/留级",
+        "text": "使丰富/致富",
         "isCorrect": false
       },
       {
         "text": "打扰/使不安",
         "isCorrect": true
+      },
+      {
+        "text": "展开/进行",
+        "isCorrect": false
+      },
+      {
+        "text": "打结",
+        "isCorrect": false
       }
     ]
   },
@@ -33474,23 +33474,23 @@ module.exports = [
     "meaning": "使担忧",
     "example": "Questo silenzio mi inquieta.",
     "example_meaning": "这沉默让我不安。",
-    "detail": "原型：Inquietare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Inquietare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nInquieto, Inquieti, Inquieta, Inquietiamo, Inquietate, Inquietano",
     "options": [
-      {
-        "text": "割/扫射",
-        "isCorrect": false
-      },
-      {
-        "text": "泼水/死记硬背",
-        "isCorrect": false
-      },
-      {
-        "text": "打结",
-        "isCorrect": false
-      },
       {
         "text": "使担忧",
         "isCorrect": true
+      },
+      {
+        "text": "使厌恶",
+        "isCorrect": false
+      },
+      {
+        "text": "没收/归并",
+        "isCorrect": false
+      },
+      {
+        "text": "迫害/纠缠",
+        "isCorrect": false
       }
     ]
   },
@@ -33503,23 +33503,23 @@ module.exports = [
     "meaning": "使惊恐",
     "example": "Non allarmarti.",
     "example_meaning": "别惊慌。",
-    "detail": "原型：Allarmare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Allarmare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAllarmo, Allarmi, Allarma, Allarmiamo, Allarmate, Allarmano",
     "options": [
+      {
+        "text": "清洁",
+        "isCorrect": false
+      },
+      {
+        "text": "嫁接/接合",
+        "isCorrect": false
+      },
+      {
+        "text": "包裹/卷绕",
+        "isCorrect": false
+      },
       {
         "text": "使惊恐",
         "isCorrect": true
-      },
-      {
-        "text": "详论",
-        "isCorrect": false
-      },
-      {
-        "text": "令人作呕",
-        "isCorrect": false
-      },
-      {
-        "text": "繁殖",
-        "isCorrect": false
       }
     ]
   },
@@ -33532,18 +33532,18 @@ module.exports = [
     "meaning": "吓唬",
     "example": "Spaventare i passeri.",
     "example_meaning": "吓唬麻雀。",
-    "detail": "原型：Spaventare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Spaventare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSpavento, Spaventi, Spaventa, Spaventiamo, Spaventate, Spaventano",
     "options": [
       {
-        "text": "使丰富/致富",
+        "text": "浸湿",
         "isCorrect": false
       },
       {
-        "text": "使幻灭",
+        "text": "追求/检控",
         "isCorrect": false
       },
       {
-        "text": "欺诈",
+        "text": "发抖",
         "isCorrect": false
       },
       {
@@ -33561,18 +33561,18 @@ module.exports = [
     "meaning": "恐吓",
     "example": "Terrorizzare la popolazione.",
     "example_meaning": "恐吓民众。",
-    "detail": "原型：Terrorizzare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Terrorizzare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nTerrorizzo, Terrorizzi, Terrorizza, Terrorizziamo, Terrorizzate, Terrorizzano",
     "options": [
       {
-        "text": "洗劫",
+        "text": "压抑",
         "isCorrect": false
       },
       {
-        "text": "拆线/掏钱",
+        "text": "倒空",
         "isCorrect": false
       },
       {
-        "text": "迫害/纠缠",
+        "text": "折断",
         "isCorrect": false
       },
       {
@@ -33590,23 +33590,23 @@ module.exports = [
     "meaning": "使毛骨悚然",
     "example": "Inorridire di fronte al crimine.",
     "example_meaning": "面对罪行感到毛骨悚然。",
-    "detail": "原型：Inorridire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Inorridire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nInorrido, Inorridi, Inorride, Inorridiamo, Inorridite, Inorridono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
+      {
+        "text": "作呕/厌烦",
+        "isCorrect": false
+      },
+      {
+        "text": "倒空",
+        "isCorrect": false
+      },
+      {
+        "text": "抽干/枯竭",
+        "isCorrect": false
+      },
       {
         "text": "使毛骨悚然",
         "isCorrect": true
-      },
-      {
-        "text": "使厌恶",
-        "isCorrect": false
-      },
-      {
-        "text": "感染",
-        "isCorrect": false
-      },
-      {
-        "text": "磨损/消耗",
-        "isCorrect": false
       }
     ]
   },
@@ -33619,23 +33619,23 @@ module.exports = [
     "meaning": "令人作呕",
     "example": "Fa raccapricciare la pelle.",
     "example_meaning": "让人起鸡皮疙瘩。",
-    "detail": "原型：Raccapricciare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Raccapricciare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nRaccapriccio, Raccapriccii, Raccapriccia, Raccapricciiamo, Raccapricciate, Raccapricciano",
     "options": [
       {
-        "text": "使焦虑",
+        "text": "渴望/吸入",
         "isCorrect": false
       },
       {
-        "text": "苦思冥想",
-        "isCorrect": false
-      },
-      {
-        "text": "保湿",
+        "text": "欺诈",
         "isCorrect": false
       },
       {
         "text": "令人作呕",
         "isCorrect": true
+      },
+      {
+        "text": "折磨",
+        "isCorrect": false
       }
     ]
   },
@@ -33648,23 +33648,23 @@ module.exports = [
     "meaning": "使厌恶",
     "example": "Mi disgusta il suo comportamento.",
     "example_meaning": "他的行为让我厌恶。",
-    "detail": "原型：Disgustare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Disgustare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nDisgusto, Disgusti, Disgusta, Disgustiamo, Disgustate, Disgustano",
     "options": [
       {
-        "text": "磨损/消费",
+        "text": "隆隆作响",
+        "isCorrect": false
+      },
+      {
+        "text": "折断",
+        "isCorrect": false
+      },
+      {
+        "text": "雾化/原子化",
         "isCorrect": false
       },
       {
         "text": "使厌恶",
         "isCorrect": true
-      },
-      {
-        "text": "压倒/俯视",
-        "isCorrect": false
-      },
-      {
-        "text": "热望",
-        "isCorrect": false
       }
     ]
   },
@@ -33677,23 +33677,23 @@ module.exports = [
     "meaning": "作呕/厌烦",
     "example": "Mi ha nauseato con le sue chiacchiere.",
     "example_meaning": "他的废话让我厌烦。",
-    "detail": "原型：Nauseare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Nauseare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nNauseo, Nausei, Nausea, Nauseiamo, Nauseate, Nauseano",
     "options": [
+      {
+        "text": "下沉/塌陷",
+        "isCorrect": false
+      },
+      {
+        "text": "占为己有",
+        "isCorrect": false
+      },
+      {
+        "text": "摆动",
+        "isCorrect": false
+      },
       {
         "text": "作呕/厌烦",
         "isCorrect": true
-      },
-      {
-        "text": "侵蚀",
-        "isCorrect": false
-      },
-      {
-        "text": "腐蚀",
-        "isCorrect": false
-      },
-      {
-        "text": "压抑",
-        "isCorrect": false
       }
     ]
   },
@@ -33706,22 +33706,22 @@ module.exports = [
     "meaning": "使厌烦/焖",
     "example": "Mi sono stufato.",
     "example_meaning": "我受够了。",
-    "detail": "原型：Stufare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Stufare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nStufo, Stufi, Stufa, Stufiamo, Stufate, Stufano",
     "options": [
       {
         "text": "使厌烦/焖",
         "isCorrect": true
       },
       {
-        "text": "摆动",
+        "text": "氧化",
         "isCorrect": false
       },
       {
-        "text": "发芽",
+        "text": "传染",
         "isCorrect": false
       },
       {
-        "text": "展开/进行",
+        "text": "播种/甩掉",
         "isCorrect": false
       }
     ]
@@ -33735,22 +33735,22 @@ module.exports = [
     "meaning": "烦扰",
     "example": "Non infastidire il conducente.",
     "example_meaning": "勿扰司机。",
-    "detail": "原型：Infastidire (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Infastidire (第三组 (-ire))。\n\n规则变位示例 (直陈式现在时)：\nInfastido, Infastidi, Infastide, Infastidiamo, Infastidite, Infastidono\n(注意：部分第三组动词如 capire 需要加 -isc-，如 capisco)",
     "options": [
+      {
+        "text": "征用",
+        "isCorrect": false
+      },
       {
         "text": "烦扰",
         "isCorrect": true
       },
       {
-        "text": "弄碎",
+        "text": "根除",
         "isCorrect": false
       },
       {
-        "text": "犯(罪)",
-        "isCorrect": false
-      },
-      {
-        "text": "滑倒",
+        "text": "扭曲/打乱",
         "isCorrect": false
       }
     ]
@@ -33764,22 +33764,22 @@ module.exports = [
     "meaning": "泼水/死记硬背",
     "example": "Secchiare sui libri.",
     "example_meaning": "死记硬背。",
-    "detail": "原型：Secchiare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Secchiare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nSecchio, Secchii, Secchia, Secchiiamo, Secchiate, Secchiano",
     "options": [
+      {
+        "text": "迫在眉睫",
+        "isCorrect": false
+      },
       {
         "text": "泼水/死记硬背",
         "isCorrect": true
       },
       {
-        "text": "扣押/绑架",
+        "text": "蹒跚",
         "isCorrect": false
       },
       {
-        "text": "外推/推断",
-        "isCorrect": false
-      },
-      {
-        "text": "扭曲/打乱",
+        "text": "编织/策划",
         "isCorrect": false
       }
     ]
@@ -33793,23 +33793,23 @@ module.exports = [
     "meaning": "否决/留级",
     "example": "Bocciare una proposta.",
     "example_meaning": "否决提议。",
-    "detail": "原型：Bocciare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Bocciare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nBoccio, Boccii, Boccia, Bocciiamo, Bocciate, Bocciano",
     "options": [
       {
-        "text": "传播",
-        "isCorrect": false
-      },
-      {
-        "text": "降级/后退",
-        "isCorrect": false
-      },
-      {
-        "text": "抢占/囤积",
+        "text": "氧化",
         "isCorrect": false
       },
       {
         "text": "否决/留级",
         "isCorrect": true
+      },
+      {
+        "text": "收获/集合",
+        "isCorrect": false
+      },
+      {
+        "text": "回响",
+        "isCorrect": false
       }
     ]
   },
@@ -33822,23 +33822,23 @@ module.exports = [
     "meaning": "晋升/推销",
     "example": "Promuovere un prodotto.",
     "example_meaning": "推销产品。",
-    "detail": "原型：Promuovere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Promuovere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nPromuovo, Promuovi, Promuove, Promuoviamo, Promuovete, Promuovono",
     "options": [
-      {
-        "text": "粉碎/喷雾",
-        "isCorrect": false
-      },
-      {
-        "text": "洗涤/净化",
-        "isCorrect": false
-      },
-      {
-        "text": "播种/甩掉",
-        "isCorrect": false
-      },
       {
         "text": "晋升/推销",
         "isCorrect": true
+      },
+      {
+        "text": "使痛苦",
+        "isCorrect": false
+      },
+      {
+        "text": "摇晃/犹豫",
+        "isCorrect": false
+      },
+      {
+        "text": "发芽",
+        "isCorrect": false
       }
     ]
   },
@@ -33851,18 +33851,18 @@ module.exports = [
     "meaning": "降级/后退",
     "example": "Retrocedere in serie B.",
     "example_meaning": "降级到乙级。",
-    "detail": "原型：Retrocedere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Retrocedere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nRetrocedo, Retrocedi, Retrocede, Retrocediamo, Retrocedete, Retrocedono",
     "options": [
       {
-        "text": "粉碎/喷雾",
+        "text": "驱散/遗失",
         "isCorrect": false
       },
       {
-        "text": "打扰/使不安",
+        "text": "欺骗",
         "isCorrect": false
       },
       {
-        "text": "解开",
+        "text": "否决/留级",
         "isCorrect": false
       },
       {
@@ -33880,22 +33880,22 @@ module.exports = [
     "meaning": "前进/剩余",
     "example": "Avanzare una richiesta.",
     "example_meaning": "提出请求。",
-    "detail": "原型：Avanzare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Avanzare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nAvanzo, Avanzi, Avanza, Avanziamo, Avanzate, Avanzano",
     "options": [
       {
         "text": "前进/剩余",
         "isCorrect": true
       },
       {
-        "text": "弄干/烦扰",
+        "text": "使痛苦",
         "isCorrect": false
       },
       {
-        "text": "击碎",
+        "text": "摇摆/起伏",
         "isCorrect": false
       },
       {
-        "text": "使惊恐",
+        "text": "使担忧",
         "isCorrect": false
       }
     ]
@@ -33909,18 +33909,18 @@ module.exports = [
     "meaning": "后退",
     "example": "Non indietreggiare mai.",
     "example_meaning": "永不后退。",
-    "detail": "原型：Indietreggiare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Indietreggiare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nIndietreggio, Indietreggii, Indietreggia, Indietreggiiamo, Indietreggiate, Indietreggiano",
     "options": [
       {
-        "text": "倒空",
+        "text": "惊跳",
         "isCorrect": false
       },
       {
-        "text": "绊倒",
+        "text": "折磨",
         "isCorrect": false
       },
       {
-        "text": "使惊恐",
+        "text": "收割",
         "isCorrect": false
       },
       {
@@ -33938,10 +33938,10 @@ module.exports = [
     "meaning": "倒退",
     "example": "L'esercito arretra.",
     "example_meaning": "军队后撤。",
-    "detail": "原型：Arretrare (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Arretrare (第一组 (-are))。\n\n规则变位示例 (直陈式现在时)：\nArretro, Arretri, Arretra, Arretriamo, Arretrate, Arretrano",
     "options": [
       {
-        "text": "征用",
+        "text": "织补",
         "isCorrect": false
       },
       {
@@ -33949,11 +33949,11 @@ module.exports = [
         "isCorrect": true
       },
       {
-        "text": "跳水/潜入",
+        "text": "根除",
         "isCorrect": false
       },
       {
-        "text": "前进/剩余",
+        "text": "绊倒",
         "isCorrect": false
       }
     ]
@@ -33967,23 +33967,23 @@ module.exports = [
     "meaning": "倒退",
     "example": "Non voglio retrocedere.",
     "example_meaning": "我不想倒退。",
-    "detail": "原型：Retrocedere (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。",
+    "detail": "原型：Retrocedere (第二组 (-ere))。\n\n规则变位示例 (直陈式现在时)：\nRetrocedo, Retrocedi, Retrocede, Retrocediamo, Retrocedete, Retrocedono",
     "options": [
       {
-        "text": "贪图/渴望",
+        "text": "渴望",
         "isCorrect": false
       },
       {
-        "text": "使幻灭",
-        "isCorrect": false
-      },
-      {
-        "text": "追求/检控",
+        "text": "颤抖/激动",
         "isCorrect": false
       },
       {
         "text": "倒退",
         "isCorrect": true
+      },
+      {
+        "text": "抢占/囤积",
+        "isCorrect": false
       }
     ]
   }
