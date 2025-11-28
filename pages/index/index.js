@@ -135,7 +135,7 @@ Page({
     const uploadBatch = () => {
       if (currentBatch >= totalBatches) {
         wx.hideLoading();
-        wx.showToast({
+         wx.showToast({
           title: '全部导入完成',
           icon: 'success'
         });
@@ -162,27 +162,27 @@ Page({
         if (res.result && (res.result.success || res.result.result)) {
           currentBatch++;
           uploadBatch(); // 递归上传下一批
-        } else {
+      } else {
           wx.hideLoading();
-          wx.showModal({
+         wx.showModal({
             title: '部分导入失败',
             content: `第 ${currentBatch + 1} 批次失败: ` + JSON.stringify(res.result),
-            showCancel: false
-          });
-        }
-      }).catch(err => {
-        wx.hideLoading();
-        console.error("云函数调用失败", err);
-        wx.showModal({
-          title: '调用失败',
-          content: err.toString(),
           showCancel: false
         });
+      }
+    }).catch(err => {
+      wx.hideLoading();
+      console.error("云函数调用失败", err);
+      wx.showModal({
+        title: '调用失败',
+        content: err.toString(),
+        showCancel: false
       });
+    });
     };
     
     // 开始第一批上传
     uploadBatch();
-  }
+            }
   */
 })

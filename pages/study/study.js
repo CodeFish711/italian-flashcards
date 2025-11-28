@@ -47,7 +47,8 @@ Page({
     // 统计数据
     sessionCorrectCount: 0, // 本次学习正确数
     sessionTotalAnswered: 0, // 本次学习已答题数
-    accuracy: 0 // 正确率 (百分比整数)
+    accuracy: 0, // 正确率 (百分比整数)
+    showDetailModal: false // 显示详情弹窗
   },
 
   // 手势相关变量
@@ -509,9 +510,7 @@ Page({
         this.setData({ showRemoveFromMistake: true });
       }
       
-      setTimeout(() => {
-        this.nextWord();
-      }, 1200); // 延长一点时间让彩带雨播放 
+      // 自动跳转已被禁用，等待用户点击"下一题"
 
     } else {
        this.setData({ 
@@ -806,6 +805,13 @@ Page({
         showCelebrationText: false
       });
     }, 1500);
+  },
+
+  // 切换详情弹窗
+  toggleDetail() {
+    this.setData({
+      showDetailModal: !this.data.showDetailModal
+    });
   },
 
   // --- 手势处理 ---

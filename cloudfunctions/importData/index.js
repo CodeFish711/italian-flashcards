@@ -60,8 +60,8 @@ exports.main = async (event, context) => {
         totalImported += batch.length
       }
 
-      return { 
-        success: true, 
+    return {
+      success: true,
         msg: `Initialization complete. Cleared ${totalDeleted}, Imported ${totalImported} words.` 
       }
 
@@ -97,7 +97,7 @@ exports.main = async (event, context) => {
         data: words
       })
       return { success: true, count: words.length, result: result }
-    } catch (err) {
+  } catch (err) {
       return { success: false, error: err }
     }
   }

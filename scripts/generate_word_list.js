@@ -27,6 +27,19 @@ function loadVocabData() {
 
 const baseVocab = loadVocabData();
 
+const POS_MAP = {
+  'n.': '名词',
+  'n.m.': '阳性名词',
+  'n.f.': '阴性名词',
+  'v.': '动词',
+  'adj.': '形容词',
+  'adv.': '副词',
+  'prep.': '介词',
+  'conj.': '连词',
+  'int.': '感叹词',
+  'pron.': '代词'
+};
+
 // 辅助函数：生成错误选项
 function generateOptions(correctMeaning, allMeanings) {
   const options = [{ text: correctMeaning, isCorrect: true }];
@@ -72,6 +85,27 @@ levels.forEach(level => {
     // 简单的发音模拟
     const pronunciation = `/${word.toLowerCase()}/`; 
     
+    // 生成详情 (如果数据中没有提供)
+    // 根据用户需求：动词原型、复数/单数、阴阳性等
+    let detail = item[5] || '';
+    if (!detail) {
+        // 如果数据源中没有 detail 字段，则进行简单的自动生成
+        if (pos.includes('v.')) {
+            detail = `原型：${word} (动词)。\n意大利语动词变位规则复杂，请注意根据语境的人称和时态进行变化。`;
+        } else if (pos.includes('n.')) {
+            // 简单的单复数推断 (非常基础，仅供参考)
+            const lastChar = word.slice(-1);
+            if (lastChar === 'o') detail = `阳性单数名词。\n复数形式通常以 'i' 结尾 (例如：${word.slice(0, -1)}i)。`;
+            else if (lastChar === 'a') detail = `阴性单数名词。\n复数形式通常以 'e' 结尾 (例如：${word.slice(0, -1)}e)。`;
+            else if (lastChar === 'e') detail = `单数名词 (阴性或阳性)。\n复数形式通常以 'i' 结尾 (例如：${word.slice(0, -1)}i)。`;
+            else detail = `名词。\n请查阅词典确认其性和数的具体变化规则。`;
+        } else if (pos.includes('adj.')) {
+             detail = `形容词。\n需根据修饰的名词进行性数配合 (如: o/a/i/e)。`;
+        } else {
+            detail = `${POS_MAP[pos] || '词汇'}。\n常用基础词汇。`;
+        }
+    }
+
     fullWordList.push({
       id: globalId++,
       word: word,
@@ -81,6 +115,7 @@ levels.forEach(level => {
       meaning: meaning,
       example: example,
       example_meaning: example_meaning,
+      detail: detail, // 新增详情字段
       options: generateOptions(meaning, levelMeanings)
     });
   });

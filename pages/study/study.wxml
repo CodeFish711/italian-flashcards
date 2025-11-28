@@ -42,32 +42,72 @@
     <view class="spacer"></view>
 
     <!-- 下半部分：选项区 -->
-    <view class="options-section">
+    <view class="options-section" wx:if="{{!hasAnswered}}">
       <block wx:for="{{currentWord.options}}" wx:key="text">
         <button 
-          class="option-btn {{item.selected ? (item.isCorrect ? 'correct' : 'wrong') : ''}} {{showAnswer && item.isCorrect ? 'correct-hint' : ''}}" 
+          class="option-btn"
           bindtap="selectOption" 
           data-index="{{index}}"
-          disabled="{{hasAnswered}}"
           hover-class="btn-hover"
         >
           {{item.text}}
         </button>
       </block>
     </view>
-  </view>
-
-  <!-- 底部控制区 -->
-  <view class="footer-area">
-    <!-- 错误时：显示"下一题"和"加入错题本" -->
-    <view wx:if="{{showFeedback && !isCorrect}}" class="footer-buttons">
-      <button class="add-mistake-btn" wx:if="{{showAddMistakeBtn}}" bindtap="addToMistakeBook">加入错题本</button>
-      <button class="next-btn" bindtap="nextWord">下一题 ➜</button>
-    </view>
     
-    <!-- 正确时（错题模式）：显示"从错题本删除" -->
-    <button wx:if="{{showRemoveFromMistake && studyMode === 'mistake'}}" class="remove-mistake-btn" bindtap="removeFromMistakeBook">从错题本删除</button>
-  </view>
+    <!-- 底部控制区 -->
+    <view class="footer-area">
+      <!-- 回答后显示控制按钮 -->
+      <view wx:if="{{hasAnswered}}" class="footer-buttons">
+        <!-- 详情按钮 (左侧) -->
+        <button class="detail-btn" bindtap="toggleDetail">查看详情</button>
+        
+        <!-- 错误且不在错题本时显示加入 -->
+        <button class="add-mistake-btn" wx:if="{{!isCorrect && showAddMistakeBtn}}" bindtap="addToMistakeBook">加入错题本</button>
+        
+        <!-- 错题模式且做对显示删除 -->
+        <button class="remove-mistake-btn" wx:if="{{studyMode === 'mistake' && isCorrect && showRemoveFromMistake}}" bindtap="removeFromMistakeBook">移除</button>
+        
+        <!-- 下一题 (右侧) -->
+        <button class="next-btn" bindtap="nextWord">下一题 ➜</button>
+      </view>
+    </view>
+
+    <!-- 详情弹窗 -->
+    <view class="modal-mask" wx:if="{{showDetailModal}}" bindtap="toggleDetail">
+      <view class="modal-content" catchtap="true">
+        <view class="modal-header">单词详情</view>
+        <scroll-view scroll-y class="modal-body">
+            <view class="detail-item">
+                <view class="item-label">单词</view>
+                <view class="item-value highlight">{{currentWord.word}}</view>
+            </view>
+            <view class="detail-item">
+                <view class="item-label">词性</view>
+                <view class="item-value">{{currentWord.posObj.abbr}} {{currentWord.posObj.cn}}</view>
+            </view>
+            <view class="detail-item">
+                <view class="item-label">释义</view>
+                <view class="item-value">{{currentWord.meaning}}</view>
+            </view>
+            
+            <!-- 新增：详细解释和变形 -->
+            <view class="detail-item" wx:if="{{currentWord.detail}}">
+                <view class="item-label">详解</view>
+                <view class="item-value">{{currentWord.detail}}</view>
+            </view>
+
+            <view class="detail-item">
+                <view class="item-label">例句</view>
+                <view class="item-value">
+                    <rich-text nodes="{{currentWord.formattedExample}}"></rich-text>
+                    <view class="trans">{{currentWord.example_meaning}}</view>
+                </view>
+            </view>
+        </scroll-view>
+        <button class="close-btn" bindtap="toggleDetail">关闭</button>
+      </view>
+    </view>
 
   <!-- 彩带雨动画层 -->
   <view class="confetti-container" wx:if="{{showConfetti}}">
