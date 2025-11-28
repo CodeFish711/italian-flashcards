@@ -25,72 +25,25 @@ Page({
 
   // 加载每个级别的进度
   loadLevelProgress() {
-    const db = wx.cloud.database();
-    
-    // 获取所有单词，按级别分组统计
-    db.collection('words').get().then(res => {
-      const allWords = res.data;
-      
-      // 获取学习进度（只要有学习记录就算已学）
-      db.collection('study_progress').get().then(progressRes => {
-        const learnedWords = new Set();
-        progressRes.data.forEach(p => {
-          // 只要有学习记录就算已学（不一定要mastered）
-          if (p.word_id) {
-            learnedWords.add(p.word_id);
-          }
+    // 使用聚合云函数获取统计数据，替代前端多次查询
+    wx.cloud.callFunction({
+      name: 'getStudyStats'
+    }).then(res => {
+      console.log('getStudyStats result:', res); // 添加日志方便调试
+      if (res.result && res.result.success) {
+        this.setData({
+          levels: res.result.data
         });
-
-        // 计算每个级别的进度
-        const levelStats = {};
-        allWords.forEach(word => {
-          const level = word.level || 'A1';
-          if (!levelStats[level]) {
-            levelStats[level] = { total: 0, learned: 0 };
-          }
-          levelStats[level].total++;
-          if (learnedWords.has(word._id)) {
-            levelStats[level].learned++;
-          }
+      } else {
+        console.error('获取统计数据失败', res);
+        // 如果云函数报错，可以尝试降级为本地计算（如果有本地缓存的话），或者保持 0
+        wx.showToast({
+          title: '同步进度失败',
+          icon: 'none'
         });
-
-        // 更新数据
-        const updatedLevels = this.data.levels.map(item => {
-          const stats = levelStats[item.level] || { total: 0, learned: 0 };
-          const progress = stats.total > 0 ? Math.round((stats.learned / stats.total) * 100) : 0;
-          return {
-            ...item,
-            total: stats.total,
-            learned: stats.learned,
-            progress: progress
-          };
-        });
-
-        this.setData({ levels: updatedLevels });
-      }).catch(err => {
-        console.error('加载进度失败', err);
-        // 如果加载失败，至少显示总数
-        const levelStats = {};
-        allWords.forEach(word => {
-          const level = word.level || 'A1';
-          if (!levelStats[level]) {
-            levelStats[level] = { total: 0, learned: 0 };
-          }
-          levelStats[level].total++;
-        });
-        const updatedLevels = this.data.levels.map(item => {
-          const stats = levelStats[item.level] || { total: 0, learned: 0 };
-          return {
-            ...item,
-            total: stats.total,
-            learned: 0,
-            progress: 0
-          };
-        });
-        this.setData({ levels: updatedLevels });
-      });
+      }
     }).catch(err => {
-      console.error('加载单词失败', err);
+      console.error('调用统计云函数失败', err);
     });
   },
 
@@ -115,93 +68,105 @@ Page({
 
   // 上传本地数据到云数据库 (使用云函数版)
   initDatabase() {
-    wx.showLoading({ title: '上传中...' });
-    
-    // 预处理数据：移除 id 字段，确保格式正确
-    const cleanData = wordList.map(({ id, ...rest }) => rest);
-
-    wx.cloud.callFunction({
-      name: 'importData',
-      data: {
-        words: cleanData
+    wx.showModal({
+      title: '确认初始化',
+      content: '这将清空现有云端词库并重新上传，确定继续吗？',
+      success: (res) => {
+        if (res.confirm) {
+          this.startImportProcess();
+        }
       }
+    });
+  },
+
+  startImportProcess() {
+    wx.showLoading({ title: '正在强力清空旧数据...' });
+    
+    // 1. 调用新的强力清空云函数
+    wx.cloud.callFunction({
+      name: 'forceClear'
     }).then(res => {
-      wx.hideLoading();
-      console.log('云函数调用结果：', res);
-      
-      if (res.result &&(res.result.success || res.result.result)) { // 兼容不同的返回结构
-         wx.showToast({
-          title: '导入成功',
-          icon: 'success'
-        });
+      console.log('清空结果:', res);
+      if (res.result && res.result.success) {
+        wx.showToast({ title: `清理完成: ${res.result.deleted}`, icon: 'none' });
+        // 2. 开始分批上传
+        this.uploadInBatches();
       } else {
-         wx.showModal({
-          title: '导入可能失败',
-          content: JSON.stringify(res.result),
-          showCancel: false
-        });
+        throw new Error('清空返回失败');
       }
     }).catch(err => {
       wx.hideLoading();
-      console.error("云函数调用失败", err);
-      wx.showModal({
-        title: '调用失败',
-        content: err.toString(),
-        showCancel: false
+      console.error('清空失败', err);
+      // 如果云函数调用失败，提示用户手动清空
+      wx.showModal({ 
+        title: '自动清空失败', 
+        content: '请进入“云开发控制台 -> 数据库 -> words 集合”，手动删除所有数据，然后再点击初始化。', 
+        showCancel: false 
       });
     });
   },
 
-  // 导入 Wiktionary 数据（从本地文件读取）
-  importWiktionaryData() {
-    wx.showActionSheet({
-      itemList: ['导入 A1 级别', '导入 A2 级别', '导入 B1 级别', '导入 B2 级别', '导入 C1 级别', '导入 C2 级别'],
-      success: (res) => {
-        const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
-        const selectedLevel = levels[res.tapIndex];
-        
-        wx.showModal({
-          title: '导入 Wiktionary 数据',
-          content: `确定要导入 ${selectedLevel} 级别的单词吗？\n\n注意：需要先将转换后的 JSON 文件放在 data/ 目录下，命名为 wiktionary_words_${selectedLevel}.json`,
-          success: (modalRes) => {
-            if (modalRes.confirm) {
-              this.loadWiktionaryFromFile(selectedLevel);
-            }
-          }
-        });
-      }
-    });
-  },
-
-  // 从本地文件加载 Wiktionary 数据
-  loadWiktionaryFromFile(level) {
-    wx.showLoading({ title: '读取文件中...' });
+  uploadInBatches() {
+    wx.showLoading({ title: '准备上传...' });
     
-    // 尝试读取本地文件（需要将文件放在 data 目录下）
-    // 注意：小程序中无法直接读取项目外的文件，需要将 JSON 文件放在项目中
-    try {
-      // 方案：将转换后的 JSON 文件内容复制到 JS 文件中，然后导入
-      // 或者使用 require 导入（如果文件在项目中）
-      const filePath = `../../data/wiktionary_words_${level}.js`;
+    // 预处理数据：移除 id 字段
+    const cleanData = wordList.map(({ id, ...rest }) => rest);
+    
+    // 分批次上传，每次 100 条（云函数单次调用有大小限制）
+    const BATCH_SIZE = 100;
+    const totalBatches = Math.ceil(cleanData.length / BATCH_SIZE);
+    let currentBatch = 0;
+    
+    const uploadBatch = () => {
+      if (currentBatch >= totalBatches) {
+        wx.hideLoading();
+        wx.showToast({
+          title: '全部导入完成',
+          icon: 'success'
+        });
+        this.loadLevelProgress(); // 刷新进度
+        return;
+      }
       
-      // 由于小程序限制，建议使用以下方式：
-      // 1. 将 JSON 数据复制到 JS 文件中作为模块导出
-      // 2. 或者通过云存储上传文件后读取
+      const start = currentBatch * BATCH_SIZE;
+      const end = start + BATCH_SIZE;
+      const batchData = cleanData.slice(start, end);
       
-      wx.showModal({
-        title: '提示',
-        content: `请使用以下方式导入：\n\n1. 运行 Python 脚本生成 JSON 文件\n2. 将 JSON 内容复制到 data/wiktionary_words_${level}.js 中\n3. 在小程序中 require 该文件并调用云函数导入\n\n或者直接调用云函数，传入单词数组。`,
-        showCancel: false
+      wx.showLoading({ 
+        title: `上传中 ${currentBatch + 1}/${totalBatches}` 
       });
       
-      wx.hideLoading();
-      
-    } catch (e) {
-      wx.hideLoading();
-      wx.showToast({
-        title: '读取失败',
-        icon: 'none'
+      wx.cloud.callFunction({
+        name: 'importData',
+        data: {
+          words: batchData
+        }
+      }).then(res => {
+        console.log(`Batch ${currentBatch + 1} result:`, res);
+        
+        if (res.result && (res.result.success || res.result.result)) {
+          currentBatch++;
+          uploadBatch(); // 递归上传下一批
+        } else {
+          wx.hideLoading();
+          wx.showModal({
+            title: '部分导入失败',
+            content: `第 ${currentBatch + 1} 批次失败: ` + JSON.stringify(res.result),
+            showCancel: false
+          });
+        }
+      }).catch(err => {
+        wx.hideLoading();
+        console.error("云函数调用失败", err);
+        wx.showModal({
+          title: '调用失败',
+          content: err.toString(),
+          showCancel: false
+        });
       });
-    }
+    };
+    
+    // 开始第一批上传
+    uploadBatch();
   }
 })

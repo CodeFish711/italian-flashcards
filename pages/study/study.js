@@ -42,7 +42,12 @@ Page({
     currentWordProgressId: null, // 当前单词在 study_progress 中的 _id（用于删除）
     rotateY: 0,           // 3D旋转角度
     showRemoveFromMistake: false, // 显示"从错题本删除"按钮
-    modeLabel: '正常学习'  // 模式标签文字
+    modeLabel: '正常学习',  // 模式标签文字
+    
+    // 统计数据
+    sessionCorrectCount: 0, // 本次学习正确数
+    sessionTotalAnswered: 0, // 本次学习已答题数
+    accuracy: 0 // 正确率 (百分比整数)
   },
 
   // 手势相关变量
@@ -71,44 +76,75 @@ Page({
     }
   },
 
-  // 根据级别加载单词
+  // 根据级别加载单词 (使用云函数突破 20 条限制)
   fetchWordsByLevel(level) {
     wx.showLoading({ title: '加载中...' });
-    const db = wx.cloud.database();
     
-    db.collection('words')
-      .where({
-        level: level
-      })
-      .get()
-      .then(res => {
-        wx.hideLoading();
-        const words = res.data;
-        
-        if (words.length === 0) {
-          wx.showModal({
-            title: '提示',
-            content: `没有找到 ${level} 级别的单词，请先初始化数据`,
-            showCancel: false,
-            success: () => wx.navigateBack()
-          });
-          return;
-        }
+    wx.cloud.callFunction({
+      name: 'getWords',
+      data: {
+        level: level,
+        pageSize: 500
+      }
+    }).then(res => {
+      wx.hideLoading();
+      console.log('getWords result:', res); // 调试日志
+      
+      if (!res.result || !res.result.success) {
+        throw new Error(res.result ? res.result.error : '云函数返回错误');
+      }
 
-        this.setData({
-          wordList: words,
-          totalWords: words.length,
-          isLoading: false,
-          modeLabel: '正常学习'
+      const words = res.result.data;
+      
+      if (!words || words.length === 0) {
+        wx.showModal({
+          title: '提示',
+          content: `没有找到 ${level} 级别的单词，可能是数据未初始化或加载失败。`,
+          showCancel: false,
+          success: () => wx.navigateBack()
         });
-        
-        this.loadWord(0);
-      })
-      .catch(err => {
-        wx.hideLoading();
-        console.error(err);
-        wx.showToast({ title: '加载失败', icon: 'none' });
+        return;
+      }
+
+      this.setData({
+        wordList: words,
+        totalWords: words.length,
+        isLoading: false,
+        modeLabel: `${level} 级别学习`
       });
+      
+      // 尝试从本地缓存读取上次学习进度
+      const lastIndex = wx.getStorageSync(`last_index_${level}`) || 0;
+      
+      // 如果上次学完了，询问是否重新开始
+      if (lastIndex >= words.length - 1 && lastIndex > 0) {
+         wx.showModal({
+           title: '提示',
+           content: '上次已经学到最后了，是否重新开始？',
+           success: (modalRes) => {
+             if (modalRes.confirm) {
+               this.loadWord(0);
+             } else {
+               this.loadWord(lastIndex); // 停留在最后
+             }
+           }
+         });
+      } else {
+         // 恢复上次进度
+         if (lastIndex > 0) {
+           wx.showToast({
+             title: `恢复上次进度: 第 ${lastIndex + 1} 个`,
+             icon: 'none'
+           });
+         }
+         this.loadWord(lastIndex);
+      }
+    })
+    .catch(err => {
+      wx.hideLoading();
+      console.error(err);
+      wx.showToast({ title: '加载失败', icon: 'none' });
+    });
   },
 
   // 根据 mode 加载整个列表（错题本或收藏夹）
@@ -327,12 +363,21 @@ Page({
 
   fetchWordsFromCloud() {
     wx.showLoading({ title: '加载单词中...' });
-    const db = wx.cloud.database();
     
-    // 这里简单获取前20个单词。实际应用中可能需要随机获取或分页
-    db.collection('words').get().then(res => {
+    // 使用云函数获取单词，突破 20 条限制
+    wx.cloud.callFunction({
+      name: 'getWords',
+      data: {
+        pageSize: 100 // 默认拉取 100 条
+      }
+    }).then(res => {
       wx.hideLoading();
-      const words = res.data;
+      
+      if (!res.result || !res.result.success) {
+        throw new Error(res.result ? res.result.error : 'Unknown error');
+      }
+
+      const words = res.result.data;
       
       if (words.length === 0) {
         wx.showModal({
@@ -375,6 +420,11 @@ Page({
     if (index < 0) {
       wx.showToast({ title: '已经是第一个了', icon: 'none' });
       return;
+    }
+    
+    // 如果是按等级学习，保存进度到本地缓存
+    if (this.options && this.options.level) {
+      wx.setStorageSync(`last_index_${this.options.level}`, index);
     }
 
     const word = this.data.wordList[index];
@@ -426,6 +476,11 @@ Page({
     const selectedOption = currentWord.options[index];
     const isCorrect = selectedOption.isCorrect;
 
+    // 计算正确率
+    const newTotal = this.data.sessionTotalAnswered + 1;
+    const newCorrect = this.data.sessionCorrectCount + (isCorrect ? 1 : 0);
+    const newAccuracy = Math.round((newCorrect / newTotal) * 100);
+
     // Mark selected
     const updatedOptions = currentWord.options.map((opt, i) => {
       if (i === index) {
@@ -438,7 +493,10 @@ Page({
       ['currentWord.options']: updatedOptions,
       hasAnswered: true,
       isCorrect: isCorrect,
-      showFeedback: true 
+      showFeedback: true,
+      sessionTotalAnswered: newTotal,
+      sessionCorrectCount: newCorrect,
+      accuracy: newAccuracy
     });
 
     if (isCorrect) {

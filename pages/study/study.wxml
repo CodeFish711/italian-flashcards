@@ -5,6 +5,8 @@
     <!-- 顶部功能区：模式标签 + Level + 进度 + 收藏 -->
     <view class="card-header">
       <view class="mode-label" wx:if="{{studyMode !== 'normal'}}">{{modeLabel}}</view>
+      <view class="mode-label" wx:else>正确率: {{accuracy}}%</view>
+      
       <view class="header-right">
         <view class="level-tag level-{{currentWord.level}}" wx:if="{{currentWord.level}}">{{currentWord.level}}</view>
         <view class="progress-pill">
