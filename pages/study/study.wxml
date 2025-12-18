@@ -71,7 +71,9 @@
     
     <!-- 底部控制区 (固定布局) -->
     <view class="footer-area">
-      <view class="footer-buttons {{hasAnswered && isCorrect && shouldCenterButton ? 'center' : ''}}">
+      <!-- 只有答对且满足所有条件时才居中，答错时绝不居中 -->
+      <!-- 关键：isCorrect 必须为 true，且 showAddMistakeBtn 必须为 false -->
+      <view class="footer-buttons {{hasAnswered && isCorrect && shouldCenterButton && showAddMistakeBtn == false && (studyMode != 'mistake' || showRemoveFromMistake == false) ? 'center' : ''}}">
         <!-- 左侧：错题本按钮 (始终存在，答错时显示) -->
         <button 
           class="add-mistake-btn {{hasAnswered && !isCorrect && showAddMistakeBtn ? '' : 'hidden'}}" 

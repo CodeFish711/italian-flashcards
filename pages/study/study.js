@@ -492,7 +492,8 @@ Page({
       return opt;
     });
 
-    this.setData({
+    // 一次性设置所有状态，避免多次 setData 导致的状态不一致
+    const updateData = {
       ['currentWord.options']: updatedOptions,
       hasAnswered: true,
       isCorrect: isCorrect,
@@ -500,38 +501,38 @@ Page({
       sessionTotalAnswered: newTotal,
       sessionCorrectCount: newCorrect,
       accuracy: newAccuracy,
-      shouldCenterButton: false // 默认不居中
-    });
+      shouldCenterButton: false, // 默认不居中
+      showAnswer: false,
+      showAddMistakeBtn: false,
+      showRemoveFromMistake: false
+    };
 
     if (isCorrect) {
+      // 答对时的状态
+      updateData.shouldCenterButton = (this.data.studyMode !== 'mistake'); // 只有非错题模式才居中
+      
+      if (this.data.studyMode === 'mistake') {
+        updateData.showRemoveFromMistake = true;
+        updateData.shouldCenterButton = false; // 错题模式下有删除按钮，不居中
+      }
+      
+      this.setData(updateData);
+      
       // 触发彩带雨效果
       this.showConfettiRain();
       this.recordProgress(currentWord._id, true);
       
-      // 如果是错题模式且做对了，显示删除按钮
-      if (this.data.studyMode === 'mistake') {
-        this.setData({ 
-          showRemoveFromMistake: true,
-          shouldCenterButton: false // 错题模式下有删除按钮，不居中
-        });
-      } else {
-        // 答对且不是错题模式，检查是否应该居中
-        this.setData({ 
-          shouldCenterButton: true // 答对且没有错题本按钮，居中
-        });
-      }
-      
-      // 自动跳转已被禁用，等待用户点击"下一题"
-
     } else {
-       // 答错时，明确不居中
-       this.setData({ 
-         showAnswer: true,
-         showAddMistakeBtn: false, // 先设为 false，等异步检查完成后再更新
-         shouldCenterButton: false // 答错时不居中
-       });
+       // 答错时的状态
+       updateData.showAnswer = true;
+       // 先临时设置为 true（占位），避免在异步检查完成前触发居中条件
+       // 等 checkIfInMistakeBook 完成后再根据实际情况更新
+       updateData.showAddMistakeBtn = true; // 临时占位，防止居中
+       updateData.shouldCenterButton = false; // 答错时明确不居中
        
-       // 检查该单词是否已在错题本中
+       this.setData(updateData);
+       
+       // 检查该单词是否已在错题本中（异步完成后会更新 showAddMistakeBtn）
        this.checkIfInMistakeBook(currentWord._id || currentWord.id);
        
        wx.vibrateLong();
@@ -541,7 +542,10 @@ Page({
   // 检查单词是否已在错题本中
   checkIfInMistakeBook(wordId) {
     if (!wordId) {
-      this.setData({ showAddMistakeBtn: false });
+      this.setData({ 
+        showAddMistakeBtn: false,
+        shouldCenterButton: false // 确保不居中
+      });
       return;
     }
 
@@ -551,13 +555,18 @@ Page({
       mistake_count: db.command.gt(0) // 错误次数 > 0 表示在错题本中
     }).count().then(res => {
       // 如果不在错题本中，才显示"加入错题本"按钮
+      // 注意：只在答错时才更新，答对时不应该调用这个函数
       this.setData({ 
-        showAddMistakeBtn: res.total === 0 && this.data.studyMode !== 'mistake' 
+        showAddMistakeBtn: res.total === 0 && this.data.studyMode !== 'mistake',
+        shouldCenterButton: false // 明确不居中（因为这是答错时的检查）
       });
     }).catch(err => {
       console.error("检查错题本状态失败", err);
-      // 出错时默认显示按钮
-      this.setData({ showAddMistakeBtn: true });
+      // 出错时默认显示按钮，但确保不居中
+      this.setData({ 
+        showAddMistakeBtn: true,
+        shouldCenterButton: false // 确保不居中
+      });
     });
   },
 

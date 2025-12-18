@@ -392,14 +392,22 @@ page {
 }
 
 .footer-buttons.center .next-btn {
-  flex: 0 0 auto; /* 取消 flex: 1，使用自动宽度 */
-  max-width: 60%; /* 最大宽度限制，让按钮稍微窄一点 */
-  min-width: 200rpx; /* 最小宽度保证 */
+  width: 300rpx; /* 居中时固定宽度，稍微窄一点 */
 }
 
 .footer-buttons .hidden {
   display: none;
   /* 完全隐藏，不占空间 */
+}
+
+/* 所有按钮统一固定宽度，避免布局变化 */
+.add-mistake-btn,
+.next-btn,
+.remove-mistake-btn {
+  width: calc(50% - 10rpx); /* 两个按钮时各占一半，减去 gap 的一半 */
+  min-height: 80rpx; /* 固定高度 */
+  box-sizing: border-box;
+  flex: 0 0 auto; /* 不使用 flex: 1，固定宽度 */
 }
 
 .add-mistake-btn {
@@ -409,9 +417,6 @@ page {
   font-weight: bold;
   font-size: 28rpx;
   padding: 20rpx 30rpx;
-  flex: 1;
-  min-height: 80rpx; /* 固定高度 */
-  box-sizing: border-box;
 }
 
 .detail-btn {
@@ -431,9 +436,6 @@ page {
   font-weight: bold; 
   font-size: 30rpx;
   padding: 20rpx 30rpx;
-  flex: 1;
-  min-height: 80rpx; /* 固定高度 */
-  box-sizing: border-box;
 }
 
 .remove-mistake-btn {
@@ -443,9 +445,6 @@ page {
   font-weight: bold;
   font-size: 30rpx;
   padding: 20rpx 30rpx;
-  flex: 1; /* 统一 flex */
-  min-height: 80rpx; /* 固定高度 */
-  box-sizing: border-box;
 }
 
 /* 模态框样式 */
